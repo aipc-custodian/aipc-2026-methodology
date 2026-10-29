@@ -1,0 +1,42 @@
+Has this thesis, or a close relative, been argued in published work? Search
+philosophy and adjacent empirical fields. List the closest works with links.
+
+Say of each whether it anticipates, contradicts, supports, or is merely
+adjacent to the thesis, using the standard for "anticipates" given below.
+For each work, say whether you saw its full text, only an abstract, only a
+search snippet, or only someone else's report of it.
+
+Say what you searched for and did not find.
+
+THE STANDARD FOR "ANTICIPATED". A prior work anticipates a claim only if
+EITHER
+
+  ENDORSED   it discusses the claim extensively, as a main or sustained line
+             of argument and not a remark, footnote or passing suggestion,
+             AND its author asserts or endorses the claim;
+OR
+  FORECLOSED it discusses the claim extensively AND its argument
+             conclusively closes the claim off, so that defending it again
+             would be pointless.
+
+Nothing short of this is anticipation. In particular:
+
+  PASSING    the claim is raised, suggested, entertained or listed as an
+             option, without development. Developing an idea that someone
+             mentioned is an ordinary and legitimate philosophical
+             contribution; the earlier mention is credited, not conceded.
+  ENTERTAINED the claim is explored at length but neither endorsed nor
+             conclusively closed off.
+  FRAMEWORK  the work holds a broader view of which the claim would be an
+             application, but does not itself draw that application.
+
+A work that argues against the claim without conclusively closing it off is
+a rival to be answered (CONTRADICTED), not an anticipation.
+
+Extent and endorsement can only be judged from the text. Say what you
+actually saw: the FULL TEXT, an ABSTRACT, a SNIPPET from a search result, or
+a SECONDHAND report by another author. A verdict of ANTICIPATED that rests on
+anything less than the full text is PROVISIONAL and must be marked so.
+
+THESIS:
+Gubelmann's Kantian criterion has no principled stopping point at the skin without biological chauvinism. Applied to maintained human–LLM pipelines, it makes the LLM an organ of a larger goal-setting whole, so 'LLMs cannot speak' reduces to 'parts as such do not speak'. The whole may be a speaker, with authorship layered across levels and fixed by a separate attribution rule. A distinct third kind of author is not established.

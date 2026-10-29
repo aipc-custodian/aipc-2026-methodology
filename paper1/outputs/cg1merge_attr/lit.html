@@ -1,0 +1,64 @@
+<!doctype html><meta charset=utf-8>
+<meta name=viewport content='width=device-width,initial-scale=1'>
+<title>Literature check — attribution</title>
+<style>
+:root { --bg:#fbfaf8; --fg:#1c1b19; --mut:#6b6862; --line:#e0ddd6;
+        --card:#fff; --warn:#8a5a00; --warnbg:#fdf6e3; --bad:#9b2c2c;
+        --badbg:#fdf0ef; --ok:#2f6b4f; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#161513; --fg:#eceae6; --mut:#9a968e; --line:#302e2a;
+          --card:#1e1d1a; --warn:#e0b458; --warnbg:#2a2317; --bad:#e08c86;
+          --badbg:#2b1a19; --ok:#7fb99a; } }
+* { box-sizing:border-box }
+body { margin:0; padding:2.5rem 1.25rem 6rem; background:var(--bg);
+       color:var(--fg); font:16px/1.65 -apple-system,BlinkMacSystemFont,
+       "Segoe UI",Helvetica,sans-serif; }
+main { max-width:58rem; margin:0 auto }
+h1 { font-size:1.5rem; margin:0 0 .5rem }
+h2 { font-size:1.05rem; text-transform:uppercase; letter-spacing:.08em;
+     color:var(--mut); margin:3rem 0 1rem;
+     border-bottom:1px solid var(--line); padding-bottom:.4rem }
+h3 { font-size:1.08rem; line-height:1.45; margin:0 0 .5rem }
+.note { color:var(--mut); font-size:.92rem; margin:0 0 2rem }
+article { background:var(--card); border:1px solid var(--line);
+          border-radius:10px; padding:1.4rem 1.5rem; margin:0 0 1.5rem }
+table { width:100%; border-collapse:collapse; margin:0 0 1rem;
+        font-size:.88rem; display:block; overflow-x:auto }
+th { text-align:left; color:var(--mut); font-size:.72rem; font-weight:600;
+     letter-spacing:.07em; text-transform:uppercase;
+     border-bottom:1px solid var(--line); padding:.5rem .6rem }
+td { padding:.5rem .6rem; border-bottom:1px solid var(--line);
+     vertical-align:top }
+.rel { font-weight:700; white-space:nowrap }
+.ANTICIPATED, .DOESNOTHOLD { color:var(--bad) }
+.CONTRADICTED, .DISTORTED { color:var(--warn) }
+.SUPPORTED, .HOLDS { color:var(--ok) }
+.ADJACENT, .CANNOTTELL { color:var(--mut) }
+.left { background:var(--warnbg); padding:.9rem 1.1rem; border-radius:8px;
+        margin:1rem 0 }
+.nf { color:var(--mut); font-size:.93rem; margin:.75rem 0 0 }
+.flag { background:var(--badbg); color:var(--bad); padding:.8rem 1rem;
+        border-radius:8px; margin:1rem 0; font-size:.93rem }
+details { margin-top:1rem; border-top:1px solid var(--line); padding-top:.8rem }
+summary { cursor:pointer; color:var(--mut); font-size:.9rem }
+code { font-size:.88em }
+</style><main>
+<h1>Literature check — attribution</h1>
+<p class=note>Existence is checked mechanically against OpenAlex: a title either resolves to a real record or it does not, and no model is involved. Whether the named person holds the ascribed view is a search-and-judge step, and DISTORTED is the verdict worth reading — the person is in the right neighbourhood but does not hold the view, which is the error that survives casual checking.</p>
+<h2>Citations that do not resolve</h2>
+<article>
+<table><tr><th>Where</th><th>Title as cited</th><th>Nearest record</th></tr>
+<tr><td>Omerged§6</td><td class='rel DOESNOTHOLD'>Common Ground in Pragmatics</td><td>Cross-Cultural Pragmatic Failure</td></tr>
+</table>
+</article>
+<h2>Attributions</h2><article>
+<table><tr><th>Where</th><th>Verdict</th><th>Ascribed</th><th>What they actually hold</th></tr>
+<tr><td>Omerged§5</td><td class='rel DOESNOTHOLD'>DOES NOT HOLD</td><td>von Fintel&#x27;s treatment of accommodation as a uniform repair of common-ground failure, on which one process restores the common ground whatever the failure was.</td><td>Von Fintel argues that there is no local accommodation, and that the process that explains certain phenomena is different in kind from global presupposition accommodation. He distinguishes between presupposition projection mechanisms and actual (global) accommodation. <a href='http://web.mit.edu/fintel/fintel-2004-comments-on-beaver.pdf'>(source)</a></td></tr>
+<tr><td>Omerged§8</td><td class='rel DISTORTED'>DISTORTED</td><td>The shared assumption of Stalnaker (2002) and Yalcin (2024) that &#x27;common ground&#x27; names a single theoretical kind with a unified functional role.</td><td>Yalcin (2024) argues against Stalnaker&#x27;s definition of common ground, proposing instead that it should be defined in terms of common knowledge about acceptance rather than common acceptance, with knowledge rather than belief as the default setting. <a href='https://link.springer.com/article/10.1007/s10988-024-09415-7'>(source)</a></td></tr>
+<tr><td>Omerged§7</td><td class='rel CANNOTTELL'>CANNOT TELL</td><td>Stalnaker&#x27;s unification in &#x27;Context and Content&#x27; (1999) and later work, on which apparent functional dissociations are different ways of accessing one context set.</td><td>Stalnaker develops a framework for representing contexts as common ground (context sets of possible worlds compatible with shared presuppositions) and argues for the autonomy of pragmatics and against the priority of linguistic over mental representation. <a href='https://philpapers.org/rec/STACAC-10'>(source)</a></td></tr>
+<tr><td>Omerged§4</td><td class='rel HOLDS'>HOLDS</td><td>Margaret Gilbert&#x27;s joint-commitment account of shared agency, on which acting together is constituted by a jointly undertaken commitment rather than by what participants individually represent.</td><td>Gilbert argues that joint commitments are centrally constitutive of collective actions and shared agency, and she contrasts her joint commitment account with individualist conceptions that explain shared intention in terms of corresponding personal intentions. <a href='https://ndpr.nd.edu/reviews/joint-commitment-how-we-make-the-social-world/'>(source)</a></td></tr>
+<tr><td>Omerged§2</td><td class='rel HOLDS'>HOLDS</td><td>Stalnaker&#x27;s claim in &#x27;Common Ground&#x27; (2002) that the phenomena are explained by mutual acceptance of a single conversational state, which licenses assertion and coordination alike.</td><td>Stalnaker (2002) defines common ground as what all members accept for the purpose of conversation, with iterated mutual beliefs about that acceptance. This common ground guides both assertion (proposals to update it) and coordination (speakers formulate utterances based on assumed common beliefs). <a href='https://link.springer.com/article/10.1023/A:1020867916902'>(source)</a></td></tr>
+<tr><td>Omerged§6</td><td class='rel HOLDS'>HOLDS</td><td>Geurts&#x27;s inclusive view in &#x27;Common Ground in Pragmatics&#x27;, on which the competing accounts are complementary aspects of one phenomenon rather than rivals, following Lewis on mutual belief and mutual reasons to believe.</td><td>In the spirit of Lewis, I argue that these various accounts are best viewed as being complementary rather than contrary. Lewis proposed a partial answer by showing how mutual beliefs may track mutual reasons to believe. <a href='https://plato.stanford.edu/archives/win2024/entries/common-ground-pragmatics/'>(source)</a></td></tr>
+<tr><td>Omerged§3</td><td class='rel HOLDS'>HOLDS</td><td>Yalcin&#x27;s account in &#x27;Defining common ground&#x27; (2024), on which common ground is common knowledge that p is accepted — a single publicity condition governing every use of it.</td><td>p is common ground iff it is common knowledge that p is accepted. Thus the attitude that is iterated in the definition of common ground is not acceptance but knowledge. <a href='https://philpapers.org/rec/YALDCG'>(source)</a></td></tr>
+</table></article>
+</main>

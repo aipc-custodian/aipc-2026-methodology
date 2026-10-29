@@ -1,0 +1,350 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "Where a user publicly puts forward chatbot output as their own, the user is the speaker. Designers who do not put forward particular outputs are not their principals. Creator-centred proxy accounts therefore fail for such cases.",
+        "headline": "The proxy account's assumption that the principal of a machine utterance is its designer or deployer is false in the central case: when a user adopts a chatbot's output, the user is the speaker, and the model functions as part of the user's own cognitive apparatus.",
+        "used_surviving": true,
+        "target": "Proxy accounts (Green and Michel, Arora) and the denial arguments that infer the absence of assertion in chatbot discourse from the absence of producer intentions.",
+        "sketch": "Green and Michel, Arora, Butlin and Viebahn, and Williams and Bayne's critique of them all treat 'on whose behalf?' as a question with designers or deployers as the candidate answers. Consider the case where a user asks a model for the date of a treaty and pastes the answer into a report, or types 'The capital of Australia is\u2026' and accepts the autocompletion. The user plainly asserts, is sanctionable and is answerable. Yet they formed no content-intention before the output and had no knowledge of what the system would say. Designers had no objective regarding that content, so the designer-proxy story fails for the utterance. The case resembles retrieving a fact from a notebook. The user adopts content they did not author, and adoption plus answerability suffices for assertion. Two consequences follow. First, the intention requirement for assertion is not a requirement on the producer of the content, which weakens Gubelmann's route to denial. Second, the model-level question 'does the chatbot assert?' is separable from the occurrence of assertion in chatbot-mediated discourse, and arguments that conflate them lose force. The key premise is that adoption suffices for assertion without prior content-intention, as with testimony passed on and the use of ghostwritten text.",
+        "promise": 4,
+        "residual": 3
+      },
+      "finding": {
+        "searched": [
+          "Green Michel \"What might machines mean?\" chatbot assertion",
+          "Arora chatbots assertion proxy designers speech acts",
+          "Butlin Viebahn AI assertion",
+          "Williams Bayne chatbot assertion critique Butlin Viebahn",
+          "Gubelmann large language models speech acts intentions beyond them",
+          "user responsibility for AI-generated text authorship attribution experiment",
+          "users assert LLM output as their own, assertion by adopting content, chatbot-mediated testimony",
+          "Who asserts when no one asserts? Functionalism, proxy responsibility, conversational ideals LLMs user endorses output"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "PRECEDENT",
+            "grade": "ENTERTAINED",
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Adoption: the user deploys model output as their own speech. Also the separability of 'does the model assert?' from 'is anyone asserting in the exchange?'",
+            "source": "Anon. (arXiv 2610.09064v1), \"Talking with Language Models\", arXiv preprint, 2026",
+            "url": "https://arxiv.org/html/2610.09064v1",
+            "what_they_say": "<cite index=\"69-1,69-2\">LLM output is neutral on endorsement: generation alone does not establish that anyone has asserted or stood behind the string.</cite> <cite index=\"69-6\">In 'appropriative adoption', the user deploys the candidate as her own speech.</cite> It also argues that <cite index=\"69-3\">no system-side utterance occurs.</cite>",
+            "damage": 2,
+            "note": "This is the closest hit and I saw only snippets. The 'appropriative adoption' category looks like the thesis's adoption move. Whether it argues at length that adoption suffices for assertion without prior content-intention, and that user-answerability makes the user the speaker, is not visible. PRECEDENT-or-ANTICIPATED is undecided. Read the full text before the thesis claims this move as its own; if the paper endorses it at length, this becomes ANTICIPATED for the adoption and separability parts.",
+            "url_note": null
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "FRAMEWORK",
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Separating the model-level question from the practice-level occurrence of assertion",
+            "source": "Anon., \"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026",
+            "url": "https://link.springer.com/article/10.1007/s13347-026-01136-y",
+            "what_they_say": "<cite index=\"60-5,60-6\">It disentangles assertion from asserter. It holds that LLMs are neither speakers nor moral agents, yet their outputs can function as assertions within communicative practice.</cite> <cite index=\"60-7\">The core claim is a structurally asymmetric case of assertion without asserter.</cite>",
+            "damage": 2,
+            "note": "It separates ontology from interaction, which parallels the thesis's second consequence. But it posits assertion with no asserter and does not make the adopting user the speaker, so it is a precedent and in part a rival.",
+            "url_note": null
+          },
+          {
+            "relation": "ANTICIPATED",
+            "grade": "ENDORSED",
+            "basis": "SNIPPET",
+            "provisional": true,
+            "part": "'Designers who do not put forward particular outputs are not their principals' / creator-centred proxy accounts fail for general-purpose chatbot output",
+            "source": "Williams & Bayne, \"Chatting with Bots: AI, Speech-Acts, and the Edge of Assertion\", Inquiry 69(6), 2026 (arXiv 2024)",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "<cite index=\"68-1\">In typical interactions with an LLM-driven chatbot there is no clear candidate for the principal.</cite> <cite index=\"68-6,68-7,68-8\">Green & Michel's clearer principal case is a police department that implicitly endorses its system's outputs.</cite> <cite index=\"68-9\">That case significantly constrains the scope of the proxy response.</cite> The authors conclude that proxy-assertion is not satisfactory.",
+            "damage": 2,
+            "note": "The no-principal point is argued and endorsed in a dedicated section, so the thesis's negative half against creator-centred accounts is largely made. It is provisional because I saw only excerpts, and the paper does not say the user is the speaker. The user-as-speaker half is untouched.",
+            "url_note": null
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "'The user is answerable/speaker' and, by implication, that there is a human principal for the utterance",
+            "source": "L\u00f6hr, \"Chatbots and Speech Act Responsibility Gaps\", American Philosophical Quarterly, 2026",
+            "url": "https://www.researchgate.net/publication/390279820_Chatbots_and_Speech_Act_Responsibility_Gaps",
+            "what_they_say": "<cite index=\"17-3,17-4\">The paper argues that, given the relational nature of speech, no human can be held responsible for most of what a chatbot says, so the proxy account covers only a few AI utterances.</cite>",
+            "damage": 3,
+            "note": "It shares the thesis's rejection of the proxy account for most outputs. It also denies that any human is responsible, which is a rival to the user-answerability premise. The thesis has to answer it, probably by limiting itself to cases where the user publicly adopts the output. I saw only the abstract.",
+            "url_note": null
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "PASSING",
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Whether a user can be the proxy-assertion principal",
+            "source": "Butlin & Viebahn, \"AI Assertion\", Ergo 12, 2025",
+            "url": "https://philpapers.org/rec/BUTAAJ",
+            "what_they_say": "<cite index=\"19-3\">An entity must produce outputs with descriptive functions and must be capable of being sanctioned by the agents it interacts with.</cite> <cite index=\"19-7\">The paper also considers the significance of AI systems being used to generate proxy assertions on behalf of human agents.</cite>",
+            "damage": 1,
+            "note": "The abstract says 'human agents' rather than designers, so the target ascription 'designers or deployers' may be slightly off for this paper. I did not see whether a user is treated as principal. Their sanctionability requirement is relevant to the thesis's 'sanctionable' premise but is applied to the system.",
+            "url_note": null
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Target check: Green & Michel and Arora actually hold creator/designer-centred proxy views",
+            "source": "Green & Michel, \"What Might Machines Mean?\", Minds and Machines 32, 2022; Arora, \"Proxy Assertions and Agency: The Case of Machine-Assertions\", Philosophy & Technology 37, 2024",
+            "url": "https://philpapers.org/rec/GREWMM-2",
+            "what_they_say": "Green & Michel: <cite index=\"5-10\">a characteristic role for artificial speakers is as proxies in speech acts on behalf of their human creators.</cite> Arora: <cite index=\"14-1\">machine utterances can be proxy assertions made on behalf of the designers and/or deployers of such machines.</cite>",
+            "damage": 2,
+            "note": "The ascription is accurate for both. Green & Michel add a notion of 'objectives' rather than intentions, which the thesis must engage when it says designers had no objective regarding the particular content. Arora also discusses implications for users (<cite index=\"12-8\">implications for designers and users</cite>), which a referee will raise. I did not read either paper's treatment of users.",
+            "url_note": null
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Target check: Gubelmann's denial route via intention",
+            "source": "Gubelmann, \"Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now)\", Philosophy & Technology 37, 2024",
+            "url": "https://philpapers.org/rec/GUBLLM",
+            "what_they_say": "<cite index=\"39-5,39-6\">Apart from niche uses, to use language means to act, but LLMs cannot act because they lack intentions.</cite>",
+            "damage": 2,
+            "note": "The argument is about whether LLMs can be speakers. From the abstract I cannot confirm that it infers the absence of assertion in user-mediated discourse from missing producer intentions, so the 'conflation' charge may not fit Gubelmann. The thesis should check this in the full text. 'Apart from niche uses' may leave room for the thesis's cases.",
+            "url_note": null
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Proxy views combined with functionalism, and the role of the user",
+            "source": "Anon., \"Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs\", Synthese, 2026",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "<cite index=\"65-4\">Proxy-based views trace accountability for LLM outputs back to the human agents or organizations behind the system.</cite> <cite index=\"65-7\">The authors argue that gains from LLM interaction are mediated by the epistemic virtues of users themselves.</cite>",
+            "damage": 1,
+            "note": "A recent survey-style treatment of the proxy and functionalist positions. It is not an anticipation of the user-as-speaker claim as far as the abstract shows, but a referee will cite it.",
+            "url_note": null
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Empirical grounding for 'the user is answerable' when output is put forward as their own",
+            "source": "Publisher policy (Wiley, \"Using AI tools in your research\") and a study of authorship, creatorship and responsibility (\"Can ChatGPT be an author?\", AI & Society, 2024)",
+            "url": "https://link.springer.com/article/10.1007/s00146-024-02081-0",
+            "what_they_say": "Wiley: <cite index=\"52-4\">Authors must take full responsibility for the accuracy of all content.</cite> The AI & Society study reports that <cite index=\"54-8\">a legal perspective holds that an AI developer or user, or both, will be held accountable for outputs.</cite>",
+            "damage": 1,
+            "note": "Practice and norm evidence for the sanctionability and answerability premise. This is not a speech-act analysis. The legal remark is the study's own literature-review statement, not a finding.",
+            "url_note": null
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Lay attribution of responsibility for AI-assisted content may fall on designers or editors, not the user",
+            "source": "\"Authorship after AI? Responsibility moves first in a stepwise disclosure experiment\", Journal of Documentation, 2026",
+            "url": "https://www.emerald.com/jd/article-abstract/doi/10.1108/JD-06-2026-0344/1397462/Authorship-after-AI-Responsibility-moves-first-in?redirectedFrom=fulltext",
+            "what_they_say": "<cite index=\"50-7\">After AI involvement was disclosed, most participants relocated responsibility to the editor and development team.</cite> <cite index=\"50-14\">Readers withdraw accountability from a named author while leaving naming and credit intact.</cite>",
+            "damage": 2,
+            "note": "Exploratory Japanese sample using a fictional book with disclosed AI involvement. It differs from the thesis's undisclosed adoption, but it is an empirical hint that lay answerability can shift to developers, so a referee may raise it.",
+            "url_note": null
+          }
+        ],
+        "what_is_left": "That designers are not principals for particular outputs of general-purpose chatbots, and so creator-centred proxy accounts do not cover them, is already argued by Williams & Bayne and, in a form hostile to user-answerability, by L\u00f6hr. What the thesis can still claim is a positive account of one class of cases. Where a user publicly puts forward a model's output as their own, adopting content they did not author and becoming answerable for it, the user is the speaker, and the intention requirement for assertion is not a requirement on the producer of the content. The thesis must also credit, and distinguish itself from, the 'appropriative adoption' idea in 'Talking with Language Models' and the 'assertion without asserter' view. That claim is provisional until the full text of 'Talking with Language Models' is read.",
+        "credit": [
+          "Williams & Bayne 2024/2026 \u2014 typical chatbot interactions have no clear principal, and the proxy response is limited to cases like Green & Michel's police department",
+          "Green & Michel 2022 \u2014 proxy speech acts, and objectives in place of intentions",
+          "Arora 2024 \u2014 proxy assertion tied to designers and/or deployers, with implications for users",
+          "Butlin & Viebahn 2025 \u2014 sanctionability as a condition on assertion, and the idea of proxy assertion on behalf of human agents",
+          "Anon. 2026 (arXiv 2610.09064) \u2014 appropriative adoption, and the point that generation alone does not establish assertion; if the full text proves to endorse the adoption view at length, this is the entry that would turn into ANTICIPATED",
+          "Anon. 2026, Phil & Tech \u2014 separating ontology from interaction, so that assertoric function can exist without an asserter",
+          "L\u00f6hr 2026 \u2014 the proxy account covers only a few chatbot utterances; also a rival on user responsibility"
+        ],
+        "not_found": "I found no work in the search results that argues the full chain: a user who adopts and publicly puts forward unforeseen chatbot output is the speaker, adoption plus answerability suffices for assertion without prior content-intention, and Gubelmann-style denial therefore loses force. I did not find the notebook or ghostwritten-text analogy, or the 'testimony passed on' analogy, applied to chatbot output. I did not retrieve full texts of Green & Michel, Arora, Butlin & Viebahn, Gubelmann or L\u00f6hr, and most judgments rest on abstracts or snippets, so their treatment of users (Arora, Butlin & Viebahn) remains unchecked. I did not find an SEP or handbook entry on chatbot assertion. My search left philosophy only for studies of authorship, responsibility and AI-assisted writing, which are thin and not about assertion. I ran no search in linguistics or pragmatics on ghostwriting, quotation, reported speech, or speaker and author roles (for example Goffman's author/animator/principal distinction). I also ran no search on the cognitive-science paper cited in the results, Rosen & Dale, 'LLMs Don't Do Things with Words', or on the philosophy of testimony and memory literature on adopting content one did not author. These gaps mean the silence should not be read as originality.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "assertion",
+      "testimony-episprob",
+      "artificial-intelligence"
+    ],
+    "why": "The theses concern what makes an utterance an assertion (adoption, answerability, intention requirements) as applied to chatbot output, with testimony-passing as the analogy, and the AI entry covers the chatbot context.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Assertion is tied to a speaker taking on commitment or responsibility for content: accountability (liability to blame if not-p) and answerability to challenges. A user who publicly puts forward chatbot output would take on this commitment, which the thesis can build on to identify the user as the speaker.",
+                "who": "Peirce; Alston (2000); Brandom (1994); MacFarlane; Green; Searle",
+                "quote": "a speaker accepts responsibility for a content p being true iff the speaker knowingly [takes] on the liability to ([lay] herself open to) blame (censure, reproach, being taken to task, being called to account), in case of not-p.",
+                "damage": 1,
+                "note": "Commitment accounts give a ready criterion for who counts as speaker: whoever takes on the liability."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Selfless assertions: a speaker (teacher) can appropriately assert content she does not herself believe or know. This shows the entry recognizes assertion of content that is not the speaker's own first-hand epistemic output, relevant to a user relaying chatbot content.",
+                "who": "Lackey (2007)",
+                "quote": "Intuitively, it would be appropriate for Stella, as a teacher, to assert (31).",
+                "damage": 1,
+                "note": "Gives a model of asserting relayed content while remaining the asserting speaker."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Goldberg: the speaker may authorize the hearer to defer challenges back to the speaker, and MacFarlane's commitment lets one defer responsibility to another asserter on whose testimony one relies. This is relevant to a user relaying chatbot output, since responsibility stays with the user or is deferred.",
+                "who": "Goldberg (2015); MacFarlane (2003)",
+                "quote": "to commit oneself to providing adequate grounds for the truth of S ... or (when appropriate) to defer this responsibility to another asserter on whose testimony one is relying.",
+                "damage": 2,
+                "note": "Deferral exists only to another asserter, so a chatbot's status as asserter is a pressure point for the thesis."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Frege's distinction between entertaining content and asserting it with force. A user who puts chatbot output forward supplies the force, while the chatbot output is only content.",
+                "who": "Frege; Peirce; Austin",
+                "quote": "Frege emphasized the distinction between judging a thought content ... to be true, and merely thinking/entertaining that content.",
+                "damage": 1,
+                "note": "Force/content split supports locating assertoric force in the user's act of putting forward."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Austin's uptake and the speaker-content structure: assertion may be performed without hearer uptake. Also the entry notes that the speaker's belief and intentions matter, which raises the question of whether a user who does not understand the output asserts it.",
+                "who": "Austin; entry's own remark",
+                "quote": "Bill still asserted that it was closed, since Bill believed she was still there.",
+                "damage": 1,
+                "note": "Marginal bearing on speakerhood."
+              }
+            ],
+            "nearest_positions": [
+              "Commitment-as-accountability accounts of assertion \u2014 Peirce, Alston, Brandom, Green, MacFarlane",
+              "Communicative-intention and self-representation accounts (speaker intends hearer to take it as evidence of belief) \u2014 Grice, Searle, Bach & Harnish, Davidson",
+              "Norm-of-assertion accounts (knowledge/justification norms, with selfless assertion) \u2014 Williamson, Lackey, Goldberg"
+            ],
+            "entry_silent_on": "Artificial or non-human speakers, chatbots/LLMs, delegated or proxy speech, speaker/principal relations, designer responsibility, and any 'creator-centred proxy' account of who asserts. The entry never discusses who is the speaker when content is generated by a tool or another agent without being put forward."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry's account of what testimony is and who counts as the testifier. It cites Coady's conditions and Lackey's disjunctive speaker/hearer testimony, in which testimony can occur 'regardless of what the speaker intended to say'. The Assurance View's Telling requires an intentional speaker who invites trust. These bear on whether a user relaying chatbot output is the speaker, but the entry never applies them to artificial sources.",
+                "who": "Coady 1992; Lackey 2008; Hinchman 2005; Graham 1997",
+                "quote": "S s-testifies that p by performing an act of communication a if and only if, in performing a, S reasonably intends to convey the information that p (in part) in virtue of a's communicable content.",
+                "damage": 2,
+                "note": "Supplies speaker-identification conditions the thesis can use, but is silent on AI, proxies and designers."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Anti-individualist and Assurance-style accounts make the speaker's own act (telling, assuring, reliable production) the locus of testimonial justification. This supports treating the person who puts forward an output as the accountable speaker.",
+                "who": "Hinchman 2005, Moran 2005, Faulkner 2007, McMyler 2011; Lackey 2008, Goldberg 2010a",
+                "quote": "when a speaker tells their audience that p is true, she is doing much more than merely uttering p. Rather, she is inviting her audience to trust her that p is true",
+                "damage": 1,
+                "note": "The user who asserts chatbot output takes on the telling and assuring role, as the thesis says."
+              },
+              {
+                "relation": "PRECEDENT",
+                "grade": "FRAMEWORK",
+                "position": "Group testimony debate: a Deflationist reduces a group's testimony to some individual's testimony, whether that individual is a member or 'just a mere spokesman'. Inflationists treat the group itself as a testifier. This is the nearest structural analogue to deciding whether the speaker is the one who puts the output forward or the originator behind it.",
+                "who": "Lackey 2014 (deflationary); Tollefsen 2007 (inflationary); Faulkner 2018; Fricker M. 2012",
+                "quote": "Deflationists maintain to a group's testimony that p can be reduced to some individual's testimony that p (regardless of whether those individuals are members of the group, or just mere spokesmen)",
+                "damage": 2,
+                "note": "A framework the thesis could apply by analogy, but the entry draws no such application to chatbots or designers."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Hearer-side cases of unusual or non-human sources of text: the alien notebook and the anonymous blogger. They are used against Non-Reductionism and concern gullibility toward a source with no track record, not who the speaker is.",
+                "who": "Lackey 2008; E. Fricker 2002",
+                "quote": "you see a group of aliens from another planet drop a notebook written in what appears to be English",
+                "damage": 1,
+                "note": "A referee might cite these, but they concern the hearer's justification, not speaker identity."
+              }
+            ],
+            "nearest_positions": [
+              "Speaker-centred accounts of testimony as telling or assuring \u2014 Hinchman, Moran, Faulkner, McMyler",
+              "Lackey's disjunctive speaker/hearer testimony, on which testimony need not track speaker intention",
+              "Deflationism vs inflationism about group testimony, a precedent for identifying the testifier \u2014 Lackey 2014, Tollefsen 2007"
+            ],
+            "entry_silent_on": "Artificial or AI-generated testimony, chatbots, and users relaying machine output. The entry also says nothing about designers or creators as principals, or about 'creator-centred proxy accounts' of testimony. It treats the speaker/hearer relation only for human speakers and groups, so the thesis has no direct anticipation here."
+          }
+        ],
+        "slug": "testimony-episprob",
+        "url": "https://plato.stanford.edu/entries/testimony-episprob/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry's Moral AI section discusses who bears moral responsibility for autonomous machine decisions, and how robots might receive moral codes (from humans, directly or by reading). It does not address speakerhood or the proxy relation between users, designers and chatbot output.",
+                "who": "Wallach & Allen 2010; Arkin 2009; Moor 2006; Bringsjord et al. 2006",
+                "quote": "The source could be humans, and the machine could receive the code directly (via explicit encoding) or indirectly (reading).",
+                "damage": 1,
+                "note": "Nearest topical neighbour (agency and responsibility of artificial agents), but nothing about speech acts or assertion by users."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Descartes' test treats a machine's speech as not 'placing thoughts on record', so the machine is not a speaker and does not act from knowledge. This is relevant background for who counts as the speaker of machine output, but it is not an argument about users and designers.",
+                "who": "Descartes 1637 (as quoted in the entry)",
+                "quote": "they could never use speech or other signs as we do when placing our thoughts on record for the benefit of others",
+                "damage": 1,
+                "note": "Supports the premise that the machine is not itself the speaker, but does not discuss user/designer attribution."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry notes that robots may be held to different ethical standards than humans in comparable conditions, which is empirical background on responsibility attribution. It does not discuss designers as principals or proxies.",
+                "who": "Malle et al. 2015",
+                "quote": "humans hold robots to different ethical standards than they expect from humans under similar conditions",
+                "damage": 1,
+                "note": "Only tangentially relevant to attribution of responsibility."
+              }
+            ],
+            "nearest_positions": [
+              "Machine ethics and moral AI: engineer machines to follow a moral code, with responsibility tied to autonomy \u2014 Wallach & Allen, Arkin, Bringsjord et al., Govindarajulu & Bringsjord",
+              "Cartesian view that machine speech is not genuine communication of thought \u2014 Descartes 1637, as quoted in the entry",
+              "Turing Test / Human-Act view on which linguistic indistinguishability operationalizes AI \u2014 Turing 1950, Nilsson 1998"
+            ],
+            "entry_silent_on": "Speakerhood and assertion for chatbot output; the user who publicly adopts the output as their own; designers as principals or proxies; and creator-centred proxy accounts of machine speech. The entry is also silent on any literature on proxy accounts."
+          }
+        ],
+        "slug": "artificial-intelligence",
+        "url": "https://plato.stanford.edu/entries/artificial-intelligence/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "Where a user publicly puts forward chatbot output as their own, the user is the speaker. Designers who do not put forward particular outputs are not their principals. Creator-centred proxy accounts therefore fail for such cases."
+  ]
+}

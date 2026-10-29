@@ -1,0 +1,353 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "Attah supplies an act-grained template (Levelt's preverbal force-bearing message) but only output-grained evidence for transformers. No argument yet shows an LLM state is counterfactually sensitive to act type, and, for the Levelt claim, causally upstream of formulation. This is a burden claim against his 'plausibly recapitulate' step, not a general result about LLMs or about other authors.",
+        "headline": "Attah's control conception fixes the intention at the grain of output selection (the token or utterance) but speech acts are individuated at the grain of the act performed with the output, and no argument shows that any LLM state controls at the act grain.",
+        "used_surviving": true,
+        "target": "Attah's claim that transformers plausibly recapitulate Levelt's Conceptualizer\u2013Formulator\u2013Articulator pipeline, and the shared assumption that 'control of output' is the same as 'control of act'.",
+        "sketch": "Attah analyses intention as an internal state that solves Wu's Many-Many Problem by attention-like selection, and Levelt's Conceptualizer is meant to supply the act-level content. Attention in a transformer selects among inputs to compute the next-token distribution, so the thing controlled is the continuation. A communicative intention must control at the grain of 'warn this person', 'concede the point' or 'promise', where one string can realise different acts and one act can be realised by many strings. Call the first grain output-control and the second act-control. The control conception is satisfied by output-control, but the Levelt template requires a preverbal message with illocutionary force that is selected before formulation. Whether LLMs have such a state is an interpretability question: do mid-layer representations encode and causally govern a force-type independently of lexical surface? The claim is that Attah's argument equivocates between the two grains, and that Gubelmann, Butlin and Viebahn and Attah all treat the grain as settled when it is the crux. This yields a testable, non-metaphysical criterion that could favour either side, for example by intervening on force representations while holding content fixed.",
+        "promise": 4,
+        "residual": 2
+      },
+      "finding": {
+        "searched": [
+          "Attah intention large language models Levelt Conceptualizer Formulator Articulator Many-Many Problem",
+          "LLM probing illocutionary force speech act representation causal intervention hidden states",
+          "Gubelmann LLM speech acts intentions Searle",
+          "Butlin Viebahn AI language production intentions",
+          "Levelt preverbal message illocutionary force conceptual preparation speech production model",
+          "language models plan ahead before generating tokens intent representation interpretability planning",
+          "Attah \"Do language models lack communicative intentions\" transformer attention Conceptualizer plausibly Levelt architecture",
+          "language models internal representation of speech act type dialogue act probing steering independent of content"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "ADJACENT",
+            "part": "Named target 1: whether Attah says transformers 'plausibly recapitulate' the Levelt pipeline",
+            "source": "Nuhu Osman Attah, \"Do language models lack communicative intentions?\", Synthese 205(5), 2025",
+            "url": "https://www.researchgate.net/publication/391019058_Do_language_models_lack_communicative_intentions",
+            "what_they_say": "The text I could reach maps a dialog system's dialog manager, generation module and state representations onto the Conceptualizer, Formalizer (sic) and Articulator, by functional role. It describes the Conceptualizer as identifying which concept-level lemmas are relevant, and the Formulator as selecting the word or phonetic units that fit those lemmas.",
+            "damage": 2,
+            "note": "The snippets show a functional-role mapping and a lemma-level gloss of the Conceptualizer. I did not find the exact phrase 'plausibly recapitulate' or any claim about transformers' internal states. The ascription to Attah is unconfirmed, and his own gloss may favour the thesis's grain complaint."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "The claim that no argument yet shows an LLM state is counterfactually sensitive (in the Many-Many sense)",
+            "source": "Nuhu Osman Attah, \"Do language models lack communicative intentions?\", Synthese, 2025",
+            "url": "https://philarchive.org/archive/ATTTMP-2",
+            "what_they_say": "Attah's control conception makes a state intentional only if it solves Many-Many Problems, i.e. maps varied situations reliably onto appropriate responses. A system that gives the same action whatever the situation is merely 'sphex-ish'.",
+            "damage": 2,
+            "note": "Attah already builds a situation-to-response sensitivity requirement into his criterion. The thesis has to say that the sensitivity he asks for is to outputs or situations, not to act type. I did not find him addressing that distinction."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "The claim that Attah treats the output/act grain as settled",
+            "source": "Nuhu Osman Attah, \"Do language models lack communicative intentions?\", Synthese, 2025",
+            "url": "https://www.researchgate.net/publication/391019058_Do_language_models_lack_communicative_intentions",
+            "what_they_say": "A fragment suggests Attah considers a worry that 'many illocutionary effects' would remain even if intentions were construed narrowly, and that LMs appear to excel there. The fragment is cut off.",
+            "damage": 2,
+            "note": "He appears to see the illocutionary level, so 'treats the grain as settled' needs checking against the full text. I could not read it."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Levelt's template really is act-grained: a preverbal message selected before formulation",
+            "source": "Willem J. M. Levelt, \"Producing spoken language: a blueprint of the speaker\", 1999",
+            "url": "https://www.mpi.nl/world/materials/publications/levelt/Levelt_Producing_spoken_language_1999.pdf",
+            "what_they_say": "Levelt discusses boundary tones as having illocutionary function. He gives an example where a speaker starting 'what do you need?' switches to a yes/no question, which means interrupting and restarting. He quotes himself that the speaker can monitor and reject a message before or after formulation has started.",
+            "damage": 1,
+            "note": "The thesis can use this as its evidence for the template. Pre-formulation message selection, including at the level of the question/statement act, is part of Levelt's own account."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The ordering requirement: the message is upstream of formulation, and the model is feedforward",
+            "source": "Review of Levelt, \"Speaking: From Intention to Articulation\", MIT Press, 1989 (ACL Anthology review, Computational Linguistics)",
+            "url": "https://aclanthology.org/J90-1012.pdf",
+            "what_they_say": "The reviewer describes three modules, Conceptualizer, Formulator and Articulator, plus a Lexicon, and says the Conceptualizer structures the ideas to be conveyed. Another version of the review notes that no feedback is allowed between modules.",
+            "damage": 1,
+            "note": "This supports the 'causally upstream' condition as a real commitment of the template, not a gloss. The 'no feedback between modules' point comes from the ResearchGate copy of the same review (index 7-11)."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Named target 2: Gubelmann",
+            "source": "Reto Gubelmann, \"Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now)\", Philosophy & Technology 37:32, 2024",
+            "url": "https://philpapers.org/rec/GUBLLM",
+            "what_they_say": "Gubelmann argues that using language is acting, that LLMs cannot act because they lack intentions, and that this is because agents with intentions must be autonomous organisms while LLMs are heteronomous mechanisms.",
+            "damage": 2,
+            "note": "His argument runs through autonomy, not through grain of control or internal states. 'Treats the grain as settled' is not the natural description. He denies intentions on organism grounds, so the output/act equivocation is not obviously his crux."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Named target 3: Butlin and Viebahn",
+            "source": "Patrick Butlin & Emanuel Viebahn, \"AI Assertion\", Ergo 12, 2025",
+            "url": "https://philpapers.org/rec/BUTAAJ",
+            "what_they_say": "They argue that assertion requires outputs with descriptive functions and being capable of being sanctioned by interacting agents. Pre-trained LLMs fail the first requirement. Fine-tuned LLMs may meet the first but fail the second.",
+            "damage": 3,
+            "note": "Their account is function- and practice-based and does not posit an intention-like internal state, so the thesis's claim about them is probably misdirected. This is a real referee problem for the part of the thesis that groups them with Attah."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The proposed test: causal intervention on internal representations, not just decoding",
+            "source": "\"Extracting Algorithms in Pre-trained LLMs: A Case on Hidden Markov Models\", arXiv 2607.22646; and \"Inference Time Causal Probing in LLMs\", arXiv 2605.07631 (2026)",
+            "url": "https://arxiv.org/pdf/2607.22646",
+            "what_they_say": "The first shows that a representation can be decodable without being causally used, so decodability and causal use must be tested separately. The second describes causal probing as an intervention on hidden states that changes a property, and distinguishes it from merely detecting that a model contains information.",
+            "damage": 1,
+            "note": "They supply the methodological vocabulary for the proposed criterion, which is the decodability-versus-causal-use distinction. They say nothing about illocutionary force."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Empirical anticipation of the interpretability question (hidden states that causally shape later output, before the output is produced)",
+            "source": "\"Where's the Plan? Locating Latent Planning in Language Models with Lightweight Mechanistic Interventions\", ICML Mechanistic Interpretability Workshop, 2026; \"Detecting and Characterizing Planning in Language Models\", arXiv 2508.18098",
+            "url": "https://arxiv.org/pdf/2605.07984",
+            "what_they_say": "The workshop paper asks whether models form internal representations of future outputs that causally shape generation without showing in behaviour. The second reports that Claude 3.5 Haiku stores candidate rhyme words before writing a line, and that ablating them can change the whole line.",
+            "damage": 3,
+            "note": "This is the closest empirical analogue. It shows pre-output states that causally govern later text. The planned items are tokens (rhyme words), not illocutionary force types. A referee will say the method exists and that the thesis only moves the target from word to act."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Empirical anticipation: act-type representation in LMs",
+            "source": "\"Large-scale text pre-training helps with dialogue act recognition\", IWCS 2021; \"Relational Intervention During Functional Collapse in Large Language Models\", arXiv 2606.00935",
+            "url": "https://aclanthology.org/2021.iwcs-1.16.pdf",
+            "what_they_say": "The IWCS paper uses dialogue act recognition to test how well BERT represents utterances, and finds task-specific fine-tuning essential. The arXiv paper delivers relational speech acts (e.g. permission) as interventions and reads out probe shifts.",
+            "damage": 2,
+            "note": "The first concerns recognition (comprehension), not production, and tests input labelling, not an upstream production state. The second intervenes on the input prompt, and the authors caveat that probe shifts are not claims about internal states. Neither tests force-type control with content held fixed."
+          }
+        ],
+        "what_is_left": "Attah gives a functional-role mapping and a control conception that asks for sensitivity of response to situation, but the sources I could reach give no evidence, from him or from the interpretability literature, that any transformer state encodes illocutionary force-type and causally governs it upstream of lexical and syntactic choice, with content held fixed. Whether 'plausibly recapitulate' is warranted therefore turns on an interpretability question that existing latent-planning work has addressed only for lexical targets such as rhyme words. The claim should be narrowed to Attah, and the grouping with Gubelmann and Butlin & Viebahn dropped or heavily qualified, since their arguments do not run on the output/act grain.",
+        "not_found": "I did not find the full text of Attah's transformer-to-Levelt comparison, so I could not confirm that he writes 'plausibly recapitulate' or exactly what he says about transformer internals. That was only a snippet-level check. I found no paper that intervenes on force or speech-act-type representations in an LLM with propositional content held fixed, and none that argues the output-control/act-control distinction in philosophy of AI. I found no existing survey that reconciles control-based accounts of intention with Levelt-style models for LLMs, and no empirical psycholinguistics paper comparing LLM production to Levelt's Conceptualizer at the illocutionary level. My searches did leave philosophy, reaching interpretability, planning probes and dialogue-act NLP. They did not reach psycholinguistic work on illocutionary force in the preverbal message beyond Levelt himself, nor Wu's own work on action and attention. Most of the interpretability literature is recent preprints and workshop papers I could only skim, and my searches would miss anything paywalled or filed under different terms (e.g. 'communicative function', 'pragmatic intent', 'dialogue move'). A clean result here is weak evidence about a large and fast-moving literature.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "intention",
+      "speech-acts",
+      "action"
+    ],
+    "why": "The theses concern whether a communicative intention controls output or act at the grain of illocutionary force, so they belong to the entry on intention (Wu's Many-Many Problem, control conceptions), the entry on speech acts (illocutionary force versus string), and the entry on action (the control and selection debate).",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "Matching an intention's output is not enough for intentional action. The state must bear the right causal relation to what is produced. This is the causal-deviance problem, and it backs the demand for more than output-grained evidence.",
+                "who": "Davidson 1973 (causal deviance); Setiya, Mele, Thalberg, Hyman as respondents",
+                "quote": "the condition of doing A because one so intends looks insufficient. For it says nothing about the causal path from intention to action.",
+                "damage": 2,
+                "note": "Gives the thesis a framing: output fit does not show the state does the work, and the 'right way' of causing matters."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Intention is individuated by functional role: a conduct-controlling state that serves as input to further reasoning. A state counts as an intention by what it does, not by the outputs it correlates with.",
+                "who": "Bratman 1987",
+                "quote": "conduct-controlling pro-attitudes, ones which we are disposed to retain without reconsideration, and which play a significant role as inputs to [means-end] reasoning",
+                "damage": 2,
+                "note": "Supports the claim that the burden is to show a causal-functional role for an LLM state, not merely a pattern in its outputs."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Intention as a representation that guides and controls what it represents. This ties counterfactual and causal sensitivity to the content's being act-shaped.",
+                "who": "Setiya's own gloss, offered on behalf of mental-state theorists",
+                "quote": "if intention is a representation that is such as to guide and control what it represents, its object must be as such as to be guided",
+                "damage": 2,
+                "note": "Links an act-grained object to a guiding role, which is the combination the thesis demands of the LLM state."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Intention's proper object is an action, something one does, not a proposition. This is an act-grained template of a sort, though about intending rather than speech-act force.",
+                "who": "Thompson 2008; Baier 1970; Moran and Stone 2009. Denied by Davis 1984 and Ferrero 2013.",
+                "quote": "its proper object\u2014what one is on the way to doing\u2014is not a proposition or state of affairs, but something one might do.",
+                "damage": 2,
+                "note": "A referee may ask whether 'act type' is the right grain, given that the entry disputes whether intention's object is action or proposition."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "'Causally upstream' need not mean temporally prior. Intention may be a simultaneous, sustaining cause, and Anscombe denies that the intention\u2013action relation is efficient-causal at all (she takes it to be formal).",
+                "who": "Thalberg 1984; Setiya 2007a (simultaneous sustaining cause); Anscombe 1983 (formal, not efficient cause)",
+                "quote": "causal theorists may deny that claim about the temporality of causes, conceiving intention as the simultaneous, sustaining cause of what one is doing",
+                "damage": 3,
+                "note": "The 'causally upstream of formulation' requirement for the Levelt claim can be read in several ways and will need to be specified."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Prospective intention versus intention in action. A preverbal message prior to speaking resembles prospective intention, while ongoing formulation resembles intention in action. The entry says intention in action need not be preceded by a prior intention.",
+                "who": "Searle 1983",
+                "quote": "I can wave my arm intentionally without planning in advance.",
+                "damage": 2,
+                "note": "A referee could say Levelt's message is prior-intention-shaped while much speech is spontaneous."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "A state that merely tracks or predicts behaviour is not thereby an intention. The 'promiscuity' worry is that a mechanism keyed to expectations over-generates, because it would motivate beliefs that are not intentions.",
+                "who": "Bratman 1991, against Velleman",
+                "quote": "it predicts that we will be just as strongly motivated by beliefs that do not constitute intentions, like the belief that I am going to trip over the step",
+                "damage": 1,
+                "note": "Analogous caution about identifying a state by its functional effects; only loosely related."
+              }
+            ],
+            "nearest_positions": [
+              "Causal/functional theory of intention as an action-guiding state \u2014 Davidson (primary reason as cause), Davis 1984, Mele 1992",
+              "Planning theory of intention as a conduct-controlling, reasoning-input state \u2014 Bratman 1987",
+              "Non-causal or formal-cause view (Anscombe, Thompson), on which 'causally upstream' is the wrong test"
+            ],
+            "entry_silent_on": "Everything specific to the thesis: LLMs and transformers, Levelt's speech-production model and the preverbal message, illocutionary or speech-act force, and counterfactual-sensitivity tests for model internals. The entry does not discuss attributing intention to artificial systems or interpreting internal states by their outputs, nor linguistic formulation. Only the general causal-role versus output-fit contrast is available."
+          }
+        ],
+        "slug": "intention",
+        "url": "https://plato.stanford.edu/entries/intention/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "Output (the words, even with mood and punctuation) underdetermines force, so output-grained evidence cannot by itself fix which act was performed. This is the premise for the thesis's burden claim.",
+                "who": "Austin, Davidson (Autonomy Thesis), Green",
+                "quote": "Mood together with content underdetermine force.",
+                "damage": 1,
+                "note": "Gives the thesis its core move: surface text is compatible with many forces, so output evidence is weak."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Producing a performative or force-marked string is not sufficient for performing the act. The somniloquist utters 'I hereby promise\u2026' and promises nothing, and Davidson's joker or actor simulates assertion with any force indicator.",
+                "who": "Green (somniloquist); Davidson 1979",
+                "quote": "every joker, storyteller, and actor will immediately take advantage of the strengthened mood to simulate assertion.",
+                "damage": 1,
+                "note": "Supports the claim that act-shaped output does not show act-typed internal states."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Speech acts have structural analogues in mental states: assertion expresses belief and promise expresses intention. This gives a general template for act-typed internal states, which is the kind of 'act-grained' state the thesis wants evidence of.",
+                "who": "Searle 1983; Pendlebury 1986",
+                "quote": "Searle 1983 delineates structural analogies between speech acts and the mental states they express.",
+                "damage": 1,
+                "note": "Shows what an act-typed internal state would be in the entry's terms. It says nothing about LLMs."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "The entry contains a close structural parallel to a burden-of-proof argument. Bertolet holds that positing a further (indirect) speech act is explanatorily unmotivated when a simpler indication of intentional state suffices. This is the same kind of parsimony move the thesis makes against 'plausibly recapitulate'.",
+                "who": "Bertolet 1994, 2017; replied to by McGowan et al. 2009",
+                "quote": "Postulation of a further speech act beyond what has been (relatively) explicitly performed is, he contends, explanatorily unmotivated.",
+                "damage": 2,
+                "note": "A referee may raise it either as a precedent or as a reminder that the opposing side offered 'sufficient conditions'."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Force is tied to overt commitment and to intentions that are efficacious and publicly accessible. Force is not fixed by internal states or by manifested intention alone. This bears on whether any internal LLM state could make an output an act of a given type, and on the thesis's 'counterfactually sensitive to act type'.",
+                "who": "Green 2013, 2019; Strawson 1964; Grice",
+                "quote": "speech acts involve intentional undertaking of a publicly accessible commitment; further, that commitment is not undertaken simply by virtue of my intending to undertake it",
+                "damage": 3,
+                "note": "A referee could argue that internal act-typed states are not what makes something a speech act, so the thesis's target is itself contestable."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Speaker meaning may not require intentions to produce effects on an addressee at all. Davis's cases include uncooperative photocopy machines and speaking to pre-linguistic infants. A referee could use this to ask whether non-human or non-intending producers can perform speech acts.",
+                "who": "Davis 1992; Green 2019 (overt manifestation view)",
+                "quote": "Davis (1992) provides a range of cases such as speaking to pre-linguistic infants, uncooperative photocopy machines, and photos of deceased loved ones.",
+                "damage": 2,
+                "note": "Loosens the intention requirement, so the thesis's focus on internal act-type states is not the only route to speech-act status."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Force and content are different categories (functional group versus radical). A representation encoding content does not thereby encode force, and force is not a further component of content. This bears on whether a 'force-bearing' preverbal message is coherent as a single representation.",
+                "who": "Stenius 1967; Searle's F(p) form",
+                "quote": "the forwarding of a Proposition with a particular illocutionary force is not itself a further component of Propositional content.",
+                "damage": 2,
+                "note": "Constrains how an act-grained template could be specified: force as an operator on content, not as content."
+              }
+            ],
+            "nearest_positions": [
+              "Force is underdetermined by content and mood (so surface output is weak evidence of force) \u2014 Austin, Davidson, Green",
+              "Force as an aspect of speaker meaning, grounded in overt commitment and intention rather than in the produced string \u2014 Strawson, Grice, Green",
+              "Skepticism about positing extra acts or states beyond what output and context indicate (an explanatory-motivation burden) \u2014 Bertolet"
+            ],
+            "entry_silent_on": "Almost everything specific to the thesis. The entry has no discussion of language production or psycholinguistics (no Levelt, no preverbal message, no formulation stage), no discussion of LLMs, transformers, or interpretability, and no discussion of causal or counterfactual tests for internal states. 'Artificial intelligence' appears only in the introduction's list of influenced fields, and Shoham 1993 appears only in the bibliography. Attah is not mentioned. The entry also gives no criteria for deciding when a computational state counts as act-typed."
+          }
+        ],
+        "slug": "speech-acts",
+        "url": "https://plato.stanford.edu/entries/speech-acts/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "Sensitivity/feedback conditions on intentional action. A state counts as an action-producing state only if the behaviour it yields varies with conditions and information. This is the template for a 'counterfactually sensitive to act type' test.",
+                "who": "Peacocke 1979; Bishop 1989; Smith 2012",
+                "quote": "the climber's bodily movements would not count as an intentional action because they would not be sensitive to variations in conditions and information on what needs to be done",
+                "damage": 1,
+                "note": "Gives the thesis's counterfactual-sensitivity demand a pedigree in the action-theory literature, so it need not be invented."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Davidson's Challenge: matching a rationalizing description is not enough. The state that explains must be the one that actually produces the behaviour. Non-causal rivals meet this with counterfactual tests.",
+                "who": "Davidson 1963; Mele 1992, 2013; L\u00f6hrer and Sehon 2016",
+                "quote": "The only way we can explain the difference between potentially rationalizing, but non-explanatory belief-desire pairs, is that the belief-desire pair that genuinely explains the action, the primary reason, also causes the action.",
+                "damage": 1,
+                "note": "Supports the claim that output-level fit (the potential-reason side) does not show the state is causally upstream. The L\u00f6hrer\u2013Sehon counterfactuals ('she would not have eaten them if they were not healthy') are a ready model of the sensitivity test."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Causal-pathway constraints: the right state must be the proximate or guiding cause, not merely a correlated antecedent. Hence the 'causally upstream of formulation' requirement.",
+                "who": "Mele 1992 (proximate cause); Frankfurt 1978 and Setiya 2007 (guidance)",
+                "quote": "an action is intentional only if, for instance, the formation of an intention to \u03c6 is the proximate cause of your \u03c6-ing",
+                "damage": 1,
+                "note": "Shows that the 'right causal route' requirement is standard in the entry, so the thesis's burden is of a familiar kind."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Empirically informed responses to deviance that look to the detail of cognitive control mechanisms (attention, motor-level intentions, flexible-agency pathways) rather than to outputs alone.",
+                "who": "Wu 2016; Mylopoulos and Pacherie 2019; Shepherd 2021",
+                "quote": "attention to the details of control mechanisms implemented at the cognitive level yields a response to the deviance problem",
+                "damage": 2,
+                "note": "A referee will ask whether mechanism-level evidence of this kind is what the thesis wants for LLMs. It is also the closest the entry gets to model internals."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Attributing agency from behaviour versus from internal capacities. The entry's schema (premise 1: agency requires features F; premise 2: the system has them) and its empirical disputes over animals parallel the burden-of-evidence structure.",
+                "who": "Godfrey-Smith 2003; Kaufmann 2015; Davidson 1982/2003; Steward 2009",
+                "quote": "these folk concepts may be particularly problematic when applied to animals",
+                "damage": 2,
+                "note": "Offers an analogue for how to argue about non-human systems. It treats ascription from behaviour as contestable, which is compatible with the thesis's burden claim."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Act-type grain: actions are intentional only under some descriptions. The entry's discussion of description-relativity and individuation is the nearest thing to 'act-grained' states.",
+                "who": "Davidson 1971; Anscombe 1957; Kim and Goldman (fine-grained); Charles 1984",
+                "quote": "an event is an intentional action under a certain description, if and only if, there is a true rationalizing explanation of the event under this description",
+                "damage": 1,
+                "note": "A referee may say that 'act type' sensitivity is description-relative, so the counterfactual test needs a stated grain."
+              }
+            ],
+            "nearest_positions": [
+              "Causalism with a causal-pathway or sensitivity condition on deviance \u2014 Davidson; Peacocke, Bishop, Smith; Mele; Frankfurt; Setiya",
+              "Teleological/counterfactual answers to Davidson's Challenge \u2014 L\u00f6hrer and Sehon, Wilson, Schueler",
+              "Empirically informed control-mechanism accounts \u2014 Wu, Mylopoulos and Pacherie, Shepherd"
+            ],
+            "entry_silent_on": "Everything specific to the thesis. The entry never mentions LLMs, transformers, speech acts or illocutionary force, Levelt or the preverbal message, linguistic formulation as a stage, interpretability or probing evidence, or a distinction between output-grained and internal-state evidence for artificial systems. Robots are mentioned once and set aside: 'Similar questions arise for children and robots, but our focus shall be on ... animal agency.' The entry also does not discuss 'Attah' or the 'plausibly recapitulate' move."
+          }
+        ],
+        "slug": "action",
+        "url": "https://plato.stanford.edu/entries/action/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "Attah supplies an act-grained template (Levelt's preverbal force-bearing message) but only output-grained evidence for transformers. No argument yet shows an LLM state is counterfactually sensitive to act type, and, for the Levelt claim, causally upstream of formulation. This is a burden claim against his 'plausibly recapitulate' step, not a general result about LLMs or about other authors."
+  ]
+}

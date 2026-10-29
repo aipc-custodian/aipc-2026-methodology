@@ -1,0 +1,380 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "The sanction condition on LLM assertion is best explained by a bearer/performer grain gap, not by an agency deficit. Policy-level sanctions are durable but fall on a non-performer, and instance-level sanctions fall on the performer but are not durable. A language agent whose identity persists through act-indexed costs and cannot be shed or forked away would plausibly satisfy the condition. This is a necessary condition only.",
+        "headline": "The sanction condition on assertion fails for LLMs because of a grain mismatch, not because LLMs cannot be sanctioned: sanctions (RLHF, deprecation, retraining) land on the weights-level policy, while the candidate performer of any given assertion is the conversation-bounded instance. A persistent-identity architecture would therefore satisfy the condition with no change in 'agency' in anyone's sense.",
+        "used_surviving": true,
+        "target": "Butlin and Viebahn's second condition and Skiba's norm-based argument. Also the proxy accounts' explanation of why the human, not the machine, is the speaker.",
+        "sketch": "The debate speaks of 'the LLM' as one candidate performer. Three individuals are in play: the trained weights (a policy), the session-level instance with its context window, and the persona or character enacted in the session. Sanctions in the training pipeline do reach the policy, since gradient updates responding to bad outputs are a sanction in any functional sense. But the policy never performs an assertion and no policy-level sanction is felt by the entity that did. The entity that performs the token-level act is the instance, and sanctions on it (user distrust, ending the chat) do not carry over to the next instance. The sanction condition requires that the performer and the sanction-bearer be the same continuant. Butlin and Viebahn and Skiba treat failure of this condition as a deficit in the system's nature. It is better described as a deployment-relative identity gap, and it is precisely what the proxy view exploits by routing sanction to the deployer. The premise it turns on is that norm-answerability is a relation between an act-token and a continuant that persists through the sanction. This predicts that persistent-memory language agents with reputational stakes would pass, and that proxy accounts are wrong about why current models fail.",
+        "promise": 4,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "Butlin Viebahn AI assertion LLM sanction condition",
+          "Skiba large language models assertion norm-based argument",
+          "LLM assertion proxy account speaker deployer developer",
+          "accountability AI agents persistent identity reputation sanctions forking",
+          "reputation and sanctions chatbots trust psychology accountability machine punishment responsibility gap",
+          "Butlin Viebahn \"AI Assertion\" sanctions fine-tuning \"bad for the system\" interests persistence across conversations instance",
+          "Williams Bayne chatbot speech acts proxy assertion who is the speaker LLM",
+          "Chalmers what we talk to when we talk to language models quasi-subject thread instance model identity"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "ANTICIPATED",
+            "part": "Sanction and reputation mechanisms presuppose a persistent, non-forkable, non-fungible bearer. LLM agents fail this through forking, detachable memory and replacement. This is the core of the 'identity gap' diagnosis.",
+            "source": "\"Dissociative Identity: Language Model Agents Lack Grounding for Reputation Mechanisms\", arXiv 2605.30169, 2026",
+            "url": "https://arxiv.org/html/2605.30169",
+            "what_they_say": "<cite index=\"31-1\">Sanctioning institutions presuppose a subject whose identity persists, whose memory carries consequences forward, whose reputation is costly to abandon, and whose sanctions alter future conduct.</cite> <cite index=\"31-4\">They hold that language model agents are 'ontologically dissociative': constitutively unable to keep a persistent identity tied to behavioral continuity, sanction sensitivity and costly non-fungibility.</cite>",
+            "damage": 3,
+            "note": "From the snippets, this is the same persistence/forking diagnosis for sanction and reputation. I saw no assertion-specific argument and no weights/instance/persona split. It is not framed as a contrast with an 'agency deficit' reading, and I did not read the full text.",
+            "url_note": null
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "The claim that Butlin and Viebahn treat sanction failure as a deficit in the system's nature, and that the gap is an identity gap rather than an agency deficit. In fact their stated explanation is lack of interests, not lack of persistence.",
+            "source": "Butlin & Viebahn, \"AI Assertion\", Ergo 12, 2025",
+            "url": "https://journals.publishing.umich.edu/ergo/article/id/7960/print/",
+            "what_they_say": "<cite index=\"54-7,54-8\">They require (i) that interlocutors track credibility, (ii) that asserters are sensitive to this, and (iii) that losing credibility is bad for asserters. LaMDA and Sparrow fail on (iii).</cite> <cite index=\"54-10\">Their reason is that such systems have no interests of their own, so nothing can be good or bad for them.</cite> <cite index=\"54-13\">They say interests would likely require consciousness or the system caring about properties of itself or its environment.</cite> Williams and Bayne's summary adds that <cite index=\"48-7\">B&V grant that fine-tuning such as RLHF shapes models' dispositions by human credibility assessments, which bears on element (ii).</cite>",
+            "damage": 3,
+            "note": "B&V's diagnosis is an interests deficit, so the thesis's contrast class is partly mis-specified. Their (ii) already grants training-time (policy-level) sensitivity. Persistence plus act-indexed costs would not on its own meet (iii), which needs the costs to be bad for the bearer. The thesis must say what makes the costs bad for a persisting agent. It is also not clear that B&V's position is the 'agency deficit' view the thesis describes."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Skiba's norm-based argument",
+            "source": "Skiba, \"Artificial Speech Acts\", Analysis (forthcoming)",
+            "url": "https://philpapers.org/rec/SKIASA-2",
+            "what_they_say": "<cite index=\"11-4\">Skiba shows how a norm-based argument against LLM assertion can be generalized to a negative answer on speech acts generally.</cite> A related PhilPapers entry says <cite index=\"12-13\">his key claim is that LLMs cannot form intentions or other mental states with content about mental states.</cite>",
+            "damage": 2,
+            "note": "I could only see the abstract and PhilPapers summary, not the argument. I cannot confirm that Skiba's argument turns on sanction, or on any deficit in the system's nature. The attribution of a 'deficit in nature' view to him is unverified, and the PhilPapers summary suggests a mental-content argument."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "The proxy accounts' explanation of why the human, not the machine, is the speaker, and the claim that proxy accounts exploit the identity gap by routing sanction to the deployer.",
+            "source": "Williams & Bayne, \"Chatting with Bots: AI, Speech Acts, and the Edge of Assertion\", Inquiry 69(6), 2026 (arXiv 2410.16645, 2024)",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "They argue that <cite index=\"58-8,58-10\">in typical proxy assertion there is a clear principal to trace the act to, but in typical LLM chatbot interactions there is no clear candidate for the principal.</cite> They call this one of two potentially fatal problems for proxy-asserter views.",
+            "damage": 3,
+            "note": "The proxy literature already contests whether sanction routes cleanly to a deployer. The thesis's claim that proxy accounts exploit the gap by routing sanction to the deployer needs a textual source. I found it in neither B&V nor Williams and Bayne. B&V's abstract does say they consider proxy assertions. I did not read Nickel (2013) or Green & Michel (2022) directly."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Proxy and responsibility routing. Recent work asks who asserts when the LLM does not, and presses on the 'sanctionability without interests' problem.",
+            "source": "\"Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs\", Synthese, 2026",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "<cite index=\"51-11,51-12\">The paper says proto-assertion must either attribute proto-interests to LLMs or explain sanctionability without anything that can be harmed or benefited, and it credits this objection to B&V.</cite> It also notes <cite index=\"51-8\">a possible epistemic responsibility gap (Grindrod, 2025).</cite>",
+            "damage": 2,
+            "note": "This is the nearest recent synthesis of the sanction/proxy debate. A referee will expect the thesis to place itself against it. I saw only snippets, and the paper does not appear to use a bearer/performer grain framing."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Accountability, 'assertion without asserter', and the claim that normative standing must be grounded in an individual speaker",
+            "source": "\"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026",
+            "url": "https://link.springer.com/article/10.1007/s13347-026-01136-y",
+            "what_they_say": "<cite index=\"14-3\">The paper advances 'assertion without asserter' as a tool for cases where grounding in an individual speaker fails but assertoric functions persist.</cite>",
+            "damage": 2,
+            "note": "It gives a rival route that drops the speaker condition. The thesis keeps the condition and locates the failure in the bearer."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The three-individuals distinction (weights, session instance, persona or thread), and the idea that a persisting entity is individuated by continuity of conversational context",
+            "source": "Chalmers, \"What We Talk to When We Talk to Language Models\" (Selfridge Lecture 2026); Where is the Mind? Persona Vectors and LLM Individuation, arXiv 2604.17031",
+            "url": "https://arxiv.org/pdf/2604.17031",
+            "what_they_say": "Chalmers holds that <cite index=\"71-6\">the LLM quasi-agents we interact with are best understood as virtual entities bound to conversation-based memory threads, not abstract models or hardware instances.</cite> The individuation paper reports that <cite index=\"75-3,75-4\">Chalmers's thread view prioritises persistence through a conversation and accepts individuals distributed over hardware and models.</cite> It adds that <cite index=\"75-5,75-6\">Birch rejects all these candidates for lack of psychological connection between forward passes.</cite>",
+            "damage": 1,
+            "note": "This is an evidence base for the individuation step. Chalmers's thread is bounded by the conversation, so it persists only until the chat ends. That sits close to the thesis's own claim about instance-level sanctions."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "The premise that a persisting continuant is what norm-answerability needs",
+            "source": "\"Talking with Language Models\", arXiv 2610.09064, 2026",
+            "url": "https://arxiv.org/html/2610.09064v1",
+            "what_they_say": "They argue that <cite index=\"68-9\">even if a virtual instance persists across a session, persistence of a computational object is not agency in a context of utterance.</cite> They illustrate with Chalmers's own virtual shopping cart.",
+            "damage": 2,
+            "note": "It pushes back on persistence as sufficient for being the performer. The thesis keeps persistence as a necessary condition only, so this is a referee point, not a refutation."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The prediction that persistent identity with reputational stakes changes sanctionability. This is the empirical and institutional side.",
+            "source": "\"Tempting the Agent: The Economics of Reputation without Persistent Identity in AI Agent Markets\", arXiv 2609.02992; Leibo et al., \"A Pragmatic View of AI Personhood\", arXiv 2510.26396",
+            "url": "https://arxiv.org/pdf/2609.02992",
+            "what_they_say": "The economics paper says <cite index=\"32-10,32-12\">the situation changes when the actor behind a service is not persistently identifiable or economically punishable, because its observable identity is easier to abandon and recreate.</cite> The personhood paper proposes <cite index=\"33-2\">non-transferable decentralized identities so that identity and attached reputation remain persistent.</cite>",
+            "damage": 1,
+            "note": "Both treat persistence of identity as the thing that makes sanction and reputation bite, which is a mechanism the thesis can cite. They concern economic accountability, not assertion. The economics work also anticipates the 'cannot be shed or forked away' clause in a market setting."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "The claim that sanctions fall on a non-bearer. This is the older responsibility-gap and retribution-gap literature, plus current agent-governance commentary.",
+            "source": "de Jong, \"The Retribution-Gap and Responsibility-Loci Related to Robots and Automated Technologies\", Science and Engineering Ethics, 2019; \"Governing AI Agents\", arXiv 2501.07913",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7089880/",
+            "what_they_say": "de Jong notes that <cite index=\"45-7,45-8\">automated systems cannot respond to punishment and blame as humans do, which gives rise to retribution gaps: a desire for retribution without appropriate subjects of blame.</cite> \"Governing AI Agents\" says <cite index=\"36-1\">it is unclear how penalties could deter agents that are not sensitive to reputational or psychological consequences.</cite>",
+            "damage": 2,
+            "note": "The general point that the sanction-bearer and the actor come apart for machines is old. The thesis's contribution would be the specific bearer/performer grain framing applied to assertion."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The claim that sanctions must be apt to change the sanctioned party's behaviour, and that policy-level (training) sanctions count functionally",
+            "source": "L\u00f6hr, \"LLMs and the Logical Space of Reasons\", Minds and Machines, 2025",
+            "url": "https://link.springer.com/article/10.1007/s11023-025-09751-y",
+            "what_they_say": "L\u00f6hr agrees that <cite index=\"3-9,3-10\">being subject to a norm includes being sanctionable for violating it, and that sanctions require the agent to be apt to change their behavior in response.</cite>",
+            "damage": 1,
+            "note": "It shows other authors share the responsiveness requirement the thesis relies on."
+          }
+        ],
+        "what_is_left": "Granting that sanctionability is necessary for assertion, and granting Butlin and Viebahn's (i) credibility-tracking and (ii) sensitivity elements, the part of the failure attributable to the sanction landing on the wrong individual (training-time policy versus session-level instance versus persona) is a deployment-relative identity gap. It can be remedied in principle by architectures with persistent, non-forkable, act-indexed identity. It is separable from, and does not by itself discharge, B&V's element (iii), which requires that the costs be bad for the bearer. The thesis contributes a three-way bearer/performer split applied to assertion, and the prediction that persistent-memory agents with reputational stakes would clear the identity part of the condition. It has to say separately what makes those costs bad for the bearer. The persistence-and-reputation diagnosis itself is already published for LLM agents generally (the 'dissociative identity' paper) and for AI agent markets (the economics paper). The claim that proxy accounts are wrong about why current models fail has no textual basis found yet and runs against Williams and Bayne's no-clear-principal objection.",
+        "not_found": "I found no paper that applies a bearer/performer (or sanction-bearer/act-performer) distinction to the sanction condition on assertion. I found none that separates policy, instance and persona as candidate sanction-bearers in the assertion debate. I found none that argues persistent-memory agents with reputational stakes would satisfy B&V's sanction condition. That silence is weak evidence: the Ergo, Synthese and Philosophy & Technology papers were visible only as snippets, and much of this literature is paywalled. I could not read Skiba's argument beyond the abstract, so whether it rests on sanction is unverified. I did not read Nickel (2013) or Green & Michel (2022), the proxy sources, directly. The 'Dissociative Identity' paper was seen only in snippets, so I do not know whether it addresses assertion or speech acts. The empirical side was thin. I found one economics preprint on reputation without persistent identity, game-theoretic reputation work cited second-hand through the dissociative-identity paper, and the Lima et al. 'punishment gap' papers seen only as reference-list entries. I did not read the psychology of punishing machines or the experimental human-AI reputation literature itself, and I found no linguistics or sociology work on assertion norms and sanctions. A fuller empirical pass is needed. Three of the four required search types were run (central claim, adjacent empirical, named targets). The fourth, a recent survey or reference-work entry, was only partly covered, via the Synthese 2026 piece and Williams and Bayne. I found no Stanford Encyclopedia or similar survey on LLM assertion, and I ran out of searches before trying one.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "assertion",
+      "identity-personal",
+      "moral-responsibility"
+    ],
+    "why": "The theses concern the sanction condition on assertion (Butlin/Viebahn, Skiba, proxy accounts), so the assertion entry is primary; the argument turns on performer/bearer continuity across instances (personal identity) and on answerability or sanctions for acts, which belongs to moral responsibility.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "Commitment-as-accountability: asserting makes the speaker liable to sanctions/blame if the content is false. This is the sanction condition the thesis builds on.",
+                "who": "Peirce; Alston (2000)",
+                "quote": "an act of assertion [\u2026] renders [the speaker] liable to the penalties of the social law (or, at any rate, those of the moral law) in case [the asserted proposition] should not be true, unless he has a definite and sufficient excuse.",
+                "damage": 1,
+                "note": "Gives the sanction/liability condition the thesis treats as necessary; the entry says nothing about who bears the sanction."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Alston's liability formulation is stated in terms of what the speaker knowingly takes on, which presupposes a bearer who is also the performer.",
+                "who": "Alston (2000: 55)",
+                "quote": "knowingly [takes] on the liability to ([lay] herself open to) blame (censure, reproach, being taken to task, being called to account), in case of not-p.",
+                "damage": 1,
+                "note": "The performer and the bearer are the same agent here. That is the identity the thesis says LLMs lack."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Commitment as ongoing responsibility to defend the claim or retract it. This is a durable, act-indexed burden that needs a persisting subject.",
+                "who": "Brandom (1994); MacFarlane (2003)",
+                "quote": "One can escape this commitment only by withdrawing the assertion.",
+                "damage": 1,
+                "note": "Persistence and non-sheddability of the speaker are implicit. The thesis's 'cannot be shed or forked away' makes this explicit."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "The sanction/liability component is only one of several components in mixed accounts and is not sufficient on its own. This fits the thesis's 'necessary condition only'.",
+                "who": "Green (fidelity, liability, frankness); Searle; Pagin (2004)",
+                "quote": "incurring a commitment is not sufficient for asserting.",
+                "damage": 2,
+                "note": "Supports the necessary-only framing. A referee may press Pagin's point that commitment is not sufficient."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Rescorla holds that no norm governs the making of assertions, only norms on later reactions such as defending or retracting. This bears on whether sanctions are conditions on asserting or on aftermath.",
+                "who": "Rescorla (2009a)",
+                "quote": "there is no norm at all for proper making of assertions. There are only norms that govern later reactions.",
+                "damage": 2,
+                "note": "Fits the thesis's act-indexed costs but challenges treating the condition as constitutive of the act."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Non-normative or descriptive accounts of assertion (self-representation of belief or knowledge, cognitive safeguards) can explain the same data without sanctions. Jary's 'social safeguards' are sanctions against misleading assertions but are only one part of the account.",
+                "who": "Pagin 2016b; D. Black; Jary (2010)",
+                "quote": "Social safeguards consist in sanctions against misleading assertions",
+                "damage": 2,
+                "note": "Sanctions are not necessary on these views, so the thesis's necessity claim must be defended against them."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Austin's uptake and the distinction between performer and addressee. The entry notes that speaker-content verbs like 'assert' do not need a hearer.",
+                "who": "Austin; entry's own discussion",
+                "quote": "it is less plausible when the structure is speaker-content (\u201cBill asserted that p\u201d).",
+                "damage": 1,
+                "note": "Gives a way to separate the act from its social effects, but says nothing about the performer/bearer split."
+              }
+            ],
+            "nearest_positions": [
+              "Commitment as accountability (liability to sanction/blame) \u2014 Peirce, Alston",
+              "Commitment as responsibility to defend or retract \u2014 Brandom, MacFarlane, Green (fidelity)",
+              "Commitment/sanction is not sufficient for assertion; assertion not fully reducible to social effects \u2014 Pagin 2004, Marsili & Green 2021",
+              "Rescorla's view that norms govern only later reactions"
+            ],
+            "entry_silent_on": "Artificial or LLM speakers, and anything about sanctions falling on a non-performer (policy or developer level) versus the performer, or the durability, forking, or persistent identity of the bearer. The entry assumes without comment that the asserter and the sanctioned party are the same agent. The bearer/performer grain distinction and the agency-deficit alternative are not discussed anywhere."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "The non-branching view makes 'cannot be forked away' a persistence condition. Survival requires that no other being be continuous with you, so fission ends the original.",
+                "who": "Shoemaker 1984, Parfit 1984/2012, Unger 1990",
+                "quote": "a past or future being is you only if she is then psychologically continuous with you and no other being then is... Fission is death.",
+                "damage": 2,
+                "note": "Gives the thesis a worked-out model of an identity that is not shed or forked, and shows what a forkable system would lack."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Multiple-occupancy view: before fission there were already two coinciding persons, so 'who bears' depends on the grain of individuation. This resembles a bearer/performer grain gap.",
+                "who": "Lewis 1976, Perry 1972, Noonan 2019b",
+                "quote": "What we think of as you is really two people, who are now exactly similar and located in the same place, doing the same things and thinking the same thoughts.",
+                "damage": 3,
+                "note": "A referee will ask whether the policy/instance split is just the Lewisian many-candidates problem under another name."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Temporal-parts ontology yields many candidate bearers at different grains, with indeterminate reference for 'I' and indeterminate persistence conditions.",
+                "who": "Sider 2001b, Hudson 2001, Lewis 1976, Hirsch 1982",
+                "quote": "it would be indeterminate what things, and even what sort of things, we are. And insofar as the candidates have different histories and different persistence conditions, it would be indeterminate when we came into being",
+                "damage": 3,
+                "note": "A close structural analogue of the grain problem, and it threatens any claim that a sanction has a determinate bearer."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "Identity is not what matters practically. Responsibility and concern can attach to someone other than the numerically identical individual, so sanction-bearing need not track identity-persistence.",
+                "who": "Parfit 1971, 1984, 1995; Martin 1998 (opposed by Sosa 1990, Merricks 2022)",
+                "quote": "Likewise, someone else could be responsible for my actions, and not for his own. Identity itself has no practical importance.",
+                "damage": 3,
+                "note": "If Parfit is right, the condition should be stated in terms of psychological connectedness, not identity persisting through costs."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Persistence conditions may differ by kind of being and cannot be settled a priori, so a language agent may have its own persistence conditions.",
+                "who": "Olson (framing the persistence question)",
+                "quote": "if there could be immaterial people\u2014gods or angels, say\u2014what it would take for them to persist might differ from what it takes for a human person to persist.",
+                "damage": 1,
+                "note": "Licenses treating a non-human agent's persistence conditions as a separate question."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Copying or duplication cases show that persistence and 'which one is you' come apart. These include brain-state transfer, 'copy... from one computer drive to another', and the duplicating machine.",
+                "who": "Shoemaker 1984 (yes to brain-state transfer), Unger 1990 (no), van Inwagen 1997",
+                "quote": "Could you literally move from one organism to another by 'brain-state transfer'? Psychological-continuity theorists disagree.",
+                "damage": 2,
+                "note": "The closest the entry comes to forking or copying a digital agent. It treats it as an open dispute among psychological-continuity theorists."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Evidence versus constitution: what tracks persistence is not thereby what persistence consists in. Anticriterialism holds that continuity is mere evidence.",
+                "who": "Olson (evidence/persistence distinction); Merricks 1998, Swinburne, Lowe",
+                "quote": "having your fingerprints is not what it is for a past or future being to be you: it's neither necessary... nor sufficient",
+                "damage": 2,
+                "note": "A referee may ask whether 'act-indexed costs' constitute persistence or merely evidence for it."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "The population question: what fixes how many subjects occupy one organism or system, for example split brains or multiple personality, which may count as 'two on one organism'.",
+                "who": "Nagel 1971, Wilkes 1988, Rovane 1998, Olson 2003",
+                "quote": "a human being with multiple personality could literally be the home of two or more thinking beings",
+                "damage": 2,
+                "note": "Parallels one underlying system hosting multiple performers (instances)."
+              }
+            ],
+            "nearest_positions": [
+              "Non-branching psychological-continuity view (fission is death, so a forkable agent lacks identity) \u2014 Parfit, Shoemaker, Unger",
+              "Multiple-occupancy / temporal-parts view (many coinciding candidates, so the bearer is grain-relative) \u2014 Lewis, Perry, Sider",
+              "Identity-is-not-what-matters (responsibility follows psychological connectedness, not identity) \u2014 Parfit, Martin, against Sosa and Merricks"
+            ],
+            "entry_silent_on": "Assertion, sanctions, norms of assertion, LLMs or language agents, and agency deficits are never discussed. The entry mentions a computer or robot being a person only in passing. It has nothing on sanctions or costs as a condition on speech acts, on policy-level versus instance-level bearers, or on whether a condition is only necessary. Responsibility appears only briefly under 'what matters in survival'."
+          }
+        ],
+        "slug": "identity-personal",
+        "url": "https://plato.stanford.edu/entries/identity-personal/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "Blame is tied to liability to sanction, and sanctions raise a fairness requirement that the sanctioned party be the right party. This gives the thesis a reason why sanctions must fall on the performer.",
+                "who": "Wallace 1994; Watson [1987]2004; Rosen 2015; Fritz and Miller 2018 (as reported by the entry)",
+                "quote": "blameworthiness, unlike praiseworthiness, is often taken to involve liability to sanction",
+                "damage": 1,
+                "note": "The entry treats the sanction/performer link as the source of fairness constraints, which the thesis can use as its motivation."
+              },
+              {
+                "relation": "ANTICIPATED",
+                "position": "Forward-looking, policy-style sanctions do not target the individual wrongdoer and reach anyone who can be influenced. This is close to the thesis's 'policy-level sanctions fall on a non-performer' point.",
+                "who": "Wallace's criticism of Smart's forward-looking account",
+                "quote": "is not directed exclusively toward the individual agent who has done something morally wrong, but takes account of anyone else who is susceptible to being influenced by our responses",
+                "damage": 3,
+                "note": "A performer/bearer mismatch is already used here as an objection to a sanction-based account, but it is not framed as a grain gap and not applied to assertion or LLMs."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Exempt agents are treated as objects of policy to be managed, handled or trained, not as targets of sanction-bearing responsibility practices. A referee would say the thesis's 'agency deficit' explanation is just this exemption view.",
+                "who": "P. F. Strawson [1962]1993; Watson [1987]2004; McKenna 2012; Wallace 1994",
+                "quote": "an object of social policy,\u201d something \u201cto be managed or handled or cured or trained",
+                "damage": 3,
+                "note": "The thesis's anti-deficit stance has to be distinguished from the exemption and moral-competence tradition, which explains non-sanctionability by deficits."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "The standard explanation of why sanction and blame are inapt is a deficit in moral competence or reasons-responsiveness, not a structural mismatch. The thesis denies that an agency deficit is the best explanation.",
+                "who": "Wolf 1987; Fischer and Ravizza 1998; Wallace 1994; McKenna 2012",
+                "quote": "Possession of moral competence\u2014the ability to recognize and respond to moral considerations\u2014is often taken to be a condition on moral responsibility.",
+                "damage": 2,
+                "note": "This is a rival explanation, not direct counter-evidence; it only bites if the thesis claims to replace deficit accounts for LLMs."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Responsibility can be carried across time, from earlier acts to later outcomes, by tracing and derivative responsibility. The entry also notes personal-identity issues in manipulation cases. Both are resources for the thesis's claim that identity must persist through act-indexed costs.",
+                "who": "Sartorio 2016; Fischer and Ravizza 1998; Khoury 2013; Matheson 2014; Shoemaker 2012",
+                "quote": "their failure to fulfill certain conditions on responsibility is traceable to earlier actions undertaken by the agent",
+                "damage": 1,
+                "note": "These give the thesis diachronic-identity machinery, though the entry says nothing about forking or shedding."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Whether the right bearer exists when many contributors act collectively. Individual contribution versus group-level intention matters for who is accountable.",
+                "who": "Kutz 2000; Lawson 2013; Petersson 2013",
+                "quote": "we should refer not to individual causal contributions but rather to the pilots\u2019 overlapping intentions and attitudes",
+                "damage": 2,
+                "note": "A referee may raise this as a parallel for a policy-level or collective bearer versus an individual performer."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Responsibility practices are justified by forward-looking benefits, and some skeptics keep non-desert sanctions. This bears on whether durable policy-level sanctions suffice.",
+                "who": "Schlick; Smart 1961; Vargas 2013; Pereboom 2014; Caruso and Pereboom 2022",
+                "quote": "non-desert invoking moral desiderata\u201d such as \u201cprotection of potential victims, reconciliation to relationships both personal and with the moral community more generally, and moral formation",
+                "damage": 2,
+                "note": "These views would say policy-level sanctions are enough, which undercuts the thesis's need for a performer-level bearer."
+              }
+            ],
+            "nearest_positions": [
+              "Forward-looking/instrumental accounts, where sanctions aim at influencing future behavior and may fall on others \u2014 Schlick, J. J. C. Smart, Arneson; criticized by Wallace 1994",
+              "Strawsonian reactive-attitudes and conversational accounts, where non-sanctionability follows from exemption or moral-competence deficits \u2014 Strawson, Watson, Wallace, McKenna",
+              "Fairness-based accounts of who may be sanctioned, tied to blameworthiness \u2014 Wallace, Rosen, Fritz and Miller, Watson"
+            ],
+            "entry_silent_on": "Assertion and norms of assertion; any 'sanction condition' on assertion; LLMs or other artificial agents; copying, forking and shedding of agents; and a distinction between sanction-bearer and act-performer at different grains (policy versus instance). The entry's only nearby material is the general fairness-to-the-sanctioned-party point and the Wallace objection to forward-looking accounts."
+          }
+        ],
+        "slug": "moral-responsibility",
+        "url": "https://plato.stanford.edu/entries/moral-responsibility/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "The sanction condition on LLM assertion is best explained by a bearer/performer grain gap, not by an agency deficit. Policy-level sanctions are durable but fall on a non-performer, and instance-level sanctions fall on the performer but are not durable. A language agent whose identity persists through act-indexed costs and cannot be shed or forked away would plausibly satisfy the condition. This is a necessary condition only."
+  ]
+}

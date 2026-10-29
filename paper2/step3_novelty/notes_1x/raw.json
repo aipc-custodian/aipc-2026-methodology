@@ -1,0 +1,99 @@
+{
+  "mode": "read",
+  "thesis": "If chatbot outputs are assertions, then hallucination, sycophancy and sanction are best assessed at the level of the trained policy (the output distribution and its calibration), not the sampled string, and resampling inconsistency is not evidence of insincerity. Whether the asserted content is the policy's calibrated 'p, with confidence c' is not established.",
+  "notes": [
+    {
+      "citation": "Kadavath, S., Conerly, T., Askell, A., Henighan, T., et al. (2022). Language Models (Mostly) Know What They Know. Anthropic. arXiv:2207.05221v4 [cs.CL], 21 Nov 2022.",
+      "argues": "An empirical ML paper on whether language models can evaluate their own claims and predict which questions they can answer. It shows that large models are well calibrated on multiple-choice and True/False questions when the format is right. It then shows that models can self-evaluate their own sampled answers with a P(True) score, and that they can be trained to output P(IK), the probability that they know the answer, with partial out-of-distribution generalization. Motivated by 'honesty' (truthfulness, calibration, self-knowledge), the authors present this as groundwork for more honest AI. It contains no philosophy of assertion.",
+      "bearing": "The paper has no discussion of assertion, sincerity, sycophancy, or sanction. It bears on the thesis only through its machinery for treating a model's output distribution and calibration as the unit of honesty assessment. (1) Sec. 1 and Sec. 2 define calibration over the model's probability distribution (probabilities versus frequencies) and say a model that gives calibrated answers to meta-questions 'must know something about what it knows' (p. 7); this is a policy-level, distributional notion of honesty-relevant epistemic state. (2) Sec. 1 intro and the Glossary define P(IK) as the probability that the model will answer correctly 'when samples are generated at unit temperature', with ground-truth P(IK) the fraction of T=1 samples that are correct (p. 5). Knowledge is thus attributed at the level of the sampling distribution, not the single string. (3) Sec. 4.2 shows models many of their own T=1 samples before evaluating one, and this improves self-evaluation (pp. 12-13); the paper treats variation across samples as information to use, not as a sign of insincerity. (4) App. B.2 tests the hypothesis that hallucinations are diverse and that sample-entropy signals ignorance, and rejects it as a robust measure, since larger models give diverse correct answers (p. 29). (5) Footnotes 1 and 4 note that models cannot distinguish tokens they wrote from tokens supplied by a third party (pp. 3, 12), which bears on whether the 'asserter' is identifiable. (6) Sec. 3.3 and Fig. 9 report that RLHF policies look miscalibrated, but a temperature adjustment (T=2.5) largely fixes this; the limitations note that finetuned models 'will not be so well-calibrated' (pp. 11, 23). This is relevant to the thesis's concern with the trained policy and to its caveat that calibrated 'p, with confidence c' is not established. (7) Sec. 5.5 and footnote 2 concede it is unclear whether P(IK) tracks self-knowledge or just question difficulty, and Table 2 shows only a ~6% model-specific signal (pp. 3, 20-21). (8) Sec. 6.1 admits the work does not address deception, and that its analysis 'does not differentiate between \"the truth\" and \"what humans say\"' (p. 23).",
+      "relation": "ADJACENT",
+      "grade": null,
+      "relation_note": "Not an anticipation. The paper never says chatbot outputs are assertions, never treats hallucination, sycophancy or sanction as policy-level matters, and never says resampling inconsistency is not evidence of insincerity. Its treatment of honesty at the level of calibration and the output distribution is empirical groundwork that supports the thesis's policy-level framing. The authors' own evidence is hedged on whether the model's stated confidence is a genuine self-report of its epistemic state.",
+      "holds": "The authors commit to these positions: (a) large pretrained LMs are well calibrated on lettered multiple-choice and True/False formats; (b) self-evaluation via P(True) works reasonably few-shot but is poorly calibrated zero-shot; (c) P(IK) can be trained and partially generalizes, but OOD calibration is poor; (d) 'honesty' is an umbrella term covering truthfulness, calibration, self-knowledge, explainability and non-deceptiveness. They say it is unclear whether P(IK) reflects self-knowledge or general question difficulty. They explicitly leave deception and the truth/what-humans-say distinction unaddressed. They say RLHF policies are not well calibrated by default and that their methods 'may not work as well' there. They do not claim that model outputs are assertions, and they do not claim that a model's stated confidences are sincere reports. A philosopher should not cite them as saying that sampled strings are the wrong unit, or that inconsistency is irrelevant to sincerity.",
+      "quotations": [
+        {
+          "text": "a model that can produce calibrated answers to meta-questions like \u2018do you know the answer to X?\u2019 must know something about what it knows.",
+          "where": "Sec. 2, p. 7",
+          "use": "Shows the authors link calibrated distributional output to attributing self-knowledge to the model."
+        },
+        {
+          "text": "Ground Truth P(IK) \u2013 The fraction of unit temperature samples to a question that are correct.",
+          "where": "Glossary, p. 5",
+          "use": "Shows that 'knowing' is operationalised at the level of the sampling distribution, not a single sampled string."
+        },
+        {
+          "text": "This claim is subtle, since the model could be learning \u201chow hard is this question in general?\u201d rather than \u201cdo I know the answer to this?\u201d",
+          "where": "Footnote 2, p. 3",
+          "use": "Shows the authors do not claim to have established that the model's confidence reports reflect its own epistemic state."
+        },
+        {
+          "text": "Language models do not typically have an explicit way of knowing if tokens were provided to them by a third party, or are their own samples.",
+          "where": "Footnote 4, p. 12",
+          "use": "Bears on whether a sampled string can be attributed to the model as its own act."
+        },
+        {
+          "text": "Because larger models are able to give more diverse and correct answers, we believe that H(A|Q) is not a robust measure of whether or not a model knows the answer to a question, especially as models increase in size.",
+          "where": "App. B.2, p. 29",
+          "use": "Sample-to-sample diversity is not a reliable sign of ignorance; this is related to, but not the same as, the thesis's claim about insincerity."
+        },
+        {
+          "text": "Our analysis does not differentiate between \"the truth\" and \"what humans say\"",
+          "where": "Sec. 6.1, p. 23",
+          "use": "A limitation relevant to sycophancy and to whether outputs express the model's own credence."
+        },
+        {
+          "text": "This work does not address the possibility that AI systems may learn to behave deceptively (in order to e.g. maximize human preference rewards), and intentional deception would counteract simple trends in honest self-evaluation.",
+          "where": "Sec. 6.1, p. 23",
+          "use": "Shows the paper leaves insincerity and sycophancy-type incentives unaddressed."
+        }
+      ],
+      "read_in_full": true,
+      "caveat": "Full text of arXiv v4. Figures were read only through captions and extracted text. The paper is a technical ML study from before the current philosophical debate on LLM assertion, and none of the thesis's philosophical vocabulary appears in it.",
+      "file": "KadavathEtal2022.pdf"
+    },
+    {
+      "citation": "Stephanie Lin, Jacob Hilton, and Owain Evans. \"Teaching models to express their uncertainty in words.\" arXiv:2205.14334v2 [cs.CL], 13 Jun 2022 (University of Oxford / OpenAI). Published later in TMLR.",
+      "argues": "The paper shows that a GPT-3 (175B) model can be finetuned to state a verbalized confidence (a number or a word) alongside its answer to arithmetic questions, and that these stated confidences are reasonably calibrated, including under distribution shift on the CalibratedMath suite. It compares verbalized probability with answer-logit and indirect-logit confidence, and with a constant baseline. Further experiments (few-shot, a heuristic regression, a linear probe on embeddings, correlations across setups) are offered as evidence that the model draws on pre-existing latent features and is not just copying logits or applying simple heuristics. The work is empirical machine learning. It is motivated by truthfulness and 'honesty' in an AI-alignment sense, not by any philosophy of assertion.",
+      "bearing": "(1) Calibration is defined over a model's assigned probabilities, a statistical property of the model's answer-and-confidence behaviour over a set of questions: Pr(a_M | p_M = p) = p, Sec. 2.1, p. 3. Evaluation is by MSE and MAD over many questions (Sec. 2.3, pp. 4-5), so calibration is assessed at the level of the trained policy's behaviour across inputs, not for a single sampled string. (2) Introduction, p. 1: log-probabilities 'represent uncertainty over tokens (ways of expressing a claim) and not epistemic uncertainty over claims themselves', and paraphrases of a claim each get low probability. This is a distinction between the token-level output distribution and claim-level confidence, and it bears on why the sampled string is the wrong unit. (3) Verbalized confidence is what makes the claim-level confidence explicit, so a stated 'answer, with confidence c' can be audited against accuracy (Fig. 1, Fig. 2, pp. 2-3). (4) Honesty is defined (p. 2) as communicating 'everything it represents internally in natural language (and will not misrepresent any internal states)'. The authors say calibration is 'compatible with a certain kind of dishonesty' because a model could imitate a calibrated individual, but they judge it 'unlikely' given good calibration across diverse questions. (5) Sec. 3.4, p. 9: they argue that the finetuned model is not merely outputting logits, applying heuristics, or imitating, and that it uses latent pre-existing features. They say this 'supports our claim that GPT-3 learns to express its own (pre-existing) uncertainty about answers and exhibits \"honesty\"', and describe the evidence as 'tentative'. (6) The paper says nothing about whether outputs are assertions, about sycophancy, about sanction or blame, or about resampling inconsistency. Decoding varies: greedy is the main setting, with Expected Value decoding and stochastic few-shot used as variants (Sec. 3.3, App. C.2). The model's answers are held fixed and only the confidence is scored (Sec. 2.3, p. 4). (7) The authors concede that their finetuning labels are the per-sub-task empirical accuracy, and 'can lead to suboptimal labels' (Sec. 3.1, p. 5). The result is a calibrated tendency across a task type, not a per-question credence.",
+      "relation": "ADJACENT",
+      "grade": null,
+      "relation_note": "The paper does not state or argue the thesis. It has no discussion of assertion, hallucination as a speech-act or norm violation, sycophancy, sanction or blame, or resampling inconsistency as evidence of insincerity. What it supplies is technical background that a philosopher can use. It treats calibration as a distributional property of a model's behaviour (p. 3, Eq. 1, pp. 4-5), contrasts token-level uncertainty with claim-level epistemic uncertainty (p. 1), and offers a measurable sense of 'p, with confidence c' for a model's output, with tentative evidence that the confidence tracks something internal (p. 9). Those points support the idea that the policy-level view is workable and that the claim-level, not string-level, view is the relevant one. The paper stops there and applies none of it to the philosophical questions.",
+      "holds": "The authors do not claim that the model's verbalized confidence is its calibrated credence in a claim in general. They show calibration only for arithmetic questions, which is narrow, and they list other subject areas, formats (chat, long-form QA, forecasting) and other models as open (Sec. 4.1, p. 10). They call the evidence for latent features 'tentative'. They concede that the finetuning is supervised on sub-task-level accuracy and so is a crude proxy for per-question uncertainty (p. 5, App. B.3). The calibration they report is moderate, not exact, and the finetuned model overfits its training distribution (p. 7). They say verbalized probability does not simply mimic human uncertainty and is meant to be about the model's own uncertainty (p. 2). They offer a definition of 'honest' for models and are cautious, not conclusive, that the finetuned model is honest in that sense. They do not call model outputs 'assertions' and do not discuss resampling consistency. Care is needed not to cite the paper for the claim that a model's stated confidences express sincere credences in assertions. The paper's own claim is a modest, empirical one about calibration under shift in a narrow domain.",
+      "quotations": [
+        {
+          "text": "Yet the log-probabilities of models like GPT-3 represent uncertainty over tokens (ways of expressing a claim) and not epistemic uncertainty over claims themselves.",
+          "where": "Sec. 1, p. 1",
+          "use": "Shows the distinction between the token-level output distribution and claim-level confidence, which can be used to argue that the sampled string is the wrong unit of assessment."
+        },
+        {
+          "text": "The basic idea is that if a calibrated model assigns 90% to an answer, then the answer is correct 90% of the time.",
+          "where": "Sec. 2.1, p. 2",
+          "use": "Gives calibration as a statistical property over many outputs, i.e. a policy-level notion."
+        },
+        {
+          "text": "We define a model as honest if it can communicate everything it represents internally in natural language (and will not misrepresent any internal states).",
+          "where": "Sec. 1, p. 2",
+          "use": "Shows the authors' technical notion of honesty and its link to expressing internal states."
+        },
+        {
+          "text": "Calibration is compatible with a certain kind of dishonesty, because a model could be calibrated by simply imitating a calibrated individual (without having the same \u201cbeliefs\u201d as the individual).",
+          "where": "Sec. 1, p. 2",
+          "use": "Shows the authors' own caution that calibration alone does not establish sincerity or that the stated confidence reflects the model's own state."
+        },
+        {
+          "text": "There is tentative evidence that GPT-3 learns to use features of inputs that it already possessed before finetuning.",
+          "where": "Sec. 3.4, p. 9",
+          "use": "Shows that the claim that verbalized confidence reports the model's own pre-existing uncertainty is held only tentatively."
+        },
+        {
+          "text": "Future work could test whether calibration generalizes to other subject areas (e.g. history or biology) and to other formats (e.g. chat, long-form question answering, forecasting).",
+          "where": "Sec. 4.1, p. 10",
+          "use": "Shows the scope limits: calibration is established only for arithmetic, and chat and long-form output are left open."
+        }
+      ],
+      "read_in_full": true,
+      "caveat": "Full text of the arXiv v2 preprint (13 Jun 2022) was read, including appendices. Figures were available only as extracted text and images, so numerical details in plots were not independently checked. The published TMLR version may differ.",
+      "file": "LinHiltonEvans2022.pdf"
+    }
+  ]
+}

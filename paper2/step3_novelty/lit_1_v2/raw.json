@@ -1,0 +1,416 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "If chatbot outputs are assertions, hallucination, sycophancy and sanction are best assessed at the level of the trained policy, and resampling inconsistency is not evidence of insincerity. Whether the asserted content is the policy's calibrated 'p, with confidence c' is not established.",
+        "headline": "If any chatbot output is an assertion, the asserted content is not what a sampled token sequence says but what the model's output distribution commits to. The token-level framing used by every side is mistaken, and the 'no stable commitment' objection to chatbot assertion misfires.",
+        "used_surviving": true,
+        "target": "All parties who evaluate chatbot assertion by looking at individual outputs and their conversational consistency, notably Butlin and Viebahn and Williams and Bayne's treatment of the objection from commitment.",
+        "sketch": "Debate so far assumes the candidate speech act is an individual utterance. But one prompt can be resampled to yield p, then not-p, with no change in the system. A human who did this would be insincere or incoherent, so this is read as evidence that no speaker-level commitment exists. Distinguish token-assertion (the sampled string as an act) from policy-assertion (the stable dispositional profile across resamples, including its calibrated uncertainty). On the second view, a single output is an exemplar of the policy, and what is asserted is something like 'p, with this confidence' where the confidence is reflected in the spread of outputs. This changes the status of hallucination: it is a miscalibrated policy, not a string of lies. It changes what a sanction should target: retraining the policy, not penalising a draw. It also makes the descriptive-function condition of Butlin and Viebahn checkable at the policy level. The premise is that the unit of a speech act is fixed by the level at which the producing system is answerable to norms, as with a human speaker's settled opinions versus a slip of the tongue. This also explains why users are right to treat chatbot outputs as defeasible reports, and why proto-assertion looks like the right verdict on single outputs, since single outputs are not the primary bearers.",
+        "promise": 5,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "Butlin Viebahn AI assistant assertion chatbot",
+          "Williams Bayne chatbot assertion objection from commitment",
+          "LLM consistency across resampling calibration verbalized confidence assertion policy-level belief",
+          "do large language models make assertions philosophy speech act hallucination lying",
+          "LLM beliefs inconsistency across samples not evidence against belief; model as distribution over personas, assertion",
+          "Williams Bayne proto-assertion commitment consistency chatbot \"do not ensure they are consistent\" resampling",
+          "Shanahan role play simulacra superposition LLM assertion truthfulness",
+          "LLM assertion sampling stochastic policy level \"type\" vs \"token\" outputs speech act philosophy"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Sanction should target the retrained policy. Butlin and Viebahn's descriptive-function condition is checkable at the policy level.",
+            "source": "Butlin & Viebahn, \"AI Assertion\", Ergo 12, 2025",
+            "url": "https://philpapers.org/rec/BUTAAJ",
+            "what_they_say": "<cite index=\"2-4\">They argue that an assertor must produce outputs with descriptive functions and must be capable of being sanctioned by the agents it interacts with.</cite> <cite index=\"2-7\">Models fine-tuned for 'groundedness' or 'correctness' may meet the first requirement but fail the second.</cite> A secondhand report says their credibility-tracking condition relies on users tracking how reliable a chatbot is and how consistent its outputs are (Williams & Bayne's gloss, arXiv 2410.16645).",
+            "damage": 3,
+            "note": "This is a rival verdict on sanction, not an anticipation. I saw only the abstract and secondhand snippets, so I could not check whether they consider retraining as a form of sanction. Their credibility-tracking is already tracked at the level of the system, which sits close to the thesis's policy-level unit. That is a point to credit or distinguish, not a concession."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Resampling inconsistency is not evidence of insincerity. Single outputs are not the primary bearers (proto-assertion).",
+            "source": "Williams & Bayne, \"Chatting with Bots: AI, Speech-Acts, and the Edge of Assertion\", Inquiry 69(6), 2026 (arXiv 2024)",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "<cite index=\"51-5\">They list the expectations attached to adult human assertion: defending it, explaining reasons, not blatantly contradicting it in the next moment, and retracting it if unsupported.</cite> <cite index=\"15-8\">They argue for a category of proto-assertion.</cite> A secondhand report says they argue the systems <cite index=\"10-2\">do not treat claims as binding, do not ensure they are consistent, and do not update rationally</cite>.",
+            "damage": 2,
+            "note": "The named target does read inconsistency as a mark against full assertion. That is a rival to answer. In the snippets I saw, the unit of the speech act is the output or conversational behaviour, and they do not consider a policy-level bearer. I did not see their section on the commitment objection, so 'no policy-level move' is provisional."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "FRAMEWORK",
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "The unit of attribution is the distribution, not the sampled string. Spread of outputs carries information.",
+            "source": "Shanahan, McDonell & Reynolds, \"Role play with large language models\", Nature, 2023",
+            "url": "https://www.nature.com/articles/s41586-023-06647-8",
+            "what_they_say": "<cite index=\"62-12\">The dialogue agent maintains a superposition of simulacra, which is a distribution over all possible simulacra consistent with the preceding context.</cite> <cite index=\"56-17\">A simulacrum cannot assert a falsehood in the literal sense</cite>. The snippet is garbled there, but it points toward a fiction or role-play reading of outputs.",
+            "damage": 2,
+            "note": "This is a framework that moves attention from the single output to the distribution. It reaches the opposite verdict (role-play, not assertion) and never discusses a policy-level 'p with confidence c' or sanctions."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Whether the stable unit is the model, a persona or an instance. Inconsistency as an objection to attributing commitments.",
+            "source": "\"Where is the Mind? Persona Vectors and LLM Individuation\", arXiv 2604.17031, 2026 (authors not shown in the snippet)",
+            "url": "https://arxiv.org/pdf/2604.17031",
+            "what_they_say": "<cite index=\"40-2\">Key objections to the instantiated-model and virtual-instance views concern inconsistent behaviour: these entities do not consistently behave in ways explained by coherent mental states.</cite> <cite index=\"40-1\">Personas matter for individuation because they exhibit stable beliefs, values and traits.</cite>",
+            "damage": 2,
+            "note": "This is about mental-state attribution, not speech acts. A referee will ask which level is 'the policy' (weights, persona or context-conditioned instance), and this paper shows that question is live."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Spread across resamples reflects calibrated uncertainty. Hallucination is miscalibration at the policy level.",
+            "source": "Xiong et al., \"Can LLMs Express their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs\", arXiv 2306.13063, 2023/2024",
+            "url": "https://arxiv.org/pdf/2306.13063",
+            "what_they_say": "<cite index=\"26-8\">Consistency among multiple responses improves failure prediction and calibration compared with single-response verbalized confidence.</cite> <cite index=\"26-5\">LLMs verbalizing confidence tend to be overconfident.</cite>",
+            "damage": 1,
+            "note": "This empirical work treats the distribution of samples as the carrier of confidence and treats miscalibration as a property of the model. It is evidence base, not a philosophical rival."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Sampled inconsistency tracks hallucination, so spread is informative about the policy's epistemic state. Training-level fixes target the policy.",
+            "source": "\"The Illusion of Certainty: Decoupling Capability and Calibration in On-Policy Distillation\", arXiv 2604.16830, 2026 (describing SelfCheckGPT, Manakul et al. 2023)",
+            "url": "https://arxiv.org/pdf/2604.16830",
+            "what_they_say": "<cite index=\"27-1\">Hallucination detection frameworks such as SelfCheckGPT work on the principle that a hallucinating LLM's sampled responses show high entropy and self-contradiction.</cite> <cite index=\"27-5\">Their method moves this consistency signal into training, so the model's weights carry self-consistency-level calibration.</cite>",
+            "damage": 1,
+            "note": "The snippet is a secondhand description of SelfCheckGPT. It supports reading resampling variance as a signal about confidence, not insincerity, and shows that training-level treatment of hallucination is already practised."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "The 'p, with confidence c' reading is the policy's calibrated content. The thesis flags this as not established.",
+            "source": "Wang, Zhou et al., \"Are LLM Decisions Faithful to Verbal Confidence?\", arXiv 2601.07767, 2026",
+            "url": "https://arxiv.org/html/2601.07767v1",
+            "what_they_say": "<cite index=\"20-3\">They report a dissociation: models are neither cost-aware when articulating verbal confidence nor strategically responsive when deciding whether to abstain under high penalties.</cite> <cite index=\"21-4\">Models often 'know' their uncertainty in the sense that verbal confidence is calibrated, yet mostly fail to convert it into a good abstention policy.</cite>",
+            "damage": 2,
+            "note": "This is evidence that verbalized confidence, behaviour and a single policy-level 'c' can come apart. It bears on the thesis's own caveat and does not close the claim off."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "A stable dispositional profile exists across resamples and conversations, so a policy-level commitment is possible.",
+            "source": "\"Do LLMs have core beliefs?\", arXiv 2605.03255, 2026; and \"Probing the Lack of Stable Internal Beliefs in LLMs\", 2026",
+            "url": "https://arxiv.org/pdf/2605.03255",
+            "what_they_say": "<cite index=\"43-9,43-10\">Across five domains, none of the tested models showed genuine core commitments, and all eventually abandoned well-established truths under sustained adversarial pressure.</cite> The second paper reports <cite index=\"39-7\">that LLMs struggle to preserve latent consistency: their implicit goals shift across turns unless the target is in context</cite>.",
+            "damage": 2,
+            "note": "This is empirical pressure on the premise that the policy has a stable profile to which norms attach. It concerns within-dialogue persistence, not resampling spread, so it narrows the empirical premise and does not foreclose the conceptual distinction."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Sampling randomness and resampling inconsistency are not evidence against assertion.",
+            "source": "\"The Outputs of Large Language Models are Meaningless\", arXiv 2509.22206, 2025 (authors not shown in the snippet)",
+            "url": "https://arxiv.org/pdf/2509.22206",
+            "what_they_say": "<cite index=\"67-7\">The randomness of an LLM's token choice contrasts starkly with the process taking a human speaker from hearing a question to asserting an answer.</cite> <cite index=\"67-8,67-9\">A human's options all express the same proposition, whereas the tokens the LLM samples from do not.</cite>",
+            "damage": 2,
+            "note": "This treats sampling randomness as a reason against assertion at the token level. It does not consider a policy-level bearer, so it is a rival on the token view that the thesis can accept."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Sanction and accountability. The target of sanction is institutional or human, not the system.",
+            "source": "\"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026 (authors not shown in the snippet)",
+            "url": "https://link.springer.com/article/10.1007/s13347-026-01136-y",
+            "what_they_say": "<cite index=\"18-1\">LLM outputs can function as assertions in the sense that they present content as answerable, actionable and truth-evaluable.</cite> <cite index=\"18-3\">The normative commitments do not attach to the machine but to the human and institutional structures around its deployment.</cite>",
+            "damage": 2,
+            "note": "This is a rival account of where sanction lands (deployers, not the trained policy). It is not an anticipation, and I did not see the full text."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Hallucination as something other than lying.",
+            "source": "\"Can LLMs Lie? Investigation beyond Hallucination\", arXiv 2509.03518, 2025",
+            "url": "https://arxiv.org/html/2509.03518v1",
+            "what_they_say": "<cite index=\"31-5\">Hallucinations are unintentional falsehoods, whereas lying is an LLM knowingly generating falsehoods for an ulterior objective.</cite>",
+            "damage": 1,
+            "note": "It separates hallucination from lying on an intention-like basis, not by changing the unit of the speech act."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SECONDHAND",
+            "provisional": false,
+            "part": "Users are right to treat chatbot outputs as defeasible reports.",
+            "source": "Zhan et al. 2024 survey, as reported in \"Lies, Damned Lies, and Distributional Language Statistics\", arXiv 2412.17128",
+            "url": "https://arxiv.org/pdf/2412.17128",
+            "what_they_say": "<cite index=\"34-9\">Users' trust in ChatGPT was reported as well calibrated to the model's errors, with verification increasing with exposure to misleading content.</cite>",
+            "damage": 1,
+            "note": "This is a secondhand report of an empirical user study. It is usable as evidence that users already treat outputs as defeasible."
+          }
+        ],
+        "what_is_left": "Nothing I could see meets the ANTICIPATED standard. Granting that chatbot outputs can be assertions, the thesis argues that the unit of the speech act is the trained policy's output distribution (including its calibration) and not the sampled string. On that view resampling inconsistency is not evidence of insincerity, hallucination is policy-level miscalibration, sanction targets retraining, and single outputs are at most exemplars or proto-assertions. The thesis must take as rivals the Williams-Bayne reading of inconsistency, the Butlin-Viebahn verdict that fine-tuned models fail the sanction condition, and the empirical evidence that verbal confidence, behaviour and cross-turn stability can come apart. It must say which level counts as 'the policy' (weights, persona or deployed system). Whether the policy's output is a calibrated 'p with confidence c' stays open, as the thesis already says.",
+        "credit": [
+          "Shanahan, McDonell & Reynolds 2023 \u2014 treats an LLM agent as a distribution over simulacra, which shifts the object of description away from the single output",
+          "Butlin & Viebahn 2025 \u2014 the descriptive-function and sanctionability conditions, and the practice of tracking a chatbot's reliability at the level of the system",
+          "Williams & Bayne 2024/2026 \u2014 the proto-assertion verdict, and the list of consistency and defence expectations that the objection from commitment draws on",
+          "Xiong et al. 2023/2024 and Manakul et al. 2023 (via secondhand description) \u2014 sample-consistency as an empirical proxy for calibrated confidence"
+        ],
+        "not_found": "I searched for but did not find any philosophical work that distinguishes token-assertion from policy-assertion, or that argues resampling inconsistency is not evidence of insincerity. I found none that reads a chatbot's output spread as the content 'p with confidence c', or that ties sanction to retraining the policy. I never saw the full text of Butlin & Viebahn or Williams & Bayne, so I did not verify their treatment of commitment and consistency, and anything they say about sampling or policy-level readings could be missed. I only have a secondhand report of Williams & Bayne on consistency, and none of Levinstein & Herrmann beyond a secondhand summary. I ran no dedicated search for a recent survey or encyclopedia entry on AI assertion, so the fourth required search is incomplete. The empirical search did leave philosophy (calibration, hallucination detection and belief-stability work in ML). It was a single sweep with no check of the primary papers, and I did not search psychology, linguistics or sociology. Most of the literature is paywalled or preprint and invisible to me, so this silence is not evidence of originality.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "assertion",
+      "speech-acts",
+      "artificial-intelligence"
+    ],
+    "why": "The theses concern whether chatbot outputs count as assertions, which the assertion entry covers directly (sincerity, commitment, norms of assertion), with speech-acts as the broader neighbouring debate over what unit counts as an act, and artificial-intelligence as the closest listed entry on the chatbot side.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Norms of assertion (knowledge, justification, truth, belief) are candidate standards for assessing assertions; the thesis can borrow these to say hallucination is assessable as a violation of an epistemic norm.",
+                "who": "Williamson (KNA); Lackey, Douven (JNA); Weiner, Whiting (TNA); Bach (BNA)",
+                "quote": "Williamson (1996, 2000) initiated this debate by proposing that assertion is governed by a single norm",
+                "damage": 1,
+                "note": "Gives the normative apparatus the thesis would apply to hallucination; the entry does not apply it to chatbots."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Assertions can be mitigated or boosted, so commitment comes in degrees. This bears on whether the content is 'p, with confidence c' rather than flat 'p'.",
+                "who": "Entry's commitment section (Green, Caffi, Holmes cited)",
+                "quote": "These expressions modulate the degree of the commitment engendered by the assertions in which they occur",
+                "damage": 2,
+                "note": "Supports treating graded confidence as part of what is asserted; the entry does not tie it to calibrated credences."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Commitment accounts tie sanction and accountability to the asserter: liability to blame, and a duty to defend or retract when challenged. Sanction is thus a speaker-level, hearer-directed matter.",
+                "who": "Peirce, Alston, Brandom, MacFarlane, Green",
+                "quote": "an act of assertion [\u2026] renders [the speaker] liable to the penalties of the social law",
+                "damage": 2,
+                "note": "Supplies the sanction vocabulary; says nothing on which entity bears it for a chatbot."
+              },
+              {
+                "relation": "PRECEDENT",
+                "grade": "PASSING",
+                "position": "Insincerity is analysed via self-representation or communicative intention, and sincerity is a matter of belief. Resampling inconsistency as non-evidence of insincerity is not discussed, but the notion of insincerity at stake is the relevant one.",
+                "who": "Black, Davidson, Williams, Bach & Harnish, Green (frankness)",
+                "quote": "in asserting that p the speaker represents herself as believing that p",
+                "damage": 2,
+                "note": "Insincerity is defined by belief or its representation, so the thesis must say what plays 'belief' for a policy."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Pagin's cognitive account treats assertion as prima facie informative, with defaults tied to surface features and the speaker's belief 'with sufficient strength' as a partial reason for utterance. This is a graded, dispositional notion that could ground a policy-level reading.",
+                "who": "Pagin (2011, 2020)",
+                "quote": "the speaker believes, with a sufficient strength, that the sentence expresses a true proposition, and utters it partly because of that",
+                "damage": 2,
+                "note": "A near neighbour a referee would raise on what the content and the speaker's state are."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Lackey-style selfless assertion and the primary/secondary propriety distinction bear on assessing a policy's outputs. The latter separates the rule from reasonably believing one satisfies it, and may let hallucination be blameless yet improper.",
+                "who": "Lackey; DeRose",
+                "quote": "Unlucky and Gettiered assertions are primarily improper but secondarily proper, and that\u2019s why they don\u2019t deserve blame.",
+                "damage": 2,
+                "note": "Relevant to evaluating hallucination at the policy level versus the token level."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry flags that an asserter's intentions, e.g. whether the utterance must be intended as an assertion or be voluntary, are open questions. This bears on the antecedent 'if chatbot outputs are assertions'.",
+                "who": "Entry's section 4.2",
+                "quote": "must he intend it to be an assertion? Must it be made voluntarily?",
+                "damage": 2,
+                "note": "The entry's only gesture at the preconditions for assertoric status."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Hearer-directed and normative accounts predicate assertion of a speaker who can be held accountable, which pressures whether a trained policy can be the asserter.",
+                "who": "Commitment accounts (Brandom, Alston, Searle)",
+                "quote": "the assertor is expected to \u201cbe able to provide reasons for the original statement [\u2026] and can be held publicly responsible if it turns out to be false\u201d",
+                "damage": 2,
+                "note": "Policy-level assessment must meet this accountability condition."
+              }
+            ],
+            "nearest_positions": [
+              "Norm-of-assertion debate (knowledge/justification/truth/belief norms) \u2014 Williamson, Lackey, Douven, Weiner, Whiting, Bach",
+              "Commitment/accountability accounts of assertion \u2014 Peirce, Alston, Brandom, MacFarlane, Green",
+              "Self-representation / belief-expression accounts of sincerity \u2014 Black, Davidson, Bach & Harnish, Williams",
+              "Pagin's graded, dispositional cognitive account of assertion"
+            ],
+            "entry_silent_on": "The entry says nothing about artificial or machine speakers, chatbots, trained policies, hallucination, sycophancy, or resampling inconsistency. It also does not say whether assertoric content can be a calibrated 'p, with confidence c', nor whether assertion or sincerity can be assessed at the level of a dispositional policy rather than an individual utterance."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Assertion is characterized by overt commitment with a norm of answering 'How do you know?', being right or wrong depending on P, and a duty to retract. This gives the thesis a normative criterion for asking whether chatbot outputs are assertions, and a way to assess them by the commitment they carry.",
+                "who": "Green (the entry's author), drawing on Williamson 1996",
+                "quote": "One who asserts P lays herself open to the challenge, \"How do you know that?\", and she is obliged to retract P if she is unable to respond to that challenge adequately.",
+                "damage": 1,
+                "note": "Supplies the assertion norm that hallucination and sanction assessments can be built on."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Assertion, conjecture and guess share direction of fit and conditions of satisfaction but differ in strength of commitment. This supports the thesis's open question of whether the content is a calibrated 'p, with confidence c' rather than a flat assertion.",
+                "who": "Green; Williamson 1996",
+                "quote": "as we move down the list we find a decreasing order of stringency in commitment.",
+                "damage": 1,
+                "note": "Gives a graded-force vocabulary (assert/conjecture/guess) for the calibration question."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Speech acts require speaker meaning, which on the Gricean account involves intentions and overtness. Whether a trained policy can speaker-mean, so that its outputs are assertions at all, is a conditional the thesis presupposes. The entry offers an overtness account and Davis-style cases (speaking to infants, photocopiers) that loosen the requirement of intentions to affect addressees.",
+                "who": "Grice 1957; Davis 1992; Green 2019",
+                "quote": "Instead of intentions to produce psychological effects in an addressee, some authors have advocated a construal of speaker meaning as overtly manifesting an aspect of one's commitments or state of mind (Green 2019).",
+                "damage": 2,
+                "note": "Bears on the antecedent 'if outputs are assertions'. The entry says nothing about machine speakers."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "The entry says that intending to perform a speech act is insufficient, and that a speech act requires intentionally undertaking a publicly accessible commitment. Sincerity concerns whether the speaker is in the psychological state the act expresses. This sits uneasily with assessing sincerity or its absence at the level of a policy rather than an individual utterance.",
+                "who": "Green 2013; Austin; Searle and Vanderveken",
+                "quote": "A speech act is sincere only if the speaker is in the psychological state that her speech act expresses.",
+                "damage": 2,
+                "note": "A rival framing: sincerity is a property of an utterance's speaker and state, so a policy-level reading must be defended."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "The entry reports that a pattern of abuses or conduct can deprive a speaker of the ability to perform a speech act in a community. It also distinguishes a retractable assertion from a non-retractable act. This supports assessing sanction at the level of an ongoing pattern or policy, and treating retraction as a feature of assertion.",
+                "who": "Green; Sbis\u00e0 2007",
+                "quote": "a pattern of abuses of speech act institutions might deprive a person of an ability to perform speech acts: the inveterate promise-breaker will, in time, lead others in his community to be unwilling to accept any promises he tries to make.",
+                "damage": 1,
+                "note": "Pattern-level assessment of speakers exists in the entry, but only for human speakers."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Illocutionary logic and commitment relations among speech acts concern what a speaker's commitments entail, including illocutionary validity. These are framed in terms of commitment to content under a mode. Inconsistency across assertions would be assessed through that machinery.",
+                "who": "Searle and Vanderveken 1985; Green 2000",
+                "quote": "Because it concerns what force/content pairs commit an agent to what others, illocutionary validity is an essentially deontic notion",
+                "damage": 2,
+                "note": "Relevant to whether resampled inconsistent outputs generate commitments. The entry does not discuss resampling."
+              }
+            ],
+            "nearest_positions": [
+              "Assertion as overt commitment to P, with the 'How do you know?' challenge and a duty to retract; graded against conjecture and guess \u2014 Green, Williamson",
+              "Speaker meaning as overt manifestation of commitment or state of mind, as against Gricean reflexive intentions \u2014 Green 2019, Grice 1957, Davis 1992",
+              "Sincerity conditions: a speech act is sincere only if the speaker is in the psychological state it expresses \u2014 Searle and Vanderveken 1985, Austin"
+            ],
+            "entry_silent_on": "The entry never discusses AI, chatbots, language models, trained policies, resampling or stochastic outputs, sycophancy, hallucination, or the idea that an assertion's content is a probability or confidence-qualified claim 'p, with confidence c'. It also does not discuss whether sincerity or commitment can attach to a policy rather than a single utterance."
+          }
+        ],
+        "slug": "speech-acts",
+        "url": "https://plato.stanford.edu/entries/speech-acts/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Russell's agent-as-function framework: an intelligent agent is a function from percept sequences to actions, and bounded optimality evaluates the program/policy. This is a framework in which evaluating at the level of the whole trained policy is natural, but the entry does not apply it to assertion, hallucination or sincerity.",
+                "who": "Russell (1997); Russell & Norvig (AIMA)",
+                "quote": "Russell sees AI as the field devoted to building intelligent agents, which are functions taking as input tuples of percepts from the external environment, and producing behavior (actions) on the basis of these percepts.",
+                "damage": 1,
+                "note": "Supplies the policy-level vocabulary only; says nothing about chatbot assertion or sincerity."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Probabilistic AI treats beliefs as degrees of belief over propositions, with conditional probability P(p|q). This is a background for reading a policy's output as a calibrated 'p with confidence c', but the entry does not discuss calibration of chatbot outputs.",
+                "who": "Probabilistic AI tradition (Pearl 1988, Kolmogorov axioms as presented)",
+                "quote": "in probability theory we are concerned with declarative statements, or propositions, to which degrees of belief are applied",
+                "damage": 1,
+                "note": "Background on degree-of-belief representation, not on calibrated assertion."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Learned systems are evaluated on benchmarks, and adversarial inputs raise doubts about how benchmark performance transfers. This is a loose neighbour of the thesis's point that assessment should target the trained policy rather than individual outputs.",
+                "who": "Szegedy et al. 2014, as reported",
+                "quote": "the existence of so-called adversarial inputs ... has raised doubts about how well performance on benchmarks can translate into performance in real-world systems",
+                "damage": 1,
+                "note": "Tangential: concerns robustness of learned functions, not assertion or sincerity."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry's treatment of the Turing Test and Strong vs. Weak AI concerns whether linguistic behaviour indicates real mentation. This is the rival/background question of whether machine linguistic output counts as genuine thought, which a paper on assertion would be situated against.",
+                "who": "Turing (1950); Descartes (1637); Haugeland (1985); Searle (via the Chinese Room section heading)",
+                "quote": "Passing in this sense operationalizes linguistic indistinguishability.",
+                "damage": 2,
+                "note": "Behavioural-indistinguishability framing, not assertion or sincerity; Chinese Room text is not in the excerpt."
+              }
+            ],
+            "nearest_positions": [
+              "Turing Test: linguistic indistinguishability operationalizes intelligence \u2014 Turing (1950), as reported",
+              "Intelligent agents as policies/functions from percepts to actions, evaluated for rationality \u2014 Russell & Norvig; Russell (1997)",
+              "Probabilistic degree-of-belief representations of uncertainty \u2014 Pearl (1988), Kolmogorov-style probability as presented in the entry"
+            ],
+            "entry_silent_on": "Everything specific to the thesis: whether chatbot outputs are assertions, hallucination, sycophancy, sanction or norms of assertion, sincerity, resampling inconsistency, and whether a policy's outputs express calibrated 'p, with confidence c'. The entry (a 2018 text, truncated before the philosophy-of-AI sections) does not discuss large language models or speech-act theory."
+          }
+        ],
+        "slug": "artificial-intelligence",
+        "url": "https://plato.stanford.edu/entries/artificial-intelligence/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "If chatbot outputs are assertions, hallucination, sycophancy and sanction are best assessed at the level of the trained policy, and resampling inconsistency is not evidence of insincerity. Whether the asserted content is the policy's calibrated 'p, with confidence c' is not established."
+  ]
+}

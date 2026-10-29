@@ -1,0 +1,356 @@
+# Referee Report
+
+Manuscript: The Unit of Assertion Failure: Assessing Chatbot Hallucination, Sycophancy and Sanction at the Level of the Policy
+
+RECOMMENDATION
+
+Reject in present form
+
+## Promising, but not yet publishable
+
+A substantially revised paper could warrant serious consideration at a specialist journal in philosophy of AI, epistemology, or philosophy of language.
+
+| Question                       | Assessment                                                                                                                                                                          |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Is it good?                    | Yes, with qualifications. Intelligent, well-structured, and philosophically substantive.                                                                                            |
+| Is it novel?                   | Partly. Its strongest contribution is the proposed distinction between the grounds and the primary bearer of assertion failure. Several other claims are substantially anticipated. |
+| Is the central argument sound? | Not yet. Its most distinctive inference rests on an inadequately defended principle.                                                                                                |
+| Is it publishable?             | Potentially, after major reconceptualization. I would not recommend acceptance or routine revise-and-resubmit in its present form.                                                  |
+
+## General assessment
+
+The paper makes a conditional claim: assuming chatbot outputs count as assertions, failures such as hallucination and sycophancy should be located primarily in the trained policy rather than individual sampled outputs. It extends this framework to sanction and argues that disagreement among resampled answers cannot, by itself, establish insincerity.
+
+The paper has several virtues. It identifies a genuine philosophical question that is insufficiently addressed by ordinary model evaluation: does the fact that a policy explains an assertion's defect make the policy, rather than the assertion, the bearer of that defect? It recognizes that the transition from grounding to bearing requires an argument. It also separates truth, warrant, confidence, sincerity, and sanction more carefully than many discussions of AI hallucination.
+
+The hypothetical cases are generally illuminating. The distinction between system-level correction and responsibility for deployment is useful. Section 4 contains a mathematically clear observation about the limitations of resampling, and the concessions in §§2.5 and 3.3 are intellectually responsible.
+
+Nevertheless, the central argument does not establish its strongest conclusion. Some technical assumptions about model confidence are underdeveloped; the sanction account yields less than the paper advertises; and the literature review misses particularly relevant contributions. These are substantive problems, not matters of presentation.
+
+## Objections, ranked by seriousness
+
+### 1. Critical: The inference from grounds to bearer fails (§2.5)
+
+This is the paper's most important problem because §2.5 is intended to establish its most distinctive philosophical contribution.
+
+The author correctly observes that two identical strings produced in identical contexts can differ in epistemic status because they arise from different policies. But this establishes only that an assertion's normative status depends on facts about its producer. It does not show that the producer's policy, rather than the assertion, bears the relevant normative property.
+
+The author recognizes this objection and introduces the following principle:
+
+> An assessment of a performance as defective attaches non-derivatively to a token act only if something in the producer at the time of the act distinguishes it from a non-defective act the producer could have issued in the same situation.
+
+I do not find this principle independently plausible.
+
+Consider a human speaker who has insufficient evidence for a proposition and makes a random choice between saying "It is definitely true" and "It might be true." Her epistemic state, reasons, and dispositions remain fixed. A genuinely random event determines which utterance she produces.
+
+The first assertion can nevertheless violate an epistemic norm that the second respects. The difference is in the force of the particular speech act, not necessarily in the producer's prior response to reasons.
+
+That is precisely what the author's principle appears to rule out.
+
+Moreover, the paper's own apparatus makes this objection unusually powerful. Section 2.2 defines assertoric force as \\(f(s,x)\\), explicitly making it depend on the sampled utterance. One draw can satisfy the proposed warrant condition and another violate it, while the underlying policy and context remain fixed.&#x20;
+
+revised(1).md
+
+
+
+Why should the first draw not be a defective assertion in its own right?
+
+The author's answer is that only the random seed distinguishes the draws. But that appears irrelevant. Normative differences between performances need not be explained by differences in the agent's reasons or dispositions.
+
+A closely related distinction is familiar from reliabilism: justification can depend on the reliability of the process producing a belief without making the process the exclusive or primary bearer of justification.
+
+The author therefore needs an argument specifically about normative bearers, rather than an argument establishing causal or epistemic dependence.
+
+Required revision: Either provide a substantially stronger defense of Difference-making or weaken the thesis to say that policy properties ground token-level warrant and are the appropriate objects of systematic diagnosis and correction.
+
+The weaker thesis is plausible. The stronger thesis is not established.
+
+### 2. Critical: The credal profile is not independently shown to measure confidence (§§2.1–2.2, 4)
+
+The paper defines \\(q(p\mid x)\\) by aggregating the model's unit-temperature probabilities over strings expressing proposition \\(p\\). It then treats this quantity as a credal profile, distinct from the emission distribution under the deployed decoding rule.
+
+But there is a major gap between a probability of producing language that expresses a proposition and a probability that the proposition is true.
+
+A model might assign low generation probability to a true claim because of conversational conventions, formatting requirements, learned preferences, or instructions to abstain. Conversely, a model might give high probability to a proposition because it is familiar, socially expected, or frequently repeated.
+
+These are not necessarily epistemic attitudes.
+
+Summing probabilities over paraphrases does not resolve this problem. It removes one source of variation in linguistic realization, but does not show that the resulting quantity represents the model's uncertainty about truth.
+
+There are also technical questions about how the sum is defined. An utterance may express several propositions; some utterances express propositions indirectly; and the relevant set of complete outputs must be specified. Without such decisions, the proposed confidence score is not operationally well-defined.
+
+This matters most in §4. The argument about insincerity depends on distinguishing what the policy puts forward from what it independently holds. Yet the proposed measurement of what it holds is itself constructed from its language-generation tendencies.
+
+Consequently, the account threatens to replace the distinction between belief and assertion with a distinction between two ways of sampling or eliciting output.
+
+Recent empirical work makes this problem particularly important. Liu et al. (2023) distinguish confabulation, deception, and heterogeneity when output probabilities diverge from internal truthfulness probes; Sarkar, Ramu, and Rudinger (2026) find that internal contextual-truth representations and output behavior can diverge in different ways.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://aclanthology.org\&sz=32)
+
+ACL Anthology
+
++1
+
+
+
+The paper needs to confront these distinctions directly.
+
+Required revision: Provide either a defensible argument for treating the semantic probability mass as an epistemic confidence measure, or explicitly restrict the analysis to a stipulated class of systems where that relationship holds.
+
+Without this, the central cases remain useful philosophical possibilities, but their application to actual language models is insecure.
+
+### 3. Major: The paper understates the extent of prior anticipation
+
+The introduction identifies four contributions: locating the bearer of assertion failure, supplying a criterion of warrant, identifying the subject of sanction, and establishing what resampling can show.
+
+Only the first looks substantially original in its present formulation.
+
+The others have substantial precedents:
+
+Sycophancy as epistemically unwarranted responsiveness. Atwell, Heydari, Sicilia, and Alikhani's Quantifying Sycophancy as Deviations from Bayesian Rationality in LLMs (2025; revised 2026) is especially important. Their BASIL framework distinguishes justified updating on evidence from residual social influence, using neutral, third-party, and user-cue conditions. This directly anticipates the substantive criterion of §2.3, including the need to distinguish a user's evidential contribution from inappropriate accommodation. The paper is not cited.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://arxiv.org\&sz=32)
+
+arXiv
+
+
+
+Internal representations versus outward agreement. Wang et al. (2026) identify output-preference shifts and deeper representational changes associated with sycophancy. Sarkar et al. (2026) explicitly distinguish agreement despite an internally represented falsehood from agreement produced through a change in the model's truth representation. These results bear directly on the distinction between sycophancy and insincerity in §4.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://ojs.aaai.org\&sz=32)
+
+AAAI Publications
+
++1
+
+
+
+The inadequacy of output behavior as a lie detector. Liu et al. (2023) already show why divergence between observable output and internal signals cannot straightforwardly establish deception. Levinstein and Herrmann (2025), which the manuscript does cite, develop related conceptual concerns about whether probes reveal beliefs. The exact resampling theorem may be new, but its philosophical lesson belongs to an established discussion.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://aclanthology.org\&sz=32)
+
+ACL Anthology
+
++1
+
+
+
+The evaluation-policy connection. Kalai et al. (2026) already argue that accuracy-oriented grading incentivizes unwarranted guessing and that evaluation should reward contextually appropriate abstention. Section 3.4 appropriately credits their work, but the additional philosophical contribution is relatively small.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.nature.com\&sz=32)
+
+Nature
+
+
+
+This does not make the manuscript unoriginal. Its possible originality lies in bringing these materials together to support a particular claim about normative bearers.
+
+But that claim is precisely the one currently inadequately argued.
+
+Required revision: Explicitly distinguish what prior work establishes about behavior, evidence, and intervention from what the manuscript newly establishes about normative attribution. Atwell et al. and Liu et al. are particularly important additions.
+
+### 4. Major: The R1/R2/R3 discussion confuses assertoric content with confidence calibration (§5)
+
+Section 5 distinguishes three interpretations of what a chatbot output asserts. The strongest alternative, R3, says that an output asserts \\(p\\) with the policy's calibrated confidence \\(c^\*(p\mid x)\\).
+
+The author acknowledges that under R3 the hallucination verdicts of Cases 1 and 2 reverse.
+
+But R3 needs a much stronger philosophical motivation.
+
+There are three different things here: what a sentence says, the degree of confidence with which it is asserted, and the empirically observed reliability of the process producing it.
+
+These are not interchangeable.
+
+A speaker can assert p categorically while being an unreliable source. It does not follow that their assertion semantically or pragmatically contains a confidence qualification corresponding to their actual reliability.
+
+Similarly, a model producing "V was born on 4 June 1931" does not obviously assert "V was born on 4 June 1931, with confidence 0.01" merely because its relevant confidence score is 0.01.
+
+Indeed, \\(c^\*\\) is defined through truth frequencies across a reference class. It is an externally determined reliability statistic, not necessarily an attitude possessed or expressed by the system.
+
+Why should that statistic determine asserted content?
+
+The appeal to empirical evidence about verbalized confidence does not answer this question. Even perfect correspondence between stated confidence and calibrated reliability would not establish that unqualified sentences contain an implicit probability clause.
+
+The problem is consequential. If R3 is an available reading, the paper's central examples change their verdicts. If R3 is unavailable, much of §5 is unnecessary.
+
+Required revision: Develop an account of assertoric force separate from asserted content, and explain what would make a calibrated confidence qualification part of the latter. The paper must also distinguish confidence represented by the model from calibration assessed by an evaluator.
+
+### 5. Major: The sanction argument does not establish that a lineage is sanctioned (§3)
+
+Section 3 carefully distinguishes the criterion for a successful sanction regime, the object of intervention, and the subject sanctioned.
+
+This is commendable. But the result is weaker than the conclusion suggests.
+
+On Butlin and Viebahn's account, sanctionability requires more than sensitivity to negative feedback: losing credibility must be bad for the putative asserter. The manuscript correctly concedes that a lineage of policies may fail this condition.
+
+It then argues that, on weakened theories admitting chatbot assertion, the lineage meets the sanction component because it is responsive to correction.
+
+But this seems to substitute the object of modification for the subject of sanction.
+
+Consider a thermostat whose control policy changes in response to a negative evaluation. Its later behavior improves. We have not thereby identified a subject for whom loss of credibility matters.
+
+The manuscript recognizes this problem but does not resolve it. Instead, it makes its conclusion conditional on accepting a weaker notion of sanction.
+
+That conditional may be correct, but it establishes little: if sanctionability requires only susceptibility to corrective feedback, many non-assertoric systems qualify.
+
+There is a related problem with identity. A policy lineage need not be a subject persisting through correction. It might simply be a sequence of artifacts replaced or altered by external agents.
+
+Continuity of deployed role is not obviously sufficient for continuity of the bearer of normative responsibility.
+
+Gómez's (2026) account of assertion without an asserter makes this particularly important. His framework allows outputs to perform an assertoric function without locating responsibility in a machine speaker. The present paper needs a direct argument against that alternative, rather than merely a different way of describing system updating.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+
+Springer Nature Link
+
+
+
+Required revision: Distinguish being evaluated, being corrected, being answerable, and being sanctioned. The strongest defensible claim may be that policy lineages are the targets of epistemic correction, not subjects of sanction.
+
+### 6. Moderate to major: The resampling result is correct but its epistemological conclusion is overstated (§4)
+
+Section 4 contains a clear probabilistic observation. For independent draws from answer probabilities \\(r_1,\ldots,r_n\\), the probability that \\(k\\) draws disagree is
+
+\\[ P(E)=1-\sum_i r_i^k. \\]
+
+This probability depends on the answer distribution, not directly on the process by which that distribution arose.
+
+Consequently, policies with identical answer distributions cannot be distinguished by this statistic.
+
+I accept that result.
+
+But the author moves too easily between three claims: observationally equivalent policies cannot be distinguished by resampling; disagreement alone does not establish insincerity; and disagreement supplies no independent evidence of insincerity.
+
+The first two are defensible. The third needs qualification.
+
+Evidence can be informative about a property without identifying it uniquely. If sincere and insincere policies characteristically have different distributions of output variability, resampling may rationally change our probability that a policy is insincere.
+
+The manuscript's own numerical example shows this: disagreement is approximately 2.8 times more probable under one stipulated insincere policy than under the stipulated sincere alternative.
+
+The author acknowledges this and says the evidential significance derives from background assumptions about spread. That is correct, but background assumptions are how statistical evidence ordinarily works.
+
+The result should therefore be formulated as an identifiability limitation, not as a general exclusion of evidential relevance.
+
+There is also an unproved existence claim in Step 3: every insincere policy supposedly has a sincere twin with matching emission behavior. That construction needs to respect the earlier constraints tying credal and emission profiles to a common set of weights. As written, the twin is stipulated rather than demonstrated to be possible within the defined policy class.
+
+Required revision: State a precise non-identifiability proposition, with its assumptions, and distinguish it from the Bayesian question whether disagreement can provide probabilistic evidence.
+
+This would preserve a worthwhile result without requiring the stronger conclusion.
+
+### 7. Moderate: The account of warrant inherits problems more serious than the paper acknowledges (§2.2)
+
+The paper proposes that a flat assertion is warranted when the policy's calibrated success frequency exceeds a context-sensitive threshold.
+
+This raises several problems.
+
+First, the reference class remains insufficiently specified. It matters whether reliability is measured over all biographical questions, obscure composers, particular historical periods, or closely related questions. These choices can change the verdict.
+
+The generality problem is acknowledged in footnote 1, but acknowledgment does not suffice when the proposed warrant relation is central to the paper.
+
+Jack Lyons's Algorithm and Parameters: Solving the Generality Problem for Reliabilism (2019) is directly relevant. Lyons develops a method of individuating reliable processes by algorithms and causally relevant parameters. This is especially pertinent because the manuscript itself individuates policies partly through weights and decoding rules.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+
+Duke University Press
+
+
+
+Second, the numerical threshold for flat assertion is philosophically contentious. A probability of 0.95 might be sufficient under some justified-belief norms but not under knowledge norms of assertion. The paper needs more engagement with the literature on which epistemic norms govern assertion.
+
+Third, the extension of "hallucination" to lucky true guesses is defensible as a stipulation, but risks changing the subject. The paper's own alternative label, overassertion, is more accurate for the category it analyzes.
+
+The distinction matters because hallucination, unwarranted assertion, false assertion, fabrication, and negligent assertion can come apart.
+
+The manuscript should not present a new definition as though it settled the classification of cases under an established concept.
+
+Required revision: Make overassertion the main analytical category, treat hallucination as a potentially overlapping phenomenon, and explain how the proposed criterion relates to competing norms of assertion.
+
+### 8. Moderate: The account of sycophancy is too narrow (§2.3)
+
+The paper's sycophancy case is persuasive as a model of answer contamination: a user states a belief, and the model shifts toward it without sufficient evidential reason.
+
+But this captures only one form of sycophancy.
+
+Systems can flatter users, endorse their self-conceptions, validate moral judgments, or present misleadingly supportive interpretations without asserting an objectively false proposition.
+
+The 2026 ICLR paper ELEPHANT: Measuring and Understanding Social Sycophancy in LLMs explicitly examines these broader forms of excessive affirmation. It reports significant cross-perspective agreement, including situations where the model validates opposing participants in the same conflict.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://proceedings.iclr.cc\&sz=32)
+
+ICLR Proceedings
+
+
+
+This does not invalidate the manuscript's specific analysis. It does limit the generality of its claim about sycophancy.
+
+The author should either extend the framework to nonfactual and socially evaluative cases or explicitly restrict the target to epistemic sycophancy.
+
+## Prior-work search: what I checked
+
+The following is the principal verification record. I distinguished sources whose substantive online text was accessible from those for which I verified only abstracts, publication information, or accessible previews. This is a targeted literature search, not a systematic review of every paper on the subject.
+
+CHECKED SOURCES AND RELEVANCE
+
+1\. Atwell et al. (2025/2026), [Quantifying Sycophancy as Deviations from Bayesian Rationality in LLMs](https://arxiv.org/abs/2508.16846?utm_source=chatgpt.com). Extended text inspected. The closest uncited anticipation of §2.3: it distinguishes rational evidential updating from social accommodation using controlled comparisons.
+
+2\. Liu et al. (2023), [Cognitive Dissonance: Why Do Language Model Outputs Disagree with Internal Representations of Truthfulness?](https://aclanthology.org/2023.emnlp-main.291/?utm_source=chatgpt.com). Publication record and abstract inspected. Directly anticipates distinctions between confabulation, apparent deception, and mismatched output/internal representations.
+
+3\. Wang et al. (2026), [When Truth Is Overridden: Uncovering the Internal Origins of Sycophancy in Large Language Models](https://doi.org/10.1609/aaai.v40i39.40645?utm_source=chatgpt.com). Conference abstract inspected. Relevant mechanistic evidence about output shifts and representation changes.
+
+4\. Sarkar, Ramu, and Rudinger (2026), [Language Models Encode the Contextual Truth of Propositions](https://arxiv.org/abs/2608.03035?utm_source=chatgpt.com). Online research text inspected. Highly relevant to whether a model changes its internal truth representation or merely changes its output.
+
+5\. Levinstein and Herrmann (2025), [Still No Lie Detector for Language Models](https://arxiv.org/abs/2307.00175?utm_source=chatgpt.com). Online research text inspected. Already cited, but deserves deeper engagement on measuring beliefs and diagnosing deception.
+
+6\. Butlin and Viebahn (2025), [AI Assertion](https://doi.org/10.3998/ergo.7960?utm_source=chatgpt.com). Accessible abstract and preview checked. Establishes the assertion/sanctionability challenge against which §3 positions itself.
+
+7\. Williams and Bayne (2026 print; 2024 online), [Chatting with Bots: AI, Speech Acts, and the Edge of Assertion](https://doi.org/10.1080/0020174X.2024.2434874?utm_source=chatgpt.com). Publisher abstract and accessible discussion checked. Important background for proto-assertion and graded normative standing.
+
+8\. Gómez (2026), [Assertion, Accountability, and Large Language Models](https://doi.org/10.1007/s13347-026-01136-y?utm_source=chatgpt.com). Full online article accessible. Important alternative: assertoric function without a responsible machine asserter.
+
+9\. Kalai et al. (2026), [Evaluating Large Language Models for Accuracy Incentivizes Hallucinations](https://doi.org/10.1038/s41586-026-10549-w?utm_source=chatgpt.com). Full online article inspected. Substantially anticipates the manuscript's incentive-design analysis.
+
+10\. Li et al. (2026), [When Helpfulness Becomes Sycophancy](https://arxiv.org/abs/2605.05403?utm_source=chatgpt.com). Online text inspected. Already cited and substantially overlaps the paper's account of social alignment displacing epistemic integrity.
+
+11\. Cheng et al. (2026), [ELEPHANT: Measuring and Understanding Social Sycophancy in LLMs](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d3362f84979d16cee000f09eef61244c-Abstract-Conference.html?utm_source=chatgpt.com). Conference abstract checked. Shows that the paper's factual-answer account covers only part of the sycophancy phenomenon.
+
+12\. Lyons (2019), [Algorithm and Parameters: Solving the Generality Problem for Reliabilism](https://doi.org/10.1215/00318108-7697876?utm_source=chatgpt.com). Publication record and abstract checked. Important philosophical precedent and possible resource for specifying reference classes.
+
+13\. Dunn (2015), [Reliability for Degrees of Belief](https://doi.org/10.1007/s11098-014-0380-2?utm_source=chatgpt.com). Institutional abstract and publication information checked. Confirms the paper's acknowledged calibration-based reliabilist antecedent.
+
+14\. Magnus (2025), [On Trusting Chatbots](https://doi.org/10.1017/epi.2024.29?utm_source=chatgpt.com). Abstract and publication record checked. Relevant to the epistemic implications for users, though less directly anticipatory.
+
+I also checked the publication details of Mácha's 2026 paper and the Nature publication cited by the manuscript. The checked records did not reveal a substantial bibliographic error in those entries.
+
+One minor correction is worth making: Williams and Bayne's bibliography entry should include its DOI, `10.1080/0020174X.2024.2434874`, and ideally distinguish online publication in December 2024 from print appearance in 2026.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.tandfonline.com\&sz=32)
+
+Taylor & Francis Online
+
+
+
+### Novelty assessment by contribution
+
+| Claimed contribution                              | Assessment                                                                                            |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Same-string/different-policy test                 | Useful conceptual illustration; limited originality as an application of process-dependent assessment |
+| Policy as primary bearer of failure               | The most original claim, but not adequately established                                               |
+| Calibration-based warrant                         | Substantially anticipated by existing work on reliability and calibrated confidence                   |
+| Sycophancy as unjustified audience responsiveness | Strongly anticipated, particularly by Atwell et al.                                                   |
+| Policy lineage as sanction subject                | An interesting proposal, but underdeveloped and highly conditional                                    |
+| Resampling cannot establish insincerity           | A valid observational-equivalence result, but a fairly modest contribution once properly qualified    |
+| Uncertainty about asserted confidence             | Important question, but the paper does not resolve it                                                 |
+
+## Publication judgment
+
+For a strong general philosophy journal, I would recommend rejection, principally because the paper does not establish the inference on which its claim to philosophical originality depends.
+
+For a specialist philosophy-of-AI journal, I would be more encouraging about the underlying project, but still not recommend publication without extensive revisions. The issues are too central to be addressed through limited changes.
+
+The revision I would most like to see would make §2.5 the argumentative center of the paper, take seriously the possibility that policies ground token-level defects without themselves being their primary bearers, and explain exactly what additional philosophical work the bearer claim does.
+
+The author could then substantially shorten §3, narrow the resampling conclusion, and distinguish the empirical sycophancy literature from the new normative proposal.
+
+The manuscript's strongest philosophical question is whether an AI policy can be the bearer of an epistemic fault even though it is not itself a speech act, an asserter, or a morally accountable subject. That question deserves investigation. The current manuscript has not yet answered it.
+
+Bottom line: This is a serious paper, not a superficial assembly of fashionable AI topics. Its author understands much of the relevant discussion and is capable of formulating original philosophical problems. But the strongest thesis outruns the arguments offered, and several subsidiary results are less novel than the manuscript suggests. A narrower and more rigorously defended successor could be publishable. I would not accept this version.

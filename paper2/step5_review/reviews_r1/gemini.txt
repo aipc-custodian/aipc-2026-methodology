@@ -1,0 +1,123 @@
+## Overall Verdict: Good, Novel, and Publishable?
+
+**Verdict: Conditional Accept / Revise and Resubmit (Major Revisions).**
+
+* **Is it good?** Yes. The paper is clearly written, tightly argued, and remarkably well-informed by both contemporary philosophy of language/mind and the empirical machine-learning literature on calibration, RLHF, and hallucination. Using a conditional strategy ("Suppose chatbot outputs are assertions; what is the unit of assessment for their failure?") allows the paper to bypass stagnating first-order debates about whether LLMs have minds and establish clean, structural results.
+
+
+* **Is it novel?** Partly, with an important caveat. Connecting Kalai et al.’s (2025) statistical analysis of binary grading and Sharma et al.’s (2024) work on RLHF sycophancy to Butlin and Viebahn’s (2025) sanctionability condition on assertion (§3.2) is a genuinely novel and insightful philosophical contribution. However, the core methodological engine of §2—the "Same-string/different-policy test"—is essentially an application of the standard epistemological distinction between *propositional* and *doxastic/illocutionary* justification (and standard modal/dispositional accounts of warrant) to LLM outputs. Its novelty lies in its application to LLM policies rather than its philosophical mechanics.
+
+
+* **Is it publishable?** Yes, in a strong generalist philosophy journal or a top specialist venue (*Ergo*, *Philosophical Studies*, *Philosophy & Technology*, *Synthese*, *Inquiry*), provided the author resolves several substantive philosophical and technical objections—and cleans up a major editorial artifact in §5.
+
+---
+
+## Ranked Objections (Most to Least Serious)
+
+### 1. The Pooled-Mass Fallacy: Confusing Semantic Concentrativeness with Epistemic Warrant (§2.2)
+
+In §2.2, the paper defines hallucination as an "unwarranted confident assertion" and argues in Case 2 that Policy $P_3$—which puts 0.95 of its probability mass (pooled over paraphrases) on a false birth date because the date was consistently misreported in its training corpus—makes an assertion that is "false but warranted, given its evidence," and therefore *not* a hallucination.
+
+This argument conflates *training-corpus evidence* with *deployment-time pooled probability mass*. A policy $\pi(\cdot \mid x)$ is a static mathematical function determined by weights and decoding parameters. High pooled mass (0.95) on a claim $p$ at inference time does not mean $p$ was supported by reliable training evidence; a policy can assign 0.95 mass to a complete fabrication due to mode collapse during RLHF, spurious token correlations, or setting the decoding temperature $\tau \to 0$ (greedy decoding).
+
+* **The dilemma for the author:** If "warrant" is fixed solely by the deployment policy $\pi(\cdot \mid x)$ (as thesis **(L)** states), then any model run at temperature $\tau = 0$ (where 100% of the mass is placed on a single string) or any RLHF-collapsed model is automatically "warranted" and can never hallucinate in Case 2! Conversely, if separating $P_3$ from a confident fabricator requires looking back at *why* $P_3$ has 0.95 mass (i.e., inspecting the training corpus and training history), then **(L)** is false: the conditional output distribution $\pi(\cdot \mid x)$ is *not* sufficient to fix whether an output is a hallucination.
+
+
+
+### 2. The Synchronic vs. Diachronic Equivocation on "The Policy" (§1 vs. §3)
+
+In §1, a policy is defined synchronically: *"A policy is the conditional distribution $\pi(\cdot \mid x)$ over output strings given a context $x$... fixed by the trained weights together with the decoding settings."* At deployment, those weights are frozen. Yet in §3.1 (S4), to show that the policy satisfies Butlin and Viebahn’s (2025) condition (ii) (sensitivity to credibility tracking), the author shifts to a diachronic "lineage sense: $\pi_t$ is updated to $\pi_{t+1}$."
+
+This is a fatal equivocation if left unaddressed:
+
+* A mathematical probability distribution $\pi_t$ is an abstract object (just as Chalmers 2026 notes of the abstract model); it cannot literally change, have dispositions reshaped, or bear a normative status.
+
+
+* If the entity being sanctioned is the *lineage* $\{\pi_1, \pi_2, \dots, \pi_n\}$, what individuates a lineage when a deployer abandons an old architecture, distills $\pi_t$ into a smaller student model, or merges weights?
+* More importantly, in §3.3, the author argues that losing credibility is "bad for the policy" (satisfying element (iii)) because *"credibility feedback lowers the policy's score on that standard... and policies that lose it are selected against."* This confuses **gradient descent / evolutionary selection** with **agential responsiveness to sanction**. In evolutionary biology or gradient-based optimization, the variant $\pi_t$ is destroyed/replaced by $\pi_{t+1}$ because it scored poorly on a loss function. Being eliminated and replaced by a successor parameter vector is not the same thing as an asserter treating credibility loss as a reason to reform its behavior.
+
+
+
+### 3. The "Frankfurtian Bullshit" Alternative (Missing Engagement with Hicks, Humphries, & Slater 2024)
+
+Throughout §§2–4, the paper treats unwarranted confident outputs (Case 1’s lucky guess $P_2$, Case 2’s flat spread $P_4$) through Bernard Williams’s (2002) distinction between *Accuracy* and *Sincerity*, concluding in §4.2 (Horn b) that flatly asserting $p$ from a low-mass distribution is "overclaiming: a failure of Accuracy in Williams's sense... It is not insincerity, because it is unselective."
+
+This completely overlooks the dominant philosophical account of this exact phenomenon: **Frankfurtian bullshit**, as famously applied to LLMs by Hicks, Humphries, and Slater (2024). In philosophy of language, asserting $p$ with full assertoric force while having *no regard for or epistemic backing concerning the truth of $p$* (such as $P_2$ and $P_4$ sampling from a flat 0.01 distribution) is not a mere "failure of Accuracy" (like a careful investigator making a calculation mistake). It is a failure of *Sincerity*—specifically, misrepresenting one's epistemic enterprise (pretending to inform when actually guessing at random). Once we recognize that Sincerity requires not just absence of selective lying, but also *not misrepresenting oneself as having belief/warrant when one is merely guessing*, resampling disagreement ($E$) across flat distributions *does* become direct evidence of insincerity (in the sense of bullshitting/bluffing).
+
+### 4. The Epistemic Circularity of §5.3 ("Wait—How Can We Diagnose Hallucination Without Knowing What Was Asserted?")
+
+In §5.3, the paper claims that the verdicts of §§2–4 hold on every open content reading (R1: bare $p$; R2: $p$ with verbalized confidence $c$; R3: $p$ with the policy's calibrated pooled mass $c$), while conceding in the final paragraph that we cannot positively diagnose *insincerity* because we lack an independent measure of the policy's attitude.
+
+Wait: if we cannot establish what the policy's internal epistemic attitude is (or how its pooled token mass relates to its epistemic confidence), **how can we positively diagnose hallucination either?**
+
+* In §2.2, hallucination is defined as *"content put forward with more force than the asserter's own information supports."*
+
+* Under reading **R3**, the asserted content *is* "$p$, with the policy's calibrated confidence $c$". If an utterance literally asserts "$p$, with confidence 0.01" (because 0.01 is the pooled mass), then in Case 1 ($P_2$) and Case 2 ($P_4$), the model has **not** put forward $p$ with more force than its distribution supports! Under R3, $P_2$ and $P_4$ are completely warranted and *do not hallucinate*! Therefore, the paper's claim in §5.3 that "No open reading reverses a verdict" is strictly false: R3 reverses the hallucination verdict on Cases 1 and 2.
+
+
+
+### 5. Triviality of the "Same-String / Different-Policy Test" in Mainstream Epistemology (§2.1)
+
+In philosophy of language and epistemology, almost *no one* holds the "single-output assumption" as a metaphysical thesis about what fixes warrant. Everyone who endorses a knowledge norm ($K$), justification norm ($J$), or belief norm ($B$) of assertion already agrees that two speakers can utter the exact same string $s$ in the exact same conversational context $x$ with the same truth value, while one assertion is warranted and the other is unwarranted (because warrant depends on the speaker's internal epistemic state or modal reliability profile, not the acoustic/orthographic string).
+
+* What people who endorse the "single-output assumption" actually mean is that **the token utterance (the act of producing $s$ on occasion $x$) is the *bearer* of the normative assessment**, while the policy/epistemic state is the **truthmaker or supervenience base** for that assessment. The author conflates *what bears the verdict* (the token speech act) with *what fixes the verdict* (the underlying dispositional policy).
+
+### 6. Editorial / Revision Artifact in §5.2–5.3 ("clause (a) of the possible refutation")
+
+In §5.2 (p. 9), the text abruptly says: *"So clause (a) of the possible refutation fails."* And in §5.3 (p. 10), it says: *"So clause (b) of the possible refutation fails too."* **Nowhere earlier in the paper is a "possible refutation" with clauses (a) and (b) introduced or defined!** This looks like a leftover artifact from an earlier draft or an internal outline responding to an anticipated objection. It must be either explicitly stated at the start of §5 or excised.
+
+---
+
+## Prior Work That Anticipates the Paper & What Was Checked
+
+### 1. What Was Checked
+
+I conducted targeted searches across recent philosophy of AI, philosophy of language, and machine-learning repositories (including *Ergo*, *Philosophy & Technology*, *Inquiry*, *Philosophical Studies*, *Ethics and Information Technology*, *Philosophies*, *Nature*, arXiv, and the *Encyclopedia of the Philosophy of AI*) covering literature through October 2026:
+
+* **Verified all cited 2022–2026 references:** Confirmed the exact details of Butlin & Viebahn (2025, *Ergo*), Gómez (2026, *Philosophy & Technology*), Williams & Bayne (2026, *Inquiry*), Mácha (2026, *Philosophies*), Chalmers (2026 lecture/manuscript *"What We Talk to When We Talk to Language Models"*), Kalai, Nachum, Vempala & Zhang (2025, arXiv:2509.04664), Levinstein & Herrmann (2025, *Philosophical Studies*), Mallory (2023), Shanahan et al. (2023), Sharma et al. (2024), Xiong et al. (2024), Kadavath et al. (2022), and Lin et al. (2022).
+
+
+* **Checked the *Encyclopedia of the Philosophy of AI* entry on "AI and Assertion" (Oct 2026):** Checked how current survey literature frames the individuation of LLM asserters, norms of assertion, sanctionability, and sycophancy. (Note: the stylistic and structural overlap between parts of this manuscript and that survey entry is high; if the author is also the author of that entry, appropriate self-citation practices for blind review should be observed.)
+* **Searched for prior work on:** (a) Frankfurtian bullshit and LLM insincerity/hallucination, (b) semantic entropy and paraphrase-pooled uncertainty, (c) probabilistic knowledge/assertion in philosophy of language, and (d) intrinsic/extrinsic and factuality/faithfulness taxonomies of hallucination.
+
+### 2. Prior Work That Anticipates Key Claims (and Needs Citation/Discussion)
+
+1. **Farquhar, Kossen, Kuhn, & Gal (2024), "Detecting hallucinations in large language models using semantic entropy" (*Nature*, 630, 625–630):**
+* *How it anticipates the paper:* In §1 and §2.2, the author leans on Lin, Hilton, & Evans (2022) and Manakul et al. (2023) to discuss pooling probability mass over paraphrases and distinguishing token-level uncertainty from claim-level uncertainty. Farquhar et al. (2024) is the landmark paper that formalized **semantic entropy**—explicitly clustering sampled strings by bidirectional entailment to compute probability mass over *meanings/propositions* rather than surface strings—and used it specifically to separate *confabulations* (arbitrary, ungrounded guesses where mass is spread thinly, exactly like the author's Cases 1 and 2) from consistent false beliefs caused by misreported training data. Farquhar et al.’s definition of *confabulation* directly anticipates §2.2’s redefinition of hallucination as low-semantic-mass guessing regardless of truth value.
+
+
+
+
+2. **Hicks, Humphries, & Slater (2024), "ChatGPT is Bullshit" (*Ethics and Information Technology*, 26, 38):**
+* *How it anticipates the paper:* Anticipates the distinction between truth-value error, lying (selective decoupling), and utterance production that is indifferent to truth. Essential for testing §4’s claim that unselective overclaiming is not a sincerity defect.
+
+
+
+
+3. **Sarah Moss (2018), *Probabilistic Knowledge* (Oxford University Press) & Hofweber, Hase, et al. (2024), "Are language models rational? The case of coherence norms and credence":**
+* *How they anticipate the paper:* Section 5’s discussion of whether LLMs assert bare $p$ (R1) or probabilistic contents "$p$ with confidence $c$" (R2/R3) directly recapitulates the debate in epistemology/philosophy of language over whether assertions express full propositions or probabilistic contents (Moss 2018) and how credences are attributed to language models (Hofweber et al. 2024).
+
+
+
+
+4. **Kalai & Vempala (2024), "Calibrated Language Models Must Hallucinate" (*STOC 2024*):**
+* *How it anticipates the paper:* While the author cites the expanded paper Kalai et al. (2025), the foundational mathematical proof that statistical calibration over arbitrary facts necessitates generating false strings (the birthday/singleton rate lower bound used in §2.2) appeared first in Kalai & Vempala (2024).
+
+
+
+
+5. **Ji et al. (2023), "Survey of Hallucination in Natural Language Generation" (*ACM Computing Surveys*):**
+* *How it anticipates the paper:* The ML literature already distinguishes *factuality hallucinations* from *faithfulness hallucinations* (where an output diverges from the provided context/source). The author's Case 1 ("true hallucination" via lucky guessing) is already classified in standard NLG taxonomy as an *extrinsic/unfaithful hallucination* that happens to be factually true.
+
+
+
+
+
+---
+
+## Concrete Recommendations for Revision
+
+1. **Distinguish Bearer from Truthmaker in §2:** Clarify whether the policy is the *bearer* of the assertion failure or the *supervenience base/ground* that fixes the normative status of the token assertion.
+2. **Fix the Temperature / Mode-Collapse Counterexample in §2.2:** Address why a policy $\pi(\cdot \mid x)$ that puts 0.95 mass on a false claim due to greedy decoding ($\tau \to 0$) or RLHF mode-collapse is *not* warranted in the way $P_3$ (trained on a misreported reference work) is. Acknowledge that historical/etiological facts about training data—not just the synchronic distribution $\pi(\cdot \mid x)$—are doing work in Case 2.
+3. **Engage Farquhar et al. (2024) and Hicks et al. (2024):** Integrate Farquhar et al.’s concept of *confabulation* via semantic entropy in §2.2 and defend §4.2’s treatment of unselective guessing against Hicks et al.’s Frankfurtian bullshit objection.
+4. **Repair the R3 Contradiction in §5.3 and Remove the Draft Artifact:** Explain why R3 doesn't trivially eliminate hallucination in Cases 1–2 (since asserting "$p$ with 0.01 confidence" when pooled mass is 0.01 is perfectly calibrated and un-overclaimed), and clean up the unexplained references to "clause (a)" and "clause (b) of the possible refutation" in §§5.2–5.3.

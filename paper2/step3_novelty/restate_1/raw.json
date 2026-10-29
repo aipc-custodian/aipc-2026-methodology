@@ -1,0 +1,30 @@
+[
+  {
+    "thesis": "If chatbot outputs are assertions, then hallucination, sycophancy and sanction are best assessed at the level of the trained policy (the output distribution and its calibration), not the sampled string, and resampling inconsistency is not evidence of insincerity. Whether the asserted content is the policy's calibrated 'p, with confidence c' is not established.",
+    "target": "Williams & Bayne's use of inconsistency and non-binding behaviour as a mark against full assertion. Also the shared assumption in the Butlin & Viebahn, Williams & Bayne and G\u00f3mez literature that the unit of assertion and sanction is the single output or the deploying humans. Chalmers's rejection of the model as speaker and Shanahan et al.'s role-play reading of resampling are rivals to answer, not targets.",
+    "sketch": null,
+    "move_type": null,
+    "risk": null,
+    "promise": null,
+    "ruling": {
+      "verdict": "restated",
+      "surviving_thesis": null
+    },
+    "transcript": [],
+    "restated_from": "If chatbot outputs are assertions, hallucination, sycophancy and sanction are best assessed at the level of the trained policy, and resampling inconsistency is not evidence of insincerity. Whether the asserted content is the policy's calibrated 'p, with confidence c' is not established.",
+    "restate_status": "UNCHANGED",
+    "given_up": null,
+    "still_new": "All of it. No source read in full discusses extensively and endorses or forecloses any of the three claims. These are policy-level assessment of hallucination, sycophancy and sanction under the assertion hypothesis; resampling inconsistency as non-evidence of insincerity; and the open status of calibrated 'p, with confidence c' content. The full texts of Butlin & Viebahn, Williams & Bayne, G\u00f3mez, Shanahan et al., Chalmers, Mallory and M\u00e1cha mostly deny or bracket the antecedent, or address who the speaker is, so they are rivals and not anticipations. The empirical papers (Kalai et al., Sharma et al., Manakul et al., Xiong et al.) treat hallucination, sycophancy and sample consistency at the model or distribution level, but only as methodology. None argues that this is the right level for assessing assertions. The closest points are Butlin & Viebahn's passing remark on training-phase sensitivity to trust (p. 982), and Shanahan et al.'s reading of resampling as showing no prior commitment (Box 2). Neither is an extended argument that reaches the thesis's conclusion. The thesis's own caveat on calibrated content is supported by Levinstein & Herrmann, Xiong et al. and Kalai et al.",
+    "credit": [
+      "Butlin & Viebahn 2025 \u2014 descriptive-function and sanctionability conditions; a passing note that training-phase sensitivity to trust may explain deployment outputs (p. 982), a pointer toward system-level sanction",
+      "Williams & Bayne 2026 \u2014 the proto-assertion verdict and the consistency and defence expectations behind the objection from commitment; they also report that RLHF shapes dispositions by credibility assessments",
+      "Shanahan, McDonell & Reynolds 2023 \u2014 the superposition-of-simulacra picture, and the reading of resampling variation (Box 2) as showing no prior commitment, which shifts attention from the single output to the distribution",
+      "Chalmers 2026 \u2014 the individuation of interlocutors (model, instance, thread) and the treatment of cross-context inconsistency as a reason to individuate more finely, not as insincerity",
+      "Kalai et al. 2025 \u2014 hallucination and calibration analysed as properties of the model's output distribution, with incentive-based persistence under binary grading, and the point that post-training can undo calibration",
+      "Sharma et al. 2024 \u2014 sycophancy as a training-driven property of assistants, measured as rates over prompts",
+      "Manakul et al. 2023 and Xiong et al. 2024 \u2014 sample consistency read as a signal of uncertainty or hallucination, and evidence that verbalized confidence is poorly calibrated",
+      "Levinstein & Herrmann 2025 \u2014 doubt that probe-extracted probabilities are the model's credences, a close cousin of the closing caveat",
+      "G\u00f3mez 2026 \u2014 assertion without asserter, with accountability located in humans and institutions"
+    ]
+  }
+]

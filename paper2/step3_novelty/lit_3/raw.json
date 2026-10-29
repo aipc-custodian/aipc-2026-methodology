@@ -1,0 +1,490 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "Austin's A/B conditions make no demand for intention to perform an act, and sincerity-grade states fall under \u0393 (abuse). Intention-based denials therefore import a non-Austinian condition and owe an argument that apology, promise and similar act types are intention-constituted rather than procedure-constituted. For proxy-occupied roles the question is one of status; for an LLM acting in its own name it may reduce to standing that tracks mind-involving capacities.",
+        "headline": "The intention-based denials of LLM speech acts mistake what Austin classed as an abuse (a hollow but performed act) for a misfire (an unperformed act), so the live question is whether LLM output meets Austin's A/B procedural conditions, which is a question about status and not about mind.",
+        "used_surviving": true,
+        "target": "Gubelmann, Magnus/Buccella/D'Cruz, and the shared assumption (including Attah's) that communicative intention is a performance condition for speech acts",
+        "sketch": "Austin separates misfires, where the act is void because there is no accepted procedure, the wrong persons or circumstances, or a flawed execution, from abuses, where the act is performed but insincere because the speaker lacks the requisite thoughts, feelings or intentions (the \u0393 conditions). Gubelmann, Magnus et al., and the Gricean-intention framing all argue that missing intentions, remorse or agency means no act is performed. On Austin's own taxonomy that shows at most a defective apology, promise or assertion. A bare lack of sincerity-grade states is also what Searle treats as compatible with performing an insincere assertion. The intention requirement only becomes a performance condition after the Strawsonian/Gricean rewrite of Austin, and the debate has silently adopted that rewrite. If Austin is restored, the question becomes whether a given LLM output occupies a role in a conventional procedure, which is the Butlin\u2013Viebahn and Skiba normative-status question. The positions then regroup: the organismic denials become claims about abuse, the proxy views become claims about who occupies the A-condition role, and the decisive disagreement shifts to which act types are conventional-procedural and which are intention-constituted. The key premise is that the speech-act kinds in question (apology, promise, advice) are at least partly procedure-constituted.",
+        "promise": 4,
+        "residual": 3
+      },
+      "finding": {
+        "searched": [
+          "Gubelmann LLM speech acts Austin Searle \"Large Language Models, Agency, and Why Speech Acts are Beyond Them\"",
+          "Magnus Buccella D'Cruz Can LLMs perform speech acts apology promise",
+          "Austin misfire abuse sincerity LLM apology performed insincere",
+          "Butlin Viebahn AI assertion normative status",
+          "Attah communicative intention speech acts large language models",
+          "psychology study do people accept apology from chatbot AI apology effectiveness",
+          "Austin felicity conditions chatbot speech acts conventional procedure LLM misfire not abuse",
+          "L\u00f6hr LLM speech acts conventional performatives institutional without intention"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "SUPPORTED",
+            "part": "Gubelmann is a clean instance of the intention-as-performance-condition premise",
+            "source": "Reto Gubelmann, \"Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now)\", Philosophy & Technology, 2024",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00696-1",
+            "what_they_say": "His four-line argument is: a speaker must be able to illocute; to illocute a being must have intentions; LLMs have no intentions; so LLMs are no speakers. He introduces Austin as the originator of speech act theory and Searle as its systematiser.",
+            "damage": 1,
+            "note": "He holds the view ascribed to him. I did not retrieve any passage where he discusses Austin's \u0393 conditions or the misfire/abuse split, so whether he ignores them is unverified."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Magnus/Buccella/D'Cruz as an 'intention-based denial'",
+            "source": "Magnus, Buccella & D'Cruz, \"Chatbot apologies: Beyond bullshit\", AI and Ethics, 2025",
+            "url": "https://philarchive.org/rec/MAGCAB",
+            "what_they_say": "They draw on the nature of morally serious apologies, the linguistic agency required to perform them, and the moral agency required for them to matter. They say apology's functions require mutual recognition of moral agency and the ability to intentionally change one's behaviour.",
+            "damage": 3,
+            "note": "Their denial rests partly on relational and moral standing, not only on missing intention. Labelling them 'intention-based' is partly inaccurate, and their view sits close to the thesis's 'status' option. I read only the abstract and extracts, not the full text."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "Attah named as sharing the assumption that communicative intention is a performance condition",
+            "source": "Nuhu Osman Attah, \"Do language models lack communicative intentions?\", Synthese, 2025",
+            "url": "https://www.researchgate.net/publication/391019058_Do_language_models_lack_communicative_intentions",
+            "what_they_say": "He argues that once the LLM and human architectures are fairly assessed there is no good reason to suppose LLMs lack communicative intentions, and he rejects communicative intentions as a ground for denying linguistic competence. Williams notes that Attah's focus is on communicative intentions, because of his interest in the requirements for linguistic competence.",
+            "damage": 3,
+            "note": "Attah attacks the Gricean premise about meaning and competence and affirms that LLMs have such intentions. He is not an intention-based denier of speech acts, so lumping him into the shared assumption must be narrowed."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "the 'shared assumption' that intention is needed for speech acts",
+            "source": "Williams, \"Intention-like representations in language models?\", Philosophical Studies, 2026",
+            "url": "https://link.springer.com/article/10.1007/s11098-026-02605-y",
+            "what_they_say": "Linguistic capacities such as assertion are widely held to require intentions, for example intentions to perform a speech act, to induce a belief in a hearer, or to express a proposition.",
+            "damage": 1,
+            "note": "This confirms the assumption is widely held, as the thesis says. It is not an anticipation of the Austinian diagnosis."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "Applying Austin's misfire/abuse taxonomy to chatbot apology, promise and assertion",
+            "source": "Ryle and Jack, \"How Chatbots Do Things With Words\", Substack essay, c. 2026",
+            "url": "https://theprecisetheologians.substack.com/p/how-chatbots-do-things-with-words",
+            "what_they_say": "It assumes chatbots do perform speech acts and asks whether their speech acts are better understood as misfires or abuses. It concludes that the abuse category does not capture a complete lack of sincerity or insincerity, so the distinction is hard to apply.",
+            "damage": 2,
+            "note": "It is informal, non-peer-reviewed and assumes the act is performed. It uses the same taxonomy on the same question but argues Austin's categories are strained, not that intention-denials misclassify an abuse as a misfire. A referee may still find it."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Austin's \u0393 conditions are abuses, not misfires. An insincere act is still performed.",
+            "source": "\"Apologizing over time\", Synthese, 2026",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05478-0",
+            "what_they_say": "When a speaker insincerely performs a speech act, Austin holds that the act is still performed. It is a hollow abuse that may still succeed as an action. The paper sets Austin against expressive theories (Searle, Bennett), which require the speaker to have mental states.",
+            "damage": 1,
+            "note": "This is independent scholarly support for the reading of Austin on abuse, and it applies to apology. It is not about LLMs."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "\u0393 is the intention, thought and feeling condition, and A/B are the conventional-procedure conditions",
+            "source": "Etsuko Oishi, \"Austin's Speech Act Theory and the Speech Situation\", Rivista di filosofia (eserfilo)",
+            "url": "https://sites.units.it/eserfilo/art106/oishi106.pdf",
+            "what_they_say": "Violating the A conditions disallows the act, violating the B conditions vitiates it, and violating the \u0393 condition, the speaker's associated intention, makes it abused.",
+            "damage": 1,
+            "note": "This is a reference reading of the taxonomy. It also shows Austin does place some intentions in \u0393, which is where the thesis puts them."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Which act types are conventional-procedural and which are intention-constituted. The thesis says this is where the disagreement lands.",
+            "source": "Harris, Fogal & Moss, \"Speech Acts: The Contemporary Theoretical Landscape\"",
+            "url": "https://danielwharris.com/papers/HarrisFogalMoss-SpeechActsTheContemporaryTheoreticalLandscape.pdf",
+            "what_they_say": "Austin's conventionalist analysis is meant to apply to all illocutionary acts, and performing one requires a context where the convention is in effect and acting in accordance with it. Intentionalists argue that communicative illocutionary acts need not be performed against any particular cultural or institutional background.",
+            "damage": 3,
+            "note": "The conventionalism vs intentionalism dispute is established, so the thesis's 'decisive disagreement' is a known fault line. The thesis must locate itself in that literature, and it does not currently do so."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Proxy-occupied roles, and a status or standing route for LLMs acting in their own name",
+            "source": "Butlin & Viebahn, \"AI Assertion\", Ergo, 2025; Williams & Bayne, \"Chatting with bots\", Inquiry, 2024",
+            "url": "https://philpapers.org/rec/BUTAAJ",
+            "what_they_say": "Butlin and Viebahn argue that a capable asserter must produce outputs with descriptive functions and be capable of being sanctioned, a requirement that comes from assertion being a norm-governed social practice. Williams and Bayne describe the popular proxy theory of artificial speech, on which chatbots speak only as stand-ins for a human or corporation, and argue that it neglects the relational nature of speech.",
+            "damage": 3,
+            "note": "These already frame the question as normative status, with proxy as one option. The thesis's regrouping (organismic denials become abuse claims, proxy views become claims about who fills the A-role) has to be credited against them. Neither source frames the issue in terms of Austin's A/B/\u0393 conditions."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Non-intention-based routes to a no-speech-act verdict, and an own-name route without proxies",
+            "source": "\"Artificial Speech Acts\", Analysis, 2026; L\u00f6hr, \"Why proxy accounts of AI speech acts fail\", American Philosophical Quarterly, 2026",
+            "url": "https://doi.org/10.1093/analys/anag022",
+            "what_they_say": "The Analysis paper shows how a norm-based argument against LLM assertion can be generalised to support a negative answer on speech acts as a whole. L\u00f6hr is reported as allowing speech acts to be attributed to AI systems without grounding them in a person's or institution's commitments, and as arguing that chatbots may count as speakers while only weakly morally responsible.",
+            "damage": 3,
+            "note": "The literature already contains a norm-based denial and an own-name affirmation, neither of which relies on intention. The thesis's second half overlaps both. I saw only abstracts and secondary reports, not the papers."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Empirical literature on whether people treat chatbot apologies as apologies, and where the deficit shows up",
+            "source": "Experimental studies on AI apology, including \"Can AI-assisted apologies foster trust and forgiveness?\" and \"A natural apology is sincere\"",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0363811126000792",
+            "what_they_say": "Participants in the AI-attributed apology condition reported lower perceived sincerity than those in the human-attributed condition. A separate study found that most customers view chatbot apologies as unnatural and insincere.",
+            "damage": 2,
+            "note": "Lay respondents locate the AI deficit in sincerity, which matches an abuse-style reading, and they still evaluate the output as an apology. These are measures of perceived sincerity and effectiveness, not of whether an act was performed, so they are suggestive and not decisive."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Reception of the intention premise in the field. Proxy and normative views are treated as the live rivals to Gubelmann-style denials.",
+            "source": "\"Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs\", Synthese, 2026",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "Many conclude that LLMs are not speakers and their outputs are not assertions, citing Gubelmann and Butlin & Viebahn. It examines fictionalism, proto-assertion and the proxy view as ways to accommodate the normative dimension.",
+            "damage": 1,
+            "note": "A recent survey-like source mapping the positions the thesis proposes to regroup. It does not use Austin's misfire/abuse split in the extracts I saw."
+          }
+        ],
+        "what_is_left": "Austin's own taxonomy places the speaker's thoughts, feelings and intentions in \u0393, so a denial that an LLM performs an apology or promise on the ground that it lacks intentions or remorse needs an added premise. That premise is that the act type is intention-constituted and not a conventional procedure whose A/B conditions the output can meet. The thesis has to pitch this as a sharpening of the existing conventionalism/intentionalism dispute, applied to LLM speech-act denials (mainly Gubelmann's explicit intention premise and the intention parts of Magnus et al.). It must not present it as a discovery that the debate overlooked Austin. It should drop the claim that Attah shares the premise, and should not say Magnus et al. rely on intention alone, since they also appeal to relational and moral standing. It must credit Butlin\u2013Viebahn, Williams\u2013Bayne and L\u00f6hr for already treating the issue as one of normative status and proxy, and say what an Austin-A/B framing adds to them. The unoccupied part is the explicit Austinian A/B/\u0393 regrouping of the LLM positions.",
+        "not_found": "I found no peer-reviewed paper that argues, in terms of Austin's A/B/\u0393 conditions, that intention-based LLM speech-act denials mistake an abuse for a misfire. That is weak evidence, because I saw only abstracts, extracts and secondary reports. I did not retrieve the full texts of Gubelmann, Magnus et al., Butlin\u2013Viebahn or L\u00f6hr, so I cannot say whether any of them mention the misfire/abuse distinction. I found no source that checks the thesis's historical claims: that Searle treats a lack of sincerity-grade states as compatible with performing an insincere assertion, and that the Strawsonian/Gricean rewrite of Austin turned intention into a performance condition. I found nothing on Skiba, though the thesis names that work. I did not locate Green & Michel's proxy-account paper directly, only mentions of it. My empirical searches covered the psychology and HCI work on AI apology only. I did not search linguistics on apology as a conventional routine, or sociology or economics of institutional speech. The thesis's key premise, that apology, promise and advice are at least partly procedure-constituted, got no direct test. I saw only the general conventionalist/intentionalist framing.",
+        "citations": [
+          {
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00696-1",
+            "title": "Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now)",
+            "cited_text": "My case can be summarized in the following four-liner (to illocute is to perform a speech act):\n\n****P1**:**: To qualify as a speaker, a being has to ..."
+          },
+          {
+            "url": "https://philarchive.org/rec/MAGCAB",
+            "title": "P. D. Magnus, Alessandra Buccella & Jason D'cruz, Chatbot apologies: Beyond bullshit - PhilArchive",
+            "cited_text": "This paper explores this concern and develops it beyond the epithet, drawing on the nature of morally serious apologies, the linguistic agency require..."
+          },
+          {
+            "url": "https://arxiv.org/pdf/2501.09910",
+            "title": "Chatbot apologies: Beyond bullshit",
+            "cited_text": "Importantly, these functions of apology require mutual recognition of moral agency and the ability to intentionally change one's behavior between the ..."
+          },
+          {
+            "url": "https://www.researchgate.net/publication/391019058_Do_language_models_lack_communicative_intentions",
+            "title": "(PDF) Do language models lack communicative intentions?",
+            "cited_text": "fairly assess the architecture of both LLM and human cognitive architectures, we\n\nwill \ue6bfnd no good reasons to suppose large language models lack commu..."
+          },
+          {
+            "url": "https://philarchive.org/archive/WILIRI-4",
+            "title": "Intention-like representations in language models?",
+            "cited_text": "A further difference between our approaches is Attah\u2019s focus on a sub-class of intentions, communicative. "
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s11098-026-02605-y",
+            "title": "Intention-like representations in language models?",
+            "cited_text": "Linguistic capacities such as assertion, and even the ability to make meaningful utterances, are widely held to require intentions of one kind or anot..."
+          },
+          {
+            "url": "https://theprecisetheologians.substack.com/p/how-chatbots-do-things-with-words",
+            "title": "How Chatbots Do Things With Words - Ryle and Jack",
+            "cited_text": "This paper will assume that chatbots do in fact perform speech acts, and will then ask how it is that those speech acts function or fail to function.1..."
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05478-0",
+            "title": "Apologizing over time",
+            "cited_text": "When a speaker insincerely performs a speech act, as in a bad faith promise, Austin argues that the speaker has still performed the act. An insincere ..."
+          },
+          {
+            "url": "https://sites.units.it/eserfilo/art106/oishi106.pdf",
+            "title": "Austin\u2019s Speech Act Theory and the Speech Situation Etsuko Oishi",
+            "cited_text": "Uttering a performative sentence is to be described in terms of (I)\n\nassociated conventions which are valid (without which the purported act is\n\ndisal..."
+          },
+          {
+            "url": "https://danielwharris.com/papers/HarrisFogalMoss-SpeechActsTheContemporaryTheoreticalLandscape.pdf",
+            "title": "1 Speech Acts The Contemporary Theoretical Landscape",
+            "cited_text": "Nonetheless, his conventionalist analysis is\n\nintended to apply to all illocutionary acts. To perform an illocutionary act, according\n\nto Austin, requ..."
+          },
+          {
+            "url": "https://philpapers.org/rec/BUTAAJ",
+            "title": "Patrick Butlin & Emanuel Viebahn, AI Assertion - PhilPapers",
+            "cited_text": "We argue that to be capable of assertion, an entity must meet two requirements: it must produce outputs with descriptive functions, and it must be cap..."
+          },
+          {
+            "url": "https://www.researchgate.net/publication/387230966_Chatting_with_bots_AI_speech_acts_and_the_edge_of_assertion",
+            "title": "Chatting with bots: AI, speech acts, and the edge of assertion",
+            "cited_text": "According to the currently most popular theory of artificial speech, the answer is \u201cyes,\u201d but only as a proxy\u2014a stand-in for a human speaker or corpor..."
+          },
+          {
+            "url": "https://doi.org/10.1093/analys/anag022",
+            "title": "Artificial Speech Acts",
+            "cited_text": "I show how a norm-based argument against LLM-assertion can be generalized so as to support a negative answer to this question. "
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s44204-026-00454-4",
+            "title": "Against speech liberalism for generative AI",
+            "cited_text": "Other accounts allow speech acts to be attributed to AI systems without grounding them in the commitments of such a person or institution (L\u00f6hr 2026, ..."
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/pii/S0363811126000792",
+            "title": "Can AI-assisted apologies foster trust and forgiveness? The role of warmth and competence in crisis communication tone - ScienceDirect",
+            "cited_text": "As predicted by H1 and H2, participants in the AI-attributed apology condition reported significantly higher levels of machine heuristic perceptions a..."
+          },
+          {
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0278431922002535",
+            "title": "A natural apology is sincere: Understanding chatbots' performance in symbolic recovery - ScienceDirect",
+            "cited_text": "- \u2022 Chatbots' apology is viewed as unnatural and insincere by most customers.\n"
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "title": "Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs",
+            "cited_text": "For this reason, neither descriptive psychological accounts nor normative responsibility-based accounts straightforwardly apply to them, and many conc..."
+          }
+        ]
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "speech-acts",
+      "austin-jl",
+      "assertion"
+    ],
+    "why": "The theses reread Austin's felicity conditions (misfire vs. abuse) against intention-based denials that LLMs perform speech acts, which is the speech-acts debate itself, with Austin's own entry for the taxonomy and assertion for the Searle/insincere-assertion and LLM assertion literature.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ANTICIPATED",
+                "position": "Force conventionalism: every speech act invokes an extra-semantic convention or procedure, and Austin's felicity conditions are procedure-centred. The thesis's 'procedure-constituted' side is this view.",
+                "who": "Austin; Searle (weaker form)",
+                "quote": "There must exist an accepted conventional procedure having a certain conventional effect, that procedure to include the uttering of certain words by certain persons in certain circumstances\u2026",
+                "damage": 3,
+                "note": "The procedure-versus-intention contrast is the entry's own Section 4 dispute, so the thesis restates it rather than opening it."
+              },
+              {
+                "relation": "ANTICIPATED",
+                "position": "Intentionalism: speech acts are explained by discernible communicative intentions, not by conventions. The entry says it is compatible with conventions for special cases such as appointing and excommunicating, which is a split by act type like the thesis's.",
+                "who": "Strawson 1964; Skinner 1970 (conventions matter for historical understanding)",
+                "quote": "Strawson contends that rather than appealing to a series of extra-semantic conventions to account for the possibility of speech acts, we explain that possibility in terms of our ability to discern one another's communicative intentions.",
+                "damage": 4,
+                "note": "The thesis calls intention-based denials 'non-Austinian', and this is the main literature that makes that very move. The entry also draws a line by act type, so the 'owe an argument per act type' demand is partly met already."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "The entry defines speech acts through speaker meaning and overt commitment. Intention is therefore built into the definition of a speech act, not just added as an extra felicity condition.",
+                "who": "Green (entry author), following Grice and Strawson",
+                "quote": "a speech act is a type of act that can be performed by speaker meaning that one is doing so. This conception still counts resigning, promising, asserting and asking as speech acts, while ruling out convincing, insulting and whispering.",
+                "damage": 4,
+                "note": "On this view intention-based denials are not importing a foreign condition. They apply the entry's own criterion for being a speech act at all, and this is what the thesis must answer."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "Procedure alone does not suffice. Uttering a performative sentence without speaker meaning performs no act, and merely trying or intending is not enough either.",
+                "who": "Green (somniloquist case); Green 2013; Davidson 1979 (jokers and actors)",
+                "quote": "while talking in my sleep I might say, \"I hereby promise to climb the Eiffel Tower,\" without thereby making any promise.",
+                "damage": 4,
+                "note": "The entry's own cases show that a correct procedure plus correct words can yield no act. This undercuts the claim that Austin's A/B conditions are sufficient and need no intention."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Insincerity is an abuse, not a misfire: the act is still performed. A promise made with no intention to keep it is a promise that is infelicitous but valid.",
+                "who": "Austin, as presented by the entry",
+                "quote": "Here I have promised all right, but the act is not felicitous because it is not sincere. My act is, more precisely, an abuse because although it is a speech act, it fails to live up to a standard appropriate for speech acts of its kind.",
+                "damage": 1,
+                "note": "This directly supports the claim that sincerity-grade states fall under \u0393 and do not bar the act. It is the strongest foothold for the thesis."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Misfires arise from lack of authority, social position or audience uptake. These are status or standing conditions, not mental states.",
+                "who": "Austin; Searle and Vanderveken (preparatory conditions); Langton and Hornsby (silencing)",
+                "quote": "Such conditions often concern the social status of interlocutors. For instance, a person cannot bequeath an object unless she already owns it or has power of attorney",
+                "damage": 1,
+                "note": "This supports the 'status' reading for proxy-occupied roles. The entry's 'power of attorney' example is close to proxy cases."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Standing to perform an act can be lost or denied through community response, independently of the speaker's intentions.",
+                "who": "Green (Section 9); Langton 1993; Hornsby and Langton 1998",
+                "quote": "the inveterate promise-breaker will, in time, lead others in his community to be unwilling to accept any promises he tries to make. He can perform countless locutionary acts but will be unable to perform the illocutionary act of promising, at least in this community.",
+                "damage": 1,
+                "note": "This supports the idea that standing, not mind, can decide whether an act is performed, which is useful for the LLM 'standing' suggestion."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Some illocutionary conventions, or performative effects, can be secured without the speaker intending them to be performed. Alternatively, speech acts can be performed without intending that act, via intentionally performing others.",
+                "who": "Reimer 1995 (illocutionary conventions); Searle and Vanderveken (strong illocutionary commitment); Hare 1989; Millikan 1998 (natural conventions)",
+                "quote": "it is difficult to see how one can perform S n while having no intention of performing a speech act at all.",
+                "damage": 3,
+                "note": "A referee will use this to ask how far procedure can substitute for intention. The entry itself says intention can hardly be eliminated altogether."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Searle holds that manifesting an intention to perform an act suffices for performing it. Green objects that this lacks overtness and that intentions must be efficacious.",
+                "who": "Searle 1989; Green 2013",
+                "quote": "Searle also takes it that manifesting an intention to perform a speech act is sufficient for the performance of that act.",
+                "damage": 2,
+                "note": "Here intention and public procedure are blended, which complicates a clean 'intention vs procedure' dichotomy."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Speech acts as overt commitment: liabilities and norms of challenge and retraction, not inner states, mark the act. This could ground a 'standing' account that does not turn on intention.",
+                "who": "Green (Section 5.3); Brandom and Williamson in the bibliography and in the 'How do you know?' norm",
+                "quote": "speech acts involve intentional undertaking of a publicly accessible commitment",
+                "damage": 2,
+                "note": "A normative-commitment account could serve as a third option beside the thesis's procedure and intention poles."
+              }
+            ],
+            "nearest_positions": [
+              "Force conventionalism: speech acts are constituted by invoking conventions or constitutive rules (Austin 1962; Searle 1969, weaker form)",
+              "Intentionalism via speaker meaning: acts are constituted by overtly manifested communicative intentions (Strawson 1964; Grice-based; Green 2019)",
+              "Illocutionary conventions and natural conventions as a mixed route (Reimer 1995; Millikan 1998; Bach and Harnish's standardization)"
+            ],
+            "entry_silent_on": "Whether artificial systems such as LLMs can perform speech acts such as apologizing or promising, whether they act in their own name or through proxies, and whether standing might track 'mind-involving capacities'. 'Artificial intelligence' appears only in a list of disciplines and Shoham 1993 only in the bibliography. The entry has no discussion of agency by proxy or delegation, and it does not use Austin's A/B/\u0393 labels, only the misfire/abuse distinction. It does not frame the issue as intention-constituted versus procedure-constituted act types for particular acts."
+          }
+        ],
+        "slug": "speech-acts",
+        "url": "https://plato.stanford.edu/entries/speech-acts/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "The entry splits infelicity into misfires (the act is not achieved: wrong formula, wrong person, wrong circumstances) and abuses (the act is performed, but insincerely). Failures of sincerity-type states therefore do not void the act. The thesis can build its A/B versus \u0393 reading on this.",
+                "who": "Austin (1962b), as reported in the entry",
+                "quote": "Second, there are abuses: in these cases, the act is performed, but insincerely, perhaps for example in instituting a marriage of convenience.",
+                "damage": 2,
+                "note": "Gives the abuse/misfire contrast. The entry never uses the A/B/\u0393 labels and never says what the abuse category includes beyond insincerity."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "The entry's examples of misfire are procedural or circumstantial: incorrect formula, already married, purser rather than captain. None is a missing intention. This fits the claim that the conditions that make an act fail to occur are procedure-constituted.",
+                "who": "Austin (1962b: 15\u201316)",
+                "quote": "if we\u2026utter the formula incorrectly, or if\u2026we are not in a position to do the act because we are\u2026married already, or it is the purser and not the captain who is conducting the ceremony, then the act in question, \u2026marrying, is not successfully performed at all",
+                "damage": 2,
+                "note": "Textual basis for 'no demand for intention'. The entry never states that Austin excludes intention from misfires."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "In the action-and-excuses material, Austin holds that responsibility needs nothing more than that the act be a normal instance of something the agent does. Voluntariness or purpose is not an extra requirement ('No modification without aberration'). A referee could use this as a parallel from Austin's other work: intention is not a default condition on agency.",
+                "who": "Austin (1957, 1966)",
+                "quote": "nothing more need be true than that the action is a normal or standard instance of something they do. For example, it need not be true of the actor, in addition, that they did what they did voluntarily or on purpose",
+                "damage": 2,
+                "note": "Concerns responsibility for actions, not the constitution of speech acts. It is an analogy and does not settle the thesis."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "The entry describes the illocutionary act as classified by force. It says the various modes of assessment apply most fundamentally to that act. It does not say what constitutes an illocutionary act (conventional procedure, intention or uptake). The reception literature in the bibliography names Searle, Bach and Harnish, Strawson, Schiffer and de Gaynesford ('Uptake in Action'). The entry gives none of their positions beyond titles and name-lists, but a referee would raise them as the intention-based or uptake-based rivals.",
+                "who": "Austin; the debate is cited only by name (Bach and Harnish 1979; Strawson 1964a; Schiffer 1972; Searle 1968, 1969; de Gaynesford 2018)",
+                "quote": "an act classifiable not only by its content\u2014as with the locutionary act\u2014but also by its force (stating, warning, promising, etc.)",
+                "damage": 3,
+                "note": "The entry points to the intention-versus-convention dispute only through citation lists. It does not state it."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "On the entry's account, Austin treats judgment and speaking as exercises of language-involving 'judgmental capacities' that are limited and fallible. This is a neighbour for the thesis's closing suggestion that standing tracks mind-involving capacities. The entry applies it to knowledge and perception, not to speech-act standing.",
+                "who": "Austin (1946, 1962a), as reported in the entry",
+                "quote": "Knowledge arises through the successful exercise of judgmental capacities in propitious circumstances\u2014that is, through a combination of acumen and opportunity",
+                "damage": 1,
+                "note": "A loose analogy only."
+              }
+            ],
+            "nearest_positions": [
+              "Austin's own felicity framework (misfire versus abuse, from How to Do Things with Words) \u2014 Austin, as reported in the entry",
+              "Intention- and communication-based accounts of illocution \u2014 Searle, Bach and Harnish, Strawson, Schiffer; named in the entry's bibliographic lists but not described",
+              "Uptake-based readings of illocution \u2014 de Gaynesford 2018, 'Uptake in Action'; title only in the bibliography",
+              "Hornsby's work on illocution and performatives \u2014 cited but not described"
+            ],
+            "entry_silent_on": "The entry never uses the A/B/\u0393 labels or lists the felicity conditions in full. It does not say whether Austin's conditions require intention. It does not discuss whether act types like apology or promise are intention-constituted or procedure-constituted. It says nothing about proxy-occupied roles, status or standing, or artificial or LLM speakers. It does not discuss denials of speech-act performance on the basis of lacking intention."
+          }
+        ],
+        "slug": "austin-jl",
+        "url": "https://plato.stanford.edu/entries/austin-jl/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "On Austin's own taxonomy, insincerity (the lack of the appropriate intention or belief) is an infelicity of the abuse kind. It does not stop the act from being performed. Failures of procedure or presupposition are a separate class (flaw-type misexecutions, misinvocations).",
+                "who": "Austin 1962, as reported in the entry",
+                "quote": "an assertion is insincere in case of lying as a promise is insincere when the appropriate intention is lacking (Austin 1962 [1975: 40]). This is an infelicity of the abuse kind.",
+                "damage": 1,
+                "note": "Directly supports the thesis's claim that sincerity-grade states fall under \u0393. The entry never uses the labels A/B/\u0393 and does not discuss Austin's A/B conditions as such."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Austin treats void assertions (failed reference) as procedure failures of the same kind as using the wrong legal formula or failing the requirements of a naming procedure. This is a procedure-constituted picture of the act.",
+                "who": "Austin, as reported in the entry",
+                "quote": "an assertion is, according to Austin, void in case of a failed referential presupposition... This is then an infelicity of the same kind\u2014flaw-type misexecutions\u2014as the use of the wrong formula in a legal procedure",
+                "damage": 1,
+                "note": "Gives the thesis its procedural reading of the act. The entry presents it only as Austin exegesis, not as an argument about who or what can perform the act."
+              },
+              {
+                "relation": "ANTICIPATED",
+                "position": "Intention-based accounts of illocutionary acts. Grice-style, Searle's reflexive-intention analysis and Bach & Harnish's expressed-belief-plus-intention analysis all make hearer-directed intentions constitutive of asserting. These are the 'intention-based denials' the thesis targets.",
+                "who": "Grice 1957; Searle 1969; Bach & Harnish 1979",
+                "quote": "S asserts that p iff S expresses i. the belief that p, and ii. the intention that H believe that p.",
+                "damage": 3,
+                "note": "The entry presents these as full rival analyses, so the thesis must be situated against them. It does not frame them as importing a non-Austinian condition."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Strawson's mixed verdict. Communicative intentions are largely irrelevant for highly conventionalized acts, while convention does little work for ordinary illocutionary types. This is a near-neighbour of the intention-versus-procedure dichotomy the thesis draws.",
+                "who": "Strawson 1964",
+                "quote": "when it comes to highly conventionalized utterances, communicative intentions are largely irrelevant, but... convention does not play much role for ordinary illocutionary types.",
+                "damage": 3,
+                "note": "A referee would use this to say the intention/procedure split is act-type-relative, which is the argument the thesis says it owes."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "Convention or procedure is neither necessary nor sufficient for assertion. Stainton and Strawson show assertions without conventional force-indicators. Davidson and Bach & Harnish argue that any conventional sign can be used insincerely or in acting, so convention is not sufficient. Williamson argues that constitutive-rule acts cannot be conventional.",
+                "who": "Strawson 1964; Stainton 1996, 2006; Davidson 1979, 1984; Bach & Harnish 1979; Williamson 1996",
+                "quote": "If Strawson and Stainton are right, convention isn't necessary for making assertions... If Davidson, and Bach and Harnish are right, then conventions are also not sufficient",
+                "damage": 4,
+                "note": "Cuts against a procedure-constituted account of assertion in particular. K\u00f6lbel and Garc\u00eda-Carpintero are cited as pushing back."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Constitutive-rule and normative accounts that do not need an intention condition. Searle's constitutive rule (counts as an undertaking), Brandom/Peirce commitment, and Rescorla's view that there is no norm of making an assertion, only norms governing later reactions. These are status-style accounts that could host the thesis's 'standing' idea.",
+                "who": "Searle 1969; Brandom 1994; Peirce; Alston 2000; Rescorla 2009a",
+                "quote": "Making an assertion has normative consequences... some authors focus on the distinctive responsibilities ('commitments') that a communicator takes on",
+                "damage": 2,
+                "note": "Commitment accounts are the closest the entry comes to a status-based view. They are not tied to proxies or to mind-involving capacities."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "The entry flags intention requirements on asserting as an open question. It also says insincere assertions are still assertions, and that Pagin's speaker-side belief profile is only a default.",
+                "who": "Entry; Pagin 2011, 2020",
+                "quote": "there are more general questions about what intentions are required of a speaker in order for his utterance to qualify as an assertion. For instance, must he intend it to be an assertion? Must it be made voluntarily?",
+                "damage": 1,
+                "note": "Shows the intention question is acknowledged but left unargued, which is the gap the thesis says intention-theorists owe an argument for."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Austin's uptake requirement, and the entry's point that it is less plausible for speaker\u2013content verbs such as 'assert'. Bill can assert even if no hearer is present.",
+                "who": "Austin 1962; the entry's own critique",
+                "quote": "Bill failed to tell Lisa that the station was closed... but Bill still asserted that it was closed, since Bill believed she was still there.",
+                "damage": 2,
+                "note": "Procedure-side conditions may not be uniform across act types, which bears on the thesis's call for an act-type-by-act-type argument."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Mind-involving capacity conditions on asserting. Jary's metarepresentation safeguards, Sperber & Wilson's 'humanly graspable' objection to reflexive intentions, and the self-representation accounts all tie assertion to cognitive capacities.",
+                "who": "Jary 2010; Sperber & Wilson 1986; Davidson; Green 2007",
+                "quote": "cognitive safeguards consist in the ability of the hearer to not simply accept what is said but meta-represent the speaker as expressing certain beliefs and intentions",
+                "damage": 2,
+                "note": "These are the entry's nearest hooks for 'standing that tracks mind-involving capacities', but only as accounts of ordinary human communication."
+              }
+            ],
+            "nearest_positions": [
+              "Austin's felicity-conditions framework: abuse-type insincerity versus procedural flaws and misinvocations \u2014 Austin 1962",
+              "Communicative-intention analyses of asserting (Gr-A, Searle's reflexive intentions, Bach & Harnish's expressed belief plus intention) \u2014 Grice, Searle, Bach & Harnish; criticized by Strawson and Sperber & Wilson",
+              "Conventionalist versus constitutive-rule and commitment/status accounts of assertion \u2014 Dummett, Searle, K\u00f6lbel versus Strawson, Stainton, Davidson, Williamson; Brandom and Green on commitment"
+            ],
+            "entry_silent_on": "The entry says nothing about artificial agents or LLMs as asserters, proxies or delegated roles, or institutional 'status' or 'standing' as a basis for performing an act. It does not use Austin's A/B/\u0393 labels or discuss whether apology and promise are intention-constituted or procedure-constituted. It never takes up whether an intention-based denial of speech-act performance imports a non-Austinian condition."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "Austin's A/B conditions make no demand for intention to perform an act, and sincerity-grade states fall under \u0393 (abuse). Intention-based denials therefore import a non-Austinian condition and owe an argument that apology, promise and similar act types are intention-constituted rather than procedure-constituted. For proxy-occupied roles the question is one of status; for an LLM acting in its own name it may reduce to standing that tracks mind-involving capacities."
+  ]
+}

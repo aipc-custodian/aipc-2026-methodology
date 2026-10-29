@@ -1,0 +1,396 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "A proxy account must either relocate commitment to the operator, which is the attributing view relabelled, or posit a machine-side bearer of imputed deviation, which a deflated 'second act' lacking sanctionability or disownability does not supply. On this reading proxy views are parasitic on attributing views rather than rivals.",
+        "headline": "The human cases that motivate proxy accounts (ambassadors, spokespeople, secretaries) are doubling proxies, where the delegate performs a speech act of their own in addition to the principal's. Machine proxy accounts need a conduit proxy, where the device performs none. The two are different relations, and the proxy view borrows its plausibility from the first while asserting the second.",
+        "used_surviving": true,
+        "target": "Arora's proxy account and Green and Michel's, together with the assumption that proxy and attributing views are rivals",
+        "sketch": "When an ambassador declares something on a government's behalf, two acts occur. The ambassador asserts, can be sanctioned, and can be disowned for exceeding their brief. The government is also committed. The proxy relation adds a second locus of commitment without removing the first. Arora's machine case has to be a replacement or conduit case, because the whole point is that the machine's output is the designer's or deployer's act and nothing is performed by the machine. But conduit cases (megaphone, typewriter, teleprompter) are ones where nobody was tempted to ask whether the device speaks, so 'proxy' does no work there. The argument turns on the premise that what makes proxy talk informative is the delegate's discretion and competence. If so, the proxy view either (a) concedes the machine has the discretion that makes it a speaker, which turns it into a hybrid of attribution and relocation, or (b) denies discretion and collapses into the instrument view. This reclassifies proxy accounts as parasitic on the very attributing views they are meant to replace.",
+        "promise": 4,
+        "residual": 3
+      },
+      "finding": {
+        "searched": [
+          "Arora proxy assertion machine speech acts chatbot",
+          "Green Michel \"What might machines mean?\" proxy assertion",
+          "can large language models assert? attributing view proxy view commitment operator",
+          "psychology people attribute speaker responsibility to AI chatbot statements agent vs tool blame",
+          "Butlin Viebahn \"AI assertion\" proxy assertion conduit discretion",
+          "Who asserts when no one asserts? Functionalism, proxy responsibility, conversational ideals LLMs",
+          "Nickel \"Artificial speech and its authors\" proxy responsibility",
+          "Kneer \"Can a robot lie?\" experimental philosophy people ascribe lies to machines"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "ANTICIPATED",
+            "part": "The conduit/discretion split and the dilemma: a proxy with no discretion is a conduit, so the principal asserts. A proxy with discretion may itself be the one sanctionable.",
+            "source": "Butlin & Viebahn, \"AI Assertion\", Ergo 12, 2025 (preprint 2023)",
+            "url": "https://journals.publishing.umich.edu/ergo/article/id/7960/print/",
+            "what_they_say": "<cite index=\"41-8,41-9\">To decide whether a proxy is asserting, they return to sanctionability and ask whether the principal, the proxy, or both are sanctionable for an unwarranted proxy assertion.</cite> <cite index=\"41-10,41-11\">When a proxy simply reads out a statement, sanctionability applies to the principal and not the proxy. With less detailed instructions the proxy may well be sanctionable.</cite> <cite index=\"41-13,41-14\">They note that Green & Michel give RobotCops 'some discretion', e.g. choosing between a warning and a fine.</cite>",
+            "damage": 4,
+            "note": "This is close to the thesis's central dilemma (conduit collapses into the instrument view; discretion makes the proxy a speaker), with the same sanctionability criterion, so the dilemma itself is not new."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "Proxy accounts reduce to a thin or conduit sense, or else to a thick sense in which the machine is itself an asserter. Also the claim that Arora's account classifies trivial machines as proxy asserters.",
+            "source": "Williams, Bayne et al., \"Chatting with Bots: AI, Speech Acts, and the Edge of Assertion\", Inquiry 69(6), 2025 (arXiv 2410.16645)",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "<cite index=\"1-11\">They say advocates of the proxy-assertion account must hold that chatbots are proxy-asserters in either a thin or a thicker sense.</cite> <cite index=\"1-12\">They read Arora as embracing the first (thin) horn, since her account classes talking clocks and thermometers as proxy asserters.</cite> <cite index=\"16-5,16-6\">Following Butlin & Viebahn, they say that in script-reading cases the proxy is at best a conduit, while in more complex cases the proxy is granted freedom to interpret and speak for the principal.</cite>",
+            "damage": 4,
+            "note": "A published thin/thick dilemma aimed at Arora and Green & Michel overlaps the thesis's horns (a)/(b). They use it to argue proxy accounts are unsatisfactory, not that they are parasitic on attributing views."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Arora as a relocation view: the commitment or responsibility is the designer's or deployer's.",
+            "source": "Arora, \"Proxy Assertions and Agency: The Case of Machine-Assertions\", Philosophy & Technology 37, 2024",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00703-5",
+            "what_they_say": "<cite index=\"14-4\">Arora proposes that only machine utterances where the epistemic responsibility or requisite epistemic states of designers (or a collective of actors) can reasonably be tied back to the utterance count as proxy assertions.</cite> <cite index=\"14-6\">Only utterances for which human agents claim epistemic responsibility are to be deemed proxy assertions.</cite> <cite index=\"2-6\">The abstract describes them as made on behalf of designers and/or deployers.</cite>",
+            "damage": 1,
+            "note": "Confirms from her own abstract and text that the account relocates responsibility to humans. I read only abstract and snippets, not the full argument."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Arora retains a machine-side condition, which a referee may say is not just relocation.",
+            "source": "Arora 2024, discussing Nickel 2013 (full text via ResearchGate)",
+            "url": "https://www.researchgate.net/publication/377807825_Proxy_Assertions_and_Agency_The_Case_of_Machine-Assertions",
+            "what_they_say": "<cite index=\"5-1,5-2\">She says that for machine utterances to count as speech acts, even as proxy speech acts, the utterances must be sensitive to the evaluative conditions in play.</cite> <cite index=\"58-6\">An utterance from a machine insensitive to the evaluative criteria is not deemed an assertion.</cite>",
+            "damage": 2,
+            "note": "This is a machine-side requirement short of a bearer of deviation. The thesis must show it is either idle (thin) or the discretion that makes the machine a speaker."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Green & Michel: whether their proxy account is a relocation view or a hybrid. They claim to avoid imputing intentions to machines.",
+            "source": "Green & Michel, \"What Might Machines Mean?\", Minds and Machines 32, 2022",
+            "url": "https://philpapers.org/rec/GREWMM-2",
+            "what_they_say": "<cite index=\"17-9,17-10\">They extend speech acts to recorded, proxy and conditional cases and propose that a characteristic role for artificial speakers is as proxies for their human creators.</cite> <cite index=\"17-11\">They say they offer a sharp characterisation of what artificial speakers can do that does not impute intentions or similarly controversial powers to them.</cite> <cite index=\"17-8\">Their account of speaker meaning uses objectives rather than intentions.</cite>",
+            "damage": 2,
+            "note": "Objectives attributed to the machine are a candidate machine-side element, and the authors claim not to need a deviation-bearer. The thesis has to argue they cannot avoid one."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "The structure of proxy accounts as a hybrid: the machine is a substantial speech actant, while responsibility is assigned elsewhere.",
+            "source": "Nickel, \"Artificial Speech and Its Authors\", Minds and Machines 23, 2013",
+            "url": "https://philarchive.org/rec/NICASA",
+            "what_they_say": "<cite index=\"59-3\">Nickel argues natural language generation systems meet the criteria for being speech actants to a substantial degree and can author original messages.</cite> <cite index=\"59-6\">He settles who is responsible with proxy speech, where responsibility for artificial speech acts is assigned legally or conventionally to an entity separate from the speech actant.</cite> <cite index=\"61-2\">He says ultimate responsibility lies with persons or companies, or with nobody at all.</cite>",
+            "damage": 3,
+            "note": "The originating proxy view already combines machine authorship with relocated responsibility, which is the hybrid the thesis describes. It does not argue the hybrid is parasitic on attribution."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "The ambassador or spokesperson model: whether the proxy itself asserts, or only signals the principal's commitment.",
+            "source": "Ludwig, \"Proxy Assertion\" (chapter), cited by Green & Michel 2022",
+            "url": "https://philpapers.org/rec/LUDPA",
+            "what_they_say": "<cite index=\"10-4\">Ludwig explains proxy assertion as the assignment of a spokesperson role whose utterances have the status function of signalling that the principal is committed.</cite> <cite index=\"11-11\">Green & Michel use his example of a council spokesperson who is not herself approving any expenditure.</cite>",
+            "damage": 3,
+            "note": "The standard model has the principal committed and the spokesperson's act as signalling. The thesis's premise that the ambassador also asserts and is sanctionable is supported by Butlin & Viebahn, not by Ludwig, and needs defending as such. I did not read Ludwig's full text."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "The assumption that proxy and attributing views are rivals.",
+            "source": "Massaguer G\u00f3mez & Gait\u00e1n Torres, \"Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs\", Synthese 208(4), 2026",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "<cite index=\"46-4\">They treat functionalist accounts of assertion and proxy-based views of responsibility as two prominent strategies.</cite> <cite index=\"46-5\">They argue that although each is independently attractive, combining them generates an ideal-relative tension in knowledge-oriented exchanges.</cite>",
+            "damage": 3,
+            "note": "The literature already pairs proxy and functionalist views as combinable, not simply rival. They argue the pairing is unstable, whereas the thesis argues proxy depends on attribution. Functionalism is not identical to 'attributing view', so this is a partial match."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "Proxy and attributing views as non-exclusive. Also relocation as the common core of proxy views.",
+            "source": "\"Against speech liberalism for generative AI\", 2026, and \"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026",
+            "url": "https://link.springer.com/article/10.1007/s44204-026-00454-4",
+            "what_they_say": "<cite index=\"8-2,8-3\">The first paper groups Arora, Green & Michel and Nickel as treating chatbots as instruments, mediators or proxies, and says proxy status need not exclude artificial illocutionary standing.</cite> <cite index=\"48-1,48-2\">The second says proxy views anchor assertion's normative expectations in agents other than the immediate source.</cite> <cite index=\"48-4\">It differs by diagnosing a dissociation between assertoric function and authority, not proxy assertion.</cite>",
+            "damage": 3,
+            "note": "Recent papers already say proxy status and machine illocutionary standing can coexist, and that proxy views are about relocation. Neither argues the dependence thesis. Both are 2026 papers I saw only in snippets."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "The instrument/conduit horn, in which measuring instruments inform without anyone asserting. Also the user adopting the output as their own speech.",
+            "source": "\"Talking with Language Models\", arXiv 2610.09064 (preprint)",
+            "url": "https://arxiv.org/html/2610.09064v1",
+            "what_they_say": "<cite index=\"51-1,51-2\">It says measuring instruments tell us things without anyone asserting, and describes 'appropriative adoption', where the user deploys the candidate output as her own speech.</cite>",
+            "damage": 2,
+            "note": "This is a preprint that I only glimpsed. It bears on the thesis's claim that conduit cases do not make us ask whether the device speaks."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The premise that what makes proxy talk informative is the delegate's discretion and competence, and that conduit or instrument cases differ from AI cases.",
+            "source": "Neuroscience News report of a human-AI responsibility study (AI-powered vs non-AI navigation aids)",
+            "url": "https://neurosciencenews.com/ai-assistant-blame-23851/",
+            "what_they_say": "<cite index=\"32-8,32-9\">Participants insisted smart assistants were just tools, yet saw them as partly responsible for drivers' successes or failures. No such division of responsibility occurred for the non-AI instrument.</cite> <cite index=\"32-13\">The authors found no difference between assistants that used language and those that alarmed users with a tactile vibration.</cite>",
+            "damage": 1,
+            "note": "Empirical evidence that people treat conduit-like instruments differently from AI with discretion. The study concerns driving, not speech, and is a press summary rather than the paper itself."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Whether anything machine-side supplies sanctionability or imputed deviation. Folk practice appears to supply it.",
+            "source": "Kneer, \"Can a Robot Lie? Exploring the Folk Concept of Lying as Applied to Artificial Agents\", Cognitive Science, 2021",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.13032",
+            "what_they_say": "<cite index=\"65-9\">People were by and large as willing to ascribe an intention to deceive to the robot as to the human agent.</cite> <cite index=\"65-14\">In both the true and false statement conditions, the robot is blamed to the same degree as a human for lying.</cite> Separately, a crowdsourcing paper reports that <cite index=\"29-11\">people are more likely to centralise responsibility to a higher authority when an AI makes a mistake.</cite>",
+            "damage": 2,
+            "note": "Folk practice shows both machine-side blame (cuts against the claim that no bearer is supplied) and relocation upward (supports horn (a)). The studies are about robots/AI generally, not delegated speech acts."
+          }
+        ],
+        "what_is_left": "The conduit/discretion dilemma for proxy accounts of machine assertion has already been drawn (Butlin & Viebahn 2025; Williams, Bayne et al. 2025), and Nickel's original proxy view was already a hybrid of machine speech-actancy and relocated responsibility. What survives is the narrower claim that Arora's and Green & Michel's proxy accounts, taken on their own terms, either (a) just relocate commitment to the operator, which is what attributing views already do, or (b) need a machine-side bearer of deviation, which a deflated second act lacking sanctionability or disownability does not supply. On that claim proxy views depend on attributing views and are not rivals to them. Defending it needs two things: an argument that Arora's sensitivity condition and Green & Michel's objectives and 'some discretion' do not escape the dilemma, and an explanation of why the thesis's claim that the ambassador is itself sanctionable and disownable is not Ludwig's status-function picture.",
+        "not_found": "I found no source that says proxy accounts are 'parasitic on' attributing views, or that the proxy relation adds a second locus of commitment without removing the first. 'Attributing view' does not appear as a standard label in what I retrieved, so the thesis's terminology may not map onto the literature's. I found nothing on 'disownability' or a 'second act' (the thesis's terms) in the proxy literature. I did not read the full texts of Arora, Green & Michel, Ludwig or Butlin & Viebahn, only abstracts and secondary quotations, so how each handles a deflated second act is unverified. I did not search agency law or principal-agent doctrine (authority, ratification, acting beyond authority), Brandomian scorekeeping, Freiman & Miller's quasi-assertion, or Mallory's fictionalism. The search left philosophy only weakly: the empirical hits concern blame and responsibility attribution to AI (psychology and HCI), not how delegated or spokesperson speech works in linguistics, pragmatics, sociology of organisations or legal theory. The empirical side of the search is therefore thin. The 2026 sources and the arXiv preprint appeared only as snippets.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "assertion",
+      "ethics-ai",
+      "collective-responsibility"
+    ],
+    "why": "The theses concern whether a machine's output counts as an assertion and who bears the commitment for it (machine, designer or deployer, or a proxy relation as with an ambassador), which is the subject of the assertion entry, with the ethics-of-AI and responsibility entries as the neighbouring debates on attributing commitment to operators.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "Commitment as accountability: asserting means accepting liability to sanction or blame if the content is false. This gives the thesis its test, that a bearer of commitment must be sanctionable.",
+                "who": "Peirce; Alston (2000); Searle (2010) in mixed form",
+                "quote": "knowingly [takes] on the liability to ([lay] herself open to) blame (censure, reproach, being taken to task, being called to account), in case of not-p.",
+                "damage": 2,
+                "note": "Supplies the sanctionability criterion the thesis uses against a machine-side bearer, but says nothing about machines."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Commitment as challenge-responsibility, which can be deferred to another asserter or discharged only by withdrawing the assertion. This is the entry's nearest model of relocating commitment to someone else.",
+                "who": "Brandom (1994); MacFarlane (2003)",
+                "quote": "to defer this responsibility to another asserter on whose testimony one is relying. One can escape this commitment only by withdrawing the assertion.",
+                "damage": 2,
+                "note": "Shows relocation of responsibility is already a recognised move, but only between asserters, not from a non-asserter to an operator."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Goldberg's account: the speaker authorizes the hearer to defer back to the speaker the responsibility of meeting challenges. This puts the bearer of responsibility inside the assertion relation.",
+                "who": "Goldberg (2015)",
+                "quote": "the speaker authorizes the hearer to defer back to the speaker the responsibility of meeting challenges to the assertion.",
+                "damage": 2,
+                "note": "A referee will ask whether an operator can stand in the speaker role in this structure."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Non-commitment rivals: descriptive, hearer-neutral accounts. Pagin's 'prima facie informative' account is defined by default cognitive patterns on production and comprehension, not by a bearer of liability. Stalnaker's common-ground model likewise does not need one.",
+                "who": "Pagin (2011, 2020); Stalnaker (1974, 1978)",
+                "quote": "an assertion is an utterance that is prima facie informative",
+                "damage": 3,
+                "note": "These are rivals to commitment-based views, so 'parasitic on attributing views' is not forced for views that don't run through commitment."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "Commitment is not sufficient for assertion. Relocating commitment to an operator therefore would not make the output an assertion. The objection pressures every hearer-directed account.",
+                "who": "Pagin (2004); defended against by Pegan (2009), MacFarlane (2011), Garc\u00eda-Carpintero (2013), Marsili & Green (2021)",
+                "quote": "Whoever utters (37) felicitously incurs a commitment to the truth of the proposition that there are black swans. However, intuitively (37) would not be an assertion",
+                "damage": 3,
+                "note": "Undercuts the thesis's assumption that commitment-relocation settles whether the output is an assertion."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Liability understood as being right or wrong on the issue, not as sanctionability. This is a thinner notion that a 'deflated second act' might meet.",
+                "who": "Green (2013, 2017, 2020a)",
+                "quote": "one who asserts that P is liable to be right or wrong on the issue of P's truth exactly as P turns out to be true or false.",
+                "damage": 3,
+                "note": "A machine-side bearer of imputed deviation might supply this liability without sanctionability or disownability, which cuts against the thesis's dichotomy."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Utterance without assertoric force by someone who represents themselves as asserting: the actor case, impersonation, jokes. The audience is not invited to attribute the belief to the speaker.",
+                "who": "The entry's discussion of self-representation; Davidson (1979, 1984); Bach & Harnish (1979)",
+                "quote": "the audience not invited to believe that the speaker, that is, the actor, has that belief.",
+                "damage": 2,
+                "note": "A close analogue for utterances that look assertoric but whose commitment lies elsewhere."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Austin on the speaker-content argument structure: an assertion can stand without uptake, so a hearer-directed structure is not essential to asserting.",
+                "who": "Austin (1962), as discussed in the entry",
+                "quote": "Bill still asserted that it was closed, since Bill believed she was still there.",
+                "damage": 1,
+                "note": "Minor background on whether the assertion relation needs a particular kind of bearer."
+              }
+            ],
+            "nearest_positions": [
+              "Commitment as accountability and liability to sanction \u2014 Peirce, Alston, with Searle's mixed version",
+              "Commitment as challenge-responsibility, including deferral of responsibility \u2014 Brandom, MacFarlane, Goldberg",
+              "Non-commitment descriptive accounts (prima facie informative; common ground) \u2014 Pagin, Stalnaker; with Green's thin 'liability to error' as the contrast case"
+            ],
+            "entry_silent_on": "Machine or AI-generated assertion, proxies, operators, delegated or ghost-written speech, and attributing assertion to a non-speaker are not discussed anywhere in the entry. Terms like 'proxy account', 'attributing view', 'second act', 'disownability', and 'imputed deviation' have no counterpart in it. The entry covers only the commitment/accountability apparatus the thesis would draw on."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "position": "Responsibility-gap debate: when an autonomous system acts, neither the human nor the machine may be responsible. The proposed remedy is to relocate responsibility to humans via meaningful control or distributed responsibility. This resembles the thesis's first horn, 'relocate commitment to the operator'. The entry applies it to responsibility for action, not to commitment in assertion.",
+                "who": "Sparrow 2007 (the gap); Santoni de Sio and van den Hoven 2018 (meaningful control); Taddeo and Floridi 2018 (distributed responsibility); Danaher and Nyholm 2021",
+                "quote": "a \u201cresponsibility gap\u201d has been suggested (esp. Rob Sparrow 2007), meaning that neither the human nor the machine may be responsible. Perhaps the solution is to keep humans \u201cin the loop\u201d or \u201con the loop\u201d or in \u201cmeaningful control\u201d",
+                "damage": 3,
+                "note": "A referee will map 'operator-relocation' onto this literature; the entry never frames it as an attributing-versus-proxy dispute."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Sceptical accounts say responsibility gaps are not real, or that the real issue is the distribution of risk. The entry also leaves open whether AI genuinely challenges existing allocations of responsibility.",
+                "who": "Tigard 2021; K\u00f6nigs 2022; Da Silva 2024; Simpson and M\u00fcller 2016",
+                "quote": "It remains an open question whether the advent AI systems truly challenge our allocations of responsibility, or rather just generates temporary confusion.",
+                "damage": 2,
+                "note": "Supports the claim that no new machine-side bearer is needed, but is not about proxy accounts."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "LLM outputs and testimony: the entry cites Sparrow and Flenady's 'testimony gap' and Hicks et al.'s view of hallucinations as 'bullshit'. These are the entry's only points of contact with assertion-like status of machine outputs.",
+                "who": "Robert Sparrow and Flenady 2025; Hicks, Humphries and Slater 2024",
+                "quote": "Others have argued that the \u201challucinations\u201d that plague LLMs are a form of this \u201cbullshit\u201d (Hicks, Humphries, and Slater 2024) or create a \u201ctestimony gap\u201d (Robert Sparrow and Flenady 2025).",
+                "damage": 3,
+                "note": "The closest neighbours on whether machine outputs carry commitment. The entry gives one sentence and no account of the proxy structure."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "The thick notion of moral agency requires the ability to take blame and praise, and a normative condition (acting on reasons). Current AI is said to lack responsibility for its values because it cannot reflect on or change them. This backs the claim that a machine-side bearer of imputed deviation is not supplied. The entry has no equivalent of 'disownability'.",
+                "who": "M\u00fcller 2021; Dung 2025; Barandiaran and Almendros 2024",
+                "quote": "The classical \u201cthick\u201d notion of a moral agent is designed to assign moral responsibility, the ability to take blame and praise.",
+                "damage": 2,
+                "note": "A resource for the second horn, but about moral agency, not commitment or deviation."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "The retribution gap is the difficulty of allocating punishment. It is the closest the entry comes to the 'sanctionability' criterion.",
+                "who": "Danaher 2016a",
+                "quote": "The difficulty of allocating punishment is sometimes called the \u201cretribution gap\u201d (Danaher 2016a).",
+                "damage": 1,
+                "note": "Offers a literature hook for sanctionability as the missing feature of machines."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Deflationary 'thin' agency. Floridi treats even a reactive LLM as an agent without intelligence. Moor's impact and implicit agents are 'agents' without full responsibility. A referee may ask whether a thin agent could be the machine-side bearer.",
+                "who": "Floridi 2023a, 2023b; Moor 2006; Allen, Varner and Zinser 2000",
+                "quote": "current AI systems, even a merely reactive LLM, come out as agents, but without intelligence (Floridi 2023a; 2023b, ch. 2)",
+                "damage": 2,
+                "note": "A thin agent is a candidate machine-side bearer that the thesis must rule out."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "The relational turn: if we treat robots as though they had status, asking whether they really do may be futile. This is a rival way of dissolving the proxy and attribution question, by anti-realism about the bearer.",
+                "who": "Coeckelbergh 2010, 2012, 2018; Danaher 2019b (ethical behaviourism); Gerdes 2016",
+                "quote": "If we relate to robots as though they had rights, then it might be futile to search whether they really do have such rights",
+                "damage": 2,
+                "note": "A third option the dilemma omits. The entry discusses it for moral status, not for commitment."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "AI personal assistants and agents: the entry says responsibility for the assistant's actions must be clarified. This is the nearest approach to an operator or user standing behind machine acts.",
+                "who": "Milano and Nyholm 2024",
+                "quote": "the ethical and legal responsibility for the actions of the assistant would have to be clarified (Milano and Nyholm 2024)",
+                "damage": 2,
+                "note": "Practical analogue of operator-relocation."
+              }
+            ],
+            "nearest_positions": [
+              "Responsibility-gap and meaningful-control accounts that relocate responsibility to humans \u2014 Sparrow 2007; Santoni de Sio and van den Hoven 2018; Danaher and Nyholm 2021",
+              "Testimony-gap and 'bullshit' accounts of LLM output \u2014 Sparrow and Flenady 2025; Hicks, Humphries and Slater 2024",
+              "Thin versus thick agency, including agency without intelligence \u2014 Floridi 2023a; Moor 2006; Dung 2025",
+              "Sceptics about responsibility gaps \u2014 Tigard 2021; K\u00f6nigs 2022; Da Silva 2024"
+            ],
+            "entry_silent_on": "The entry says nothing on assertion, commitment, speech acts, deontic scorekeeping or entitlement. It has no 'proxy' or 'attributing' view of machine outputs, no notion of 'imputed deviation', and no 'second act' or 'disownability' criterion. It never asks whether proxy accounts are parasitic on attributing accounts. Its treatment is confined to moral and legal responsibility for actions and risk."
+          }
+        ],
+        "slug": "ethics-ai",
+        "url": "https://plato.stanford.edu/entries/ethics-ai/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ANTICIPATED",
+                "position": "The dilemma between reducing group responsibility to individuals and positing an irreducible group bearer is the entry's organizing split. Methodological individualists hold that responsibility is really the individuals' and any group talk is metaphor. Non-reductionists hold that the group is a distinct bearer.",
+                "who": "Narveson, Weber, Lewis (individualist side); Cooper, French (irreducibility side)",
+                "quote": "\u201cNothing else,\u201d Narveson writes, \u201ccan literally be the bearer of full responsibility\u201d",
+                "damage": 3,
+                "note": "The 'relabelled' horn is the individualist reduction. The 'machine-side bearer' horn is the group-bearer view. Neither is applied to machines or proxies."
+              },
+              {
+                "relation": "ANTICIPATED",
+                "position": "Representational and authorization accounts place the group's agency in a representative or authorized individual. Hobbes's Leviathan and Tuomela's representative subject are cases. The entry reports these as attempts to ground a collective subject, not as mere relabellings.",
+                "who": "Hobbes; Tuomela; Copp; May (authorization condition)",
+                "quote": "some individuals be authorized to represent their own actions as the actions of the group as a whole (May 1987, p. 55)",
+                "damage": 3,
+                "note": "This is the nearest structural analogue to a proxy that relocates commitment to an operator or principal. It is not framed as parasitic."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "A 'like a moral agent' or 'as if' account is criticized as not supplying a real bearer. This parallels the thesis's complaint that a deflated 'second act' does not supply a bearer.",
+                "who": "Thompson (target); the entry's author (critic)",
+                "quote": "\u201cacting like a moral agent\u201d is not the same thing as being a moral agent. (And if one really is a moral agent then there is no need to go to the lengths of specifying likeness.)",
+                "damage": 1,
+                "note": "Offers an off-the-shelf form of the 'deflation fails to supply a bearer' argument."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Accounts of shared intention that are built from individuals' intentions do not themselves yield a bearer of blame. In that sense they are parasitic on individual-level attribution.",
+                "who": "Bratman; Sosa",
+                "quote": "it does not attach those collective intentions to the kind of collective moral agent that is required of moral responsibility.",
+                "damage": 1,
+                "note": "Sosa's 'derivative sense' of group mind supports the 'parasitic, not rival' framing."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "Several accounts supply a group-side bearer without free will or a unified self. They make collectives sanctionable through reform, apology, dismantling, or reasons-responsiveness. This challenges the claim that no non-individual bearer can be sanctionable.",
+                "who": "Shockley; Crawford; Smiley 2010; Hess; Silver; Bj\u00f6rnsson & Hess",
+                "quote": "\u201cdeserving of some kind of punishment apart from that meted out to its members for their role in harm\u201d",
+                "damage": 3,
+                "note": "A referee will say sanctionability does not require a Kantian bearer, so the 'machine-side bearer' horn may be satisfiable."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Collective blame is not deducible from claims about individuals. Cooper argues membership varies, and French argues group-only predicates exist. This resists any 'relabelled individual view' reading of group-side accounts.",
+                "who": "Cooper; French",
+                "quote": "\u201cthe existence of a collective is compatible with varying membership. No determinate set of individuals is necessary for the existence of the collective\u201d",
+                "damage": 2,
+                "note": "Supports the claim that the second horn is not mere relabelling. It cuts against 'parasitic' if the proxy is treated like a group."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Responsibility is split between the group and its members. Blame can attach to each at once, as 'programming' versus 'implementing' causes, or the collective can be an enabling condition for individual agents.",
+                "who": "List & Pettit; Shockley",
+                "quote": "control in this context does not need to reside in the group or in individuals. Instead, it can reside simultaneously in both places",
+                "damage": 2,
+                "note": "Offers a third option that is neither pure relocation nor a separate bearer, which a referee would raise against the dilemma."
+              }
+            ],
+            "nearest_positions": [
+              "Methodological individualism (responsibility is really individuals', group talk is metaphor) \u2014 Weber, Lewis, Narveson, Downie",
+              "Representative or authorized subject accounts (agency transferred to or exercised by an authorized individual) \u2014 Hobbes, Tuomela, May, Copp",
+              "Non-Kantian group-side blameworthiness with sanctions such as reform and apology \u2014 Shockley, Crawford, Smiley 2010; also Thompson's 'like moral agents' account"
+            ],
+            "entry_silent_on": "Machines, AI systems, operators, and proxy/delegated agency generally. The entry also never uses 'proxy', 'attributing view', 'imputed deviation', 'second act', 'sanctionability', or 'disownability'. It does not take up whether disowning or repudiating an act is a condition of attributing it to an agent. The closest it comes is McGary's 'dissociation condition' for dissenting group members."
+          }
+        ],
+        "slug": "collective-responsibility",
+        "url": "https://plato.stanford.edu/entries/collective-responsibility/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "A proxy account must either relocate commitment to the operator, which is the attributing view relabelled, or posit a machine-side bearer of imputed deviation, which a deflated 'second act' lacking sanctionability or disownability does not supply. On this reading proxy views are parasitic on attributing views rather than rivals."
+  ]
+}

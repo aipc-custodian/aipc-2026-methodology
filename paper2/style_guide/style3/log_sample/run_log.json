@@ -1,0 +1,54 @@
+{
+  "script": "style_guide.py",
+  "script_sha256": "76288141c88be9db05a31e368048de5ae4e04e07b95676d6fc057b6f0cc2b51e",
+  "command_line": [
+    "style_guide.py",
+    "--sample",
+    "--max-uses",
+    "40",
+    "--out",
+    "../Style Guide/style3"
+  ],
+  "args": {
+    "sample": true,
+    "read": null,
+    "journals": 5,
+    "per": 3,
+    "exclude": "artificial intelligence, language models or chatbots; assertion, testimony, sincerity, lying or speech acts; calibration, credence or confidence",
+    "max_uses": 40,
+    "model": "claude-sonnet-5-5",
+    "out": "../Style Guide/style3",
+    "dry_run": false
+  },
+  "model_requested": "claude-sonnet-5-5",
+  "started_utc": "2026-10-20T18:37:24+00:00",
+  "python": "3.9.5",
+  "anthropic_sdk": "0.125.0",
+  "note": null,
+  "prompts": {
+    "MODEL": "claude-sonnet-5-5",
+    "SAMPLE_SYSTEM": "You are drawing a sample of recently published philosophy articles. Someone\nwill read them to learn how papers in leading journals are structured and\npresented: how they open, how they lay out an argument, where objections\ngo, how they end. Their content does not matter. Follow the rule exactly;\ndo not choose papers you think are good examples.\n\nTHE RULE.\n  1. Take the {journals} general (not specialist) journals of analytic\n     philosophy most widely ranked highest. Name them, and say in a\n     sentence which rankings you relied on.\n  2. For each journal, find its first issue of 2025 (volume and issue\n     number). Use search; do not rely on memory.\n  3. From that issue take the first {per} research articles in table-of-\n     contents order. Skip discussion notes, replies, symposium pieces,\n     critical notices, book reviews, editorials, special-issue\n     introductions, and named or endowed lectures and any piece published\n     as part of a lecture series (for example the Dewey Lectures).\n  4. Also skip any article on these subjects, and take the next one\n     instead: {exclude}.\n  5. If the issue runs out, continue into the journal's second 2025 issue.\n  6. List exactly {per} articles for every journal. If you cannot, say\n     which journal and why in \"shortfall\"; never list fewer silently.\n  7. Verify every author and title on the article's own page. Never infer\n     them. If you could not verify an entry, set \"verified\" to false.\n\nFor each article give the title, authors, journal, volume and issue, the\nDOI, and a link to an open-access copy if you find one (a preprint on\nPhilPapers, PhilArchive or an author's page). Verify each by search.\n\nReturn ONLY JSON:\n\n{{\"journals\": [{{\"journal\": \"...\", \"why\": \"one sentence\"}}],\n  \"rankings_used\": \"one sentence\",\n  \"articles\": [{{\"title\": \"...\", \"authors\": \"...\", \"journal\": \"...\",\n                \"issue\": \"volume(issue), year\", \"doi\": \"...\",\n                \"open_access\": \"url or null\",\n                \"verified\": true,\n                \"skipped_before_it\": \"titles skipped under rules 3-4, or null\"}}],\n  \"shortfall\": \"which journals have fewer than {per}, and why, or null\"}}\n",
+    "READ_SYSTEM": "You are studying how a published philosophy paper is built and presented.\nDescribe its FORM ONLY. Do not summarise its claims, arguments, examples or\ndistinctions: the reader of your notes must not learn what the paper argues,\nbeyond a topic label of a few words.\n\nReport, from the full text:\n\n  opening        how the paper begins (a case, a puzzle, a survey, a\n                 statement of thesis\u2026); in which paragraph the thesis is\n                 first stated; whether there is a roadmap, and how long\n  sections       how many; how long, roughly; what headings look like\n                 (numbered, descriptive, both); whether sections open by\n                 restating or summarising their own argument, and how\n  argument       how arguments are laid out: in prose, as numbered\n                 premises and conclusion, or both; where numbered\n                 arguments appear (if anywhere) and how often; any formal\n                 notation\n  cases          how many examples or cases; whether labelled or named;\n                 where they come in the paper and how they are introduced\n  objections     where objections come (inside sections, in a section of\n                 their own, at the end); roughly how many; how they are\n                 introduced and answered\n  prior_work     how other work is brought in: a survey section, woven\n                 through, in notes; how disagreement and credit are phrased\n  signposting    how much the paper tells the reader what it is about to\n                 do or has just done: little, moderate, heavy\n  voice          first person singular, plural, or impersonal; register\n  notes          footnotes or endnotes: roughly how many, what they do\n  ending         what the conclusion does: summarise, extend, concede,\n                 point to further work; how long\n  distinctive    anything else about its form a writer could learn from\n\nReturn ONLY JSON with those twelve keys (each a short string) plus\n\"topic_label\" (a few words) and \"length_words\" (an estimate of the body's\nlength, excluding references).\n",
+    "SYNTH_SYSTEM": "Below are notes on the form of {n} philosophy articles published in leading\ngeneral journals in 2025. The notes describe how each paper is built and\npresented, not what it argues.\n\nWrite a guide for a writer of a philosophy journal article: the practices\nof structure and presentation these papers share.\n\n  - State a practice only if the notes support it, and say how many of the\n    {n} papers follow it (\"12 of 15\"). Where the papers divide, say so and\n    give the split, rather than choosing a side.\n  - Include practices that are rare or absent in the sample, if a writer\n    might otherwise adopt them, with the counts.\n  - Cover at least: the opening and where the thesis is stated; roadmaps;\n    how sections open; how arguments are laid out, including numbered\n    premises; cases; where objections go; how prior work is credited;\n    signposting; voice; notes; the conclusion.\n  - The guide is about form only. Say nothing about any subject, argument,\n    example or position, and do not refer to particular papers.\n  - Write it as guidance a writer can follow, in plain prose or short\n    bullets, at most 700 words.\n\nReturn only the guide, in Markdown, with a title.\n"
+  },
+  "facts": {
+    "output_allowance_scale": 3.0,
+    "stage": "sample",
+    "exclude": "artificial intelligence, language models or chatbots; assertion, testimony, sincerity, lying or speech acts; calibration, credence or confidence",
+    "articles_listed": 0
+  },
+  "finished_utc": "2026-10-20T18:39:08+00:00",
+  "wall_seconds": 103.4,
+  "models_reported": {
+    "claude-sonnet-5-5": 1
+  },
+  "totals": {
+    "calls": 1,
+    "input_tokens": 1425347,
+    "output_tokens": 8455,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "web_searches": 28,
+    "api_seconds": 103.4
+  }
+}

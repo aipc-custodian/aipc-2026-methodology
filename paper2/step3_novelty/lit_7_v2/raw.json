@@ -1,0 +1,428 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "Force is fixed by a public status-conferring practice of adoption and uptake, not by producer psychology. This is supported by divergence tests against objectives-based proxy views, with Moffatt compatible with it but not established as a case of illocution.",
+        "headline": "Both the literalist and the relocating camps grant that a speech act's force is fixed by the psychology of some producer, whether the model or its principal. Cases in which a chatbot's output was held to bind a deployer with no content-specific intention show that force can be fixed by the normative practice of adoption and reliance, with no producer-side intention at all.",
+        "used_surviving": true,
+        "target": "Proxy accounts (Green & Michel, Arora) and, shared with them, the denials by Gubelmann and Skiba: the assumption that illocutionary force requires a content-specific producer-side intention or objective.",
+        "sketch": "Take Moffatt v. Air Canada, where a tribunal held the airline to its chatbot's statement of a bereavement-fare policy. No designer or deployer had any objective regarding that content, so Green and Michel's Armstrong-style 'objectives' condition for proxy speech acts fails. The tribunal also did not treat the utterance as fiction or as mere signalling, so Mallory's fictionalism misdescribes the practice. The objective theory of contract and of representation gives the general pattern: an utterance counts as a promise or assertion by an agent because of the agent's role, the uptake, and the allocation of risk, whatever the agent intended. The key premise is that this is a case of illocution and not merely of liability. The evidence is that the standard felicity vocabulary applies: the statement is 'a misrepresentation', 'a promise', and so on. If that holds, the question 'who is the author of the model's speech act?' is badly posed. Authorship is conferred by the practice and not discovered in the producer's mind. The result is a non-psychological, deontic-status view that proxy accounts approximate only by accident.",
+        "promise": 4,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "Green Michel \"What might machines mean?\" proxy speech acts objectives",
+          "Arora illocutionary acts large language models proxy assertion",
+          "Gubelmann large language models speech acts illocutionary denial",
+          "Skiba chatbots assertion speech acts language models",
+          "Moffatt v. Air Canada chatbot negligent misrepresentation legal analysis agency apparent authority",
+          "Mallory fictionalism large language models assertion",
+          "Who asserts when no one asserts? Functionalism, proxy responsibility, conversational ideals LLMs",
+          "chatbot statements objective theory of contract promise attribution corporation speech act Air Canada"
+        ],
+        "left_philosophy": false,
+        "findings": [
+          {
+            "relation": "PRECEDENT",
+            "grade": "FRAMEWORK",
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Force fixed by public roles and normative effects rather than producer psychology; the pairing of that view with proxy responsibility for LLM outputs.",
+            "source": "Massaguer G\u00f3mez & Gait\u00e1n Torres, \"Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs\", Synthese 208(4), 2026",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "<cite index=\"57-4\">They describe functionalist accounts as characterising assertion by the public conversational roles and normative effects of utterances rather than the speaker's psychological states, and proxy views as tracing accountability back to the humans or organisations behind the system.</cite> <cite index=\"57-5\">They argue that combining the two generates an ideal-relative tension in knowledge-oriented exchanges.</cite> <cite index=\"50-3\">They present the non-psychological functionalist conception as an attractive descriptive account of human\u2013LLM interaction.</cite>",
+            "damage": 2,
+            "note": "This is the nearest recent synthesis. I saw only the abstract and snippets. It appears to endorse functionalism as a descriptive account and to ask how proxy responsibility sits with it; it does not obviously argue that authorship is conferred by practice, or use Moffatt or divergence tests against objectives. PRECEDENT-or-ANTICIPATED is undecided pending full text."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "ENTERTAINED",
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Non-psychological force without a producer-side speaker; separating assertoric function from assertoric authority and responsibility.",
+            "source": "\"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026 (author not visible in results)",
+            "url": "https://link.springer.com/article/10.1007/s13347-026-01136-y",
+            "what_they_say": "<cite index=\"59-3,59-4\">The paper supports a limited but genuine phenomenon of assertion without asserter: LLMs lack intentionality and are not speakers, yet their outputs can satisfy the conditions under which assertions operate in practice.</cite> <cite index=\"59-2\">It distinguishes assertoric function from assertoric authority, because without that distinction we cannot explain how outputs guide belief and action while failing to ground responsibility in the system itself.</cite>",
+            "damage": 2,
+            "note": "This looks close on 'force without producer psychology'. I saw only snippets, so I cannot judge whether it endorses the practice-conferral account of authorship. PRECEDENT-or-ANTICIPATED is undecided, so I do not resolve it against the thesis."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Named target: the proxy account's 'objectives' condition (Armstrong-style) for proxy speech acts, and the claim that artificial speakers are best treated as proxies for their creators.",
+            "source": "Green & Michel, \"What Might Machines Mean?\", Minds and Machines 32(2), 2022",
+            "url": "https://link.springer.com/article/10.1007/s11023-022-09589-8",
+            "what_they_say": "<cite index=\"3-7,3-9\">They refine Strawson's synthesis using Armstrong's reconceptualisation of speaker meaning in terms of objectives rather than intentions, and propose that artificial speakers characteristically act as proxies performing speech acts on behalf of their human creators.</cite> <cite index=\"2-2,2-6\">Objectives are chosen because they do not carry the consciousness imputation of intentions, so non-conscious entities can have the objectives needed for speech acts.</cite>",
+            "damage": 3,
+            "note": "The thesis ascribes the view correctly, and this is a rival to answer rather than a foreclosure. Two cautions. A snippet of the paper says the author of a letter need not have reflexive-communicative objectives. A secondhand report (Williams & Bayne) says the account grounds assertion where the principal has adopted a blanket attitude toward the chatbot's output. If 'objective' can be blanket adoption, the claim that Air Canada had no objective regarding the content needs defending against that reading."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Named target: proxy accounts, and Arora's explicit rejection of functionalism about assertion.",
+            "source": "Arora, \"Proxy Assertions and Agency: The Case of Machine-Assertions\", Philosophy & Technology 37(1), 2024",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00703-5",
+            "what_they_say": "<cite index=\"14-6,14-7\">The paper argues against a functionalist conceptualisation of machine assertion, and argues instead that the view that some machine utterances are proxy assertions made on behalf of designers and/or deployers is more tenable.</cite> <cite index=\"11-1\">It describes accounts that locate the source of illocutionary force in the speaker's intentions.</cite> <cite index=\"6-6\">It assumes that mental states cannot be attributed to machines.</cite>",
+            "damage": 3,
+            "note": "Arora is a direct rival that argues against a functionalist view close to the thesis. I could not confirm from the snippets that Arora requires a content-specific producer-side intention, so that ascription is unverified. Rival, not foreclosure."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Gubelmann as a named target: whether he holds that force requires a content-specific producer-side intention or objective.",
+            "source": "Gubelmann, \"Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now) \u2013 A Kantian-Cum-Pragmatist Case\", Philosophy & Technology 37(1), 2024",
+            "url": "https://www.alexandria.unisg.ch/bitstreams/53bebe1f-a120-43d4-b4ac-09ec5d0e787c/download",
+            "what_they_say": "<cite index=\"24-11,24-12,24-13,24-14\">His four-line argument: to qualify as a speaker a being must be able to illocute, to illocute it must have intentions, LLMs have none, so LLMs are not speakers.</cite> <cite index=\"24-15\">He calls his analysis congenial to Green and Michel.</cite>",
+            "damage": 2,
+            "note": "His intention premise is about the illocuting being, that is, whether the LLM is a speaker. It is not about producer-side content-specific objectives, so grouping him with the proxy accounts on that assumption is imprecise as I read the snippet. He is still a rival on psychological requirements for force."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Skiba as a named target.",
+            "source": "Skiba, \"Artificial Speech Acts\", Analysis (forthcoming)",
+            "url": "https://philpapers.org/rec/SKIASA-2",
+            "what_they_say": "<cite index=\"31-4\">Skiba shows how a norm-based argument against LLM-assertion can be generalised to support a negative answer to whether LLMs can perform speech acts.</cite>",
+            "damage": 2,
+            "note": "The abstract describes a norm-based argument, not an intention- or objective-based one, so the ascription of 'requires producer-side intention' to Skiba is not supported by what I could see. The paper might still presuppose it; I did not see the full text."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Existing critiques of proxy accounts and of fictionalism; the mapping of positions.",
+            "source": "Williams & Bayne, \"Chatting with Bots: AI, Speech Acts, and the Edge of Assertion\", Inquiry 69(6), 2024",
+            "url": "https://philpapers.org/rec/WILCWB-3",
+            "what_they_say": "<cite index=\"29-5,29-6\">They consider the proxy-assertion and fictionalist responses to the chatbot-assertion dilemma, argue that neither is satisfactory, and propose a category of proto-assertion instead.</cite> <cite index=\"4-7\">They note that Green & Michel's account, if successful, only grounds chatbot assertion where a chatbot is deployed to generate text on behalf of a person or organisation.</cite>",
+            "damage": 2,
+            "note": "They criticise the same two rivals (proxy and fictionalism) from a different direction, via proto-assertion. A referee will expect the thesis to position itself against them. Their critique of proxy scope can be used as support."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "SECONDHAND",
+            "provisional": false,
+            "part": "Named target: Mallory's fictionalism, and the claim that it misdescribes the Moffatt practice.",
+            "source": "Mallory, \"Fictionalism about Chatbots\", Ergo 10, 2023 (as reported by Massaguer G\u00f3mez & Gait\u00e1n Torres 2026 and Williams & Bayne 2024)",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "<cite index=\"50-7\">Per Massaguer G\u00f3mez & Gait\u00e1n Torres, Mallory holds that interactions with LLMs are best understood as fiction or make-believe, in which users project meaning and intentionality onto the system.</cite> <cite index=\"49-10\">Per Williams & Bayne, Mallory argues chatbot 'utterances' lack content because chatbots rarely have anything approximating intentions, beliefs or commitments.</cite>",
+            "damage": 2,
+            "note": "I did not see Mallory's text, only reports of it. Nothing I saw shows Mallory addressing Moffatt-type deployments, so the claim that the tribunal treated the output as non-fiction is not contradicted by any source I found; this is a rival, not a foreclosure."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Key premise that Moffatt is a case of illocution rather than merely of liability.",
+            "source": "Moffatt v. Air Canada, 2024 BCCRT 149, as reported in McCarthy T\u00e9trault commentary (2024), St-Hilaire, UBC Law Review 58 (2025), and Sigilith (2026)",
+            "url": "https://www.mccarthy.ca/en/insights/blogs/techlex/moffatt-v-air-canada-misrepresentation-ai-chatbot",
+            "what_they_say": "<cite index=\"39-4,39-5\">The tribunal held that a company can be liable for negligent misrepresentations made by a chatbot, and the claim required a duty of care, an untrue or misleading representation made negligently, reasonable reliance and damages.</cite> <cite index=\"67-13\">One commentary stresses that this was incremental, since the law of misrepresentation needed no amendment to reach a conversational interface, any more than it did a brochure.</cite> <cite index=\"42-3\">The St-Hilaire comment says those interested in the legal status of automated systems will find the tribunal's analysis cursory.</cite>",
+            "damage": 3,
+            "note": "The decision rests on tort liability (duty of care, carelessness, reliance), not on the tribunal classifying the chatbot's output as a promise. The 'promise' vocabulary comes mostly from commentators, for example the Sigilith piece's reference to 'the chatbot's promise'. The premise therefore needs an argument that felicity vocabulary is doing illocutionary work and not just describing liability. The fault-based standard also leaves a role for deployer-side care that the 'no objective' framing has to handle."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Evidence base for how the tribunal treated the utterance: no fiction, no separate agent, attribution to the deployer.",
+            "source": "Moffatt v. Air Canada, 2024 BCCRT 149, as reported in commentary (Sigilith 2026, agenttorture.com 2026, McCarthy T\u00e9trault 2024)",
+            "url": "https://www.sigilith.com/insights/air-canada-chatbot-liability/",
+            "what_they_say": "<cite index=\"72-8,72-9\">The tribunal called the argument that the chatbot was a separate entity a 'remarkable submission', found the chatbot 'is still just a part of Air Canada's website', and decided the claim as negligent misrepresentation after finding reliance reasonable.</cite> <cite index=\"39-6,39-7\">Air Canada had argued that the chatbot should be considered a separate entity and so absolve it of liability.</cite>",
+            "damage": 1,
+            "note": "This is usable as evidence that attribution was made to the deployer by role, and not by inquiry into anyone's objectives about the content. I saw it only through commentary, not the decision text."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "A divergence case: the Chevy dealership chatbot's '$1 car' offer, where uptake did not bind the deployer.",
+            "source": "\"Risk Alignment in Agentic AI Systems\", arXiv 2410.01927 (2024)",
+            "url": "https://arxiv.org/pdf/2410.01927",
+            "what_they_say": "<cite index=\"68-1,68-3\">It describes the Chevy chatbot's offer as clearly not an expression of the dealership's intentions, and says the dealership was not ultimately legally bound, in contrast to Air Canada.</cite>",
+            "damage": 2,
+            "note": "This is a case the practice-conferral view must explain: uptake without status-conferral. It also shows that other authors read the Moffatt contrast in terms of the deployer's intentions."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "FRAMEWORK",
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Role- and authorisation-based attribution of speech to a principal; proxy speech and the authorship question.",
+            "source": "Nickel, \"Artificial Speech and Its Authors\", Minds and Machines 23(4), 2013; Ludwig on proxy assertion (2018/2020), as reported by others",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "<cite index=\"60-2\">Nickel holds that ultimate responsibility for artificial speech lies with persons or companies, or with nobody at all.</cite> <cite index=\"2-11\">Green & Michel report Ludwig's observation that one agent may be authorized to speak on behalf of another individual or group.</cite>",
+            "damage": 1,
+            "note": "These are the proxy and authorisation frameworks that the thesis's 'agent's role' pattern resembles. I saw only reports of Ludwig and Nickel, and they do not draw the application to Moffatt or the practice-conferral claim."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Attribution of speech acts versus liability or blame.",
+            "source": "\"Against speech liberalism for generative AI\", 2026 (author not visible in results)",
+            "url": "https://link.springer.com/article/10.1007/s44204-026-00454-4",
+            "what_they_say": "<cite index=\"23-3\">A snippet says a work, apparently one of those it cites, asks how speech acts should be attributed, as opposed to focusing on blame or legal liability.</cite>",
+            "damage": 1,
+            "note": "The snippet is ambiguous about which author it describes. It bears on the illocution-versus-liability premise and a referee may raise it, but I could not read it."
+          }
+        ],
+        "what_is_left": "No source I could see anticipates the thesis. Several rivals contradict it (Green & Michel, Arora, Mallory, and the Moffatt tort framing), so as stated it must narrow or fight. What survives is this: a public status-conferring practice of adoption and uptake, and not producer-side objectives, can account for attributing force to the deployer in Moffatt-type deployments, provided that (a) Green & Michel's objectives condition is shown to be content-specific and not satisfiable by a blanket attitude, and (b) the premise that Moffatt is a case of illocution and not only of negligence-based liability is argued directly, not read off commentators' use of 'promise'.",
+        "credit": [
+          "Massaguer G\u00f3mez & Gait\u00e1n Torres 2026 \u2014 a non-psychological functionalist account of assertion in terms of public conversational roles, and the question of how proxy responsibility pairs with it",
+          "Anonymous 2026 (Philosophy & Technology, 'Assertion, Accountability, and Large Language Models') \u2014 assertion without asserter, and the separation of assertoric function from authority",
+          "Williams & Bayne 2024 \u2014 the critique of the proxy and fictionalist responses, and the observation that proxy accounts have limited scope",
+          "Nickel 2013 and Ludwig (2018/2020) \u2014 proxy speech and authorisation-based attribution of speech to a principal",
+          "Green & Michel 2022 \u2014 the objectives-for-intentions move that the thesis's divergence tests target"
+        ],
+        "not_found": "The search for adjacent empirical literature failed: I did not search psychology, cognitive science, linguistics, economics or sociology (for example work on how users attribute commitment to chatbots, or the sociology of corporate speech), because my search budget ran out. The only non-philosophy material I saw was legal commentary on Moffatt, which describes the practice but is not research on it. The query on the objective theory of contract returned only practitioner pieces. I found no source that applies the objective theory of contract or representation to chatbot output as a theory of illocutionary force. I found no philosophical paper that treats Moffatt as a speech-act case, and none that applies felicity conditions to its facts; the closest hit, the Synthese 2026 paper, does not mention Moffatt in what I saw. I did not read the full text of any philosophical source, nor Ludwig, Mallory, Skiba or the decision itself, so claims about what they say rest on abstracts, snippets or other authors' reports. The Synthese 2026 and Philosophy & Technology 2026 papers are the likeliest places for an unnoticed anticipation. I also did not search the pre-LLM literature on status-conferral or deontic accounts of illocutionary force (for example Searle's declarations, Brandom, Kukla), which may anticipate the general view independently of AI. Absence of hits is weak evidence given the paywalled literature.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "speech-acts",
+      "social-ontology",
+      "assertion"
+    ],
+    "why": "The theses concern illocutionary force and who authors a chatbot's speech act, which belongs to the speech-acts entry. Their view of force as a public, status-conferring, deontic practice matches social-ontology, and the entry on assertion covers the assertion and promise vocabulary used in the Moffatt case.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "PRECEDENT",
+                "grade": "FRAMEWORK",
+                "position": "Force conventionalism. Performing a speech act requires an accepted public procedure with a conventional effect, and some acts also need audience uptake. Austin holds the strong version. Searle holds a weaker version on which constitutive rules are characteristic but not universal. This is the nearest 'public practice' view. The entry reports it as a general account of force, not as the thesis's status-conferring adoption-and-uptake account, and it presents it as challenged.",
+                "who": "Austin; Searle; Reimer's 'illocutionary conventions'; Millikan's 'natural conventions' (the entry criticises Millikan)",
+                "quote": "for every speech act that is performed, there is some convention that will have been invoked in order to make that speech act occur.",
+                "damage": 3,
+                "note": "The entry reports the public-convention side at length but does not combine it with an explicit rejection of producer psychology. Under the standard this is a framework the thesis applies, not an endorsed anticipation."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "The intentionalist alternative. Force is fixed by manifest communicative intentions, not by extra-semantic conventions. The entry's own account builds force on Gricean speaker meaning, as overt manifestation of commitment, so it does not make force purely public status.",
+                "who": "Strawson 1964; Grice; Green (the entry's author); Bach and Harnish",
+                "quote": "What makes an utterance of a sentence in the indicative mood a prediction rather than a command, for instance, is that it manifests an intention to be so taken",
+                "damage": 4,
+                "note": "This is the main rival the thesis must answer. The entry says that 'to suppose that there is always and necessarily a convention conformed to' is mistaken. It also says speaker meaning is a necessary condition for non-conventional speech acts."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Intending or trying to perform a speech act is not sufficient. Even when it is common knowledge that I am trying to ask or bequeath, nothing is performed until the act is publicly undertaken. The entry presents this as a public commitment that is not undertaken merely by intending it. Section 2.2 also says some acts misfire without uptake (a bet not accepted).",
+                "who": "Green 2013; Austin (uptake); Langton/Hornsby (silencing)",
+                "quote": "speech acts involve intentional undertaking of a publicly accessible commitment; further, that commitment is not undertaken simply by virtue of my intending to undertake it",
+                "damage": 1,
+                "note": "This gives the thesis something to build on against purely psychological accounts. The entry still retains intention and overtness as ingredients."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Divergence tests against coarse proxies. Assertion and conjecture share direction of fit and conditions of satisfaction (the entry's 'aim'-type proxies) but differ in public commitment norms, shown by the challenge 'How do you know?'. Illocutionary point and perlocutions as 'characteristic aims' are the entry's nearest objectives-style proxies, and the entry treats them as too coarse.",
+                "who": "Green 2017; Williamson 1996; Searle and Vanderveken 1985; Cohen 1973",
+                "quote": "an assertion and a conjecture that P have identical conditions of satisfaction, namely that P be the case.",
+                "damage": 1,
+                "note": "This is a ready-made template for a divergence test, in which two acts match on the proxy but diverge on public norms."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Disputes over whether uptake is constitutive. Bird says refusal does not require uptake. Maitra recasts silencing as failure of understanding, not of the speech act. Dogwhistling creates tension for a purely public account, because manifestness varies across audience members.",
+                "who": "Bird 2002; Maitra 2009; Saul 2018; Langton; Hornsby",
+                "quote": "Bird (2002) denies that the speech act of refusal requires uptake.",
+                "damage": 2,
+                "note": "A referee will raise these against making uptake the fixer of force."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Scorekeeping and commitment views. Force is characterised through the normative structure of overt commitment, and illocutionary validity is cashed out in deontic terms of obligations and liability to error. This is close to a status-based account, although it is built on speaker meaning.",
+                "who": "Green; Searle and Vanderveken; MacFarlane 2011; Roberts; Lewis",
+                "quote": "We may elucidate the relevant forms of commitment by spelling out the norms underlying them.",
+                "damage": 2,
+                "note": "A near neighbour that already gives a normative, public characterisation of force. The thesis needs to say how its 'status-conferring adoption' differs."
+              }
+            ],
+            "nearest_positions": [
+              "Force conventionalism: public conventions and uptake fix force. Austin (strong), Searle (weaker), Reimer's illocutionary conventions.",
+              "Intentionalism: manifest communicative intention fixes force. Strawson, Grice's speaker meaning, and Green's overt-commitment version.",
+              "Normative-commitment and scorekeeping accounts, which characterise force by public commitments and norms. Green, Searle and Vanderveken, Roberts, MacFarlane."
+            ],
+            "entry_silent_on": "The entry never mentions Moffatt. It does not discuss 'objectives-based proxy views' of force as such, a 'status-conferring practice of adoption' as the fixer of force, or divergence tests against such proxies. It also says nothing about whether producer-side outputs (for example from a non-human or institutional producer) count as illocutions."
+          }
+        ],
+        "slug": "speech-acts",
+        "url": "https://plato.stanford.edu/entries/speech-acts/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "PRECEDENT",
+                "grade": "FRAMEWORK",
+                "position": "Conferralism: a social status is fixed by other people's attitudes toward the item in a context, not by the producer's own states. This is a broader view of which the thesis's uptake-based account of force would be an application. The entry's example is an umpire conferring 'strike'.",
+                "who": "\u00c1sta 2008\u20132018",
+                "quote": "A social property is \u201cconferred\u201d on an object, according to \u00c1sta, if the object has the property because of some attitudes of people. A baseball umpire, for instance, confers the property of being a strike on certain pitches.",
+                "damage": 2,
+                "note": "\u00c1sta does not apply this to illocutionary force or to uptake of utterances, as far as the entry reports."
+              },
+              {
+                "relation": "PRECEDENT",
+                "grade": "FRAMEWORK",
+                "position": "Performatives and status-function declarations: utterances create institutional facts, with the status imposed by collective acceptance. The speech act is the vehicle, and acceptance by the community sustains it.",
+                "who": "Austin 1961/1962; Searle 1995, 2010; Thomasson 2003",
+                "quote": "the way status functions get assigned, more specifically, is by the collective acceptance (or recognition) of a constitutive rule. And the process for putting the rule in place involves a particular kind of speech act\u2014a declaration.",
+                "damage": 3,
+                "note": "This is the closest source for a status-conferring account of force. The entry reports no discussion of uptake or of force as such."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "Rival: Searle makes social facts depend on collective mental states (acceptance and we-attitudes), not on public practice. Psychologistic views generally locate construction in mental states. The thesis opposes producer psychology, but Searle's view places the weight on community psychology.",
+                "who": "Searle; psychologism (Mill, Bratman, Gilbert, Tuomela)",
+                "quote": "he does not require that rules be implemented in behavior: institutional facts depend only on mental states in a society, not on practices.",
+                "damage": 2,
+                "note": "A rival to answer on 'public practice vs. mental states'. It does not target producer psychology specifically."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Practice theories and pluralism about anchoring give resources for locating the source of a status in public practice. Epstein's heterogeneous anchors include legal facts such as jury instructions and trial results.",
+                "who": "Bourdieu, Giddens, Schatzki; Epstein 2014a",
+                "quote": "Legal categories in the U.S., for instance, are anchored by facts such as jury instructions, trial results, legislative enactments, judicial interpretation, and environmental regularities.",
+                "damage": 1,
+                "note": "Offers a vocabulary for a status-conferring practice. Epstein argues practice theories cannot accommodate this heterogeneity."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry separates causal from constitutive construction and explores diachronic and historical determinants of social facts. A referee would ask whether the thesis's 'adoption and uptake' is constitutive or merely causal.",
+                "who": "Kukla 2000, Haslanger 2003, K\u00f5iv 2019; Epstein 2015, Schaffer 2019",
+                "quote": "distinguish \u201ccausal construction\u201d from \u201cconstitutive construction,\u201d",
+                "damage": 2,
+                "note": "Calls for clarity about the thesis's determination relation."
+              }
+            ],
+            "nearest_positions": [
+              "Searle: institutional facts are set up by collectively accepted status-function declarations, a speech-act and collective-attitude view",
+              "\u00c1sta: conferralism, where others' attitudes in context confer social properties",
+              "Practice theories (Bourdieu, Giddens, Schatzki) and Epstein's heterogeneous anchoring"
+            ],
+            "entry_silent_on": "Illocutionary force and Austinian or Langton-style 'uptake' as such, producer intention versus public status in assessing force, 'divergence tests', 'objectives-based proxy views', AI or chatbot outputs as speech acts, and the Moffatt case. The entry does not discuss any of these."
+          }
+        ],
+        "slug": "social-ontology",
+        "url": "https://plato.stanford.edu/entries/social-ontology/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "PRECEDENT",
+                "grade": "FRAMEWORK",
+                "position": "Assertion is characterized by publicly assigned social statuses: commitment as accountability to the audience, and commitment to defend the claim and to authorize the hearer. These are not characterized by the speaker's inner states. The entry does not itself present this as a thesis that force is fixed by adoption and uptake.",
+                "who": "Peirce, Alston, Brandom, MacFarlane, Green, Geurts (as reported)",
+                "quote": "asserting achieves two different social results at the same time: (i) it commits the speaker to defend her claim in response to legitimate challenges; and relatedly (ii) authorizes the hearer to claim anything that follows from what the speaker asserted.",
+                "damage": 3,
+                "note": "A status-conferring, public-practice view of force exists in the entry. The thesis would apply it and develop it, not originate it, and the entry does not report the 'adoption and uptake' framing."
+              },
+              {
+                "relation": "PRECEDENT",
+                "grade": "PASSING",
+                "position": "Austin held that an illocutionary act depends on securing uptake, which is a hearer-side condition on force.",
+                "who": "Austin (1962)",
+                "quote": "it does depend on the hearer's being aware of the utterance and understanding it in a certain way: I haven't warned someone unless he heard what I said.",
+                "damage": 2,
+                "note": "Uptake is the nearest precedent for the thesis's uptake component, but the entry immediately qualifies it for assertion."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "For assertion in particular, uptake is not required. The entry gives a speaker-content case in which the assertion is made although the hearer has left.",
+                "who": "The entry's own argument against Austin's view, applied to assertion",
+                "quote": "it is less plausible when the structure is speaker-content (\"Bill asserted that p\"). It may be said that Bill failed to tell Lisa that the station was closed ... but that Bill still asserted that it was closed",
+                "damage": 3,
+                "note": "A rival the thesis must answer: an uptake requirement for force looks wrong for assertion."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "Producer psychology is a main line in the literature. Communicative-intention accounts say force is fixed by the speaker's reflexive hearer-directed intentions. Belief-expression and self-representation accounts tie assertion to the speaker's mental state.",
+                "who": "Grice (Gr-A), Searle (Srl-I), Bach & Harnish (BH-A), Williams, Black, Davidson, Unger, Slote",
+                "quote": "On their analysis (1979: 42), assuming a speaker S and a hearer H, (BH-A) S asserts that p iff S expresses i. the belief that p, and ii. the intention that H believe that p.",
+                "damage": 3,
+                "note": "These are the main targets for the 'not producer psychology' clause. The entry also reports their problems: sneaky intentions, infinite regress (Sperber & Wilson), and double bluffs."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "The entry reports arguments that tell against producer-psychology accounts: sneaky intentions, double bluffing, stonewalling, and the regress of reflexive intentions.",
+                "who": "Strawson, Schiffer, Sperber & Wilson, and the entry itself",
+                "quote": "the speaker may simply be stonewalling, reiterating an assertion without any hope of convincing the addressee of anything.",
+                "damage": 1,
+                "note": "The thesis can build on these difficulties for intention-based views."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "Social and commitment accounts face a sufficiency objection (a commitment can be incurred without asserting), and even defenders concede that assertion is not fully reducible to social effects. Convention is argued to be neither necessary nor sufficient for force.",
+                "who": "Pagin (2004); Strawson, Stainton, Davidson, Bach & Harnish; Marsili & Green (2021) concede",
+                "quote": "They acknowledge, nonetheless, that assertions are not fully reducible to their social effects.",
+                "damage": 3,
+                "note": "A status-conferring practice view must answer the 'I hereby commit myself...' counterexample and the convention objections."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Conventionalist views hold that force is fixed by public conventions linking sentence type or force-indicators to force, so that force is public rather than psychological.",
+                "who": "Dummett, Searle, K\u00f6lbel, Kot'\u00e1tko, Green (expressive conventions)",
+                "quote": "it is a convention that declarative sentences are used for assertion, interrogative for questions and imperative for commands and requests.",
+                "damage": 2,
+                "note": "A near neighbour a referee would raise: public practice versus convention."
+              }
+            ],
+            "nearest_positions": [
+              "Commitment/accountability accounts of assertion as a social status \u2014 Peirce, Alston, Brandom, MacFarlane, Green",
+              "Communicative-intention accounts (force fixed by speaker's reflexive intentions) \u2014 Grice, Searle, Bach & Harnish",
+              "Conventionalist accounts of force, and the objections to them \u2014 Austin, Dummett, Searle versus Strawson, Davidson, Stainton"
+            ],
+            "entry_silent_on": "The entry does not discuss 'objectives-based proxy views', divergence tests between them and a practice-based view of force, or Moffatt or any case like it. It does not treat force as fixed by 'adoption' of a practice, and it does not discuss any case of doubtful illocutionary status such as non-human or automated producers."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "Force is fixed by a public status-conferring practice of adoption and uptake, not by producer psychology. This is supported by divergence tests against objectives-based proxy views, with Moffatt compatible with it but not established as a case of illocution."
+  ]
+}

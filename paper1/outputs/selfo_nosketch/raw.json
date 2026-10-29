@@ -1,0 +1,1552 @@
+{
+  "thesis": "The asymmetry between self- and other-ascription is real but inverted: others have superior interpretive access to our standing attitudes (functional-dispositional patterns) because they observe behavioral patterns without motivated reasoning, while we have privileged non-interpretive access only to occurrent judgments in the moment of avowal and to the evidence (memory traces, private feelings) we use for self-interpretation",
+  "headline": "The asymmetry between self- and other-ascription is real but inverted from what everyone assumes: others have MORE interpretive access to our standing attitudes than we do, while we have privileged access only to our occurrent judgments in the moment of avowal.",
+  "used_surviving": true,
+  "sketch": null,
+  "target": "The assumption shared by both sides that self-knowledge is primarily about access to standing psychological states rather than occurrent acts",
+  "move_type": "reframing",
+  "promise": 5,
+  "residual": 0,
+  "outlines": [
+    {
+      "title": "The Observational Advantage: Why Others Know Your Attitudes Better Than You Do",
+      "shape": "Establish criteria for attitude knowledge through behavioral patterns, show self-observation fails these criteria due to motivated reasoning while external observation meets them, defend that occurrent access doesn't extend to attitudes, conclude others have superior access to our standing attitudes while our privilege is limited to occurrent states.",
+      "structure": "standard",
+      "structure_note": null,
+      "sections": [
+        {
+          "n": 1,
+          "heading": "Standing Attitudes as Functional-Dispositional Patterns",
+          "establishes": "Standing attitudes (beliefs, desires, values) are individuated by stable behavioral-cum-cognitive dispositions across contexts rather than by any momentarily accessible mental state.",
+          "refuted_by": "Standing attitudes could be individuated by occurrent mental states that constitute them at each moment",
+          "address": "Sydney Shoemaker's constitutive self-knowledge view holds that believing that p partly consists in being disposed to avow that p, making the standing state accessible through its occurrent manifestations (Self-Knowledge and Self-Identity, 1963)",
+          "takes_as_given": [
+            {
+              "claim": "Psychological terms like 'belief' and 'desire' pick out stable patterns that explain and predict behavior across time",
+              "from": "assumed"
+            }
+          ],
+          "work": "establishes what kind of evidence is needed to know someone's attitudes, which later sections distinguish by epistemic position"
+        },
+        {
+          "n": 2,
+          "heading": "The Observational Requirement for Pattern Knowledge",
+          "establishes": "Knowledge of functional-dispositional patterns requires tracking behavior across varied contexts to identify stable trends distinct from situational noise.",
+          "refuted_by": "Pattern knowledge could be achieved through non-observational means such as rational self-transparency or introspective access to dispositional bases",
+          "address": "Richard Moran's authority view holds that self-knowledge of attitudes comes not from self-observation but from the deliberative perspective of settling what to believe, making observation unnecessary (Authority and Estrangement, 2001)",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes (beliefs, desires, values) are individuated by stable behavioral-cum-cognitive dispositions across contexts rather than by any momentarily accessible mental state.",
+              "from": "1"
+            },
+            {
+              "claim": "Identifying stable patterns requires distinguishing them from random variation and context-specific responses",
+              "from": "assumed"
+            }
+          ],
+          "work": "establishes the epistemic task for attitude knowledge, which sections 3-4 will show is better performed by others"
+        },
+        {
+          "n": 3,
+          "heading": "Motivated Reasoning in Self-Observation",
+          "establishes": "Self-observation of one's own behavioral patterns is systematically distorted by motivated reasoning because the observer has a stake in the interpretation that external observers lack.",
+          "refuted_by": "Self-observation could be as objective as external observation if subjects can adopt a detached stance toward their own patterns",
+          "address": "Quassim Cassam's self-knowledge as achievement view treats bias as an obstacle to be overcome through epistemic virtue rather than as a structural feature of the self-observational position (Self-Knowledge for Humans, 2014)",
+          "takes_as_given": [
+            {
+              "claim": "Knowledge of functional-dispositional patterns requires tracking behavior across varied contexts to identify stable trends distinct from situational noise.",
+              "from": "2"
+            },
+            {
+              "claim": "Empirical evidence shows systematic self-serving biases in causal attribution, memory selection, and pattern interpretation when self-concept is at stake",
+              "from": "assumed"
+            }
+          ],
+          "work": "establishes one half of the asymmetry by showing why self-observation fails the requirement established in section 2"
+        },
+        {
+          "n": 4,
+          "heading": "The External Observer's Epistemic Advantage",
+          "establishes": "External observers are better positioned than self-observers to identify genuine behavioral patterns in a subject because they lack motivational investment in any particular interpretation of those patterns.",
+          "refuted_by": "External observation could be inferior due to lack of access to the subject's reasons, context, or internal states that disambiguate behavior",
+          "address": "Tyler Burge's self-knowledge theory holds that first-person knowledge is epistemically superior because the subject has rational entitlement to their self-attributions that observers lack, and observers must interpretively theorize where subjects simply know (Content Preservation, 1988)",
+          "takes_as_given": [
+            {
+              "claim": "Knowledge of functional-dispositional patterns requires tracking behavior across varied contexts to identify stable trends distinct from situational noise.",
+              "from": "2"
+            },
+            {
+              "claim": "Self-observation of one's own behavioral patterns is systematically distorted by motivated reasoning because the observer has a stake in the interpretation that external observers lack.",
+              "from": "3"
+            },
+            {
+              "claim": "External observers have sufficient access to behavioral data across contexts through sustained interaction and social proximity",
+              "from": "assumed"
+            }
+          ],
+          "work": "establishes the other half of the asymmetry by showing why external observation succeeds where self-observation fails"
+        },
+        {
+          "n": 5,
+          "heading": "The Boundary of First-Person Privilege: Occurrent Judgments",
+          "establishes": "First-person privileged access extends to occurrent judgments in the moment of avowal and to currently accessible evidence (memory traces, present feelings) but not to the standing attitudes these are evidence for.",
+          "refuted_by": "Privileged access could extend to standing attitudes themselves if those attitudes are constituted by or continuously manifested in conscious mental states",
+          "address": "David Rosenthal's higher-order thought theory holds that conscious attitudes are attitudes one is conscious of having, giving standing conscious attitudes the same first-person accessibility as occurrent thoughts (Consciousness and Mind, 2005)",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes (beliefs, desires, values) are individuated by stable behavioral-cum-cognitive dispositions across contexts rather than by any momentarily accessible mental state.",
+              "from": "1"
+            },
+            {
+              "claim": "There is phenomenological certainty about what one is currently judging or feeling at the moment of conscious attention",
+              "from": "assumed"
+            }
+          ],
+          "work": "prevents the argument from overgeneralizing to eliminate all first-person privilege, establishing exactly where the privilege stops"
+        },
+        {
+          "n": 6,
+          "heading": "Self-Knowledge as Interpretation from Privileged Evidence",
+          "establishes": "When subjects correctly self-ascribe standing attitudes, they succeed not through privileged access to those attitudes but through interpretation of privileged evidence that others must infer or take on testimony.",
+          "refuted_by": "Self-ascription of attitudes could succeed through non-interpretive access if the ascription itself constitutes or makes true the attitude ascribed",
+          "address": "Dorit Bar-On's neo-expressivist view holds that avowals of attitudes are expressions rather than reports, giving them a security that doesn't depend on interpretive accuracy because the avowal makes itself true (Speaking My Mind, 2004)",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes (beliefs, desires, values) are individuated by stable behavioral-cum-cognitive dispositions across contexts rather than by any momentarily accessible mental state.",
+              "from": "1"
+            },
+            {
+              "claim": "First-person privileged access extends to occurrent judgments in the moment of avowal and to currently accessible evidence (memory traces, present feelings) but not to the standing attitudes these are evidence for.",
+              "from": "5"
+            },
+            {
+              "claim": "Self-observation of one's own behavioral patterns is systematically distorted by motivated reasoning because the observer has a stake in the interpretation that external observers lack.",
+              "from": "3"
+            }
+          ],
+          "work": "explains how first-person and third-person attitude knowledge differ in kind while defending the superiority claim"
+        },
+        {
+          "n": 7,
+          "heading": "The Inverted Asymmetry",
+          "establishes": "The asymmetry between self- and other-ascription is real but inverted: others have superior interpretive access to our standing attitudes because they observe behavioral patterns without motivated reasoning, while we have privileged non-interpretive access only to occurrent judgments in the moment of avowal and to the evidence we use for self-interpretation.",
+          "refuted_by": "The traditional asymmetry could be vindicated if either privileged access extends to standing attitudes or self-interpretation of behavioral patterns is more reliable than external observation",
+          "address": "The traditional Cartesian assumption held by philosophers from Descartes through contemporary defenders of first-person authority like Crispin Wright (Rails to Infinity, 2001) that self-knowledge of one's mental states is epistemically superior to others' knowledge of them",
+          "takes_as_given": [
+            {
+              "claim": "External observers are better positioned than self-observers to identify genuine behavioral patterns in a subject because they lack motivational investment in any particular interpretation of those patterns.",
+              "from": "4"
+            },
+            {
+              "claim": "First-person privileged access extends to occurrent judgments in the moment of avowal and to currently accessible evidence (memory traces, present feelings) but not to the standing attitudes these are evidence for.",
+              "from": "5"
+            },
+            {
+              "claim": "When subjects correctly self-ascribe standing attitudes, they succeed not through privileged access to those attitudes but through interpretation of privileged evidence that others must infer or take on testimony.",
+              "from": "6"
+            }
+          ],
+          "work": "this section arrives at the thesis"
+        }
+      ],
+      "arrives_at": "7",
+      "load_bearing": "Standing attitudes (beliefs, desires, values) are individuated by stable behavioral-cum-cognitive dispositions across contexts rather than by any momentarily accessible mental state.",
+      "gap": {
+        "section": "4",
+        "inference": "abductive",
+        "statement": "The motivational neutrality of external observers must sufficiently outweigh any epistemic advantages of the first-person perspective (access to reasons, context, disambiguating evidence) such that overall reliability in pattern identification favors the external position despite its informational limitations."
+      },
+      "surprise": "Most arguments about self-knowledge asymmetry defend or deny first-person authority across the board. This outline grants traditional first-person privilege for occurrent states while inverting it for standing attitudes, using the same evidence (behavioral patterns) both parties must interpret but arguing the third-person position interprets it better. The structural surprise is that the privilege-granting section (5) strengthens rather than weakens the inversion by clarifying exactly what we do and don't have privileged access to.",
+      "commitment": "The outline commits to the strong empirical claim that motivated reasoning in self-interpretation is systematic and ineliminable rather than a correctable defect, making third-person observation structurally superior rather than merely contingently better. A cautious version would claim only that others sometimes have better access in certain domains, or that both perspectives have complementary advantages. This version commits to an across-the-board superiority claim for standing attitudes.",
+      "outline": 0,
+      "audit": {
+        "flags": [
+          {
+            "level": "warn",
+            "code": "THIN LOAD BEARER",
+            "text": "\u00a71 carries the most weight and is among the least developed sections"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a71 takes as given, defended nowhere: Psychological terms like 'belief' and 'desire' pick out stable patterns that explain and predict behavior across time"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a72 takes as given, defended nowhere: Identifying stable patterns requires distinguishing them from random variation and context-specific responses"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a73 takes as given, defended nowhere: Empirical evidence shows systematic self-serving biases in causal attribution, memory selection, and pattern interpretation when self-concept is at stake"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a74 takes as given, defended nowhere: External observers have sufficient access to behavioral data across contexts through sustained interaction and social proximity"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a75 takes as given, defended nowhere: There is phenomenological certainty about what one is currently judging or feeling at the moment of conscious attention"
+          }
+        ],
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "inbound": {
+          "1": 3,
+          "2": 2,
+          "3": 2,
+          "5": 2,
+          "4": 1,
+          "6": 1
+        }
+      }
+    },
+    {
+      "title": "The Inversion of Epistemic Asymmetry: Why Others Know Our Standing Attitudes Better Than We Do",
+      "shape": "Establish a distinction between two kinds of psychological states (standing attitudes vs occurrent judgments), show they require different epistemic methods (behavioral interpretation vs direct access), demonstrate that the distribution of epistemic advantages inverts across this distinction, then argue this inversion undermines the traditional privileged access thesis.",
+      "structure": "deviant",
+      "structure_note": "No literature review section. The paper opens with the distinction doing work, not with positions to be rejected. Objections are handled within the section establishing the claim they threaten (\u00a73 addresses the reliability objection to behavioral evidence; \u00a74 addresses the objection that self-interpretation could be equally good). This compression is necessary because the argument depends on holding two asymmetries in view simultaneously\u2014standing/occurrent and self/other\u2014and standard structure would separate what must be compared.",
+      "sections": [
+        {
+          "n": 1,
+          "heading": "The Standing/Occurrent Distinction in Attitude Psychology",
+          "establishes": "Standing attitudes are functional-dispositional patterns constituted by behavioral regularities across contexts, while occurrent judgments are datable mental acts in episodes of conscious endorsement.",
+          "refuted_by": "If standing attitudes turn out to be stored representations accessed in the same way as occurrent judgments, rather than patterns constituted by dispositions.",
+          "address": "Jerry Fodor's view in 'Propositional Attitudes' (1978) that beliefs are relations to mentally represented sentences in a language of thought, stored and retrieved rather than constituted by dispositions.",
+          "takes_as_given": [
+            {
+              "claim": "Psychological states divide into kinds with different metaphysical profiles.",
+              "from": "assumed"
+            }
+          ],
+          "work": "establishes the distinction that sections 2-4 will map epistemic methods onto"
+        },
+        {
+          "n": 2,
+          "heading": "Epistemic Methods Track Metaphysical Kinds",
+          "establishes": "Non-interpretive access (direct awareness without inference) is appropriate only for occurrent mental acts at the moment they occur, while interpretive access (inference from behavioral evidence) is required for standing dispositional patterns.",
+          "refuted_by": "If introspection could reveal dispositional patterns directly, without inference from behavior.",
+          "address": "David Armstrong's view in 'Introspection' (1968) that introspection is perception-like awareness of current and standing mental states alike, accessed by a common mechanism.",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes are functional-dispositional patterns constituted by behavioral regularities across contexts, while occurrent judgments are datable mental acts in episodes of conscious endorsement.",
+              "from": "1"
+            },
+            {
+              "claim": "Epistemic methods must be suited to the metaphysical nature of their objects.",
+              "from": "assumed"
+            }
+          ],
+          "work": "establishes that different psychological kinds require different epistemic approaches, which sections 3-4 use to compare self and other epistemic positions"
+        },
+        {
+          "n": 3,
+          "heading": "The Behavioral Advantage for Standing Attitudes",
+          "establishes": "Third-person observers have superior interpretive access to standing attitudes because they observe behavioral patterns without the motivated reasoning that distorts first-person interpretation of one's own patterns.",
+          "refuted_by": "If first-person motivated reasoning could be shown to enhance rather than distort pattern detection, or if third-person observation were systematically less reliable than self-interpretation for standing attitudes.",
+          "address": "Richard Moran's view in 'Authority and Estrangement' (2001) that first-person authority extends to standing attitudes because the subject's self-constituting commitments determine what those attitudes are, making external behavioral evidence secondary.",
+          "takes_as_given": [
+            {
+              "claim": "Non-interpretive access (direct awareness without inference) is appropriate only for occurrent mental acts at the moment they occur, while interpretive access (inference from behavioral evidence) is required for standing dispositional patterns.",
+              "from": "2"
+            },
+            {
+              "claim": "Self-deception, rationalization, and motivated cognition are empirically established phenomena affecting self-interpretation.",
+              "from": "assumed"
+            },
+            {
+              "claim": "Third-person observers have access to the same behavioral evidence that constitutes standing dispositional patterns.",
+              "from": "assumed"
+            }
+          ],
+          "work": "establishes one half of the asymmetry inversion that the thesis requires"
+        },
+        {
+          "n": 4,
+          "heading": "The First-Person Advantage for Occurrent Judgments",
+          "establishes": "First-person subjects have privileged non-interpretive access to their own occurrent judgments in the moment of avowal and to the phenomenal evidence (memory traces, felt inclinations) they use when engaging in self-interpretation.",
+          "refuted_by": "If third-person observers could have the same quality of access to occurrent judgments and phenomenal evidence that first-person subjects have.",
+          "address": "Gilbert Ryle's view in 'The Concept of Mind' (1949) that self-knowledge involves the same kind of behavioral evidence and inference that we use for other-knowledge, with no special first-person epistemic access even to current mental acts.",
+          "takes_as_given": [
+            {
+              "claim": "Non-interpretive access (direct awareness without inference) is appropriate only for occurrent mental acts at the moment they occur, while interpretive access (inference from behavioral evidence) is required for standing dispositional patterns.",
+              "from": "2"
+            },
+            {
+              "claim": "Subjects are aware of their current judgments when they make them without inference from evidence.",
+              "from": "assumed"
+            },
+            {
+              "claim": "Subjects have access to phenomenal states (feelings, memory experiences, inclinations) that others cannot observe.",
+              "from": "assumed"
+            }
+          ],
+          "work": "establishes the other half of the asymmetry inversion, completing what section 5 synthesizes"
+        },
+        {
+          "n": 5,
+          "heading": "The Inverted Asymmetry",
+          "establishes": "The asymmetry between self- and other-ascription is real but inverted: others have superior interpretive access to our standing attitudes because they observe behavioral patterns without motivated reasoning, while we have privileged non-interpretive access only to occurrent judgments in the moment of avowal and to the evidence we use for self-interpretation.",
+          "refuted_by": "If either half of the inversion fails: if first-person access to standing attitudes is superior to third-person access, or if first-person access to occurrent judgments is not privileged.",
+          "address": "Sydney Shoemaker's view in 'Self-Knowledge and Self-Identity' (1963) that first-person privilege extends uniformly across psychological states, making self-ascription generally more authoritative than other-ascription for both standing and occurrent states.",
+          "takes_as_given": [
+            {
+              "claim": "Third-person observers have superior interpretive access to standing attitudes because they observe behavioral patterns without the motivated reasoning that distorts first-person interpretation of one's own patterns.",
+              "from": "3"
+            },
+            {
+              "claim": "First-person subjects have privileged non-interpretive access to their own occurrent judgments in the moment of avowal and to the phenomenal evidence (memory traces, felt inclinations) they use when engaging in self-interpretation.",
+              "from": "4"
+            }
+          ],
+          "work": "this section establishes the thesis"
+        },
+        {
+          "n": 6,
+          "heading": "Reframing the Self-Knowledge Debate",
+          "establishes": "The traditional self-knowledge debate presupposes that epistemic privilege must be uniform across psychological states, but once we distinguish standing attitudes from occurrent judgments, this presupposition is unwarranted and the inversion thesis explains our conflicting intuitions about first-person authority.",
+          "refuted_by": "If there were principled reasons to expect epistemic asymmetry to be uniform across all psychological state-types despite their metaphysical differences.",
+          "address": "Crispin Wright's view in 'Self-Knowledge: The Wittgensteinian Legacy' (1998) that first-person authority is a unified phenomenon requiring a unified explanation, not a fragmented privilege that varies by psychological kind.",
+          "takes_as_given": [
+            {
+              "claim": "The asymmetry between self- and other-ascription is real but inverted: others have superior interpretive access to our standing attitudes because they observe behavioral patterns without motivated reasoning, while we have privileged non-interpretive access only to occurrent judgments in the moment of avowal and to the evidence we use for self-interpretation.",
+              "from": "5"
+            },
+            {
+              "claim": "Both sides of the traditional debate assume self-knowledge is primarily about standing psychological states.",
+              "from": "assumed"
+            }
+          ],
+          "work": "shows why the thesis matters by diagnosing the mistake that made it invisible to both sides of the debate"
+        }
+      ],
+      "arrives_at": "5",
+      "load_bearing": "Non-interpretive access (direct awareness without inference) is appropriate only for occurrent mental acts at the moment they occur, while interpretive access (inference from behavioral evidence) is required for standing dispositional patterns.",
+      "gap": {
+        "section": "3",
+        "inference": "abductive",
+        "statement": "For the inference to go through, it must be true that motivated reasoning distorts first-person pattern detection more severely than third-person observational limitations (perspective effects, limited sampling, context-dependence) distort third-person pattern detection, and that this distortion is systematic rather than occasional."
+      },
+      "surprise": "The structure places motivated reasoning at the center of an epistemic advantage argument, making what looks like a cognitive defect into the key to understanding why others know us better in one domain. Specialists expect motivated reasoning to appear as an objection to be handled; here it is load-bearing for the positive case.",
+      "commitment": "The outline commits to denying that first-person authority extends to standing attitudes at all, not merely that it is defeasible or limited. Section 3 must argue that others are systematically better positioned, not equally positioned or better only sometimes. This rules out conciliatory positions where both perspectives contribute complementary insights to standing attitude ascription.",
+      "outline": 1,
+      "audit": {
+        "flags": [
+          {
+            "level": "warn",
+            "code": "ORPHAN",
+            "text": "\u00a76 establishes something no later section takes up"
+          },
+          {
+            "level": "warn",
+            "code": "THIN LOAD BEARER",
+            "text": "\u00a72 carries the most weight and is among the least developed sections"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a71 takes as given, defended nowhere: Psychological states divide into kinds with different metaphysical profiles."
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a72 takes as given, defended nowhere: Epistemic methods must be suited to the metaphysical nature of their objects."
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a73 takes as given, defended nowhere: Self-deception, rationalization, and motivated cognition are empirically established phenomena affecting self-interpretation."
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a73 takes as given, defended nowhere: Third-person observers have access to the same behavioral evidence that constitutes standing dispositional patterns."
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a74 takes as given, defended nowhere: Subjects are aware of their current judgments when they make them without inference from evidence."
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a74 takes as given, defended nowhere: Subjects have access to phenomenal states (feelings, memory experiences, inclinations) that others cannot observe."
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a76 takes as given, defended nowhere: Both sides of the traditional debate assume self-knowledge is primarily about standing psychological states."
+          },
+          {
+            "level": "info",
+            "code": "DEVIANT STRUCTURE",
+            "text": "No literature review section. The paper opens with the distinction doing work, not with positions to be rejected. Objections are handled within the section establishing the claim they threaten (\u00a73 addresses the reliability objection to behavioral evidence; \u00a74 addresses the objection that self-interpretation could be equally good). This compression is necessary because the argument depends on holding two asymmetries in view simultaneously\u2014standing/occurrent and self/other\u2014and standard structure would separate what must be compared."
+          }
+        ],
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "inbound": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      }
+    },
+    {
+      "title": "Against Interpretive Privilege: How Self-Ignorance Structures Self-Knowledge",
+      "shape": "Establish that standing attitudes are essentially dispositional-functional patterns requiring behavioral evidence, then show that motivated reasoning systematically corrupts first-person access to this evidence while leaving occurrent states epistemically accessible, yielding the inverted asymmetry",
+      "structure": "deviant",
+      "structure_note": "No objections-and-replies section; no implications section. The paper establishes one main conditional (section 4) then spends half its length (sections 5-6) defending the motivated reasoning premise that makes the conditional bite, because that premise does the work and faces the strongest empirical pushback.",
+      "sections": [
+        {
+          "n": 1,
+          "heading": "The Dispositional-Functional Character of Standing Attitudes",
+          "establishes": "Standing attitudes like beliefs and desires are dispositional-functional patterns consisting in regularities across behavioral responses to stimuli rather than discrete inner states accessible independently of their manifestations.",
+          "refuted_by": "If standing attitudes were introspectable mental states that cause dispositions but are metaphysically distinct from them",
+          "address": "David Armstrong's materialist theory of mental states as categorical brain states that ground dispositions (A Materialist Theory of the Mind, 1968) and contemporary neuroscientific approaches treating beliefs as stored representations in neural substrate",
+          "takes_as_given": [
+            {
+              "claim": "Philosophical disputes about self-knowledge presuppose that standing attitudes are the primary objects of self-knowledge",
+              "from": "assumed"
+            }
+          ],
+          "work": "establishes what kind of thing we need epistemic access to when we claim self-knowledge of attitudes, which sections 2-3 then analyze"
+        },
+        {
+          "n": 2,
+          "heading": "The Epistemic Demands of Dispositional Knowledge",
+          "establishes": "Knowledge of dispositional-functional patterns requires evidence about behavioral regularities across varied circumstances, not single-instance observation or introspective scanning.",
+          "refuted_by": "If dispositions could be known through direct acquaintance with their categorical base or through rational insight into what one would do",
+          "address": "Sydney Shoemaker's functionalist self-knowledge view where second-order awareness of first-order states constitutes knowledge of dispositions without behavioral evidence (The First-Person Perspective, 1996)",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes like beliefs and desires are dispositional-functional patterns consisting in regularities across behavioral responses to stimuli rather than discrete inner states accessible independently of their manifestations.",
+              "from": "1"
+            }
+          ],
+          "work": "establishes the evidential standards against which first- and third-person epistemic positions will be compared in sections 3-4"
+        },
+        {
+          "n": 3,
+          "heading": "The Behavioral Evidence Asymmetry",
+          "establishes": "Third-person observers systematically access more numerous and more varied instances of the behavioral patterns that constitute standing attitudes than first-person subjects do.",
+          "refuted_by": "If self-observers had equally rich access to their own behavioral patterns through memory and self-monitoring",
+          "address": "Doris Olin's argument that we observe our own behavior constantly and accumulate self-directed behavioral evidence throughout life (Paradox, 2003, pp. 34-38)",
+          "takes_as_given": [
+            {
+              "claim": "Knowledge of dispositional-functional patterns requires evidence about behavioral regularities across varied circumstances, not single-instance observation or introspective scanning.",
+              "from": "2"
+            },
+            {
+              "claim": "People do not continuously attend to their own behavior across contexts the way external observers can",
+              "from": "assumed"
+            }
+          ],
+          "work": "provides the first component of the epistemic asymmetry that section 4 combines with motivated reasoning"
+        },
+        {
+          "n": 4,
+          "heading": "The Motivated Reasoning Corruption",
+          "establishes": "First-person interpretation of one's own behavioral patterns is systematically corrupted by motivated reasoning in ways that third-person interpretation is not, because self-interpretation threatens identity-constitutive self-conceptions while other-interpretation does not.",
+          "refuted_by": "If motivated reasoning affected self- and other-interpretation equally, or if self-interpretation had compensating epistemic advantages that outweighed motivational corruption",
+          "address": "Richard Moran's view that self-knowledge is secured through rational deliberation about what to believe rather than empirical self-interpretation, making motivated reasoning irrelevant (Authority and Estrangement, 2001)",
+          "takes_as_given": [
+            {
+              "claim": "Third-person observers systematically access more numerous and more varied instances of the behavioral patterns that constitute standing attitudes than first-person subjects do.",
+              "from": "3"
+            },
+            {
+              "claim": "People are motivated to maintain positive and coherent self-conceptions",
+              "from": "assumed"
+            }
+          ],
+          "work": "combines with section 3 to establish the full third-person epistemic superiority that section 7 articulates as the inverted asymmetry"
+        },
+        {
+          "n": 5,
+          "heading": "The Scope of Motivated Self-Interpretation",
+          "establishes": "Motivated reasoning affects self-interpretation of standing attitudes specifically and systematically, not merely as occasional performance error, because standing attitudes are identity-constitutive in ways that threaten self-conception when accurately assessed.",
+          "refuted_by": "If motivated reasoning were merely occasional or distributed equally across all domains of self-knowledge rather than concentrated in attitude-interpretation",
+          "address": "Hilary Kornblith's argument that cognitive biases are domain-general heuristic failures rather than motivated distortions, affecting self and other equally (On Reflection, 2012, chapter 3)",
+          "takes_as_given": [
+            {
+              "claim": "First-person interpretation of one's own behavioral patterns is systematically corrupted by motivated reasoning in ways that third-person interpretation is not, because self-interpretation threatens identity-constitutive self-conceptions while other-interpretation does not.",
+              "from": "4"
+            }
+          ],
+          "work": "defends the motivated reasoning premise from the reduction to mere bias, which section 6 needs to exclude compensating mechanisms"
+        },
+        {
+          "n": 6,
+          "heading": "The Irrelevance of Compensating Mechanisms",
+          "establishes": "Standard compensating mechanisms for first-person epistemic advantages over standing attitudes\u2014privileged access to reasons, memories of formation, and phenomenal feels\u2014do not overcome the motivated reasoning corruption because these mechanisms themselves become objects of motivated reinterpretation when attitudes are at stake.",
+          "refuted_by": "If there were first-person evidence sources for standing attitudes that were immune to motivated reinterpretation and sufficient to outweigh third-person observational advantages",
+          "address": "Alex Byrne's transparency method where self-knowledge of belief proceeds by answering the world-directed question, bypassing interpretation entirely (Transparency and Self-Knowledge, 2005)",
+          "takes_as_given": [
+            {
+              "claim": "First-person interpretation of one's own behavioral patterns is systematically corrupted by motivated reasoning in ways that third-person interpretation is not, because self-interpretation threatens identity-constitutive self-conceptions while other-interpretation does not.",
+              "from": "4"
+            },
+            {
+              "claim": "Motivated reasoning affects self-interpretation of standing attitudes specifically and systematically, not merely as occasional performance error, because standing attitudes are identity-constitutive in ways that threaten self-conception when accurately assessed.",
+              "from": "5"
+            }
+          ],
+          "work": "completes the defense of third-person superiority for standing attitudes by blocking the retreat to compensating first-person advantages"
+        },
+        {
+          "n": 7,
+          "heading": "The Preserved Asymmetry for Occurrent States",
+          "establishes": "First-person epistemic privilege is preserved for occurrent judgments in the moment of avowal and for the evidence used in self-interpretation (memory traces, current phenomenal states) because these are non-interpretive states whose existence does not depend on pattern-identification and whose acknowledgment does not systematically threaten identity.",
+          "refuted_by": "If occurrent states required interpretive access of the same kind as standing attitudes, or if acknowledging occurrent states threatened identity as much as acknowledging standing attitude patterns",
+          "address": "Eric Schwitzgebel's argument that even occurrent judgments are subject to introspective uncertainty and require interpretation (Perplexities of Consciousness, 2011, chapter 5)",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes like beliefs and desires are dispositional-functional patterns consisting in regularities across behavioral responses to stimuli rather than discrete inner states accessible independently of their manifestations.",
+              "from": "1"
+            },
+            {
+              "claim": "Motivated reasoning affects self-interpretation of standing attitudes specifically and systematically, not merely as occasional performance error, because standing attitudes are identity-constitutive in ways that threaten self-conception when accurately assessed.",
+              "from": "5"
+            }
+          ],
+          "work": "delimits the scope of third-person superiority by carving out the domain where traditional first-person privilege holds, which section 8 needs to state the full inverted asymmetry"
+        },
+        {
+          "n": 8,
+          "heading": "The Inverted Asymmetry",
+          "establishes": "The asymmetry between self- and other-ascription is real but inverted: others have superior interpretive access to our standing attitudes (functional-dispositional patterns) because they observe behavioral patterns without motivated reasoning, while we have privileged non-interpretive access only to occurrent judgments in the moment of avowal and to the evidence (memory traces, private feelings) we use for self-interpretation.",
+          "refuted_by": "If either the third-person advantage for standing attitudes disappeared or the first-person advantage for occurrent states extended to standing attitudes",
+          "address": "The broad consensus from Evans through Moran that self-knowledge's distinctive character lies in authoritative self-ascription of beliefs and desires as standing states",
+          "takes_as_given": [
+            {
+              "claim": "Third-person observers systematically access more numerous and more varied instances of the behavioral patterns that constitute standing attitudes than first-person subjects do.",
+              "from": "3"
+            },
+            {
+              "claim": "The Irrelevance of Compensating Mechanisms establishes: Standard compensating mechanisms for first-person epistemic advantages over standing attitudes\u2014privileged access to reasons, memories of formation, and phenomenal feels\u2014do not overcome the motivated reasoning corruption because these mechanisms themselves become objects of motivated reinterpretation when attitudes are at stake.",
+              "from": "6"
+            },
+            {
+              "claim": "First-person epistemic privilege is preserved for occurrent judgments in the moment of avowal and for the evidence used in self-interpretation (memory traces, current phenomenal states) because these are non-interpretive states whose existence does not depend on pattern-identification and whose acknowledgment does not systematically threaten identity.",
+              "from": "7"
+            }
+          ],
+          "work": "this section establishes the thesis"
+        }
+      ],
+      "arrives_at": "8",
+      "load_bearing": "First-person interpretation of one's own behavioral patterns is systematically corrupted by motivated reasoning in ways that third-person interpretation is not, because self-interpretation threatens identity-constitutive self-conceptions while other-interpretation does not.",
+      "gap": {
+        "section": "4",
+        "inference": "abductive",
+        "statement": "The motivated reasoning corruption must be systematic rather than sporadic, sufficiently robust to survive compensating first-person advantages, and domain-specific to standing attitudes rather than affecting all self-knowledge equally\u2014which requires that standing attitudes specifically be identity-constitutive in ways occurrent states are not."
+      },
+      "surprise": "The paper spends more length defending the motivated reasoning premise (sections 5-6) than establishing the dispositional nature of attitudes (section 1) or the behavioral evidence asymmetry (section 3). This inverts the expected weight distribution because the dispositional claim is familiar from Ryle while motivated reasoning faces live empirical and philosophical resistance.",
+      "commitment": "The paper commits to standing attitudes being nothing over and above behavioral-functional patterns\u2014not patterns plus an inner state, not patterns grounded in neural representations. A cautious version would say first-person access to standing attitudes is comparatively worse; this version says others are literally better positioned for this specific cognitive task.",
+      "outline": 2,
+      "audit": {
+        "flags": [
+          {
+            "level": "bad",
+            "code": "DRIFT",
+            "text": "\u00a78 quotes \u00a76 inexactly (92% match) \u2014 the claim moved in transit.\n  \u00a76 establishes: Standard compensating mechanisms for first-person epistemic advantages over standing attitudes\u2014privileged access to reasons, memories of formation, and phenomenal feels\u2014do not overcome the motivated reasoning corruption because these mechanisms themselves become objects of motivated reinterpretation when attitudes are at stake.\n  \u00a78 receives: The Irrelevance of Compensating Mechanisms establishes: Standard compensating mechanisms for first-person epistemic advantages over standing attitudes\u2014privileged access to reasons, memories of formation, and phenomenal feels\u2014do not overcome the motivated reasoning corruption because these mechanisms themselves become objects of motivated reinterpretation when attitudes are at stake."
+          },
+          {
+            "level": "warn",
+            "code": "THIN LOAD BEARER",
+            "text": "\u00a71 carries the most weight and is among the least developed sections"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a71 takes as given, defended nowhere: Philosophical disputes about self-knowledge presuppose that standing attitudes are the primary objects of self-knowledge"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a73 takes as given, defended nowhere: People do not continuously attend to their own behavior across contexts the way external observers can"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a74 takes as given, defended nowhere: People are motivated to maintain positive and coherent self-conceptions"
+          },
+          {
+            "level": "info",
+            "code": "DEVIANT STRUCTURE",
+            "text": "No objections-and-replies section; no implications section. The paper establishes one main conditional (section 4) then spends half its length (sections 5-6) defending the motivated reasoning premise that makes the conditional bite, because that premise does the work and faces the strongest empirical pushback."
+          }
+        ],
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "inbound": {
+          "1": 2,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 2,
+          "6": 1,
+          "7": 1
+        }
+      }
+    },
+    {
+      "title": "The Interpretive Asymmetry Inverted: Why Others Know Our Attitudes Better Than We Do",
+      "shape": "Distinguish standing attitudes from occurrent states, show others have better epistemic access to the former while we retain privilege only for the latter, then argue motivated reasoning explains the asymmetry",
+      "structure": "deviant",
+      "structure_note": "No separate objections section; instead, the motivated reasoning argument (\u00a74) directly addresses the standard self-knowledge privilege view by explaining why the seeming advantage is actually an epistemic handicap for standing attitudes",
+      "sections": [
+        {
+          "n": 1,
+          "heading": "The Standing-Occurrent Distinction",
+          "establishes": "Standing attitudes are functional-dispositional patterns individuated by counterfactual-supporting behavioral regularities across contexts, while occurrent judgments are token mental events individuated by their role in active reasoning at the moment of occurrence.",
+          "refuted_by": "Standing attitudes turning out to be reducible to sequences of occurrent states without remainder",
+          "address": "David Hume's bundle theory as defended by Galen Strawson ('The Self and the SESMET', 2011), which holds that the self consists entirely in a succession of experiences with no underlying dispositional substrate",
+          "takes_as_given": [
+            {
+              "claim": "Mental states divide into types that require different individuation conditions",
+              "from": "assumed"
+            }
+          ],
+          "work": "sections 2 and 3 depend on this distinction to assign different epistemic access conditions to different state types"
+        },
+        {
+          "n": 2,
+          "heading": "Observational Advantage for Standing Attitudes",
+          "establishes": "Third-person observation has epistemic advantage for identifying standing attitudes because these attitudes are constituted by behavioral patterns that unfold across contexts and times that only extended observation can detect.",
+          "refuted_by": "Standing attitudes being accessible through introspection of a single internal state at a moment",
+          "address": "Sydney Shoemaker's constitutive self-knowledge view ('Self-Knowledge and Inner Sense', Philosophy and Phenomenological Research, 1994), which holds that having an attitude constitutively involves being disposed to avow it, making introspective access metaphysically guaranteed",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes are functional-dispositional patterns individuated by counterfactual-supporting behavioral regularities across contexts, while occurrent judgments are token mental events individuated by their role in active reasoning at the moment of occurrence.",
+              "from": "1"
+            },
+            {
+              "claim": "What is individuated by patterns across contexts requires observation across contexts to identify",
+              "from": "assumed"
+            }
+          ],
+          "work": "this establishes the first half of the asymmetry claim, needed for the full thesis in section 5"
+        },
+        {
+          "n": 3,
+          "heading": "First-Person Privilege for Occurrent States",
+          "establishes": "First-person access has epistemic privilege for occurrent judgments and for memorial and phenomenal evidence because these are present to consciousness at the moment of introspection without requiring interpretation of behavioral patterns.",
+          "refuted_by": "Occurrent judgments being no more accessible to the subject than to observers, or requiring the same pattern-detection as standing attitudes",
+          "address": "Eric Schwitzgebel's skepticism about introspective reliability ('The Unreliability of Naive Introspection', Philosophical Review, 2008), which argues that even for occurrent experiences subjects systematically misreport their phenomenology",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes are functional-dispositional patterns individuated by counterfactual-supporting behavioral regularities across contexts, while occurrent judgments are token mental events individuated by their role in active reasoning at the moment of occurrence.",
+              "from": "1"
+            },
+            {
+              "claim": "What is individuated by its role in present conscious reasoning is available to consciousness at that moment",
+              "from": "assumed"
+            }
+          ],
+          "work": "this establishes the second half of the asymmetry claim, and provides the material that section 4 will show is epistemically compromised when used to interpret standing attitudes"
+        },
+        {
+          "n": 4,
+          "heading": "Motivated Reasoning and Self-Interpretation",
+          "establishes": "When subjects use their privileged access to occurrent states and private evidence to interpret their own standing attitudes, motivated reasoning systematically distorts this interpretation in ways that third-person observation avoids.",
+          "refuted_by": "First-person interpretation being either non-inferential (hence not subject to motivated reasoning) or no more subject to motivated distortion than third-person interpretation",
+          "address": "Richard Moran's authority view ('Authority and Estrangement', 2001), which holds that self-knowledge of attitudes is secured through rational deliberation about what to believe rather than empirical self-interpretation, making motivational distortion irrelevant",
+          "takes_as_given": [
+            {
+              "claim": "Third-person observation has epistemic advantage for identifying standing attitudes because these attitudes are constituted by behavioral patterns that unfold across contexts and times that only extended observation can detect.",
+              "from": "2"
+            },
+            {
+              "claim": "First-person access has epistemic privilege for occurrent judgments and for memorial and phenomenal evidence because these are present to consciousness at the moment of introspection without requiring interpretation of behavioral patterns.",
+              "from": "3"
+            },
+            {
+              "claim": "Self-ascription of standing attitudes typically proceeds by interpreting evidence including occurrent judgments, memories, and feelings",
+              "from": "assumed"
+            },
+            {
+              "claim": "Motivated reasoning demonstrably affects interpretation of evidence when the conclusion concerns the interpreter's self-conception",
+              "from": "assumed"
+            }
+          ],
+          "work": "this explains why the apparent first-person advantage becomes a disadvantage for standing attitudes, which is essential for the thesis"
+        },
+        {
+          "n": 5,
+          "heading": "The Inverted Asymmetry",
+          "establishes": "Others have superior interpretive access to our standing attitudes because they observe behavioral patterns without motivated reasoning, while we have privileged non-interpretive access only to occurrent judgments in the moment of avowal and to the evidence we use for self-interpretation.",
+          "refuted_by": "Either standing attitudes being accessible non-interpretively to first-person awareness, or motivated reasoning affecting third-person observation as much as first-person interpretation",
+          "address": "The shared assumption of both Ryle ('The Concept of Mind', 1949) and his introspectionist opponents that the key question about self-knowledge is whether we have special access to our standing psychological states",
+          "takes_as_given": [
+            {
+              "claim": "Third-person observation has epistemic advantage for identifying standing attitudes because these attitudes are constituted by behavioral patterns that unfold across contexts and times that only extended observation can detect.",
+              "from": "2"
+            },
+            {
+              "claim": "First-person access has epistemic privilege for occurrent judgments and for memorial and phenomenal evidence because these are present to consciousness at the moment of introspection without requiring interpretation of behavioral patterns.",
+              "from": "3"
+            },
+            {
+              "claim": "When subjects use their privileged access to occurrent states and private evidence to interpret their own standing attitudes, motivated reasoning systematically distorts this interpretation in ways that third-person observation avoids.",
+              "from": "4"
+            }
+          ],
+          "work": "this is the thesis"
+        }
+      ],
+      "arrives_at": "5",
+      "load_bearing": "When subjects use their privileged access to occurrent states and private evidence to interpret their own standing attitudes, motivated reasoning systematically distorts this interpretation in ways that third-person observation avoids.",
+      "gap": {
+        "section": "4",
+        "inference": "inductive",
+        "statement": "The motivated reasoning effects documented in cases where subjects have clear incentives to reach flattering conclusions must generalize to the ordinary case of self-interpretation where the distorting motivation operates below the threshold of conscious awareness and the interpreter has no recognition that self-flattering bias is at work"
+      },
+      "surprise": "The argumentative weight falls entirely on motivated reasoning (\u00a74) rather than on metaphysics of mind or observation, treating the epistemic asymmetry as a bias phenomenon rather than an access phenomenon. Most treatments of self-knowledge asymmetry locate the key issue in what kinds of states we have and how they're accessed; this makes it about what happens when privileged access feeds interpretation.",
+      "commitment": "This outline commits to the empirical claim that motivated reasoning is ineliminable from self-interpretation even for careful, reflective subjects\u2014not just that we sometimes deceive ourselves, but that the interpretive situation structurally prevents us from accessing our standing attitudes as reliably as observers can. A cautious version would claim only that others sometimes have advantages in specific circumstances.",
+      "outline": 3,
+      "audit": {
+        "flags": [
+          {
+            "level": "warn",
+            "code": "WEIGHT MISMATCH",
+            "text": "declared load-bearing claim is \u00a74 (1 sections depend on it), but \u00a71 is what the most sections (2) depend on"
+          },
+          {
+            "level": "warn",
+            "code": "THIN LOAD BEARER",
+            "text": "\u00a71 carries the most weight and is among the least developed sections"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a71 takes as given, defended nowhere: Mental states divide into types that require different individuation conditions"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a72 takes as given, defended nowhere: What is individuated by patterns across contexts requires observation across contexts to identify"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a73 takes as given, defended nowhere: What is individuated by its role in present conscious reasoning is available to consciousness at that moment"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a74 takes as given, defended nowhere: Self-ascription of standing attitudes typically proceeds by interpreting evidence including occurrent judgments, memories, and feelings"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a74 takes as given, defended nowhere: Motivated reasoning demonstrably affects interpretation of evidence when the conclusion concerns the interpreter's self-conception"
+          },
+          {
+            "level": "info",
+            "code": "DEVIANT STRUCTURE",
+            "text": "No separate objections section; instead, the motivated reasoning argument (\u00a74) directly addresses the standard self-knowledge privilege view by explaining why the seeming advantage is actually an epistemic handicap for standing attitudes"
+          }
+        ],
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "inbound": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 1
+        }
+      }
+    },
+    {
+      "title": "The Inverted Asymmetry: Why Others Know Our Minds Better Than We Do",
+      "shape": "Distinguish standing attitudes from occurrent states, show behavioral evidence grounds the former while first-person access grounds only the latter, then argue others' systematic observation beats our motivated self-interpretation for standing attitudes",
+      "structure": "deviant",
+      "structure_note": "No literature review section; instead opens with conceptual distinction that both establishes the framework and diagnoses why the debate has stalled. The dialectical work (showing what others get wrong) is distributed across sections 2-4 rather than consolidated, because each opponent errs differently about what self-knowledge targets.",
+      "sections": [
+        {
+          "n": 1,
+          "heading": "The Standing/Occurrent Distinction and What Each Access Mode Actually Reaches",
+          "establishes": "Standing attitudes are functional-dispositional patterns manifest across contexts and time, while occurrent judgments are token mental events in moments of avowal, and these require categorically different evidence bases to establish.",
+          "refuted_by": "If standing attitudes reduce to sequences of occurrent states such that evidence for the latter constitutes evidence for the former",
+          "address": "David Rosenthal's higher-order thought theory treats beliefs as standing dispositions that consist in dispositions to have occurrent thoughts, making the evidential requirements continuous rather than categorically different",
+          "takes_as_given": [
+            {
+              "claim": "Psychological self-ascriptions aim to characterize states that persist beyond the moment of ascription",
+              "from": "assumed"
+            }
+          ],
+          "work": "sections 2 and 3 each take one half of this distinction to argue for differential access"
+        },
+        {
+          "n": 2,
+          "heading": "First-Person Authority Over Occurrent Judgments Is Non-Interpretive",
+          "establishes": "In the moment of sincere avowal, the subject has non-interpretive access to their occurrent judgment\u2014what they are thinking right now\u2014that does not depend on inference from behavioral or phenomenal evidence.",
+          "refuted_by": "If all self-ascription, including present-tense belief reports, requires interpretation of evidence rather than constituting or expressing the state ascribed",
+          "address": "Richard Moran's transparency account holds that even occurrent self-ascription involves a rational-deliberative stance toward reasons rather than simple expression, making all self-knowledge interpretive",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes are functional-dispositional patterns manifest across contexts and time, while occurrent judgments are token mental events in moments of avowal, and these require categorically different evidence bases to establish.",
+              "from": "1"
+            },
+            {
+              "claim": "Avowals like 'I believe that p' said sincerely are normally authoritative",
+              "from": "assumed"
+            }
+          ],
+          "work": "needed by section 5 to establish what domain of genuine first-person privilege remains after the inversion"
+        },
+        {
+          "n": 3,
+          "heading": "Standing Attitudes Require Interpretation of Behavioral Patterns",
+          "establishes": "Determining what standing attitudes a person has requires systematic observation of behavioral patterns across contexts, because standing attitudes are constituted by such patterns rather than by any introspectible internal state.",
+          "refuted_by": "If standing attitudes have introspectible categorical bases\u2014internal states that ground dispositions and are accessible to the subject independently of behavioral manifestation",
+          "address": "Jaakko Hintikka's epistemic logic and possible-worlds semantics for belief treats beliefs as relations to propositions that obtain independently of behavior and are in principle fully accessible to the believer",
+          "takes_as_given": [
+            {
+              "claim": "Standing attitudes are functional-dispositional patterns manifest across contexts and time, while occurrent judgments are token mental events in moments of avowal, and these require categorically different evidence bases to establish.",
+              "from": "1"
+            },
+            {
+              "claim": "Functional-dispositional states are identified by their causal profiles rather than by qualitative character",
+              "from": "assumed"
+            }
+          ],
+          "work": "needed by sections 4 and 5 to show what evidence standing attitudes require and therefore who is positioned to gather it"
+        },
+        {
+          "n": 4,
+          "heading": "Self-Interpretation Is Systematically Distorted by Motivated Reasoning",
+          "establishes": "When subjects interpret behavioral evidence to ascribe standing attitudes to themselves, they systematically apply motivated reasoning\u2014defensive interpretation, self-serving attribution patterns, and identity-protective cognition\u2014that third-person observers do not apply to the same evidence.",
+          "refuted_by": "If empirical studies showing self-serving biases in self-interpretation either fail to replicate or show equivalent biases in other-interpretation",
+          "address": "Alvin Goldman's simulation theory argues that we know others' minds by simulating their perspective using our own cognitive mechanisms, which would transmit our motivated biases to other-ascription equally",
+          "takes_as_given": [
+            {
+              "claim": "Determining what standing attitudes a person has requires systematic observation of behavioral patterns across contexts, because standing attitudes are constituted by such patterns rather than by any introspectible internal state.",
+              "from": "3"
+            },
+            {
+              "claim": "The psychological literature on motivated reasoning, self-serving bias, and identity-protective cognition demonstrates systematic distortions in self-relevant belief formation",
+              "from": "assumed"
+            }
+          ],
+          "work": "needed by section 5 to establish others' comparative advantage in standing-attitude interpretation"
+        },
+        {
+          "n": 5,
+          "heading": "Others Therefore Have Superior Access to Our Standing Attitudes While We Retain Privilege Over Occurrent States and Interpretive Evidence",
+          "establishes": "The asymmetry between self- and other-ascription is real but inverted: others have superior interpretive access to our standing attitudes because they observe behavioral patterns without motivated reasoning, while we have privileged non-interpretive access only to occurrent judgments in the moment of avowal and to the evidence we use for self-interpretation.",
+          "refuted_by": "If subjects have either non-interpretive access to standing attitudes that bypasses behavioral evidence or unbiased access to the same behavioral evidence that others observe",
+          "address": "Sydney Shoemaker's constitutive account holds that self-knowledge of beliefs is non-inferential and non-interpretive because rational self-ascription partly constitutes the beliefs ascribed, giving subjects authoritative access to standing attitudes themselves",
+          "takes_as_given": [
+            {
+              "claim": "In the moment of sincere avowal, the subject has non-interpretive access to their occurrent judgment\u2014what they are thinking right now\u2014that does not depend on inference from behavioral or phenomenal evidence.",
+              "from": "2"
+            },
+            {
+              "claim": "Determining what standing attitudes a person has requires systematic observation of behavioral patterns across contexts, because standing attitudes are constituted by such patterns rather than by any introspectible internal state.",
+              "from": "3"
+            },
+            {
+              "claim": "When subjects interpret behavioral evidence to ascribe standing attitudes to themselves, they systematically apply motivated reasoning\u2014defensive interpretation, self-serving attribution patterns, and identity-protective cognition\u2014that third-person observers do not apply to the same evidence.",
+              "from": "4"
+            }
+          ],
+          "work": "this is the arrival at thesis"
+        }
+      ],
+      "arrives_at": "5",
+      "load_bearing": "Determining what standing attitudes a person has requires systematic observation of behavioral patterns across contexts, because standing attitudes are constituted by such patterns rather than by any introspectible internal state.",
+      "gap": {
+        "section": "4",
+        "inference": "inductive",
+        "statement": "The motivated reasoning documented in laboratory settings and particular domains (political belief, self-enhancement) must generalize to self-interpretation of standing attitudes across the board, rather than being limited to high-stakes identity-relevant cases where subjects might otherwise have reasonable access"
+      },
+      "surprise": "The paper grants traditional first-person authority where philosophers have been most skeptical (occurrent judgments as non-interpretive) while denying it where it has seemed most secure (knowledge of one's own enduring beliefs and desires). The structural surprise is that the dialectical work happens by showing each opponent correctly identifies one side of the distinction but fails to see it is only one side.",
+      "commitment": "The outline commits to a functionalist metaphysics of standing attitudes strong enough that no internal state could constitute evidence for them independent of behavior\u2014ruling out any phenomenological or introspective route to self-knowledge of beliefs and desires. A cautious version would leave room for introspection to provide some evidence about standing attitudes even if behavioral evidence were evidentially superior.",
+      "outline": 4,
+      "audit": {
+        "flags": [
+          {
+            "level": "warn",
+            "code": "THIN LOAD BEARER",
+            "text": "\u00a71 carries the most weight and is among the least developed sections"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a71 takes as given, defended nowhere: Psychological self-ascriptions aim to characterize states that persist beyond the moment of ascription"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a72 takes as given, defended nowhere: Avowals like 'I believe that p' said sincerely are normally authoritative"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a73 takes as given, defended nowhere: Functional-dispositional states are identified by their causal profiles rather than by qualitative character"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a74 takes as given, defended nowhere: The psychological literature on motivated reasoning, self-serving bias, and identity-protective cognition demonstrates systematic distortions in self-relevant belief formation"
+          },
+          {
+            "level": "info",
+            "code": "DEVIANT STRUCTURE",
+            "text": "No literature review section; instead opens with conceptual distinction that both establishes the framework and diagnoses why the debate has stalled. The dialectical work (showing what others get wrong) is distributed across sections 2-4 rather than consolidated, because each opponent errs differently about what self-knowledge targets."
+          }
+        ],
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "inbound": {
+          "1": 2,
+          "3": 2,
+          "2": 1,
+          "4": 1
+        }
+      }
+    },
+    {
+      "title": "The Asymmetry Inverted: Why Others Know Our Attitudes Better Than We Do",
+      "shape": "Establish a distinction between occurrent judgments and standing attitudes, show we have privileged access only to the former, demonstrate that standing attitudes require behavioral evidence that others observe more reliably, then argue the asymmetry inverts for standing attitudes specifically",
+      "structure": "standard",
+      "structure_note": null,
+      "sections": [
+        {
+          "n": 1,
+          "heading": "Occurrent Judgments and Standing Attitudes: A Distinction in Access Conditions",
+          "establishes": "Psychological states divide into occurrent judgments (token mental acts at moments of formation/avowal) and standing attitudes (functional-dispositional patterns realized across behaviors, contexts, and time).",
+          "refuted_by": "If standing attitudes are themselves occurrences with determinate conscious phenomenology at every moment they exist",
+          "address": "David Armstrong's materialist theory of mind holds that all mental states are occurrent inner physical states with continuous causal efficacy, including beliefs as standing brain states (A Materialist Theory of the Mind, 1968)",
+          "takes_as_given": [
+            {
+              "claim": "Mental state terms in ordinary and philosophical usage refer to items with different temporal and functional profiles",
+              "from": "assumed"
+            }
+          ],
+          "work": "required by sections 2 and 3 to specify what kind of state enjoys privileged access and what kind requires interpretation"
+        },
+        {
+          "n": 2,
+          "heading": "The Scope of Non-Interpretive First-Person Access",
+          "establishes": "Non-interpretive first-person access extends to occurrent judgments at the moment of avowal and to the evidence (memory traces, felt dispositions, proprioceptive states) that the subject uses for self-interpretation, but not to standing attitudes themselves.",
+          "refuted_by": "If we have direct introspective access to our standing beliefs and desires as such, not merely to current feelings or memories we interpret",
+          "address": "Sydney Shoemaker's functionalist account holds that self-knowledge of beliefs involves constitutive rational connections between first-order and second-order beliefs, giving us direct non-empirical access to standing beliefs themselves ('Self-Knowledge and Self-Identity', 1963; 'The First-Person Perspective and Other Essays', 1996)",
+          "takes_as_given": [
+            {
+              "claim": "Psychological states divide into occurrent judgments (token mental acts at moments of formation/avowal) and standing attitudes (functional-dispositional patterns realized across behaviors, contexts, and time).",
+              "from": "1"
+            },
+            {
+              "claim": "When we report our standing beliefs or desires, we typically cite feelings, memories of past thoughts, or imagined scenarios rather than observing the dispositional pattern itself",
+              "from": "assumed"
+            }
+          ],
+          "work": "required by section 4 to establish what self-knowledge actually consists in, and by section 5 to show what we lack access to"
+        },
+        {
+          "n": 3,
+          "heading": "Evidence and Confabulation in Self-Interpretation",
+          "establishes": "Self-ascription of standing attitudes is an interpretive process using the same kinds of behavioral and contextual evidence available to others, but with systematic distortions from motivated reasoning, narrative self-conception, and privileged access to selected evidence rather than comprehensive patterns.",
+          "refuted_by": "If self-interpretation uses a distinctive kind of evidence or method that reliably outperforms third-person interpretation despite motivational biases",
+          "address": "Richard Moran's account of self-knowledge through deliberative self-constitution holds that first-person authority comes from the distinctive deliberative stance (deciding what to believe rather than discovering what one believes), which gives avowals a special rational status despite not being purely observational (Authority and Estrangement, 2001)",
+          "takes_as_given": [
+            {
+              "claim": "Non-interpretive first-person access extends to occurrent judgments at the moment of avowal and to the evidence (memory traces, felt dispositions, proprioceptive states) that the subject uses for self-interpretation, but not to standing attitudes themselves.",
+              "from": "2"
+            },
+            {
+              "claim": "Extensive psychological evidence shows systematic self-deception about attitudes, including disavowal of implicit biases, confabulation about reasons, and narrative reconstruction of preferences",
+              "from": "assumed"
+            }
+          ],
+          "work": "required by section 5 to establish the comparative disadvantage in self-interpretation that produces the inverted asymmetry"
+        },
+        {
+          "n": 4,
+          "heading": "The Third-Person Advantage: Comprehensive Pattern Detection Without Motivated Distortion",
+          "establishes": "Others have superior epistemic access to our standing attitudes because they observe comprehensive behavioral patterns across contexts without the motivated reasoning, selective attention to privileged evidence, or narrative commitments that distort self-interpretation.",
+          "refuted_by": "If the behavioral evidence available to others is too impoverished, ambiguous, or context-dependent to reliably identify standing attitudes, or if third-person observation faces systematic biases comparable to motivated reasoning",
+          "address": "Dorit Bar-On's neo-expressivist account holds that others must always interpret behavior as evidence for mental states while the subject's avowals express those states directly, giving avowals constitutive rather than merely epistemic authority ('Speaking My Mind', 2004), which implies others face a permanent interpretive disadvantage",
+          "takes_as_given": [
+            {
+              "claim": "Psychological states divide into occurrent judgments (token mental acts at moments of formation/avowal) and standing attitudes (functional-dispositional patterns realized across behaviors, contexts, and time).",
+              "from": "1"
+            },
+            {
+              "claim": "Self-ascription of standing attitudes is an interpretive process using the same kinds of behavioral and contextual evidence available to others, but with systematic distortions from motivated reasoning, narrative self-conception, and privileged access to selected evidence rather than comprehensive patterns.",
+              "from": "3"
+            },
+            {
+              "claim": "Standing attitudes are individuated by behavioral-functional patterns that are in principle observable by third parties",
+              "from": "assumed"
+            }
+          ],
+          "work": "required by section 5 to establish one direction of the inverted asymmetry"
+        },
+        {
+          "n": 5,
+          "heading": "The Inverted Asymmetry",
+          "establishes": "The asymmetry between self- and other-ascription is real but inverted: others have superior interpretive access to our standing attitudes (functional-dispositional patterns) because they observe behavioral patterns without motivated reasoning, while we have privileged non-interpretive access only to occurrent judgments in the moment of avowal and to the evidence (memory traces, private feelings) we use for self-interpretation.",
+          "refuted_by": "If the privileged access to evidence that we use for self-interpretation gives us a net epistemic advantage despite motivated reasoning, or if non-interpretive access to occurrent states somehow extends to standing attitudes",
+          "address": "The shared assumption in the self-knowledge literature\u2014held by internalists like Boghossian ('Content and Self-Knowledge', 1989) and externalists like Burge ('Our Entitlement to Self-Knowledge', 1996) alike\u2014that first-person authority centrally concerns standing propositional attitudes rather than merely occurrent judgments, which implies that whatever asymmetry exists favors self-ascription for the attitudes that matter most",
+          "takes_as_given": [
+            {
+              "claim": "Non-interpretive first-person access extends to occurrent judgments at the moment of avowal and to the evidence (memory traces, felt dispositions, proprioceptive states) that the subject uses for self-interpretation, but not to standing attitudes themselves.",
+              "from": "2"
+            },
+            {
+              "claim": "Self-ascription of standing attitudes is an interpretive process using the same kinds of behavioral and contextual evidence available to others, but with systematic distortions from motivated reasoning, narrative self-conception, and privileged access to selected evidence rather than comprehensive patterns.",
+              "from": "3"
+            },
+            {
+              "claim": "Others have superior epistemic access to our standing attitudes because they observe comprehensive behavioral patterns across contexts without the motivated reasoning, selective attention to privileged evidence, or narrative commitments that distort self-interpretation.",
+              "from": "4"
+            }
+          ],
+          "work": "this is the thesis"
+        }
+      ],
+      "arrives_at": "5",
+      "load_bearing": "Self-ascription of standing attitudes is an interpretive process using the same kinds of behavioral and contextual evidence available to others, but with systematic distortions from motivated reasoning, narrative self-conception, and privileged access to selected evidence rather than comprehensive patterns.",
+      "gap": {
+        "section": "4",
+        "inference": "abductive",
+        "statement": "It must be true that the epistemic disadvantages others face (limited observational access, inability to observe private feelings, less comprehensive knowledge of the subject's history) are outweighed by their epistemic advantages (comprehensive pattern detection, freedom from motivated reasoning) sufficiently often that they achieve superior reliability overall, and that standing attitudes are sufficiently constituted by behavioral patterns that comprehensive observation of those patterns grounds better interpretation than privileged access to selected internal evidence."
+      },
+      "surprise": "The outline locates self-knowledge's distinctive success in the least philosophically interesting place\u2014momentary avowals and raw feels\u2014while giving away authority over what philosophers have cared most about (belief, desire, intention) to external observers. Most restructurings of self-knowledge debates preserve some domain of first-person authority over contentful attitudes; this one deliberately does not.",
+      "commitment": "The outline commits to denying that privileged access to evidence (memories, feelings, imaginative exercises) provides a net epistemic advantage over comprehensive behavioral observation, which requires holding that motivated reasoning and selective attention create systematic distortions large enough to outweigh informational advantages. A cautious version would claim only that others sometimes know our attitudes better in specific domains or conditions; this version claims structural superiority for others regarding standing attitudes as such.",
+      "outline": 5,
+      "audit": {
+        "flags": [
+          {
+            "level": "warn",
+            "code": "THIN LOAD BEARER",
+            "text": "\u00a71 carries the most weight and is among the least developed sections"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a71 takes as given, defended nowhere: Mental state terms in ordinary and philosophical usage refer to items with different temporal and functional profiles"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a72 takes as given, defended nowhere: When we report our standing beliefs or desires, we typically cite feelings, memories of past thoughts, or imagined scenarios rather than observing the dispositional pattern itself"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a73 takes as given, defended nowhere: Extensive psychological evidence shows systematic self-deception about attitudes, including disavowal of implicit biases, confabulation about reasons, and narrative reconstruction of preferences"
+          },
+          {
+            "level": "info",
+            "code": "ASSUMED",
+            "text": "\u00a74 takes as given, defended nowhere: Standing attitudes are individuated by behavioral-functional patterns that are in principle observable by third parties"
+          }
+        ],
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "inbound": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 1
+        }
+      }
+    }
+  ],
+  "divergence": {
+    "forced": [
+      "Distinguish standing attitudes (functional-dispositional patterns) from occurrent judgments (token mental events at moments of avowal)",
+      "Establish that standing attitudes are constituted by behavioral patterns across contexts rather than introspectible internal states",
+      "Argue that knowledge of standing attitudes requires interpretation of behavioral evidence",
+      "Show that first-person privileged access extends to occurrent judgments in the moment of avowal",
+      "Show that first-person privileged access extends to evidence used in self-interpretation (memory traces, phenomenal states)",
+      "Argue that motivated reasoning systematically distorts first-person interpretation of behavioral patterns",
+      "Argue that third-person observers lack the motivated reasoning that distorts first-person interpretation",
+      "Conclude that others have superior access to standing attitudes while first-person privilege is limited to occurrent states and evidence"
+    ],
+    "free": [
+      {
+        "move": "whether to establish criteria for attitude knowledge before showing self-observation fails them",
+        "options": [
+          "establish general criteria for knowing dispositional patterns, then show self-observation fails these criteria (outline 0)",
+          "proceed directly to showing the epistemic advantages distribute differently across the standing/occurrent distinction (outlines 1, 3, 4, 5)"
+        ],
+        "outlines": "outline 0 alone establishes criteria first; outlines 1, 3, 4, 5 move directly to distributing advantages"
+      },
+      {
+        "move": "whether to argue that third-person observers have MORE behavioral evidence than first-person subjects",
+        "options": [
+          "argue third-person observers access more numerous and varied instances of behavioral patterns (outline 2)",
+          "argue only that third-person observers interpret the same behavioral evidence without motivated reasoning (outlines 0, 1, 3, 4, 5)"
+        ],
+        "outlines": "outline 2 claims observational advantage in quantity/variety; others claim only interpretive advantage"
+      },
+      {
+        "move": "whether to explain WHY motivated reasoning affects self-interpretation specifically",
+        "options": [
+          "explain that standing attitudes are identity-constitutive and their accurate assessment threatens self-conception (outlines 2, 4)",
+          "assert motivated reasoning distorts self-interpretation without explaining the mechanism (outlines 0, 1, 3, 5)"
+        ],
+        "outlines": "outlines 2 and 4 explain identity-threat mechanism; outlines 0, 1, 3, 5 treat motivated reasoning as given"
+      },
+      {
+        "move": "whether to address and reject compensating mechanisms for first-person advantage",
+        "options": [
+          "explicitly argue that privileged access to reasons, formation memories, and phenomenal feels doesn't overcome motivated reasoning because these themselves get reinterpreted (outline 2)",
+          "omit discussion of why privileged evidence doesn't compensate for motivated reasoning (outlines 0, 1, 3, 4, 5)"
+        ],
+        "outlines": "outline 2 alone addresses and rejects compensating mechanisms"
+      },
+      {
+        "move": "whether to argue the inversion undermines traditional self-knowledge debates",
+        "options": [
+          "conclude by showing the inversion reveals false presuppositions in traditional debates about uniform epistemic privilege (outline 1)",
+          "conclude with the inversion thesis itself without meta-philosophical implications (outlines 0, 2, 3, 4, 5)"
+        ],
+        "outlines": "outline 1 alone draws meta-philosophical conclusions about the debate"
+      },
+      {
+        "move": "whether to establish that non-interpretive access is appropriate ONLY for occurrent states",
+        "options": [
+          "argue non-interpretive access is categorically appropriate only for occurrent mental acts, while interpretive access is required for dispositional patterns (outline 1)",
+          "show first-person access extends to occurrent states without arguing this is the only appropriate domain for non-interpretive access (outlines 0, 2, 3, 4, 5)"
+        ],
+        "outlines": "outline 1 makes a categorical claim about appropriate epistemic methods; others describe what access extends to"
+      },
+      {
+        "move": "how to characterize what first-person privilege extends to regarding evidence",
+        "options": [
+          "privileged access to 'currently accessible evidence' or 'evidence at the moment of introspection' (outlines 0, 3)",
+          "privileged access to 'phenomenal evidence' or 'memorial and phenomenal evidence' (outlines 1, 4)",
+          "privileged access to 'memory traces, felt dispositions, proprioceptive states' with detailed enumeration (outline 5)",
+          "privileged access to 'memory traces, current phenomenal states' as evidence that itself becomes object of motivated reinterpretation (outline 2)"
+        ],
+        "outlines": "outline 0 and 3 use temporal qualifiers; outline 1 and 4 use 'phenomenal'; outline 5 enumerates types; outline 2 notes evidence gets reinterpreted"
+      }
+    ],
+    "sharpest": "Whether third-person observers have MORE behavioral evidence than first-person subjects (outline 2) versus whether they merely interpret the SAME evidence without motivated reasoning (all others). This determines whether the argument is about observational position or interpretive corruption\u2014whether others win by seeing more or by seeing clearly. If outline 2 is right, the paper must defend that we somehow observe our own behavior less comprehensively than others do, which seems empirically dubious. If the others are right, the paper can grant we have all the behavioral evidence but argue we systematically misinterpret it, which is psychologically more plausible but makes motivated reasoning do all the work.",
+    "absent": "None of the outlines address potential objections that first-person subjects could overcome motivated reasoning through deliberate self-distancing, therapeutic techniques, or adopting third-person perspective on themselves\u2014they treat motivated reasoning as if it were insurmountable rather than explaining why these corrective strategies fail or are unavailable"
+  },
+  "addresses": [
+    {
+      "text": "Alex Byrne's transparency method where self-knowledge of belief proceeds by answering the world-directed question, bypassing interpretation entirely (Transparency and Self-Knowledge, 2005)",
+      "where": [
+        "O2\u00a76"
+      ]
+    },
+    {
+      "text": "Alvin Goldman's simulation theory argues that we know others' minds by simulating their perspective using our own cognitive mechanisms, which would transmit our motivated biases to other-ascription equally",
+      "where": [
+        "O4\u00a74"
+      ]
+    },
+    {
+      "text": "Crispin Wright's view in 'Self-Knowledge: The Wittgensteinian Legacy' (1998) that first-person authority is a unified phenomenon requiring a unified explanation, not a fragmented privilege that varies by psychological kind.",
+      "where": [
+        "O1\u00a76"
+      ]
+    },
+    {
+      "text": "David Armstrong's materialist theory of mental states as categorical brain states that ground dispositions (A Materialist Theory of the Mind, 1968) and contemporary neuroscientific approaches treating beliefs as stored representations in neural substrate",
+      "where": [
+        "O2\u00a71"
+      ]
+    },
+    {
+      "text": "David Armstrong's materialist theory of mind holds that all mental states are occurrent inner physical states with continuous causal efficacy, including beliefs as standing brain states (A Materialist Theory of the Mind, 1968)",
+      "where": [
+        "O5\u00a71"
+      ]
+    },
+    {
+      "text": "David Armstrong's view in 'Introspection' (1968) that introspection is perception-like awareness of current and standing mental states alike, accessed by a common mechanism.",
+      "where": [
+        "O1\u00a72"
+      ]
+    },
+    {
+      "text": "David Hume's bundle theory as defended by Galen Strawson ('The Self and the SESMET', 2011), which holds that the self consists entirely in a succession of experiences with no underlying dispositional substrate",
+      "where": [
+        "O3\u00a71"
+      ]
+    },
+    {
+      "text": "David Rosenthal's higher-order thought theory holds that conscious attitudes are attitudes one is conscious of having, giving standing conscious attitudes the same first-person accessibility as occurrent thoughts (Consciousness and Mind, 2005)",
+      "where": [
+        "O0\u00a75"
+      ]
+    },
+    {
+      "text": "David Rosenthal's higher-order thought theory treats beliefs as standing dispositions that consist in dispositions to have occurrent thoughts, making the evidential requirements continuous rather than categorically different",
+      "where": [
+        "O4\u00a71"
+      ]
+    },
+    {
+      "text": "Doris Olin's argument that we observe our own behavior constantly and accumulate self-directed behavioral evidence throughout life (Paradox, 2003, pp. 34-38)",
+      "where": [
+        "O2\u00a73"
+      ]
+    },
+    {
+      "text": "Dorit Bar-On's neo-expressivist account holds that others must always interpret behavior as evidence for mental states while the subject's avowals express those states directly, giving avowals constitutive rather than merely epistemic authority ('Speaking My Mind', 2004), which implies others face a permanent interpretive disadvantage",
+      "where": [
+        "O5\u00a74"
+      ]
+    },
+    {
+      "text": "Dorit Bar-On's neo-expressivist view holds that avowals of attitudes are expressions rather than reports, giving them a security that doesn't depend on interpretive accuracy because the avowal makes itself true (Speaking My Mind, 2004)",
+      "where": [
+        "O0\u00a76"
+      ]
+    },
+    {
+      "text": "Eric Schwitzgebel's argument that even occurrent judgments are subject to introspective uncertainty and require interpretation (Perplexities of Consciousness, 2011, chapter 5)",
+      "where": [
+        "O2\u00a77"
+      ]
+    },
+    {
+      "text": "Eric Schwitzgebel's skepticism about introspective reliability ('The Unreliability of Naive Introspection', Philosophical Review, 2008), which argues that even for occurrent experiences subjects systematically misreport their phenomenology",
+      "where": [
+        "O3\u00a73"
+      ]
+    },
+    {
+      "text": "Gilbert Ryle's view in 'The Concept of Mind' (1949) that self-knowledge involves the same kind of behavioral evidence and inference that we use for other-knowledge, with no special first-person epistemic access even to current mental acts.",
+      "where": [
+        "O1\u00a74"
+      ]
+    },
+    {
+      "text": "Hilary Kornblith's argument that cognitive biases are domain-general heuristic failures rather than motivated distortions, affecting self and other equally (On Reflection, 2012, chapter 3)",
+      "where": [
+        "O2\u00a75"
+      ]
+    },
+    {
+      "text": "Jaakko Hintikka's epistemic logic and possible-worlds semantics for belief treats beliefs as relations to propositions that obtain independently of behavior and are in principle fully accessible to the believer",
+      "where": [
+        "O4\u00a73"
+      ]
+    },
+    {
+      "text": "Jerry Fodor's view in 'Propositional Attitudes' (1978) that beliefs are relations to mentally represented sentences in a language of thought, stored and retrieved rather than constituted by dispositions.",
+      "where": [
+        "O1\u00a71"
+      ]
+    },
+    {
+      "text": "Quassim Cassam's self-knowledge as achievement view treats bias as an obstacle to be overcome through epistemic virtue rather than as a structural feature of the self-observational position (Self-Knowledge for Humans, 2014)",
+      "where": [
+        "O0\u00a73"
+      ]
+    },
+    {
+      "text": "Richard Moran's account of self-knowledge through deliberative self-constitution holds that first-person authority comes from the distinctive deliberative stance (deciding what to believe rather than discovering what one believes), which gives avowals a special rational status despite not being purely observational (Authority and Estrangement, 2001)",
+      "where": [
+        "O5\u00a73"
+      ]
+    },
+    {
+      "text": "Richard Moran's authority view ('Authority and Estrangement', 2001), which holds that self-knowledge of attitudes is secured through rational deliberation about what to believe rather than empirical self-interpretation, making motivational distortion irrelevant",
+      "where": [
+        "O3\u00a74"
+      ]
+    },
+    {
+      "text": "Richard Moran's authority view holds that self-knowledge of attitudes comes not from self-observation but from the deliberative perspective of settling what to believe, making observation unnecessary (Authority and Estrangement, 2001)",
+      "where": [
+        "O0\u00a72"
+      ]
+    },
+    {
+      "text": "Richard Moran's transparency account holds that even occurrent self-ascription involves a rational-deliberative stance toward reasons rather than simple expression, making all self-knowledge interpretive",
+      "where": [
+        "O4\u00a72"
+      ]
+    },
+    {
+      "text": "Richard Moran's view in 'Authority and Estrangement' (2001) that first-person authority extends to standing attitudes because the subject's self-constituting commitments determine what those attitudes are, making external behavioral evidence secondary.",
+      "where": [
+        "O1\u00a73"
+      ]
+    },
+    {
+      "text": "Richard Moran's view that self-knowledge is secured through rational deliberation about what to believe rather than empirical self-interpretation, making motivated reasoning irrelevant (Authority and Estrangement, 2001)",
+      "where": [
+        "O2\u00a74"
+      ]
+    },
+    {
+      "text": "Sydney Shoemaker's constitutive account holds that self-knowledge of beliefs is non-inferential and non-interpretive because rational self-ascription partly constitutes the beliefs ascribed, giving subjects authoritative access to standing attitudes themselves",
+      "where": [
+        "O4\u00a75"
+      ]
+    },
+    {
+      "text": "Sydney Shoemaker's constitutive self-knowledge view ('Self-Knowledge and Inner Sense', Philosophy and Phenomenological Research, 1994), which holds that having an attitude constitutively involves being disposed to avow it, making introspective access metaphysically guaranteed",
+      "where": [
+        "O3\u00a72"
+      ]
+    },
+    {
+      "text": "Sydney Shoemaker's constitutive self-knowledge view holds that believing that p partly consists in being disposed to avow that p, making the standing state accessible through its occurrent manifestations (Self-Knowledge and Self-Identity, 1963)",
+      "where": [
+        "O0\u00a71"
+      ]
+    },
+    {
+      "text": "Sydney Shoemaker's functionalist account holds that self-knowledge of beliefs involves constitutive rational connections between first-order and second-order beliefs, giving us direct non-empirical access to standing beliefs themselves ('Self-Knowledge and Self-Identity', 1963; 'The First-Person Perspective and Other Essays', 1996)",
+      "where": [
+        "O5\u00a72"
+      ]
+    },
+    {
+      "text": "Sydney Shoemaker's functionalist self-knowledge view where second-order awareness of first-order states constitutes knowledge of dispositions without behavioral evidence (The First-Person Perspective, 1996)",
+      "where": [
+        "O2\u00a72"
+      ]
+    },
+    {
+      "text": "Sydney Shoemaker's view in 'Self-Knowledge and Self-Identity' (1963) that first-person privilege extends uniformly across psychological states, making self-ascription generally more authoritative than other-ascription for both standing and occurrent states.",
+      "where": [
+        "O1\u00a75"
+      ]
+    },
+    {
+      "text": "The broad consensus from Evans through Moran that self-knowledge's distinctive character lies in authoritative self-ascription of beliefs and desires as standing states",
+      "where": [
+        "O2\u00a78"
+      ]
+    },
+    {
+      "text": "The shared assumption in the self-knowledge literature\u2014held by internalists like Boghossian ('Content and Self-Knowledge', 1989) and externalists like Burge ('Our Entitlement to Self-Knowledge', 1996) alike\u2014that first-person authority centrally concerns standing propositional attitudes rather than merely occurrent judgments, which implies that whatever asymmetry exists favors self-ascription for the attitudes that matter most",
+      "where": [
+        "O5\u00a75"
+      ]
+    },
+    {
+      "text": "The shared assumption of both Ryle ('The Concept of Mind', 1949) and his introspectionist opponents that the key question about self-knowledge is whether we have special access to our standing psychological states",
+      "where": [
+        "O3\u00a75"
+      ]
+    },
+    {
+      "text": "The traditional Cartesian assumption held by philosophers from Descartes through contemporary defenders of first-person authority like Crispin Wright (Rails to Infinity, 2001) that self-knowledge of one's mental states is epistemically superior to others' knowledge of them",
+      "where": [
+        "O0\u00a77"
+      ]
+    },
+    {
+      "text": "Tyler Burge's self-knowledge theory holds that first-person knowledge is epistemically superior because the subject has rational entitlement to their self-attributions that observers lack, and observers must interpretively theorize where subjects simply know (Content Preservation, 1988)",
+      "where": [
+        "O0\u00a74"
+      ]
+    }
+  ],
+  "title_line": "selfo_nosketch"
+}

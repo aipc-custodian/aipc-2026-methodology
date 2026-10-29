@@ -1,0 +1,396 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "Human illocutionary force is often settled incrementally through uptake and later ownership, so a force-fixing intention present at output time cannot by itself be what separates human speakers from LLMs. Whether LLMs show reason-responsive taking-up of and commitment to their earlier outputs remains open, and it is a condition on how the system is organised.",
+        "headline": "The assumption that a speech-act intention exists prior to or alongside output, which underlies both Gubelmann's malfunction-versus-deliberate test and Attah's Levelt-style planning template, is false even of human speakers. Much human illocution is incremental, with the force of the act settled by retrospective ownership, so the human-versus-LLM difference cannot be located in the presence of an intention.",
+        "used_surviving": true,
+        "target": "Gubelmann's malfunction test, Attah's pipeline template for communicative intention, and the implicit human paradigm in Barandiaran and Almendros.",
+        "sketch": "Both denials and attributions treat the speaker as having something like a conceptualised message and a communicative intention that the Formulator then realises (Attah) or whose failure can be told apart from malfunction (Gubelmann). Barandiaran and Almendros likewise contrast the LLM's purpose-structured but not purposeful operation with human purposefulness. Counterexample: ordinary improvised talk. Speakers begin sentences without having settled what they will assert, discover the force of the utterance from where it goes ('I was going to say it was a warning, but I suppose it was an accusation'), and become committed by endorsing or disowning it in the next turn. Splitting such acts from their reflective ownership makes the intention post hoc and constituted by follow-up conduct, not causal. Speech acts are therefore constituted by a diachronic pattern of owning and retracting. This reframes the dispute: the question is whether LLM threads show the right pattern of taking up, owning and being held to earlier outputs. This is an empirical question about interaction structure, not an issue about internal mental states. The premise it turns on is that retrospective force-fixing is not a marginal case.",
+        "promise": 4,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "Gubelmann malfunction test LLM speech acts illocutionary",
+          "Attah communicative intention LLM Levelt Formulator conceptualiser",
+          "Barandiaran Almendros LLM purposeful purpose-structured agency",
+          "conversation analysis action formation retrospective ascription next-turn proof procedure speech act force",
+          "illocutionary force negotiated retroactively determined by uptake subsequent conversation",
+          "do large language models perform speech acts assertion commitment survey",
+          "Rosen Dale LLMs Don't \"Do Things with Words\" lack of illocution inform study of human discourse",
+          "Gubelmann LLM malfunction intentional action distinguish failure from malfunction speech acts Kantian pragmatist"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "ANTICIPATED",
+            "part": "Core human-side premise: illocutionary force is often not fixed at output time but settled later through hearer response, negotiation and clarification.",
+            "source": "McDonald, \"Reimagining Illocutionary Force\", The Philosophical Quarterly, 2021",
+            "url": "https://philarchive.org/archive/MCDRIF",
+            "what_they_say": "<cite index=\"46-4\">Sometimes the force of an utterance seems to be determined neither at initial performance nor at the hearer's interpretation, but later, through negotiations and clarifications by both interlocutors.</cite> She proposes a 'collaboration theory' on which <cite index=\"46-6\">force is determined by an agreement reached by the speaker and the hearer.</cite>",
+            "damage": 4,
+            "note": "Argues the human-side premise directly, with no LLM application. The thesis's general claim that force is settled incrementally is therefore not its own contribution."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "Force-fixing intention at output time is not what determines force. Uptake can constitute the act, including acts the speaker did not intend.",
+            "source": "Kukla's 'constitution theory of uptake', as reported in \"Your word against mine: the power of uptake\", Synthese, 2020",
+            "url": "https://link.springer.com/article/10.1007/s11229-020-02944-1",
+            "what_they_say": "On the constitution theory, <cite index=\"42-4\">the hearer's response could make an utterance constitute an illocutionary act the speaker did not intend to perform.</cite> The paper also mentions a third theory in which <cite index=\"42-16\">hearers and speakers work together to decide on the force, negotiating and co-constructing it in the conversation.</cite>",
+            "damage": 3,
+            "note": "A closely related rival view of force, already in the literature. I saw it only through a secondary paper, not Kukla's own text."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "The claim that the intention is 'post hoc and constituted by follow-up conduct, not causal'.",
+            "source": "\"Your word against mine: the power of uptake\", Synthese, 2020 (objection to the constitution theory)",
+            "url": "https://link.springer.com/article/10.1007/s11229-020-02944-1",
+            "what_they_say": "It objects that <cite index=\"42-11\">when we trust a speaker's testimony about their intentions, we do seem to regard those intentions as determinants of illocutionary force.</cite>",
+            "damage": 3,
+            "note": "An argument against the constitutive, non-causal reading of intention. The thesis must either answer it or narrow to cases where the speaker has not yet settled the force."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "Retrospective clarification and ownership of force as a social practice.",
+            "source": "\"Clarifying illocutionary force\", Inquiry, 2023",
+            "url": "https://doi.org/10.1080/0020174X.2023.2255633",
+            "what_they_say": "The paper studies <cite index=\"47-5\">the practice of asking for and providing descriptions that make explicit what kind of act was done in speaking.</cite> It distinguishes <cite index=\"47-6\">a form within the speech encounter and one subsequent to it.</cite>",
+            "damage": 2,
+            "note": "Covers the clarification and retroactive-description practice. I found no LLM application and could not check the full text."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "Empirical adjacent literature (conversation analysis, pragmatics): force is ascribed and displayed through next-turn responsive conduct, not read off a prior intention.",
+            "source": "Levinson, \"Action formation and ascription\" (Handbook of Conversation Analysis), 2013; Rossi, \"Conversation Analysis\" entry",
+            "url": "https://www.mpi.nl/publications/item529077/action-formation-and-ascription",
+            "what_they_say": "Levinson says that <cite index=\"37-4\">to respond in interaction we have to ascribe to the prior turn a primary 'action', variously thought of as an 'illocution' or 'speech act'.</cite> Rossi's entry says CA gives a central role to <cite index=\"33-11\">responsive conduct, which is used as a key into the nature of the preceding action.</cite>",
+            "damage": 3,
+            "note": "The discipline that studies talk already treats force as sequentially displayed and ascribed. The thesis cannot present this as a new philosophical discovery. CA's primary evidence is the recipient's display of understanding, not the speaker's later ownership."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "The premise that retrospective force-fixing is 'not a marginal case'.",
+            "source": "Stivers & Sidnell (eds.), \"The Handbook of Conversation Analysis\", Part II; Action Ascription in Social Interaction (Cambridge)",
+            "url": "https://www.oreilly.com/library/view/the-handbook-of/9781118340455/c06.xhtml",
+            "what_they_say": "The Handbook says that <cite index=\"38-1\">occasional misunderstandings of action content do occur, but they are surprisingly rare.</cite> The Cambridge volume adds that <cite index=\"34-10\">the next turn can only convey the recipient's understanding of the prior action.</cite>",
+            "damage": 3,
+            "note": "The CA evidence I found points to quick, mostly stable action recognition. It does not show that speaker-side retrospective re-fixing is common. The 'not marginal' premise is unsupported by what I found."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Gubelmann's malfunction test, and what he says about later explanation.",
+            "source": "Gubelmann, \"Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now)\", Philosophy & Technology, 2024",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00696-1",
+            "what_they_say": "The test: <cite index=\"67-4\">the most helpful tool to identify intentionality is perhaps the comparison with malfunctioning.</cite> His own example says that offence and thoughtlessness <cite index=\"67-5\">might have the same effect until Yacob explains himself to the mother-in-law.</cite>",
+            "damage": 2,
+            "note": "He does hold the test, and the Yacob case grants that later explanation matters, but only as evidence of an intention already there. His premises are 'to illocute, a being must have intentions' and LLMs are 'heteronomous mechanisms'. That makes the thesis's reading of the test as an output-time template fair but not forced; the Yacob passage is the better target."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Attah's pipeline template.",
+            "source": "Attah, \"Do language models lack communicative intentions?\", Synthese, 2025",
+            "url": "https://www.researchgate.net/publication/391019058_Do_language_models_lack_communicative_intentions",
+            "what_they_say": "Attah argues that <cite index=\"14-4\">once strong Gricean assumptions are given up and both architectures fairly assessed, there are no good reasons to suppose LLMs lack communicative intentions.</cite> Levelt's model, which I take to be his human template, has a conceptualizer that <cite index=\"11-15\">generates the communicative intention</cite> before the formulator.",
+            "damage": 2,
+            "note": "I could not see Attah's full text, so I did not verify that he adopts Levelt's pipeline. Attah is an attributor who rejects intention as the human/LLM dividing line, so he partly agrees with the thesis's conclusion. Levelt's model also includes monitoring of what has already been said (11-16, snippet truncated), which a referee will cite against calling the template purely feed-forward."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "The claim that Barandiaran and Almendros hold an implicit human paradigm of force-fixing intention at output time.",
+            "source": "Barandiaran & P\u00e9rez-Verdugo, \"Generative midtended cognition and Artificial Intelligence\", Synthese, 2025; Barandiaran & Almendros, \"Transforming Agency\", 2024",
+            "url": "https://arxiv.org/html/2411.06812v1",
+            "what_they_say": "Describing ordinary creative action, the 2025 paper says <cite index=\"28-13\">intentions take shape along the process and the final result is authored.</cite> The 2024 paper contrasts purposeful action, <cite index=\"27-2\">behavior that is imbued with purpose all along its unfolding</cite>, with the purpose-bounded behaviour of transformers.",
+            "damage": 3,
+            "note": "Their human paradigm is processual: intention emerges during the act, with authorship afterwards. That is already close to the thesis, so the target is mis-described. The incremental-intention point is made for drawing and writing, not for illocutionary force."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The thesis's own reframing: an empirical question about interaction structure rather than internal states.",
+            "source": "Rosen & Dale, \"LLMs Don't 'Do Things with Words' but Their Lack of Illocution Can Inform the Study of Human Discourse\", Proceedings of the Cognitive Science Society, 2024",
+            "url": "https://escholarship.org/uc/item/25k7z0mz",
+            "what_they_say": "They measure how much of a prior comment can be recovered from replies, and use an LLM reply as a control, <cite index=\"58-6\">because LLMs inherently lack illocutionary intent but produce plausible utterances.</cite> The LLM replies showed <cite index=\"58-7\">statistically significant lower entropy with prior comments than human replies.</cite>",
+            "damage": 1,
+            "note": "A quantitative interaction-level method the thesis could use as evidence. It assumes LLMs lack illocutionary intent, so it is not a rival on the ownership question. It measures uptake of content between speakers, not ownership of one's own earlier output."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "A behavioural criterion for LLM speech acts, and a verdict that LLMs act only by institutional function assignment.",
+            "source": "\"Communicative Action in the Age of Artificial Intelligence: Theorizing LLMs as Communicative and Strategic Agents\", Philosophy & Technology, 2026",
+            "url": "https://link.springer.com/article/10.1007/s13347-026-01168-4",
+            "what_they_say": "They <cite index=\"1-2\">offer a behavioral criterion for LLM speech acts</cite> not tethered to a cognitive-volitional complex. They also conclude that <cite index=\"1-4\">LLMs cannot perform genuine illocutionary acts</cite>, because they fail the sincerity condition.",
+            "damage": 3,
+            "note": "A behavioural turn away from mental states already exists in this literature. It keeps a sincerity condition, and I saw no diachronic owning and retracting criterion."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "The open question whether LLM threads show reason-responsive taking-up of and commitment to earlier outputs.",
+            "source": "\"Talking with Language Models\", arXiv, 2026 (the 'artifactual stance')",
+            "url": "https://arxiv.org/html/2610.09064v1",
+            "what_they_say": "The authors claim that <cite index=\"49-6\">LLM outputs are candidate texts optimized for utility, not utterances bearing meaning or force</cite>, and that <cite index=\"49-8\">between turns, no one remembers.</cite>",
+            "damage": 3,
+            "note": "A very recent paper that answers the thesis's 'open' question negatively on architectural grounds. I read only the abstract and could not tell whether it gives interaction-level evidence. The thesis must engage it rather than call the matter open."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Rival account of the human/LLM difference in terms of internal intention-like representations.",
+            "source": "Williams, \"Intention-like representations in language models?\", Philosophical Studies, 2026",
+            "url": "https://link.springer.com/article/10.1007/s11098-026-02605-y",
+            "what_they_say": "He takes <cite index=\"19-1\">linguistic capacities such as assertion to be widely held to require intentions of one kind or another</cite>, and treats Attah's account as a special case focused on communicative intentions.",
+            "damage": 2,
+            "note": "This is the internal-state route the thesis sets aside. A referee will want to know why ownership structure is not also a matter of internal organisation, which the thesis half concedes with 'a condition on how the system is organised'."
+          }
+        ],
+        "what_is_left": "That human illocutionary force is sometimes settled after output through negotiation and the speaker's later ownership is already argued (McDonald, Kukla, and conversation analysis). What survives is a narrower claim: when the human/LLM contrast is drawn by comparing an output-time intention (as in Gubelmann's malfunction test and Attah's Levelt-style template), it passes over those cases of incremental or retrospective fixing. For those cases, whether an LLM thread supports speech acts depends on whether the system takes up, owns and is held to its earlier outputs, which can be checked at the level of interaction structure. How often retrospective fixing happens in ordinary talk, and what LLM threads actually show, are both left unestablished by the sources I found.",
+        "not_found": "I found no source that applies the retrospective or collaborative theory of force (McDonald, Kukla) to the LLM debate, and none that proposes a test of diachronic owning and retracting of the system's own earlier outputs. That silence is weak evidence, since many relevant papers are paywalled. The Williams & Bayne 2024 paper on assertion and the proxy-assertion papers (Arora; Green & Michel) were seen only as citations, not read. I did not run searches on: empirical work on LLM self-consistency, retraction or sycophancy (the most likely place for data on 'owning earlier outputs'); Schegloff on third-position repair or self-repair, and psycholinguistic work on incremental, non-pre-planned production that could support the 'not marginal' premise; Kukla & Lance, Sbis\u00e0, Geurts or Brandom-style deontic scorekeeping on commitment; and Attah's full text, to confirm the pipeline reading. The empirical-adjacent search did leave philosophy, through CA and the Rosen & Dale study, but it found no psychology or linguistics evidence on how often speakers fix force retrospectively. The 'not marginal' premise is therefore unsupported either way.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "speech-acts",
+      "assertion",
+      "intention"
+    ],
+    "why": "The theses are about how illocutionary force is fixed, whether by a prior communicative intention or by later uptake and ownership, so the speech-acts entry is the core debate, assertion covers commitment and retraction, and intention covers the intention-based view being challenged.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "CONTRADICTED",
+                "position": "Force is fixed at the time of performance. Later acts can retract a speech act but cannot change what was performed. This cuts against the claim that force is settled incrementally by later ownership.",
+                "who": "Sbis\u00e0 2007, as reported by Green",
+                "quote": "nothing I can do on Wednesday can change the fact that I made a promise or assertion on Monday. However, on Wednesday I may be able to retract a claim I made on Monday.",
+                "damage": 4,
+                "note": "Later uptake and ownership are treated as retraction or commitment-discharge, not as force-fixing."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "Intentionalism: force is fixed by a manifest communicative intention at the time of utterance. This is the view the thesis says cannot separate humans from LLMs.",
+                "who": "Strawson 1964; Searle 1989 (manifesting an intention suffices); Green's overtness account",
+                "quote": "What makes an utterance of a sentence in the indicative mood a prediction rather than a command, for instance, is that it manifests an intention to be so taken",
+                "damage": 3,
+                "note": "The entry's main non-conventionalist account of force places it at output time, so the thesis must argue against it."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Speech acts are undertakings of commitment, and the force-defining norms are reason-responsive: an asserter must answer 'How do you know?' and retract if she cannot.",
+                "who": "Green (the entry's own view; cf. Williamson 1996 for the challenge)",
+                "quote": "she is obliged to retract P if she is unable to respond to that challenge adequately.",
+                "damage": 2,
+                "note": "This gives the thesis a concrete, norm-based test for 'reason-responsive taking-up and commitment' beyond the output-time intention."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Intention alone, even when it is common knowledge, does not suffice for a speech act. What matters is publicly accessible commitment, which the speaker must actually undertake.",
+                "who": "Green 2013, against Searle's 1969 claim",
+                "quote": "speech acts involve intentional undertaking of a publicly accessible commitment; further, that commitment is not undertaken simply by virtue of my intending to undertake it",
+                "damage": 2,
+                "note": "This supports the claim that an output-time intention is not the whole story."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Some speech acts depend on audience uptake. Uptake failure produces a misfire, and systematic denial of uptake can silence a speaker.",
+                "who": "Austin 1962; Langton 1993; Hornsby and Langton 1998. Bird 2002 and Maitra 2009 dissent.",
+                "quote": "I cannot bet you $100 on who will win the election unless you accept that bet.",
+                "damage": 2,
+                "note": "Uptake is established as constitutive of some force, but the entry does not treat it as incremental, and Bird denies it for refusal."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "A speaker can perform a speech act without intending to perform that act, by being committed to it through other acts she did intend. Intention is therefore not strictly necessary for each act.",
+                "who": "Green, via Searle and Vanderveken's strong illocutionary commitment",
+                "quote": "it is difficult to see how one can perform S n while having no intention of performing a speech act at all.",
+                "damage": 3,
+                "note": "A referee will raise this. It partly loosens the force-fixing intention, but the entry still requires intentional performance of some speech act."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Speaker meaning without cognitive-effect intentions, with examples such as photocopiers, infants and photos. This is relevant to whether non-standard 'speakers' can mean anything.",
+                "who": "Davis 1992; Green 2019 (overt manifestation of commitment)",
+                "quote": "Davis (1992) provides a range of cases such as speaking to pre-linguistic infants, uncooperative photocopy machines, and photos of deceased loved ones.",
+                "damage": 2,
+                "note": "This is the nearest the entry comes to non-standard speakers, and it does not concern machine outputs."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Speech acts are best situated in conversation, where scorekeeping and Questions Under Discussion track commitments across turns. This is a natural home for the thesis's 'later ownership'.",
+                "who": "Roberts 2004, 2012; Lewis 1979; Stalnaker; MacFarlane 2011; Asher and Lascarides 2003",
+                "quote": "a speech act's \"ecological niche\" may nevertheless be the conversation.",
+                "damage": 2,
+                "note": "Commitment across a conversation is discussed, but force is still treated as set by the act, not by later uptake."
+              }
+            ],
+            "nearest_positions": [
+              "Intentionalism about force (force fixed by manifest communicative intention at the time of utterance) \u2014 Strawson 1964, Searle 1989, Green's overtness account",
+              "Normative-commitment account of force (force is a mode of commitment, with retraction and challenge obligations) \u2014 Green 2019/2020, drawing on Williamson 1996 and Brandom (bibliography only)",
+              "Force conventionalism / uptake-dependence (some force depends on conventions and audience uptake) \u2014 Austin 1962, Searle 1969, Langton and Hornsby; Bird 2002 dissenting"
+            ],
+            "entry_silent_on": "The entry does not discuss LLMs or machine-generated text as speakers, and it does not discuss force being settled incrementally or retroactively by later uptake and ownership. It treats later acts only as retraction or withdrawal. It also says nothing about organisational or architectural conditions on a system's commitment-responsiveness. 'Artificial intelligence' appears only in the opening list of fields influenced, and Shoham 1993 appears only in the bibliography."
+          }
+        ],
+        "slug": "speech-acts",
+        "url": "https://plato.stanford.edu/entries/speech-acts/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "Commitment accounts locate assertion's force in what the speaker is held to or takes on after the utterance: responding to challenges, defending, or retracting. This is a downstream, reason-responsive relation to one's earlier output, not an intention at output time.",
+                "who": "Brandom (1994); MacFarlane; Rescorla (2009a); Peirce; Alston",
+                "quote": "To assert a sentence S (at a context U) is (inter alia) to commit oneself to providing adequate grounds for the truth of S ... in response to any appropriate challenge ... One can escape this commitment only by withdrawing the assertion.",
+                "damage": 1,
+                "note": "Directly supplies the 'later ownership' machinery the thesis builds on."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Some deny that any norm governs the making of assertions. Only later reactions are norm-governed: the speaker must defend or retract when challenged.",
+                "who": "Rescorla (2009a)",
+                "quote": "there is no norm at all for proper making of assertions. There are only norms that govern later reactions.",
+                "damage": 1,
+                "note": "Close precedent for force being settled after output."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Austin's uptake requirement makes illocution depend on the hearer's understanding. The entry reports it as less plausible for speaker-content verbs such as 'assert'.",
+                "who": "Austin (1962); the entry's own critique",
+                "quote": "performance of an illocutionary act depends on the \"securing of uptake\"",
+                "damage": 2,
+                "note": "Uptake dependence is supported for some speech acts, but the entry resists it for assertion specifically."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "Intention-based accounts make the speaker's output-time intentions constitutive of assertion. The thesis says these cannot be what separates humans from LLMs, but this tradition holds that they fix force, though the entry also records objections to it.",
+                "who": "Grice (1957); Searle (1969); Bach & Harnish (1979)",
+                "quote": "S asserts that p iff S expresses i. the belief that p, and ii. the intention that H believe that p.",
+                "damage": 2,
+                "note": "Opposing view the thesis must engage. The entry's own criticisms (sneaky intentions, regress) weaken it."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Commitment is not sufficient for asserting, and assertions are not fully reducible to their social effects. This pressures any account that grounds assertion in downstream commitment.",
+                "who": "Pagin (2004); Marsili & Green (2021)",
+                "quote": "incurring a commitment is not sufficient for asserting.",
+                "damage": 3,
+                "note": "A referee would ask whether post-hoc commitment suffices for force, since hearer-directed accounts face this objection."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Descriptive account on which assertion is a prima facie informative utterance, defined by default speaker and hearer patterns tied to surface features. It is a possible way of treating LLM output as assertoric without any commitment.",
+                "who": "Pagin (2011, 2020)",
+                "quote": "an assertion is an utterance that is prima facie informative",
+                "damage": 2,
+                "note": "Alternative criterion that would make LLM outputs assertions by surface features."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Assertion involves cognitive and social safeguards: hearers meta-represent the speaker, and sanctions apply against misleading assertions.",
+                "who": "Jary (2010)",
+                "quote": "it must also be subject to the cognitive and social safeguards that distinguish assertion.",
+                "damage": 2,
+                "note": "Safeguards resemble the 'reason-responsive' organisational condition."
+              }
+            ],
+            "nearest_positions": [
+              "Commitment as accountability and as expected conduct, including defending or retracting when challenged \u2014 Peirce, Alston, Brandom, MacFarlane, Green",
+              "No norm for making assertions, only norms on later reactions \u2014 Rescorla (2009a)",
+              "Communicative-intention accounts fixing force by speaker intention at utterance \u2014 Grice, Searle, Bach & Harnish"
+            ],
+            "entry_silent_on": "The entry never discusses LLMs, artificial or non-human speakers, or whether a system's internal organisation could satisfy commitment or uptake conditions. It also does not treat force as settled incrementally over a conversation, and it has no account of what organisation would make a system capable of taking up and owning its earlier outputs."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "Intention need not be formed prior to or at the start of an act. Intention in action is distinguished from prospective intention, so a force-fixing intention fixed in advance is not required for intentional doing.",
+                "who": "Searle (1983), as the entry credits the refinement; Bratman on spontaneous action",
+                "quote": "although we sometimes form an intention prior to acting, this is not essential. I can wave my arm intentionally without planning in advance.",
+                "damage": 2,
+                "note": "Gives the thesis a foothold for denying that a prior output-time intention is the human mark, but the entry still ties intentional action to some intention present in the action."
+              },
+              {
+                "relation": "ANTICIPATED",
+                "position": "Intending is not a static state at a time but a form of imperfectivity, being in progress toward completing an act. The progress can be vestigial, and an intention's content can be settled by how the doing unfolds.",
+                "who": "Michael Thompson (2008); also Moran and Stone, Ferrero 2017, Russell 2018",
+                "quote": "intending to do A is not a mental state because it is not static; instead it is a form of imperfectivity or being in progress towards the intentional completion of an act",
+                "damage": 3,
+                "note": "The closest structural neighbour to 'force is settled incrementally'. It is about action, not speech-act force or uptake, and it locates the progress in the agent's own doing rather than in an interlocutor's uptake."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "What separates human agents from mere purposive behaviour is reason-responsive self-relation. The agent gives application to the question 'Why?' and takes ownership of what she is doing. This is a condition on how the agent is organised, not just on a moment's mental content.",
+                "who": "Anscombe (1963); Hampshire (1959); Velleman, Setiya, R\u00f6dl",
+                "quote": "That is why, for Anscombe, the question 'Why?' is 'given application' by the agent. Intentional action turns on knowing the answer to that question.",
+                "damage": 2,
+                "note": "Supports a reason-responsiveness condition and the claim that the human/non-human line is organisational. The entry puts it at the time of acting, not in later ownership."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Intention is individuated by its functional role in commitment, resistance to reconsideration, and cross-temporal and inter-personal coordination. This backs the thesis's 'condition on how the system is organised' and its stress on commitment to earlier outputs.",
+                "who": "Bratman (1987, 2009b, 2018)",
+                "quote": "intentions are 'conduct-controlling pro-attitudes, ones which we are disposed to retain without reconsideration, and which play a significant role as inputs to [means-end] reasoning'",
+                "damage": 2,
+                "note": "A ready template for a functional-organisation criterion, and a place to cite diachronic requirements (Holton, Broome, Paul, Tenenbaum, Brunero)."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "On Davidson's early view, the intention with which one acts is not a state but a redescription of the action in terms of a primary reason. The action's character is fixed by its relation to reasons rather than by an inner act at output time.",
+                "who": "Davidson (1963)",
+                "quote": "the phrase does not refer to an event or state of the agent, but is a way of redescribing what she is doing in terms of a 'primary reason'",
+                "damage": 2,
+                "note": "A referee may raise this as a deflationary precedent for 'no separate force-fixing intention', though it is not about later uptake."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "On the entry's main accounts, intentional action and acting for a reason require an intention, or knowledge of what one is doing, in the action itself. The Simple View and the practical-knowledge tradition put the distinguishing mark in the agent at the time of acting, not in subsequent uptake or ownership.",
+                "who": "The Simple View (Bratman's label); Anscombe/Velleman/Setiya on practical knowledge",
+                "quote": "if we hope to unify intention with intentional action, we cannot accept this. Intention must figure in the correct account of acting for a reason, and thus intentionally.",
+                "damage": 3,
+                "note": "Runs against the claim that a present intention cannot by itself mark the difference. The thesis would have to argue that later taking-up is constitutive, which the entry does not do."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "The entry notes that a rival view lets an action's status as intentional hold without a corresponding intention, and Anscombe's warning against letting what I think I'm doing settle what I do. Both bear on whether later self-ascription or ownership could settle the character of an act.",
+                "who": "Bratman 2000 (intentional action without intention); Anscombe 1963, p. 52",
+                "quote": "Anscombe warns against the 'false avenue of escape' on which 'I really \"do\" in the intentional sense whatever I think I am doing'",
+                "damage": 3,
+                "note": "A referee can use this to resist the move from later ownership to constitutive settling."
+              }
+            ],
+            "nearest_positions": [
+              "Intending as being in progress / imperfective, not a mental state \u2014 Thompson (2008), Moran and Stone, Ferrero, Russell",
+              "Intention as a commitment-involving planning state defined by its functional role and diachronic norms \u2014 Bratman, with Holton, Broome, Tenenbaum, Paul",
+              "Practical knowledge and the agent's own application of 'Why?' as what distinguishes acting for reasons from mere purposive behaviour \u2014 Anscombe, Hampshire, Velleman, Setiya"
+            ],
+            "entry_silent_on": "Illocutionary force, speech acts, and linguistic communication; uptake by an interlocutor as something that fixes what an act is; retrospective or post hoc ownership of earlier acts as constitutive of their character; LLMs and artificial systems as candidate intenders; the human/machine contrast. The only contrast case is 'other animals'. Inter-personal coordination appears only as a function of plans (Bratman), not as a source of force or content."
+          }
+        ],
+        "slug": "intention",
+        "url": "https://plato.stanford.edu/entries/intention/",
+        "truncated": false
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "Human illocutionary force is often settled incrementally through uptake and later ownership, so a force-fixing intention present at output time cannot by itself be what separates human speakers from LLMs. Whether LLMs show reason-responsive taking-up of and commitment to their earlier outputs remains open, and it is a condition on how the system is organised."
+  ]
+}

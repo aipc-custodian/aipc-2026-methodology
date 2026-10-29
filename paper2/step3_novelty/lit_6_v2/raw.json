@@ -1,0 +1,381 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "For artificial speakers, acts whose content conditions include future conduct by the speaker (promising and similar commissives) depend on whether a unit capable of lasting through the satisfaction horizon is available, and scaffolding can supply one. Assertion has no such requirement, so artificial systems can come apart on the two acts.",
+        "headline": "Whether an artificial system can perform a given speech act depends on whether that act type's felicity conditions require a speaker that persists until the act is satisfied. Assertion and advice need no persisting speaker, but promising and apologising do, so the current positions (quasi, proxy, proto, denial) cannot each be correct across act types.",
+        "used_surviving": true,
+        "target": "Freiman and Miller's assertion-only quasi-testimony, and the tacit generalisation from assertion to speech acts in Williams and Bayne, Skiba and Green and Michel.",
+        "sketch": "Freiman and Miller test artificial speakers almost wholly on assertion or testimony, and the later literature generalises from assertion to 'speech acts' (Skiba) or to apology in particular (Magnus et al.). Assertion is a synchronic act: its success conditions are met by the utterance and the hearer's uptake. Commissives and apologies are diachronic, because the speaker's future conduct is what satisfies or falsifies them. An LLM deployment offers several candidate speaker-units: the weights, the context-window instance, the persona, and the product or company. Each persists differently. The weights persist but are not 'in' the conversation. The instance ends with the window. The persona is individuated by prompt. The product persists but is a corporate agent. The key premise is that the speaker-unit must be individuated by the act type's satisfaction conditions, not fixed once for the whole system. On this premise, quasi-testimony or proto-assertion may be right for assertion while the proxy view is forced for promising and apology. A 'quasi-promise' would be incoherent, since a promise cannot be partly binding on no one. The positions are therefore indexed to act types, and the existing disputes come from treating assertion as the model case.",
+        "promise": 4,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "Freiman Miller quasi-testimony large language models",
+          "can large language models promise? commissive speech acts artificial agents",
+          "Magnus apology chatbot LLM can AI apologize",
+          "Skiba speech acts large language models",
+          "Bayne Williams LLM speech acts assertion \"proto-assertion\"",
+          "Michel LLM assertion speech acts",
+          "can AI make promises? commitment persistence of identity language model agent philosophy",
+          "experiment people perceive AI promises commitments broken trust chatbot"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "PRECEDENT",
+            "grade": "PASSING",
+            "basis": "SNIPPET",
+            "provisional": true,
+            "part": "Core claim: commissives require a persisting speaker-unit, so persistence-poor artificial speakers should be treated differently on promising than on other acts.",
+            "source": "\"In Conversation with Artificial Intelligence: Aligning language Models with Human Values\", Philosophy & Technology, 2023 (authors not shown in the result; I recall Kasirzadeh & Gabriel but could not verify it)",
+            "url": "https://link.springer.com/article/10.1007/s13347-023-00606-x",
+            "what_they_say": "<cite index=\"12-1,12-3\">Commissives commit the speaker to future action, and their validity depends on whether the commitment is honoured.</cite> <cite index=\"12-5\">They say this raises questions for conversational agents with only an episodic grasp of what they said earlier.</cite> <cite index=\"12-11\">They conclude that agents lacking persistent identity over time, or lacking actuators to fulfil promises, probably should avoid commissives.</cite>",
+            "damage": 2,
+            "note": "This is the closest anticipation I found: it ties commissives to persistent identity and to the act type. In the visible text it is a design remark and not a sustained argument. It does not individuate candidate speaker-units, does not contrast assertion with promising, and does not address scaffolding. PRECEDENT-or-ANTICIPATED is undecided for the 'commissives need persistence' part because I saw only a snippet. I lean PRECEDENT/PASSING."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Named target: Freiman and Miller's quasi-testimony is an assertion/testimony-only notion.",
+            "source": "Freiman & Miller, \"Can Artificial Entities Assert?\", Oxford Handbook of Assertion, 2020",
+            "url": "https://philpapers.org/rec/FRECAE-5",
+            "what_they_say": "<cite index=\"2-9\">Quasi-testimony says technological devices can assert or testify under some conditions, without denying that humans and machines differ.</cite> The abstract lists four human/instrument differences, all framed in terms of assertion and testimony. Promising and other commissives do not appear.",
+            "damage": 1,
+            "note": "The abstract confirms the ascribed assertion-only scope. I did not see the full text, so I cannot say whether commissives get even a passing mention."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Named target: Williams & Bayne's 'speech acts' framing rests on assertion alone, with a tacit generalisation.",
+            "source": "Williams & Bayne, \"Chatting with Bots: AI, Speech-Acts, and the Edge of Assertion\", Inquiry 69(6), 2026 (arXiv 2024)",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "<cite index=\"38-6,38-7\">They reject proxy-assertion and fictionalism, and argue for a category of proto-assertion.</cite> <cite index=\"40-7\">They say proto-assertion resembles Freiman & Miller's quasi-testimony but differs from it.</cite> <cite index=\"46-4\">They treat assertion as arguably the central speech act, so that rejecting chatbot assertion would undercut chatbots as conversationalists.</cite>",
+            "damage": 1,
+            "note": "The visible text matches the thesis's reading: the whole argument runs through assertion, and the generalisation to 'speech acts' is a tacit move. The snippets do not show any treatment of promising."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "FRAMEWORK",
+            "basis": "SECONDHAND",
+            "provisional": true,
+            "part": "The proxy view (acts performed on behalf of a principal, such as a deploying organisation) as the fallback for artificial speakers; Green & Michel named target.",
+            "source": "Green & Michel, \"What Might Machines Mean?\", Minds and Machines, 2022 (as reported by Williams & Bayne, Gubelmann, and a 2026 Synthese-family paper)",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "<cite index=\"54-2\">As reported, they argue that some machines illocute by tokening sentences with communicative objectives and not reflexive communicative intentions.</cite> <cite index=\"46-8,46-10\">Williams & Bayne say their worked example has a clear principal (a police department issuing fines), which limits how far the proxy response extends.</cite> <cite index=\"50-8\">Gubelmann reads them as holding that natural language generators can at best carry out proxy speech acts.</cite>",
+            "damage": 1,
+            "note": "The proxy view is already a general speech-act view, so it is a framework the thesis applies. As reported, it does not index the view to act types, and its worked case is declarative. I did not read the original, so the grade rests on secondhand reports."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Whether artificial speakers can perform promising at all; Skiba's generalisation from assertion to all speech acts (the Skiba target).",
+            "source": "Skiba, \"Artificial Speech Acts\", Analysis, 2026",
+            "url": "https://philpapers.org/rec/SKIASA-2",
+            "what_they_say": "<cite index=\"28-4\">Skiba shows how a norm-based argument against LLM-assertion can be generalized to support a negative answer on LLM speech acts.</cite>",
+            "damage": 2,
+            "note": "This confirms the generalisation-from-assertion move. It is also a rival: if no speech acts are possible, then no scaffolded promise is possible. It argues from norms, not from speaker-unit persistence, and it does not conclusively close the question. So it counts as a rival to answer, not as FORECLOSED. I did not see the argument itself."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Whether artificial speakers can perform any speech acts, so whether a persistence-supplying scaffold could ever matter.",
+            "source": "Gubelmann, \"Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now)\", Philosophy & Technology, 2024",
+            "url": "https://philpapers.org/rec/GUBLLM",
+            "what_they_say": "<cite index=\"16-4,16-5\">He argues that using language means acting, and that LLMs cannot act because they lack intentions.</cite> <cite index=\"16-6\">His ground is that agents with intentions must be autonomous organisms and LLMs are heteronomous mechanisms.</cite>",
+            "damage": 2,
+            "note": "This is a rival on intentionality. It does not address the unit or persistence question, and it is hedged with 'for now', so it is not FORECLOSED. The thesis can be stated conditionally on speech-act capacity."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Apology as a diachronic act that artificial speakers cannot perform (the Magnus et al. target).",
+            "source": "Magnus, Buccella & D'Cruz, \"Chatbot apologies: Beyond bullshit\", AI and Ethics 5(5), 2025",
+            "url": "https://philpapers.org/rec/MAGCAB",
+            "what_they_say": "<cite index=\"21-9\">They argue apology is a speech act requiring an agent with certain capacities, which chatbots lack.</cite> <cite index=\"19-8\">They note that chatbot outputs which are not declarative sentences have received less attention.</cite> <cite index=\"24-15\">A footnote says philosophers have not addressed chatbot apologies.</cite>",
+            "damage": 2,
+            "note": "This is the closest literature on a non-assertive act. The visible text frames the problem as capacities (linguistic and moral agency), not speaker-unit persistence over the satisfaction horizon. I did not read the body, so I cannot rule out a persistence argument in it. The 'less attention' remark supports the thesis's diagnosis of a gap."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Diagnosis: the existing disputes about artificial speakers are indexed to assertion.",
+            "source": "\"Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs\", Synthese-family journal, 2026; also \"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "<cite index=\"37-4\">Recent work looks to debates about assertion to illuminate human\u2013LLM interaction, citing Freiman, Williams & Bayne, and Butlin & Viebahn.</cite> <cite index=\"37-6\">The paper discusses fictionalist and proto-assertion theories to motivate the proxy view.</cite> <cite index=\"43-2\">The second paper surveys AI-testimony, proto-assertion and proxy assertion as intermediate positions.</cite>",
+            "damage": 1,
+            "note": "These recent syntheses map the positions the thesis says are assertion-indexed. In the visible snippets they stay with assertion and do not index the positions to act types or ask about commissives."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "The corporate or product unit as principal for proxy acts.",
+            "source": "\"Commentary on 'LLMs and the Logical Space of Reasons': Inferential Roles, Rule-Following, and Digital Speech Acts\", Scientific Archives, 2026",
+            "url": "https://www.scientificarchives.com/article/commentary-on-llms-and-the-logical-space-of-reasons-inferential-roles-rule-following-and-digital-speech-acts",
+            "what_they_say": "<cite index=\"42-4\">It rejects proxy assertion on the ground that typical LLM contexts have no clearly identifiable principal bearing responsibility for the content.</cite>",
+            "damage": 2,
+            "note": "A referee will raise this against the claim that the proxy view is 'forced' for promising, since it denies that the product or company is a determinate principal. The source is a low-prominence commentary and the point is about assertion."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": true,
+            "part": "Whether any persisting unit can exist for LLM agents, and the candidate units (weights, components, legal entity).",
+            "source": "\"Dissociative Identity: Language Model Agents Lack Grounding for\u2026\", arXiv 2605.30169 (preprint, 2026)",
+            "url": "https://arxiv.org/pdf/2605.30169",
+            "what_they_say": "<cite index=\"61-2\">They posit that language model agents are ontologically dissociative, constitutively incapable of a persistent identity tied to behavioural continuity.</cite> <cite index=\"61-7,61-8\">They float 'algorithmic corporations', legal-fictional entities that tie AI actions to a human owner, to address the thin-identity problem.</cite>",
+            "damage": 2,
+            "note": "This is a rival on whether scaffolding can supply a persisting unit. It is a preprint, it does not concern speech acts, and its remedy is itself a scaffold, so it is not CONTRADICTED outright. A referee will mention it."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Scaffolding can supply a unit that outlasts the context window, as an engineering matter.",
+            "source": "\"Identity Is More Than Recall: A Benchmark for Persistent Identity in Deployed AI Agents\", arXiv 2609.13637; and \"Measuring What Persists\u2026\", arXiv 2606.21843 (preprints)",
+            "url": "https://arxiv.org/pdf/2609.13637",
+            "what_they_say": "<cite index=\"59-1\">An interactive agent can outlive a chat, an inference session, a model version, or a host.</cite> <cite index=\"63-1,63-2\">A second paper describes a persistent agent on a foundation model with no native cross-session memory, whose persistence architecture is entirely external and leaves the weights unchanged.</cite>",
+            "damage": 1,
+            "note": "These are engineering sources the thesis can use for the scaffolding premise. They do not discuss promising or speech-act theory in the snippets I saw."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Commitments by AI systems as a persisting-agent matter in multi-agent and cooperative-AI work.",
+            "source": "\"Multi-Agent Risks from Advanced AI\", arXiv 2502.14143, 2025",
+            "url": "https://arxiv.org/pdf/2502.14143",
+            "what_they_say": "<cite index=\"60-4,60-7\">They expect incentives to build systems able to make credible commitments, and say autonomous AI agents may themselves serve as credible commitment devices.</cite>",
+            "damage": 1,
+            "note": "This is a nearby literature on commitment by AI agents. It is about strategic credibility, not the speech act of promising or speaker-unit individuation."
+          }
+        ],
+        "what_is_left": "Granting that artificial speakers can perform speech acts at all (against Skiba and Gubelmann), the thesis claims that whether an artificial speaker can perform a commissive depends on whether a speaker-unit lasting through the act's satisfaction horizon is available. The thesis adds that this unit must be individuated by act type, that scaffolding can supply it, and that assertion has no such requirement. On this basis, positions such as quasi-testimony, proto-assertion and proxy views can differ across act types instead of being fixed for the whole system. I found nothing that conclusively does this, but Kasirzadeh & Gabriel-style remarks about persistent identity and commissives (snippet only, authors unverified) must be credited and read in full. The 'quasi-promise is incoherent' step is not shown to have been made anywhere in what I saw.",
+        "credit": [
+          "In Conversation with Artificial Intelligence (Phil & Tech 2023; authors unverified) \u2014 suggested that agents lacking persistent identity should avoid commissives, whose validity depends on the commitment being honoured",
+          "Green & Michel 2022 (via secondhand reports) \u2014 the proxy view of artificial speech acts, with a principal to carry the act",
+          "Williams & Bayne 2024/2026 \u2014 proto-assertion as a graded alternative to proxy and fictionalist views, and the noted relation to Freiman & Miller's quasi-testimony",
+          "Freiman & Miller 2020 \u2014 quasi-testimony as the assertion-only baseline",
+          "Skiba 2026 \u2014 generalising the assertion argument to all speech acts, which is the step the thesis indexes to act types",
+          "Magnus, Buccella & D'Cruz 2025 \u2014 apology as a non-assertive speech act requiring an agent, and the gap in work on non-declaratives"
+        ],
+        "not_found": "I found no philosophical work that explicitly individuates candidate speaker-units for an LLM deployment (weights, instance, persona, product) act by act. I found none that contrasts a synchronic act (assertion) with a diachronic one (promise, apology) for artificial speakers. I found none that calls a 'quasi-promise' incoherent. I found no work arguing that proto-assertion or quasi-testimony may hold for assertion while the proxy view is forced for promising. I did not retrieve full texts of Freiman & Miller, Williams & Bayne, Skiba, Green & Michel, or Magnus et al. I could not check whether Magnus et al. discuss memory or persistence in their body text. Green & Michel were checked only through other authors' reports. I did not search Chalmers- or Shanahan-style work on what we talk to when we talk to LLMs (quasi-subject, thread, role-play), which is a likely source of persona and instance individuation. I did not search the general metaphysics of persons or collective agents, nor the philosophical literature on promising and persistence over time. The empirical search was weak: one query on user perception of AI promises and broken commitments returned only generic chatbot-trust studies. Nothing on lay judgments of AI promises or apologies, and no linguistics or dialogue-systems work on commissives, turned up in these searches. I did not search for those directly. So this search left philosophy only thinly, and the empirical and linguistic silence should not be read as a clean result. Much of the philosophical literature is paywalled, so the absence of hits is weak evidence.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "promises",
+      "assertion",
+      "speech-acts"
+    ],
+    "why": "The thesis turns on promising as a commissive whose satisfaction conditions depend on the speaker's future conduct, contrasted with assertion as a synchronic act, and generalises across speech acts, so the promises, assertion and speech-acts entries are the closest fits.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Promises are cast as speech acts (Austin, Searle), with promising as a conventional illocutionary act. The entry treats this only at the level of speech-act theory and says nothing about artificial speakers or about the persistence of a speaker over time.",
+                "who": "Austin 1962; Searle 1963, 1965, 1979; Alston; Hanfling; Pratt; Harris & McKinney 2021",
+                "quote": "Austin takes promising to be an illocutionary act, that is, he takes it that promising is merely a matter of a certain form of utterance, under certain conditions.",
+                "damage": 1,
+                "note": "Shows promising and assertion are both treated as speech acts, but not their different temporal or persistence requirements."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Promising and assertion are linked, and the entry lists work comparing them. It also discusses a promising-versus-asserting contrast and notes that a promise differs from a mere statement of present intention.",
+                "who": "Watson 2004 ('Asserting and Promising'); van Roojen 2020 ('Promising and Assertion'); Raz, Kolodny & Wallace",
+                "quote": "the advising of the promisee of one\u2019s mere intention to do the promised act is insufficient ground for the sorts of expectations that are meant to attend promises",
+                "damage": 1,
+                "note": "Gives the thesis a literature on promise versus assertion to build on, though the entry only lists these works."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Self-promises and the Hobbesian release problem raise the question of whether a promisor and later self remain the same bindable unit. The entry also covers vows and resolutions as self-binding across time.",
+                "who": "Hobbes; Rosati 2011; Dannenberg 2015; Schaab 2021; Liberman 2019",
+                "quote": "self promises are a way of solidifying our wills, protecting our valued choices from deterioration in the face of time and trials",
+                "damage": 2,
+                "note": "Gives a human-case hook for the 'unit lasting through the horizon' idea, but the entry does not frame it as a persistence requirement."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry shows that some theories require the promisor to hold or form an intention or commitment. Rational or mental-state requirements on the promisor are relevant to whether an artificial speaker can promise.",
+                "who": "Raz (exclusionary reasons); Owens 2008 ('Promising without Intending'); Liberman 2015 (bibliography only)",
+                "quote": "Promises, says Raz, produce (in the promisor) both first order reasons to perform the promised act as well as second order exclusionary reasons",
+                "damage": 2,
+                "note": "Adjacent: the entry takes the promisor's identity and persistence for granted."
+              }
+            ],
+            "nearest_positions": [
+              "Austin/Searle: promising as a conventional illocutionary act, a rule-governed speech act",
+              "Normative power views (Raz, Owens, Shiffrin): the promisor binds herself by an act of will",
+              "Self-promise and release debates (Hobbes, Rosati, Schaab): whether a self is a stable bindable unit over time"
+            ],
+            "entry_silent_on": "Artificial speakers, AI systems or LLMs. It says nothing about any speaker-persistence or 'satisfaction horizon' requirement on commissives, nothing about scaffolding supplying a persistent unit, and nothing about a contrast between commissives and assertion in this respect."
+          }
+        ],
+        "slug": "promises",
+        "url": "https://plato.stanford.edu/entries/promises/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Assertion and promising are linked by commitment structure. Marsili argues promising illocutionarily entails asserting. Hawley analyses assertion in terms of promising. Watson distinguishes primary commitments: promising commits one to act, asserting commits one to the defensibility of p. A thesis that assertion lacks a future-conduct requirement while promising has one sits against these.",
+                "who": "Marsili (2016); Hawley (2019); Watson (2004); Searle (1969, 1979)",
+                "quote": "Marsili (2016) argues that promising that you will \u03c6 \u201cillocutionary entails\u201d asserting that you will \u03c6.",
+                "damage": 3,
+                "note": "If promising entails asserting that one will \u03c6, assertion has a future-directed content in that case, which complicates 'assertion has no such requirement'. The thesis is about act types, not particular contents."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Watson's contrast: promise's primary commitment is to act so as to make \u03c6 happen, while assertion's primary commitment is to facts independent of one's actions. This supports the claim that promising, unlike assertion, requires future conduct by the speaker.",
+                "who": "Watson (2004)",
+                "quote": "When you promise to \u03c6, your primary commitment is to (intend to) act so as to make \u03c6 happen. By contrast, when you assert that p, your primary commitment is to facts that are independent of your actions",
+                "damage": 1,
+                "note": "Gives a ready distinction between the two acts that the thesis can build on."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Hawley's account makes assertion a promise to speak truthfully. Every assertion would then carry a commitment about the speaker's own conduct, though it is made and fulfilled or broken at once. This rivals the claim that assertion has no future-conduct requirement.",
+                "who": "Hawley (2019); Carson (2006)",
+                "quote": "whenever you assert, your promise to speak truthfully is simultaneously made and either fulfilled or broken",
+                "damage": 2,
+                "note": "The entry notes that this view has trouble explaining mitigation, so it is a weakened rival."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Assertoric commitment is partly forward-looking: expectations about what one will say next, and responses to later challenges. This is a temporal persistence requirement the thesis must treat as distinct from the one it posits for promising.",
+                "who": "Hamblin (1970b); Brandom (1994); MacFarlane; Geurts (2019)",
+                "quote": "When you make an assertion, you generate an expectation that you will behave in certain ways and not in others, especially in relation to what you will say next.",
+                "damage": 3,
+                "note": "Challenges the claim that assertion needs no lasting unit, since challenge-response commitments also span time. The entry does not tie this to artificial speakers."
+              }
+            ],
+            "nearest_positions": [
+              "Commitment accounts: assertion as accountability and as commitment to defend and respond to challenges \u2014 Peirce, Alston, Brandom, MacFarlane, Green",
+              "Promising and asserting as related commitment-generating acts \u2014 Watson (different primary commitments), Marsili (promising entails asserting), Hawley (assertion as promise to speak truthfully)",
+              "Searle's family of assertives versus commissives, which differ in the direction of commitment \u2014 Searle (1969, 1979), Searle & Vanderveken"
+            ],
+            "entry_silent_on": "Artificial speakers, AI systems or LLMs. Also silent on persistence through time as a precondition for performing a speech act, on 'scaffolding' that supplies a lasting agent unit, and on a satisfaction horizon. It never asks whether a speaker could assert but fail to promise, or the reverse."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Content conditions are a component of illocutionary force: some illocutions need a suitable content, e.g. promising requires a future act under the speaker's control. This gives the thesis its asymmetry between promising and assertion.",
+                "who": "Searle and Vanderveken 1985, as reported by the entry",
+                "quote": "I can only promise what is in the future and under my control; or, at least, I cannot promise to do anything that it is obvious to myself and my promissee that I cannot do.",
+                "damage": 1,
+                "note": "The entry supplies the content-condition premise the thesis builds on."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Commissives are a distinct Austinian category, defined by speakers committing themselves to courses of action. This separates promising from assertion by kind of commitment.",
+                "who": "Austin",
+                "quote": "commissives (in which speakers commit themselves to causes or courses of action, e.g. promising and betting)",
+                "damage": 1,
+                "note": "Gives the category the thesis calls 'promising and similar commissives'."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Speech acts are individuated by commitment, and assertion and promising differ in what is undertaken. Assertion is commitment to defend P, with liability to error. Promising is commitment to a future course of action. A speaker who persists over time is presupposed, but the entry does not draw this out.",
+                "who": "Green (entry author); Searle and Vanderveken",
+                "quote": "the characteristic aim of a promise is to commit oneself to a future course of action.",
+                "damage": 2,
+                "note": "The commitment framework implies a persistence requirement but never states one."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Retraction and release from commitments over time. Commitments persist after the act and can be withdrawn later. This touches on the temporal extension of commitment.",
+                "who": "Sbis\u00e0 2007, as reported",
+                "quote": "on Wednesday I may be able to retract a claim I made on Monday. Likewise, you may allow me on Wednesday to retract the promise I made to you on Monday.",
+                "damage": 2,
+                "note": "Related temporal structure, but about retraction, not about an agent persisting to satisfaction."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Performance of a speech act can be defeated by social or structural factors, such as lack of uptake or loss of standing. A promise-breaker can lose the ability to promise in a community. This suggests acts can fail for reasons about the speaker rather than the content, a parallel to the thesis's capacity-dependence claim.",
+                "who": "Entry's Section 9; Langton; Hornsby and Langton",
+                "quote": "the inveterate promise-breaker will, in time, lead others in his community to be unwilling to accept any promises he tries to make.",
+                "damage": 2,
+                "note": "An act-specific capacity to perform promising, but grounded in uptake, not in persistence."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Speech acts can be performed by non-human or non-standard agents. Searle allows a dog requesting to be let out. Davis's cases include photocopy machines as targets of speaker meaning. Neither concerns artificial speakers as performers.",
+                "who": "Searle 1969; Davis 1992, as reported",
+                "quote": "Searle considers the case of a dog requesting to be let outside (1969, p. 39).",
+                "damage": 1,
+                "note": "Marginal; no discussion of artificial speakers or of AI as speech-act performers."
+              }
+            ],
+            "nearest_positions": [
+              "Content conditions as a component of illocutionary force (promising requires a future act under the speaker's control) \u2014 Searle and Vanderveken 1985",
+              "Speech acts as overt commitment, with different acts carrying different commitments (assertion vs. conjecture vs. promise) \u2014 Green, the entry's author",
+              "Capacity to perform a given speech act can be lost or absent for a particular speaker (promise-breaker, silencing) \u2014 Langton; Hornsby and Langton; Pratt"
+            ],
+            "entry_silent_on": "Artificial speakers or AI systems as performers of speech acts. Also silent on the persistence or continuity of the speaker as a precondition of promising, on a 'unit lasting through the satisfaction horizon', and on scaffolding (memory, external structures) supplying such a unit. The entry does not say that assertion and promising can come apart for any kind of speaker on grounds of temporal persistence. The only AI link is the 'artificial intelligence' mention in the opening list of fields influenced by speech act theory."
+          }
+        ],
+        "slug": "speech-acts",
+        "url": "https://plato.stanford.edu/entries/speech-acts/",
+        "truncated": false
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "For artificial speakers, acts whose content conditions include future conduct by the speaker (promising and similar commissives) depend on whether a unit capable of lasting through the satisfaction horizon is available, and scaffolding can supply one. Assertion has no such requirement, so artificial systems can come apart on the two acts."
+  ]
+}

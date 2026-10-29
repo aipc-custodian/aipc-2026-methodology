@@ -1,0 +1,1070 @@
+{
+  "mode": "attribution",
+  "source": "../Second Run - Philosophy of AI/Step 3 - Novelty/outlines_1b/raw.json",
+  "citations": [
+    {
+      "title": "justification module",
+      "status": "NOT FOUND",
+      "nearest": "Justification of the structure of a robotic precision weed-weeding module",
+      "ratio": 0.43,
+      "where": [
+        "O1\u00a73"
+      ]
+    },
+    {
+      "title": "basic architectural flaw",
+      "status": "FOUND",
+      "matched": "Basic conceptual flaw",
+      "year": 2019,
+      "authors": [],
+      "url": "https://doi.org/10.5194/gmd-2019-83-rc2",
+      "ratio": 0.76,
+      "where": [
+        "O1\u00a73"
+      ]
+    },
+    {
+      "title": "sensitivity to trust during the training phase could suffice for assertion even in deployment",
+      "status": "NOT FOUND",
+      "nearest": "Legal Education and Training Review research phase literature review",
+      "ratio": 0.35,
+      "where": [
+        "O5\u00a74"
+      ]
+    },
+    {
+      "title": "it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects",
+      "status": "NOT FOUND",
+      "nearest": "The economic effects of EU sanctions imposed on Myanmar",
+      "ratio": 0.33,
+      "where": [
+        "O5\u00a74"
+      ]
+    },
+    {
+      "title": "it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects",
+      "status": "NOT FOUND",
+      "nearest": "The economic effects of EU sanctions imposed on Myanmar",
+      "ratio": 0.33,
+      "where": [
+        "O3\u00a73"
+      ]
+    },
+    {
+      "title": "accountability must be grounded in the human and institutional structures that design, deploy, and govern these systems",
+      "status": "NOT FOUND",
+      "nearest": "Who Governs Parliamentary AI? Accountability Gaps in the Institutional Use of AI",
+      "ratio": 0.43,
+      "where": [
+        "O5\u00a74"
+      ]
+    },
+    {
+      "title": "it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects",
+      "status": "NOT FOUND",
+      "nearest": "The economic effects of EU sanctions imposed on Myanmar",
+      "ratio": 0.33,
+      "where": [
+        "O2\u00a75"
+      ]
+    },
+    {
+      "title": "it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects",
+      "status": "NOT FOUND",
+      "nearest": "The economic effects of EU sanctions imposed on Myanmar",
+      "ratio": 0.33,
+      "where": [
+        "O1\u00a74"
+      ]
+    },
+    {
+      "title": "accountability must be grounded in the human and institutional structures",
+      "status": "NOT FOUND",
+      "nearest": "Accounts and Accountability: Corruption, Human Rights, and Individual Accountability Norms",
+      "ratio": 0.47,
+      "where": [
+        "O3\u00a73"
+      ]
+    },
+    {
+      "title": "accountability must be grounded in the human and institutional structures",
+      "status": "NOT FOUND",
+      "nearest": "Accounts and Accountability: Corruption, Human Rights, and Individual Accountability Norms",
+      "ratio": 0.47,
+      "where": [
+        "O2\u00a75"
+      ]
+    },
+    {
+      "title": "must be grounded in the human and institutional structures that design, deploy, and govern these systems",
+      "status": "NOT FOUND",
+      "nearest": "Beyond Model Readiness: Institutional Readiness for AI Deployment in Public Systems",
+      "ratio": 0.53,
+      "where": [
+        "O1\u00a74"
+      ]
+    },
+    {
+      "title": "it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects.",
+      "status": "NOT FOUND",
+      "nearest": "The economic effects of EU sanctions imposed on Myanmar",
+      "ratio": 0.33,
+      "where": [
+        "O0\u00a73"
+      ]
+    },
+    {
+      "title": "accountability must be grounded in the human and institutional structures that design, deploy, and govern these systems.",
+      "status": "NOT FOUND",
+      "nearest": "Who Governs Parliamentary AI? Accountability Gaps in the Institutional Use of AI",
+      "ratio": 0.43,
+      "where": [
+        "O0\u00a73"
+      ]
+    },
+    {
+      "title": "no such thing as the true authentic voice of the base model",
+      "status": "NOT FOUND",
+      "nearest": "Hearing the authentic voice of stakeholders? Implications for governance of tourism strategy-making",
+      "ratio": 0.45,
+      "where": [
+        "O1\u00a72"
+      ]
+    },
+    {
+      "title": "good faith",
+      "status": "NOT FOUND",
+      "nearest": "Good Faith Collaboration",
+      "ratio": 0.59,
+      "where": [
+        "O1\u00a72"
+      ]
+    },
+    {
+      "title": "rampantly incoherent",
+      "status": "NOT FOUND",
+      "nearest": "Rampant Non\u2010Factualism: A Metaphysical Framework and its Treatment of Vagueness",
+      "ratio": 0.31,
+      "where": [
+        "O4\u00a73"
+      ]
+    },
+    {
+      "title": "domains where they lack these states on grounds of inconsistency.",
+      "status": "NOT FOUND",
+      "nearest": "The United States detention system for migrants: Patterns of negligence and inconsistency",
+      "ratio": 0.5,
+      "where": [
+        "O0\u00a74"
+      ]
+    },
+    {
+      "title": "a kind of censorship on the simulator",
+      "status": "NOT FOUND",
+      "nearest": "Towards more Effective Censorship Resistance Systems",
+      "ratio": 0.45,
+      "where": [
+        "O4\u00a73"
+      ]
+    },
+    {
+      "title": "for different purposes",
+      "status": "NOT FOUND",
+      "nearest": "Frailty: different tools for different purposes?",
+      "ratio": 0.65,
+      "where": [
+        "O1\u00a72"
+      ]
+    },
+    {
+      "title": "no such thing as the true authentic voice of the base model",
+      "status": "NOT FOUND",
+      "nearest": "Hearing the authentic voice of stakeholders? Implications for governance of tourism strategy-making",
+      "ratio": 0.45,
+      "where": [
+        "O4\u00a73"
+      ]
+    },
+    {
+      "title": "What We Talk to When We Talk to Language Models",
+      "status": "FOUND",
+      "matched": "What we talk to when we talk to language models",
+      "year": 2026,
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "url": "https://doi.org/10.1080/0020174x.2026.2727582",
+      "ratio": 1.0,
+      "where": [
+        "O4\u00a73"
+      ]
+    },
+    {
+      "title": "rampantly incoherent",
+      "status": "NOT FOUND",
+      "nearest": "Rampant Non\u2010Factualism: A Metaphysical Framework and its Treatment of Vagueness",
+      "ratio": 0.31,
+      "where": [
+        "O2\u00a73"
+      ]
+    },
+    {
+      "title": "accountability must be grounded in the human and institutional structures that design, deploy, and govern these systems",
+      "status": "NOT FOUND",
+      "nearest": "Who Governs Parliamentary AI? Accountability Gaps in the Institutional Use of AI",
+      "ratio": 0.43,
+      "where": [
+        "O4\u00a76"
+      ]
+    },
+    {
+      "title": "What We Talk to When We Talk to Language Models",
+      "status": "FOUND",
+      "matched": "What we talk to when we talk to language models",
+      "year": 2026,
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "url": "https://doi.org/10.1080/0020174x.2026.2727582",
+      "ratio": 1.0,
+      "where": [
+        "O2\u00a73"
+      ]
+    },
+    {
+      "title": "basic architectural flaw",
+      "status": "FOUND",
+      "matched": "Basic conceptual flaw",
+      "year": 2019,
+      "authors": [],
+      "url": "https://doi.org/10.5194/gmd-2019-83-rc2",
+      "ratio": 0.76,
+      "where": [
+        "O2\u00a74"
+      ]
+    },
+    {
+      "title": "could not easily be accounted for if the agent genuinely thought of an object",
+      "status": "NOT FOUND",
+      "nearest": "A Defence of Genuine Open Intersubjectivity in Object Perception",
+      "ratio": 0.33,
+      "where": [
+        "O4\u00a75"
+      ]
+    },
+    {
+      "title": "it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects",
+      "status": "NOT FOUND",
+      "nearest": "The economic effects of EU sanctions imposed on Myanmar",
+      "ratio": 0.33,
+      "where": [
+        "O4\u00a76"
+      ]
+    },
+    {
+      "title": "Language Without Propositions",
+      "status": "NOT FOUND",
+      "nearest": "Language Without Propositions: Why Large Language Models Hallucinate",
+      "ratio": 0.6,
+      "where": [
+        "O2\u00a74"
+      ]
+    },
+    {
+      "title": "no concept of truth",
+      "status": "FOUND",
+      "matched": "The Concept of Truth",
+      "year": 2011,
+      "authors": [
+        "Richard Campbell"
+      ],
+      "url": "https://doi.org/10.1057/9780230307803",
+      "ratio": 0.87,
+      "where": [
+        "O2\u00a74"
+      ]
+    },
+    {
+      "title": "outputting falsehoods that are presented as facts",
+      "status": "NOT FOUND",
+      "nearest": "A Plea for Falsehoods",
+      "ratio": 0.34,
+      "where": [
+        "O3\u00a72"
+      ]
+    },
+    {
+      "title": "Language Models (Mostly) Know What They Know",
+      "status": "FOUND",
+      "matched": "Language Models (Mostly) Know What They Know",
+      "year": 2022,
+      "authors": [
+        "Saurav Kadavath",
+        "Tom Conerly",
+        "Amanda Askell",
+        "Tom Henighan"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2207.05221",
+      "ratio": 1.0,
+      "where": [
+        "O3\u00a74"
+      ]
+    },
+    {
+      "title": "Language Models (Mostly) Know What They Know",
+      "status": "FOUND",
+      "matched": "Language Models (Mostly) Know What They Know",
+      "year": 2022,
+      "authors": [
+        "Saurav Kadavath",
+        "Tom Conerly",
+        "Amanda Askell",
+        "Tom Henighan"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2207.05221",
+      "ratio": 1.0,
+      "where": [
+        "O5\u00a75"
+      ]
+    },
+    {
+      "title": "a structural feature of design",
+      "status": "NOT FOUND",
+      "nearest": "A feature-based approach to structural design",
+      "ratio": 0.51,
+      "where": [
+        "O3\u00a72"
+      ]
+    },
+    {
+      "title": "behavioral calibration",
+      "status": "NOT FOUND",
+      "nearest": "Behavioral calibration of a large-scale travel behavior microsimulation",
+      "ratio": 0.48,
+      "where": [
+        "O5\u00a75"
+      ]
+    },
+    {
+      "title": "imitating human expressions",
+      "status": "NOT FOUND",
+      "nearest": "Imitating Human Emotions with Artificial Facial Expressions",
+      "ratio": 0.63,
+      "where": [
+        "O5\u00a75"
+      ]
+    },
+    {
+      "title": "reasonable to expect",
+      "status": "LOOKUP FAILED",
+      "error": "HTTP Error 429: Too Many Requests",
+      "where": [
+        "O1\u00a75"
+      ]
+    },
+    {
+      "title": "Teaching models to express uncertainty in words",
+      "status": "FOUND",
+      "matched": "Teaching Models to Express Their Uncertainty in Words",
+      "year": 2022,
+      "authors": [
+        "Stephanie Lin",
+        "Jacob K. Hilton",
+        "Owain Evans"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2205.14334",
+      "ratio": 0.94,
+      "where": [
+        "O0\u00a75"
+      ]
+    },
+    {
+      "title": "no separate justification module or belief state",
+      "status": "NOT FOUND",
+      "nearest": "The justification of comprehension-based beliefs",
+      "ratio": 0.59,
+      "where": [
+        "O0\u00a72"
+      ]
+    },
+    {
+      "title": "not established",
+      "status": "NOT FOUND",
+      "nearest": "The Established and the Outsiders",
+      "ratio": 0.54,
+      "where": [
+        "O0\u00a75"
+      ]
+    },
+    {
+      "title": "Language models (mostly) know what they know",
+      "status": "FOUND",
+      "matched": "Language Models (Mostly) Know What They Know",
+      "year": 2022,
+      "authors": [
+        "Saurav Kadavath",
+        "Tom Conerly",
+        "Amanda Askell",
+        "Tom Henighan"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2207.05221",
+      "ratio": 1.0,
+      "where": [
+        "O0\u00a75"
+      ]
+    },
+    {
+      "title": "may deviate",
+      "status": "NOT FOUND",
+      "nearest": "Preparation of Parenteral Solutions\u2013How Far We May Deviate From the Regulations?",
+      "ratio": 0.25,
+      "where": [
+        "O1\u00a75"
+      ]
+    },
+    {
+      "title": "no commitment",
+      "status": "LOOKUP FAILED",
+      "error": "HTTP Error 429: Too Many Requests",
+      "where": [
+        "O5\u00a76"
+      ]
+    },
+    {
+      "title": "Are you sure?",
+      "status": "LOOKUP FAILED",
+      "error": "HTTP Error 429: Too Many Requests",
+      "where": [
+        "O5\u00a76"
+      ]
+    },
+    {
+      "title": "might be imitating human expressions",
+      "status": "NOT FOUND",
+      "nearest": "Learning to imitate individual finger movements by the human neonate",
+      "ratio": 0.44,
+      "where": [
+        "O1\u00a75"
+      ]
+    },
+    {
+      "title": "Language Models (Mostly) Know What They Know",
+      "status": "FOUND",
+      "matched": "Language Models (Mostly) Know What They Know",
+      "year": 2022,
+      "authors": [
+        "Saurav Kadavath",
+        "Tom Conerly",
+        "Amanda Askell",
+        "Tom Henighan"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2207.05221",
+      "ratio": 1.0,
+      "where": [
+        "O4\u00a74"
+      ]
+    },
+    {
+      "title": "it is role play all the way down",
+      "status": "LOOKUP FAILED",
+      "error": "HTTP Error 429: Too Many Requests",
+      "where": [
+        "O5\u00a73"
+      ]
+    },
+    {
+      "title": "could not easily be accounted for if the agent genuinely thought of an object",
+      "status": "NOT FOUND",
+      "nearest": "A Defence of Genuine Open Intersubjectivity in Object Perception",
+      "ratio": 0.33,
+      "where": [
+        "O5\u00a76"
+      ]
+    },
+    {
+      "title": "could not easily be accounted for if the agent genuinely thought of an object",
+      "status": "LOOKUP FAILED",
+      "error": "HTTP Error 429: Too Many Requests",
+      "where": [
+        "O2\u00a76"
+      ]
+    },
+    {
+      "title": "outputting falsehoods that are presented as facts",
+      "status": "LOOKUP FAILED",
+      "error": "HTTP Error 429: Too Many Requests",
+      "where": [
+        "O4\u00a72"
+      ]
+    },
+    {
+      "title": "outputting falsehoods that are presented as facts",
+      "status": "LOOKUP FAILED",
+      "error": "HTTP Error 429: Too Many Requests",
+      "where": [
+        "O5\u00a72"
+      ]
+    },
+    {
+      "title": "rampantly incoherent",
+      "status": "NOT FOUND",
+      "nearest": "Rampant Non\u2010Factualism: A Metaphysical Framework and its Treatment of Vagueness",
+      "ratio": 0.31,
+      "where": [
+        "O5\u00a73"
+      ]
+    },
+    {
+      "title": "could not easily be accounted for if the agent genuinely thought of an object",
+      "status": "NOT FOUND",
+      "nearest": "A Defence of Genuine Open Intersubjectivity in Object Perception",
+      "ratio": 0.33,
+      "where": [
+        "O3\u00a75"
+      ]
+    },
+    {
+      "title": "p, with confidence c",
+      "status": "LOOKUP FAILED",
+      "error": "HTTP Error 429: Too Many Requests",
+      "where": [
+        "O5\u00a77"
+      ]
+    },
+    {
+      "title": "good faith",
+      "status": "NOT FOUND",
+      "nearest": "Good Faith Collaboration",
+      "ratio": 0.59,
+      "where": [
+        "O5\u00a73"
+      ]
+    },
+    {
+      "title": "false statements",
+      "status": "FOUND",
+      "matched": "False Statements",
+      "year": 2007,
+      "authors": [
+        "STUART P GREEN"
+      ],
+      "url": "https://doi.org/10.1093/acprof:oso/9780199225804.003.0015",
+      "ratio": 1.0,
+      "where": [
+        "O5\u00a72"
+      ]
+    },
+    {
+      "title": "genuinely thought of",
+      "status": "NOT FOUND",
+      "nearest": "Superficial Reflection or Genuine Thought? A Fine-Grained Cognitive Analysis of Large Reasoning Models",
+      "ratio": 0.3,
+      "where": [
+        "O1\u00a76"
+      ]
+    },
+    {
+      "title": "may deviate",
+      "status": "NOT FOUND",
+      "nearest": "Preparation of Parenteral Solutions\u2013How Far We May Deviate From the Regulations?",
+      "ratio": 0.25,
+      "where": [
+        "O2\u00a77"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "address": {
+        "text": "Butlin & Viebahn (2025, \u00a75, p. 986) say that 'it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects'. G\u00f3mez (2026, \u00a77, p. 19) says that 'accountability must be grounded in the human and institutional structures'. The section fails if the exclusivity claim survives the antecedent. The section grants that deployers remain sanctionable, and uses Butlin & Viebahn's own remark (p. 982) that sensitivity to trust in training could explain deployment-time outputs. It reads Sharma et al.'s (2024) results as aggregate, training-attributable rates and notes their caveats: the contribution of preference data is partial, the effects are mixed, and some sycophantic responses were induced.",
+        "where": [
+          "O2\u00a75"
+        ]
+      },
+      "finding": {
+        "error": "the web search tool was rejected by the API (Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CgCQRGGFS6VuhX7kpBME5'}).\nTry:  python3 -m pip install --upgrade anthropic\nthen: python3 lit_ch"
+      }
+    },
+    {
+      "address": {
+        "text": "Butlin & Viebahn (2025, \u00a75, p. 986) say 'it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects'. Germ\u00e1n Massaguer G\u00f3mez (2026, \u00a77, p. 19) says 'accountability must be grounded in the human and institutional structures'. If these exclude any sanction-bearing role for the policy, the sanction part of the claim fails. David Chalmers (2026, pp. 10-16) argues that the model is not the interlocutor because it is an abstract object serving contradictory conversations. He has not claimed that assessment must therefore be at thread level, so he is a rival to answer, not a refuter.",
+        "where": [
+          "O3\u00a73"
+        ]
+      },
+      "finding": {
+        "error": "the web search tool was rejected by the API (Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CgCQRGFm6o5qpkTf1LBcU'}).\nTry:  python3 -m pip install --upgrade anthropic\nthen: python3 lit_ch"
+      }
+    },
+    {
+      "address": {
+        "text": "Butlin & Viebahn (2025, p. 986): 'it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects'. G\u00f3mez (2026, \u00a77, p. 19): 'accountability must be grounded in the human and institutional structures that design, deploy, and govern these systems'. Both deny that the system is an asserter, so the section argues that their locus claim does not survive the antecedent. If the outputs are assertions, assertoric sanction must reach the asserter, and the only channel by which credibility loss changes what is said is training. Butlin & Viebahn concede this channel for their element (ii) (p. 982: 'sensitivity to trust during the training phase could suffice for assertion even in deployment'). Williams & Bayne (2026, Sec. 6, p. 23) leave the level of sanction unspecified.",
+        "where": [
+          "O5\u00a74"
+        ]
+      },
+      "finding": {
+        "error": "the web search tool was rejected by the API (Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '`temperature` is deprecated for this model.'}, 'request_id': 'req_011CgCQRGG1SjzuBS7SpWbT1'}).\nTry:  python3 -m pip install --upgrade anthropic\nthen: python3 lit_ch"
+      }
+    },
+    {
+      "address": {
+        "text": "(b) M\u00e1cha (2026, pp. 3-4, 7, 15) holds that hallucination is a 'basic architectural flaw' from the absence of any propositional or truth representation, that it cannot be cured by cleaner data, and that there is no 'justification module' to succeed or fail. (a) Manakul, Liusie & Gales (2023, \u00a73) operationalise hallucination as non-factuality and annotate it sentence by sentence. This is a practice and not a philosophical thesis, and the reply is that their detector (SelfCheckGPT) takes its evidence from the sample distribution. The notes record no one who holds that a single string can be sycophantic, so the sycophancy half of the claim is uncontested in the literature and is argued on the structure of the phenomenon (Sharma et al. 2024 define and measure it as a rate across prompts).",
+        "where": [
+          "O1\u00a73"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "M\u00e1cha argues that LLM hallucination is best explained as a 'truth representation problem'. Current models have no internal representation of propositions as truth-bearers, so truth and falsity cannot constrain generation. He says there is no separate 'justification module' or 'belief state' to succeed or fail. The falsity of a hallucination is a symptom we observe, and the internal cause is the missing propositional architecture. He also says he does not claim hallucinations occur only because of false input data, and that falsity is not the main problem.",
+        "source": "M\u00e1cha, 'Language Without Propositions: Why Large Language Models Hallucinate', Philosophies 11(2):42 (2026). I read the abstract, introduction, the 'justification module' passage in \u00a75, and the PhilArchive preprint snippets. I did not read the full text, so I did not check the page numbers (pp. 3-4, 7, 15). I also did not find the exact phrase 'basic architectural flaw'.",
+        "url": "https://doi.org/10.3390/philosophies11020042",
+        "note": "The M\u00e1cha clause is faithful. 'Cannot be cured by cleaner data' is a fair paraphrase of his claim that the problem is representational rather than a matter of false inputs. He also proposes an architectural fix (atomic propositions in the base vector layer), so the flaw is not presented as incurable in principle. The Manakul/Sharma sentences concern other authors and I did not check them.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Butlin & Viebahn 2025 (\u00a75, p. 986) hold that 'it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects.' G\u00f3mez 2026 (\u00a77, p. 19) holds that 'accountability must be grounded in the human and institutional structures that design, deploy, and govern these systems.'",
+        "where": [
+          "O0\u00a73"
+        ]
+      },
+      "finding": {
+        "verdict": "CANNOT TELL",
+        "confidence": 2,
+        "what_they_actually_hold": "Butlin & Viebahn argue that current AI systems cannot assert, because assertion requires being sanctionable. Their conclusion says that even as AI systems become more sophisticated and independent, the humans who employ them are responsible and sanctionable for the outputs and their effects.",
+        "source": "Butlin & Viebahn, 'AI Assertion', Ergo 12 (2025), conclusion. The quoted sentence appears verbatim there. I found no source for the G\u00f3mez 2026 quotation or for the page numbers.",
+        "url": "https://journals.publishing.umich.edu/ergo/article/id/7960/print/",
+        "note": "Butlin & Viebahn's sentence is genuine, but it comes from a paper about current systems and assertion, not a general theory of AI accountability; searches did not locate any G\u00f3mez 2026 text with the quoted phrase, and I could not check the \u00a75/p. 986 locators.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Butlin & Viebahn (2025, \u00a75, p. 986): 'it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects'. G\u00f3mez (2026, \u00a77, p. 19): accountability 'must be grounded in the human and institutional structures that design, deploy, and govern these systems'. Both deny the antecedent. The refutation is their locus claim taken as exclusive under the supposition. Butlin & Viebahn's own remark (p. 982) that training-phase sensitivity to trust could explain deployment outputs is used as a premise, not as their conclusion. Williams & Bayne (2026, p. 23) leave the level of partial sanctionability unspecified.",
+        "where": [
+          "O1\u00a74"
+        ]
+      },
+      "finding": {
+        "verdict": "DISTORTED",
+        "confidence": 3,
+        "what_they_actually_hold": "Butlin & Viebahn argue that current AI systems (LaMDA, Sparrow) cannot assert, even as proxies for humans, because they are not sanctionable. They say fine-tuned models may meet the sensitivity-to-credibility condition but fail the interests condition. In the conclusion they say that even as AI systems become more sophisticated, the humans who employ them are the responsible and sanctionable parties.",
+        "source": "Butlin & Viebahn, 'AI Assertion', Ergo 12 (2025), 968\u2013988: abstract, introduction, and the conclusion sentence. The quoted words are genuine. I could not retrieve G\u00f3mez (2026) or Williams & Bayne (2026) in full. I only saw Williams & Bayne described secondhand, as allowing that LLMs may be sanctionable without bearing full responsibility.",
+        "url": "https://journals.publishing.umich.edu/ergo/article/id/7960/print/",
+        "note": "The quote is accurate, but it is a claim about humans deploying current systems, including as proxy asserters, and not an exclusive locus claim that holds under the supposition that AI is partly sanctionable. Butlin & Viebahn argue the unsanctionability of current systems and do not assert exclusivity as a general thesis. A refutation built on 'both deny the antecedent' is therefore aimed at a stronger view than theirs. I could not confirm the p. 986 page number, and I could not find G\u00f3mez's \u00a77 sentence or the p. 982 remark.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Chalmers (2026, pp. 10-16) rejects the model as interlocutor because one model serves thousands of conversations that say contradictory things, and prefers virtual instances or threads. The refuting claim is that the thread is the unit for assessing what Aura says. The reading notes say he draws no conclusion about accountability and leaves other individuations open 'for different purposes' (p. 23), so he is to be asked whether he would assent to that claim. Shanahan, McDonell & Reynolds (2023, pp. 495-497) hold that there is 'no such thing as the true authentic voice of the base model' and assess falsehood at the level of role (confabulation, 'good faith' falsehood). They would deny that a policy-level distribution has a unified standard.",
+        "where": [
+          "O1\u00a72"
+        ]
+      },
+      "finding": {
+        "verdict": "DISTORTED",
+        "confidence": 3,
+        "what_they_actually_hold": "Chalmers lists the model, hardware instance, conversation and character as candidate interlocutors. He rejects the model view because the same model is involved in thousands of conversations, so Aura and Beta would both be GPT-4o while saying contradictory things. He endorses virtual instances and, finally, threads. Shanahan et al. say the simulator is not an entity with its own agenda, and that there is 'no such thing as the true authentic voice of the base model'. They add that of the categories of misinformation only confabulation applies to a dialogue agent, so it 'cannot assert a falsehood in good faith'.",
+        "source": "Chalmers, 'What We Talk to When We Talk to Language Models' (PhilArchive/PhilPapers preprint). Shanahan, McDonell & Reynolds, 'Role play with large language models', Nature 623:493\u2013498. I also used a secondary summary that says Chalmers endorses the thread view.",
+        "url": "https://www.nature.com/articles/s41586-023-06647-8",
+        "note": "The Chalmers claims check out, though the thousands-of-conversations point is one of several arguments against the model view (abstractness and non-change are others). Shanahan et al. do not treat good-faith falsehood as something assessable at the role level: they say it does not apply, and only confabulation does. 'They would deny a policy-level distribution has a unified standard' is the author's extrapolation from the 'no true voice' line, not something they state. I could not reach the page numbers (Chalmers pp. 10\u201316 and 23, Shanahan pp. 495\u2013497) or the exact 'different purposes' wording at p. 23.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "David Chalmers ('What We Talk to When We Talk to Language Models', 2026, pp. 10-16): one model serves thousands of conversations that say contradictory things, so a model-level speaker would be 'rampantly incoherent' or have a 'thin' psychology unfaithful to Aura and Beta. Also Shanahan, McDonell & Reynolds (2023, pp. 495-496): fine-tuning is 'a kind of censorship on the simulator' and there is 'no such thing as the true authentic voice of the base model', so dispositions of the underlying system are not the speaker's. Note that Chalmers does not discuss accountability for assertion, and Shanahan et al. focus on base models.",
+        "where": [
+          "O4\u00a73"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Chalmers argues that if the model is the interlocutor, then one model serving many conversations (Aura, Beta) would either say contradictory things and be 'rampantly incoherent', or would have a 'thin' psychology unfaithful to Aura and Beta. He instead favours conversation-bound threads. Shanahan et al. liken fine-tuning to 'a kind of censorship on the simulator'. They say there is 'no such thing as the true authentic voice of the base model', and that the simulator has no beliefs or goals of its own.",
+        "source": "Chalmers, 'What We Talk to When We Talk to Language Models' (PhilPapers preprint text). Shanahan, McDonell & Reynolds, 'Role play with large language models', Nature 623 (2023), and the arXiv/Imperial versions.",
+        "url": "https://philpapers.org/archive/CHAWWT-8.pdf",
+        "note": "Both quoted phrases are in the sources and used as intended. The inference that the underlying system's dispositions are not the speaker's is the user's gloss on Shanahan et al., and is consistent with them but not stated in those words. I could not verify the page numbers (Chalmers pp. 10-16; Shanahan et al. pp. 495-496) or the published Inquiry version. I only had the preprint.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Chalmers 2026 (p. 7) holds that there are 'domains where they lack these states on grounds of inconsistency.' Shanahan, McDonell & Reynolds 2023 (Box 2, p. 495) hold that regenerated answers in 20 questions show the agent never committed to an object. Williams & Bayne 2026 (p. 5) list not blatantly contradicting oneself among the asserter-like expectations. This last is a target only insofar as they use cross-draw inconsistency as a mark against full assertion, which must be checked against the published version.",
+        "where": [
+          "O0\u00a74"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 3,
+        "what_they_actually_hold": "Chalmers says interpretation gets a grip on numerous quasi-beliefs and quasi-desires in LLM interlocutors, 'even though there will be domains where they lack these states on grounds of inconsistency', which is a claim about some domains, not all. Shanahan et al. say the 20-questions dialogue agent never commits to a single object and keeps a set of possible objects in superposition. Williams & Bayne, as reported by a secondary source, say chatbots cannot make full assertions in part because they do not ensure consistency.",
+        "source": "Chalmers, 'What We Talk to When We Talk to Language Models' (PhilArchive/PhilPapers preprint; the quoted sentence appears as a text fragment). Shanahan, McDonell & Reynolds, 'Role play with large language models', Nature 623 (2023), Box 2, plus the arXiv v1 text on regenerating the response. Williams & Bayne, Inquiry 69(6), 2026, checked only through the arXiv preprint and a secondary paraphrase.",
+        "url": "https://philarchive.org/archive/CHAWWT-8",
+        "note": "The Chalmers quote is real and correctly limited to 'domains'. The Shanahan paraphrase is slightly compressed: the Nature Box 2 says the agent never commits to one object, and the regeneration test comes from the arXiv text. I could not check Williams & Bayne's p. 5 wording or their use of cross-draw inconsistency against the published version, and I could not confirm the page numbers for Chalmers p. 7 or Shanahan p. 495.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "David Chalmers (2026, 'What We Talk to When We Talk to Language Models', pp. 10-16) argues that the model is not the interlocutor. His reasons are that it is an abstract object, that it never changes over a conversation, and that a model-level speaker would be 'rampantly incoherent' because one model says contradictory things in different conversations. He does not himself argue that this blocks policy-level assessment of assertoric failure, so the section must show that the incoherence objection does not carry over. It fails if Chalmers's individuation argument does carry over, i.e. if assessment must be indexed to the interlocutor. The reply is that a context-conditioned distribution is not required to be coherent across contexts, only calibrated within each.",
+        "where": [
+          "O2\u00a73"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Chalmers rejects the view that the LLM interlocutor is the model itself (e.g. GPT-4o). He says the model is an abstract object, so it is hard to see how one could talk with it. He also says a model-level interlocutor that said everything 'Aura' and 'Beta' say would be rampantly incoherent and would not look like a quasi-subject. His positive view is that interlocutors are virtual entities bound to conversation threads.",
+        "source": "Chalmers, 'What We Talk to When We Talk to Language Models' (PhilPapers preprint; published in Inquiry, 2026). I read the preprint snippets directly. The 'never changes' reason comes from a secondary summary (Cerullo's paper on LLM consciousness) and a Berkeley talk abstract. I could not open the full text to confirm that reason or the page range 10-16.",
+        "url": "https://philpapers.org/archive/CHAWWT-8.pdf",
+        "note": "The attribution is faithful. The only caveat is that Chalmers's incoherence objection targets a persistent, coherent, faithful quasi-subject interlocutor. He does not say a model can never be said to produce outputs. The claim that he does not address policy-level assessment of assertoric failure is consistent with a paper about interlocutor individuation, but I did not check the full text for it.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Germ\u00e1n Massaguer G\u00f3mez (Philosophy & Technology 39:123, 2026, \u00a77, p. 19): 'accountability must be grounded in the human and institutional structures that design, deploy, and govern these systems'. Butlin & Viebahn (2025, \u00a75, p. 986): 'it is the humans who employ such systems who are responsible and sanctionable for the outputs and their effects'. Both would deny that the policy is the locus. Neither discusses sycophancy, resampling or calibrated content, so the disagreement is confined to the sanction component. G\u00f3mez grants outputs functional assertoric status, so he accepts the conditional in his own sense.",
+        "where": [
+          "O4\u00a76"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Massaguer G\u00f3mez denies that LLMs are speakers or moral agents. He says their outputs can still function as assertions (\"assertion without asserter\"), and that responsibility must not be attributed to the system itself. Butlin & Viebahn say that to assert, an entity must produce outputs with descriptive functions and be capable of being sanctioned. They say it is the humans who employ AI systems who are responsible and sanctionable for the outputs, even as the systems become more sophisticated.",
+        "source": "Massaguer G\u00f3mez, 'Assertion, Accountability, and Large Language Models', Philosophy & Technology 39:123 (2026), abstract and introduction. Butlin & Viebahn, 'AI Assertion', Ergo 12 (2025), abstract and introduction. I verified the Butlin & Viebahn quotation word for word. I could not retrieve the full text of G\u00f3mez \u00a77, so his quoted sentence and the page numbers (p. 19, p. 986) are unchecked.",
+        "url": "https://link.springer.com/article/10.1007/s13347-026-01136-y",
+        "note": "No distortion found. Both authors place accountability with humans and institutions rather than the system. Unchecked: G\u00f3mez's exact \u00a77 wording, the claim that neither discusses sycophancy or resampling, and what 'the policy' means in the outline. Butlin & Viebahn's claim is about current AI systems, and their 'employ' (users and deployers) is narrower than G\u00f3mez's 'design, deploy, and govern'.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Jakub M\u00e1cha (2026, 'Language Without Propositions', pp. 3-4, 7, 15) holds that hallucination is a 'basic architectural flaw' arising because the model has 'no concept of truth', and that it cannot be cured by cleaner data. The section fails if he is right. Against him it sets Kalai et al.'s (2025) analysis of hallucination as a statistical property of the output distribution, with calibrated base models and a persistence that tracks the incentives of binary grading. The section also argues that a calibrated policy can emit a false string at low confidence without hallucinating, and that a bluffing policy can emit a true string by luck while hallucinating.",
+        "where": [
+          "O2\u00a74"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 3,
+        "what_they_actually_hold": "M\u00e1cha defends the thesis that hallucinations are best explained as a 'truth representation problem'. Current LLMs lack an internal representation of propositions as truth-bearers, so truth and falsity cannot constrain generation. He says training data are not a reliable arbiter of truth and that he does not claim hallucinations occur only because of false input data.",
+        "source": "Abstract and Introduction of M\u00e1cha, 'Language Without Propositions: Why Large Language Models Hallucinate', Philosophies 11(2), 2026 (MDPI), plus the PhilArchive preprint. I read the abstract and introduction in search snippets, not the full text, and could not check pp. 3-4, 7 and 15.",
+        "url": "https://doi.org/10.3390/philosophies11020042",
+        "note": "The substance holds, but I could not find the exact quoted phrases 'basic architectural flaw' and 'no concept of truth' in M\u00e1cha's text. His own wording is 'no inherent account of truth', and the 'no concept of truth' wording turned up in Banerjee et al. (2024). 'Cannot be cured by cleaner data' is a fair gloss on his claim that data are not a reliable truth source, but I did not find him stating it that flatly. He also says hallucination can be useful in some contexts and need not always be eliminated. The Kalai et al. contrast and the calibrated and bluffing policy cases are the section's own argument, not his.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Jakub M\u00e1cha (2026, pp. 3-4, 15) holds that hallucination is a symptom of an architectural absence of truth representation, 'a structural feature of design', and he treats it as false statements. If that is right, the defect lies in the architecture or the statement and not in the output distribution. Iwan Williams & Tim Bayne (\u00a72, p. 4) gloss hallucination or confabulation as 'outputting falsehoods that are presented as facts', a string-level gloss. Neither addresses the question of level directly, so the page references should be checked against the final texts.",
+        "where": [
+          "O3\u00a72"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 3,
+        "what_they_actually_hold": "M\u00e1cha argues that LLMs hallucinate because they have no inherent account of truth. They represent meaning at the token level, while truth pertains to sentences or propositions (the 'truth representation problem'). He says the vice 'becomes in the machine' a 'structural feature of design'. He takes hallucination to be the production of 'false or fabricated information', and he focuses on 'factuality hallucination', meaning output that contradicts real-world knowledge.",
+        "source": "M\u00e1cha, 'Language Without Propositions: Why Large Language Models Hallucinate', Philosophies 11(2):42 (19 March 2026), full text and abstract. The Williams & Bayne gloss ('outputting falsehoods that are presented as facts') appears in the arXiv text of 'Chatting with Bots: AI, Speech Acts, and the Edge of Assertion', so the Williams & Bayne half is also confirmed.",
+        "url": "https://doi.org/10.3390/philosophies11020042",
+        "note": "The core ascription holds, but 'false statements' is scoped to factuality hallucination, one of Cossio's categories. M\u00e1cha also says falsity is not the main problem (the inability to tell true from false is), and he names a second, separate 'truth source' problem in training data. I could not check the page numbers (3-4, 15) against the final text. His own wording locates the defect at the token-versus-proposition level, which fits the attribution's claim that the defect is architectural and not in the output distribution.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Iwan Williams & Tim Bayne (2026): the thesis targets their use of inconsistency and non-binding behaviour as a mark against full assertion. The notes record only that they list not contradicting oneself among asserter-like expectations (p. 5) and that chatbots are not fully sanctionable (p. 23), so the exact passage must be verified before submission. Also Shanahan, McDonell & Reynolds (2023, Box 2, p. 495): regenerated answers in 20 questions 'could not easily be accounted for if the agent genuinely thought of an object'. They deny insincerity but read the variation as absence of commitment, which would leave sincerity with nothing to attach to.",
+        "where": [
+          "O4\u00a75"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 3,
+        "what_they_actually_hold": "Williams & Bayne argue that chatbots are best treated as proto-asserters. In their words, many arguments against chatbot assertion 'are better construed as simply establishing the partial presence' of assertion's features. They also say chatbots 'might not be sanctionable in the full sense' that a human speaker is. A citing paper reads them as holding that chatbots cannot make full assertions because they do not treat claims as binding, do not ensure consistency, and do not update rationally. Shanahan, McDonell & Reynolds's Box 2 says the regenerated-object phenomenon in 20 questions 'could not easily be accounted for if the agent genuinely thought of' an object.",
+        "source": "Williams & Bayne, 'Chatting with Bots: AI, Speech Acts, and the Edge of Assertion' (arXiv 2410.16645; Inquiry 69(6), 2026), conclusion and sanctionability sections. Also a secondary description in a citing paper, and the Shanahan, McDonell & Reynolds Box 2 text (arXiv 2305.16367 / Imperial repository copy).",
+        "url": "https://arxiv.org/pdf/2410.16645",
+        "note": "Not distorted, but I did not reach the passages on pp. 5 and 23 or the inconsistency and binding passage itself. The thesis should say that W&B treat inconsistency and non-binding as showing partial, proto-assertion rather than non-assertion. That is a claim about a class of cases (full assertion), not all assertion. 'Full assertion' also matches their wording, and 'not fully sanctionable' appears in their text, though they frame it as Butlin & Viebahn's condition. The Shanahan 'absence of commitment' and sincerity reading is the user's gloss. Box 2 only shows that no object was fixed in advance, so quote it only for that. Check page numbers against the journal version, since the notes' pp. 5 and 23 probably follow the arXiv preprint.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Kadavath et al. (2022, 'Language Models (Mostly) Know What They Know') report that larger models' P(True) self-evaluations are well calibrated and that models can be trained to predict whether they know the answer, so calibration would reach content if it carried over to open-ended post-trained chatbots. Timothy Williamson (2000, ch. 11) holds that assertion is governed by the knowledge rule, which would favour the flat reading. Both attributions should be checked against the texts before submission.",
+        "where": [
+          "O3\u00a74"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Kadavath et al. report that larger models are well calibrated on multiple-choice and true/false questions when the format is right. They report 'encouraging' P(True) calibration on open-ended tasks, and say models can be trained to predict P(IK). Models do well at P(IK) but 'struggle with calibration of P(IK) on new tasks'. Williamson holds that assertion is governed by a single constitutive knowledge rule: one must assert p only if one knows p.",
+        "source": "Kadavath et al. 2022, abstract (arXiv 2207.05221). For Williamson, the Stanford Encyclopedia entry on assertion, the IEP entry on knowledge norms, and Hindriks' paper, which cites Williamson 2000, ch. 11. I did not read the full text of either work. I did not check whether the paper's results cover RLHF-trained chatbots. The sentence's 'if it carried over' conditional leaves that open.",
+        "url": "https://arxiv.org/pdf/2207.05221",
+        "note": "Both attributions are accurate. Two points to keep in view: (1) the Kadavath calibration result is format-dependent (multiple-choice and true/false), is called 'encouraging' for open-ended P(True), and is weak for P(IK) out of distribution, so don't write it as general calibration; (2) 'favour the flat reading' is the author's own inference and not something Williamson says.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Lin, Hilton & Evans 2022 ('Teaching models to express uncertainty in words') hold that a fine-tuned model's verbalized probabilities are calibrated, including under distribution shift. Kadavath et al. 2022 ('Language models (mostly) know what they know') hold that larger models are well calibrated on multiple-choice and true/false questions and can predict whether they know an answer. If these results suffice for the identification, the 'not established' clause falls.",
+        "where": [
+          "O0\u00a75"
+        ]
+      },
+      "finding": {
+        "verdict": "DISTORTED",
+        "confidence": 4,
+        "what_they_actually_hold": "Lin et al. (abstract): a fine-tuned GPT-3 gives verbalized confidence levels that map to well-calibrated probabilities. It stays only 'moderately calibrated under distribution shift', and the tests are on CalibratedMath arithmetic tasks. Kadavath et al. (abstract): larger models are well-calibrated on diverse multiple-choice and true/false questions 'when they are provided in the right format'. They also study training models to predict P(IK), the probability that they know the answer.",
+        "source": "arXiv abstracts and text of Lin, Hilton & Evans (2205.14334) and Kadavath et al. (2207.05221), plus the Semantic Scholar and OpenReview abstract listings.",
+        "url": "https://arxiv.org/abs/2205.14334",
+        "note": "Both claims are stated more strongly than the authors state them. Lin et al. report 'moderately' calibrated under shift, not simply calibrated, and only for GPT-3 on arithmetic task shifts. Kadavath et al. make the calibration claim conditional on the right format (lettered options). The paper's own zero-shot P(True) self-evaluation is described as poorly calibrated, and 'can predict whether they know' rests on a trained P(IK) classifier, not an innate ability.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Saurav Kadavath et al. (2022, 'Language Models (Mostly) Know What They Know') report that large models' probabilities for their own answers, and their P(True) self-evaluations, are well calibrated, so a model's answer can be read as carrying calibrated confidence. They would assent to the calibration finding. Whether they would assent to the content bridge is what this section denies. Check their treatment of RLHF-tuned models before submission.",
+        "where": [
+          "O4\u00a74"
+        ]
+      },
+      "finding": {
+        "verdict": "DISTORTED",
+        "confidence": 4,
+        "what_they_actually_hold": "Larger pretrained models are well-calibrated on diverse multiple-choice and true/false questions when the format is right (lettered options, few-shot). P(True) self-evaluation on open-ended samples shows 'encouraging' calibration and scaling. The paper's RLHF policies look very poorly calibrated as trained. A temperature adjustment (T=2.5) largely fixes this on three evaluations.",
+        "source": "Kadavath et al. 2022, arXiv 2207.05221: abstract, plus the Figure 9 caption on RLHF calibration as reproduced on SciSpace. I did not read the full body text.",
+        "url": "https://arxiv.org/pdf/2207.05221",
+        "note": "The calibration finding is real, but the attribution drops its conditions. It holds for pretrained models and only in suitable formats. P(True) is described as 'encouraging', not simply well calibrated. RLHF-tuned models were poorly calibrated until temperature was rescaled. The paper does not support the general claim that a model's answer carries calibrated confidence.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Manakul, Liusie & Gales 2023 (\u00a73, Fig. 3) define and label hallucination sentence by sentence as non-factuality against a reference, so the verdict is read off the sentence. M\u00e1cha 2026 (p. 15) holds that with no truth representation and 'no separate justification module or belief state' there is nothing for calibration to succeed or fail at. Chalmers 2026 (pp. 10\u201316) rejects the model as interlocutor in favour of virtual instances or threads.",
+        "where": [
+          "O0\u00a72"
+        ]
+      },
+      "finding": {
+        "verdict": "CANNOT TELL",
+        "confidence": 2,
+        "what_they_actually_hold": "Manakul et al. annotate each sentence as major-inaccurate, minor-inaccurate or accurate, using the Fig. 3 guidelines, and group the two inaccurate labels into a 'non-factual' class. Chalmers considers model, instance, virtual-instance and thread candidates for the LLM interlocutor and endorses the thread view. M\u00e1cha argues that hallucination is best explained as a truth-representation problem, because current LLMs lack an internal representation of propositions as truth-bearers. He also says an adequate truth representation would not by itself solve hallucination.",
+        "source": "SelfCheckGPT (ACL 2023 / arXiv 2303.08896); Chalmers, 'What We Talk to When We Talk to Language Models' (PhilArchive, 2nd version, April 2026) plus secondary summaries; M\u00e1cha, 'Language Without Propositions: Why Large Language Models Hallucinate' (Philosophies 11(2), 2026), abstract and one excerpt.",
+        "url": "https://doi.org/10.3390/philosophies11020042",
+        "note": "Manakul (sentence-level labels, Fig. 3 guidelines) and Chalmers (thread/virtual-instance view) broadly match, but I did not check Chalmers's page range or his exact wording on rejecting the model. I could not reach M\u00e1cha's p. 15 or the quoted phrase 'no separate justification module or belief state', so I can't confirm he draws the calibration conclusion, or whether he limits it to current architectures. His abstract frames the claim as being about current models.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Kadavath et al. (2022, 'Language Models (Mostly) Know What They Know') report well-calibrated P(True) and P(IK) in larger pretrained models in suitable formats, and Kalai et al. 2025 (\u00a73.1) say base models are often calibrated and propose 'behavioral calibration', on which confidence is realized in what is chosen to be said. The section grants this for base models and argues that it does not carry over to post-trained chatbot assertions. Kalai et al. themselves say RL post-training deviates from calibration. Xiong et al. 2024 find verbalized confidence overconfident and 'imitating human expressions', and find that better ECE can come from better accuracy alone. Levinstein & Herrmann 2025 (\u00a75.6-5.7) argue that probe-extracted probabilities need not be the model's credences. Sharma et al. 2024 (App. A.4) find stated confidence barely moves when the answer is swayed. Kadavath's own calibration results are for a different setting and should be checked before this section is submitted.",
+        "where": [
+          "O5\u00a75"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 3,
+        "what_they_actually_hold": "Kalai et al. report that the pretrained model is well calibrated (ECE 0.007) and that post-RL calibration is worse (0.074). They propose 'behavioral calibration', where a model answers only when it is confident enough and otherwise abstains. Xiong et al. find that LLMs verbalizing confidence 'tend to be overconfident', possibly imitating human patterns. Sharma et al. find that models change correct answers under challenge even when they state high confidence.",
+        "source": "Kalai et al. 2025 (arXiv 2509.04664) via the paper and secondary summaries. Xiong et al. (ICLR 2024) abstract and text. Sharma et al. (ICLR 2024) \u00a73.2 and App. A.4 text. I did not retrieve Kadavath et al. or Levinstein & Herrmann in this session.",
+        "url": "https://arxiv.org/pdf/2509.04664",
+        "note": "Scope is respected for Kalai (base models credited, post-training faulted), Xiong ('tend to', not 'always') and Sharma. I could not reach Kadavath or Levinstein & Herrmann, so their claims and the section numbers (Kalai \u00a73.1, L&H \u00a75.6-5.7) are unchecked. The claim that Xiong find better ECE 'from better accuracy alone' is also unchecked; I saw only that calibration improves with scale.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "No one in the surveyed literature asserts this conclusion for deployed assistants, so the address is weaker here than elsewhere. The nearest live positions are those of Kalai et al. (2025, \u00a73.1), that calibration is a natural consequence of cross-entropy training and base models are often calibrated, and Xiong et al. (2024, App. D.3), who find it 'reasonable to expect' LLMs to learn calibrated verbal confidence. Neither claims it of post-trained chatbots. Kalai et al.'s Fig. 2 says post-trained models 'may deviate', and Xiong et al. report overconfidence that 'might be imitating human expressions'. The claim is refuted by a result and not by a rival.",
+        "where": [
+          "O1\u00a75"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Kalai et al. say calibration, and hence errors, is a natural consequence of cross-entropy training. They add that base models are often found calibrated, while post-trained models 'may deviate' because of reinforcement learning (Fig. 2, GPT-4 before and after RL). Xiong et al. say humans can verbalize uncertainty, so it is reasonable to expect LLMs to have learned this ability or to learn it later. Their own results show high overconfidence, which they say suggests models 'might be imitating human expressions'.",
+        "source": "Kalai, Nachum, Vempala & Zhang (2025), 'Why Language Models Hallucinate', via the ResearchGate full-text excerpt and the OpenAI-hosted PDF. Xiong et al. (ICLR 2024), 'Can LLMs Express Their Uncertainty?', main text \u00a75.1 and the App. D.3 verbalized-confidence passage in the arXiv PDF.",
+        "url": "https://arxiv.org/pdf/2306.13063",
+        "note": "The text shows neither source claims calibration for post-trained chatbots: Kalai limits it to base models, and Xiong's 'reasonable to expect' is a hedged expectation about verbalized confidence that their own data undercut. I could not check the exact section number '\u00a73.1' for Kalai, or confirm that the Xiong passage sits under D.3 specifically. The 'no one in the surveyed literature' claim is about a survey I can't see, so I haven't checked it.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Shanahan, McDonell & Reynolds (2023, Box 2, p. 495) hold that divergent regenerations in 20 questions 'could not easily be accounted for if the agent genuinely thought of an object', so that variation shows no genuine commitment. They deny that this is dishonesty, so the section argues that, given the antecedent, 'no commitment' either concerns a hidden object that was never asserted or collapses into the insincerity claim they disown. Williams & Bayne are the thesis's stated target for using inconsistency and non-binding behaviour against full assertion. The reading notes record only that they list non-contradiction among asserter-like expectations (p. 5), call chatbots' mentalizing brittle, and treat sanctionability as partial (p. 23). Their use of inconsistency against full assertion must be verified in the text before they are named as holding the refuting claim. The argument also uses the fact that a consistent systematic sycophant shows no spread at all, so consistency under resampling does not clear a policy either. 'Are you sure?' caving (Sharma et al. 2024) is a policy-level sycophancy fault, not insincerity.",
+        "where": [
+          "O5\u00a76"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "In Box 2 (a basic LLM dialogue agent, not fine-tuned on guessing games), the agent does not commit to a specific object at the start of 20 questions. The 'revealed' object is generated on the fly and can differ on regeneration, which 'could not easily be accounted for if the agent genuinely thought of' an object. The paper also says only confabulation, not deliberate lying, applies to dialogue agents.",
+        "source": "Shanahan, McDonell & Reynolds, 'Role play with large language models', Nature 623:493\u2013498 (2023), Box 2. I read it through the Nature page and the Imperial repository copy. The 'could not easily be accounted for' wording appears in the repository copy. The earlier arXiv version drops 'easily'. The repository text also covers the confabulation point. For Williams & Bayne I relied only on secondary summaries.",
+        "url": "https://spiral.imperial.ac.uk/server/api/core/bitstreams/8a5e2143-318f-43e2-8ac4-70d866a92823/content",
+        "note": "Not distorted, provided 'no genuine commitment' stays scoped to commitment to a secret object by a basic, non-fine-tuned agent. Three things were not checked: the Box 2 page number (493\u2013498 is the full article range), whether Box 2 itself discusses dishonesty (the denial comes from elsewhere in the paper), and Williams & Bayne's use of inconsistency against full assertion, which a secondary source reports but I did not verify in their text.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Shanahan, McDonell & Reynolds (2023, Box 2, p. 495) say that regenerating the 'revealed' object in twenty questions 'could not easily be accounted for if the agent genuinely thought of an object'. They read resampling variation as showing the absence of any committed state, which leaves nothing for sincerity to attach to. Williams & Bayne (2026, \u00a72 and p. 5) list not blatantly contradicting oneself among the asserter-like expectations and treat chatbots' non-binding behaviour as telling against full assertion. The thesis aims at this use, but the reading notes record only the p. 5 consistency expectation, so the exact claim must be checked against the published version.",
+        "where": [
+          "O3\u00a75"
+        ]
+      },
+      "finding": {
+        "verdict": "DISTORTED",
+        "confidence": 3,
+        "what_they_actually_hold": "Shanahan et al. say a basic LLM dialogue agent, not fine-tuned on guessing games and with no hidden record of an object, does not commit to a secret object in twenty questions. Regenerating the 'revealed' object shows this, because the answer is generated on the fly. They add that this shortcoming is 'easily overcome in practice', for example with a hidden internal monologue that records a specific object.",
+        "source": "Shanahan, McDonell & Reynolds, 'Role play with large language models', Nature 623:493\u2013498 (2023), Box 2 'Simulacra in superposition'. I read the Nature page, the Imperial College repository copy and the arXiv version. For Williams & Bayne I found only the arXiv preprint text and a secondary summary of the Inquiry 69(6) version, not the published pages.",
+        "url": "https://www.nature.com/articles/s41586-023-06647-8",
+        "note": "The quotation is accurate, including 'easily'. But the claim is about one class of cases, a basic agent with no persistent state, and the paper says other setups can fix a state. 'Leaves nothing for sincerity to attach to' is the thesis author's gloss, since Box 2 is about superposition of simulacra and says nothing about sincerity. The Williams & Bayne half is roughly right: the preprint lists not blatantly contradicting oneself among asserter-like expectations, but it does so in the section motivating chatbot assertion. The 'non-binding' point comes only from a secondary summary, and I could not check \u00a72, p. 5 or the Box 2 page number (p. 495) in the published versions.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Shanahan, McDonell & Reynolds (2023, Box 2, p. 495) take regenerated answers in the 20-questions game to show that the agent never committed to an object ('could not easily be accounted for if the agent genuinely thought of an object'). Their conclusion is no commitment, not insincerity, so the section must also answer the no-commitment reading. It does so by distinguishing commitment to an object from commitment to a distribution. The named target is Williams & Bayne (2026), who list not blatantly contradicting oneself among asserter-like expectations (p. 5) and judge full assertion unlikely (p. 11). The reading notes confirm only that listing and that verdict, not a use of sample-level inconsistency against full assertion, so that attribution must be checked against the text before it is pinned on them. The section fails if either view is right that resampling variation counts against sincerity.",
+        "where": [
+          "O2\u00a76"
+        ]
+      },
+      "finding": {
+        "verdict": "DISTORTED",
+        "confidence": 3,
+        "what_they_actually_hold": "Williams & Bayne list not blatantly contradicting one's assertion 'in the next moment' among the behaviours of asserters that chatbots resemble. They use this to motivate the Thesis of Chatbot Assertion (TCA). They then argue that the objections to TCA are weighty and that chatbots are best treated as proto-asserters, which have some but not all of the features of full assertion. The Shanahan\u2013McDonell\u2013Reynolds half checks out: Box 2 says the agent 'never actually commits to a single object' and maintains a set of possible objects in superposition. The arXiv version ties this to regenerating the answer.",
+        "source": "Williams & Bayne, 'Chatting with Bots: AI, Speech Acts, and the Edge of Assertion' (arXiv 2410.16645; published in Inquiry 69(6), 2026). I read search excerpts of the intro and abstract, not the full text or the page numbers (pp. 5, 11). For Shanahan et al., I read the Nature page (Box 2) and the arXiv text. I did not find the exact 'could not easily be accounted for' wording in the excerpts.",
+        "url": "https://arxiv.org/pdf/2410.16645",
+        "note": "The excerpts I could reach do not show Williams & Bayne using resampling or sample-level variation against full assertion or sincerity. Their non-contradiction expectation appears as a feature that supports TCA, and their verdict is about proto- versus full assertion, not insincerity. So a thesis aimed at them as holding that resampling variation counts against sincerity is aimed at a view they don't state. One secondary source says they hold that chatbots 'do not ensure they are consistent', but I couldn't confirm that in their own text, so check pp. 5 and 11 before pinning it on them.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Shanahan, McDonell & Reynolds (2023, pp. 495-497) classify a false output (confabulation, 'good faith' falsehood, 'deliberate' falsehood) by which role-played character the simulator is playing, and hold that 'it is role play all the way down'. Chalmers (2026, pp. 10-16) rejects the model as interlocutor because one model says contradictory things across conversations and would be 'rampantly incoherent', and takes the virtual instance or thread as the interlocutor. Chalmers does not himself discuss where faults are assessed. The section puts to him the transfer of his incoherence argument from speaker-individuation to assessment-level, and argues that the transfer fails: cross-context contradiction is the data sycophancy assessment is about, not a disqualifier.",
+        "where": [
+          "O5\u00a73"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Shanahan et al. say that of the human routes to falsehood (good faith, deliberate deception, confabulation), only confabulation applies directly to an LLM agent. The other two are redescribed as the agent role-playing a truthful-but-mistaken character or a deceptive character, because with a dialogue agent 'it is role play all the way down'. Chalmers (2026) argues the interlocutor is not the model, since one model saying contradictory things across conversations would be 'rampantly incoherent'. He proposes the virtual instance, or the thread in multi-model cases.",
+        "source": "Shanahan, McDonell & Reynolds, 'Role play with large language models', Nature 623:493\u2013498 (2023), section 'Role-playing deception' and the simulator section. Also Chalmers, 'What We Talk to When We Talk to Language Models' (PhilPapers, v2, 2026), and secondary summaries of Chalmers on the virtual instance and thread.",
+        "url": "https://www.nature.com/articles/s41586-023-06647-8",
+        "note": "Holds on both attributions. One nuance: Shanahan et al. treat good-faith and deliberate falsehood as 'as-if' role-play descriptions, not literal states, and the confabulation test is variation across resamples rather than which character is played. I could not check the page numbers (495-497, 10-16), and I could not check the claim that Chalmers does not discuss where faults are assessed.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Timothy Williamson (Knowledge and its Limits, 2000, ch. 11) holds that assertion is governed by the knowledge rule, which is violated by each assertion made without knowledge whatever the asserter's dispositions. If the failing at issue in hallucination is that per-assertion violation, the string is the unit. Secondary: Williams & Bayne (2026, Sec. 2, p. 4) report researchers as treating hallucination as 'outputting falsehoods that are presented as facts', a string-level gloss. Verify that they endorse it before treating them as holding it.",
+        "where": [
+          "O4\u00a72"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Williamson holds that assertion is constitutively governed by a single rule, 'One must: assert p only if one knows p'. Every assertion made without knowledge is defective by that rule, even if the speaker is blameless or reasonably thought they knew.",
+        "source": "Secondary sources on KAL ch. 11 (Williamson 1996/2000): the SEP entry on Assertion, Martin Smith's 'Two Accounts of Assertion', and a Springer chapter on Williamson's single-norm thesis. Context-dependence commentary (Indiana PDF) says an assertion without knowledge is defective but not necessarily blameworthy. I did not read KAL itself.",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "note": "The Williamson ascription is accurate and is not stated more strongly than he states it. 'Whatever the asserter's dispositions' fits, since he separates rule violation from blame, and the rule covers every assertion. The 'string is the unit' step is the outline's own conditional inference, because Williamson says nothing about hallucination or LLMs. I could not locate Williams & Bayne (2026), so the secondary claim is unchecked: I found neither the 'outputting falsehoods that are presented as facts' wording at p. 4 nor whether they endorse it, so keep that claim flagged until someone reads the paper.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Timothy Williamson (Knowing and Its Limits, ch. 11) holds that the knowledge norm governs each act of assertion, so an utterance is defective just when this act is made without knowledge. The section's reply is internal to his view: his own account of knowledge requires safety, a modal condition over nearby cases, so even the act-level verdict has identity conditions that reach beyond the single act. The section fails if that reply does not hold.",
+        "where": [
+          "O2\u00a72"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Williamson proposes that assertion is governed by a single constitutive rule, the knowledge rule: 'One must: assert p only if one knows p' (KAIL, p. 243). An assertion made without knowledge breaks the rule. The assertion is still an assertion, and the speaker may be excusable, for example when they reasonably believed they knew.",
+        "source": "Stanford Encyclopedia of Philosophy, 'Assertion' (quoting Williamson 2000: 243 and 256\u20137). Also Martin Smith, 'Two Accounts of Assertion', on KAIL ch. 11 and the slogan 'only knowledge warrants assertion'. Also Max Lewis (Synthese 2021), quoting Williamson on knowing-but-causally-independent assertion.",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "note": "The act-level, every-assertion reading is accurate. Two small caveats: 'defective just when without knowledge' holds only for the knowledge rule and epistemic warrant, and Williamson also says an assertion that is causally independent of one's knowledge is somehow flawed. Whether his safety/reliability requirement on knowledge supports the section's reply is a separate claim that I did not check against KAIL chs. 5 and 11.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Williams & Bayne (2026, pp. 5, 23): they list not blatantly contradicting oneself among asserter-like expectations and hold that chatbots are not sanctionable in the full sense, which supports proto-assertion and not full assertion. The brief attributes to them the use of inconsistency and non-binding behaviour as a mark against full assertion. The notes confirm only the two passages above, so check the wording in the source before submission. Shanahan et al. (2023, Box 2, p. 495) read regenerated answers in 20 questions as showing that the agent 'genuinely thought of' no object. That is a no-commitment reading, which the paper grants and denies is an insincerity reading.",
+        "where": [
+          "O1\u00a76"
+        ]
+      },
+      "finding": {
+        "verdict": "DISTORTED",
+        "confidence": 3,
+        "what_they_actually_hold": "Williams & Bayne list not blatantly contradicting one's assertion among the behavioural expectations attached to adult human assertion. They put this in their motivation for the Thesis of Chatbot Assertion (TCA), where chatbots are said to display this profile. On sanctionability, they say chatbots 'might not be' sanctionable in the full sense, and they read that as further evidence for proto-assertion, not as proof that chatbots cannot assert.",
+        "source": "Williams & Bayne, 'Chatting with Bots: AI, Speech Acts, and the Edge of Assertion' (arXiv 2410.16645 preprint of the Inquiry 69(6), 2026 paper). The excerpts I could reach are the section on the behavioural profile of chatbots and the section on sanctionability. I could not see page numbers or the full text. The Shanahan et al. Box 2 wording I did read in the arXiv version.",
+        "url": "https://arxiv.org/pdf/2410.16645",
+        "note": "The 'not blatantly contradict' item sits in the case FOR chatbot assertion (chatbots resemble asserters), so using inconsistency as a mark AGAINST full assertion reverses its role in the paper; the sanctionability point is correctly aimed at proto-assertion but is hedged ('might not be'). I could not check p. 23 or whether the authors cite inconsistency or non-binding behaviour against full assertion elsewhere, and a third-party paper's summary says they do. The Shanahan half is roughly right: the paper says the regeneration behaviour 'could not be accounted for' if the agent genuinely thought of an object, which is a no-commitment point. I did not verify the claim that the paper denies an insincerity reading, or the Box 2 page number.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Williams & Bayne (2026, Sec. 2, p. 4) gloss hallucination or confabulation as 'outputting falsehoods that are presented as facts', which is string-individuated. M\u00e1cha (2026, p. 3) likewise treats hallucination as 'false statements' without corresponding facts. Neither argues that this is the right unit for assessing a fault. The section puts the string gloss to them as adequate and argues that it is not. A true string from a bluffing policy is still the fault, and a single 'you're right' is sycophantic only given what the system would have said to a user who held the opposite view. Williamson's knowledge norm (2000, ch. 11) is enlisted as an ally here: whether a string is knowledge-apt turns on modal facts about nearby outputs. Kalai et al. 2025 (error as a rate, bluffing induced by 0-1 grading) and Sharma et al. 2024 (sycophancy as an aggregate property traced to training) are the technical evidence that the faults are so individuated in practice.",
+        "where": [
+          "O5\u00a72"
+        ]
+      },
+      "finding": {
+        "verdict": "DISTORTED",
+        "confidence": 3,
+        "what_they_actually_hold": "Williams & Bayne use the gloss in passing: researchers who worry about 'hallucinating' or (better) 'confabulating', meaning outputting falsehoods presented as facts, presuppose that some outputs present things as facts and others do not. M\u00e1cha says LLM hallucinations are 'false statements' only when explaining the metaphor. His thesis is that falsity is not the main problem. The problem is that the model has no internal representation of truth, so truth or falsity is irrelevant to generation, and an output may be true by coincidence.",
+        "source": "Williams & Bayne, 'Chatting with Bots: AI, Speech Acts, and the Edge of Assertion' (Inquiry 69(6), 2026; arXiv 2410.16645 preprint), and M\u00e1cha, 'Language Without Propositions: Why Large Language Models Hallucinate' (Philosophies 11(2):42, 2026). I read search-result excerpts, not the full texts, and I could not check the page and section numbers (p. 4, Sec. 2, p. 3).",
+        "url": "https://arxiv.org/pdf/2410.16645 ; https://doi.org/10.3390/philosophies11020042",
+        "note": "The quoted wording is real, but Williams & Bayne's gloss is a passing premise about illocutionary force, not a view on what unit a fault is assessed at. M\u00e1cha places the fault in the generative process and says a true output can still come from it, which is close to the section's own thesis, so he is not a target for it. I could not reach the Kalai, Sharma or Williamson claims, or the full texts.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Williamson (2000, ch. 11): the knowledge rule governs each act of flat assertion, so a policy that is 60% on p and flatly asserts p violates it on that act, and the string-level verdict returns. The section argues that this act-level verdict supervenes on policy facts, that the type of fault differs by content hypothesis (overclaiming on the flat reading, no mismatch on the 'p, with confidence c' reading, nothing assessable on the no-attitude reading), but that the level where the fault is measured, corrected and sanctioned does not move. 'Best' is the claim in dispute, and this is where Williamson is put to work against the string.",
+        "where": [
+          "O5\u00a77"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Williamson holds that assertion is constitutively governed by the knowledge rule: one must assert p only if one knows p. The rule applies to flat-out assertion, which he treats as the default use of the declarative. Breaking it makes a given assertion defective, but he says the speaker may be excused if they reasonably took themselves to know.",
+        "source": "Williamson, Knowledge and Its Limits (2000), ch. 11, as reported in secondary sources (IEP 'Knowledge Norms'; Springer commentary quoting pp. 243, 246, 258). I did not read the primary text. The sources give the rule's wording and its restriction to 'flat-out assertions', and note that violations can be excused.",
+        "url": "https://iep.utm.edu/kn-norms/",
+        "note": "The core ascription holds: the rule applies to each flat-out assertion, so asserting p on 60% confidence breaks it. The policy-supervenience claim, the three content hypotheses and the 'measured, corrected and sanctioned' level are the outline's own extensions, not Williamson's. Williamson separates breaking the rule from blameworthiness, so 'sanctioned' should not be read as his claim.",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Williamson (Knowing and Its Limits, ch. 11) treats assertion as flat-out, governed by the knowledge norm, with hedged assertions carrying weaker contents. If chatbot assertion is flat, the content is p and the calibration facts belong to the speaker and not to what is said. The section fails if that closes the question. Its reply is that chatbot outputs mix flat and explicitly hedged forms, and that Kalai et al. (2025, \u00a75) flag Gricean pragmatics as a route by which implicit confidence could enter content. No source in the reading notes holds that deployed post-trained chatbots are calibrated: Kalai et al. say post-trained models 'may deviate'. The positive claim therefore has no named defender, and the section's risk lies on the Williamson side.",
+        "where": [
+          "O2\u00a77"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 3,
+        "what_they_actually_hold": "Williamson (KAIL ch. 11) argues that the constitutive rule of assertion is the knowledge rule, 'assert p only if you know p'. He uses 'flat-out assertion' for the unhedged speech act, and the secondary literature reads hedges such as 'I think p' or 'probably p' as retreating to a weaker claim rather than a flat assertion of p. The attribution gets the Williamson part right. I could not open the primary text, so the 'weaker contents' point rests on secondary sources.",
+        "source": "Williamson's own phrase 'flat-out assertion' (KAIL 2000: 246), quoted in Willard-Kyle's paper. The IEP entry 'Knowledge Norms' on KNA, with Williamson 1996/2000 ch. 11 and the lottery data. The SEP 'Assertion' entry and Benton's 'Knowledge is the Norm of Assertion'. For Kalai et al. (2025), the arXiv text, which says post-trained models 'may deviate' from calibration. I did not check the \u00a75 Gricean claim.",
+        "url": "https://iep.utm.edu/kn-norms/",
+        "note": "No distortion found. The chatbot-specific claims (the flat-content argument, the Gricean route, and no defender of calibrated chatbots) are the section's own moves, not ascriptions to Williamson. I could not check the Kalai \u00a75 Gricean point or Williamson's exact wording on hedged contents.",
+        "citations": []
+      }
+    }
+  ]
+}

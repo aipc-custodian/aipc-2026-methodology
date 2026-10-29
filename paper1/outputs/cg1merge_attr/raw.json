@@ -1,0 +1,192 @@
+{
+  "mode": "attribution",
+  "source": "cg1merge/raw.json",
+  "citations": [
+    {
+      "title": "Common Ground in Pragmatics",
+      "status": "NOT FOUND",
+      "nearest": "Cross-Cultural Pragmatic Failure",
+      "ratio": 0.48,
+      "where": [
+        "Omerged\u00a76"
+      ]
+    },
+    {
+      "title": "Common Ground",
+      "status": "FOUND",
+      "matched": "Common Ground",
+      "year": 2002,
+      "authors": [
+        "Robert Stalnaker"
+      ],
+      "url": "https://doi.org/10.1023/a:1020867916902",
+      "ratio": 1.0,
+      "where": [
+        "Omerged\u00a72"
+      ]
+    },
+    {
+      "title": "common ground",
+      "status": "FOUND",
+      "matched": "Common Ground",
+      "year": 2002,
+      "authors": [
+        "Robert Stalnaker"
+      ],
+      "url": "https://doi.org/10.1023/a:1020867916902",
+      "ratio": 1.0,
+      "where": [
+        "Omerged\u00a78"
+      ]
+    },
+    {
+      "title": "Context and Content",
+      "status": "FOUND",
+      "matched": "Context and Content",
+      "year": 1999,
+      "authors": [
+        "Robert Stalnaker"
+      ],
+      "url": "https://doi.org/10.1093/0198237073.001.0001",
+      "ratio": 1.0,
+      "where": [
+        "Omerged\u00a77"
+      ]
+    },
+    {
+      "title": "Defining common ground",
+      "status": "FOUND",
+      "matched": "Defining common ground",
+      "year": 2024,
+      "authors": [
+        "Seth Yalcin"
+      ],
+      "url": "https://doi.org/10.1007/s10988-024-09415-7",
+      "ratio": 1.0,
+      "where": [
+        "Omerged\u00a73"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "address": {
+        "text": "Margaret Gilbert's joint-commitment account of shared agency, on which acting together is constituted by a jointly undertaken commitment rather than by what participants individually represent.",
+        "where": [
+          "Omerged\u00a74"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 5,
+        "what_they_actually_hold": "Gilbert argues that joint commitments are centrally constitutive of collective actions and shared agency, and she contrasts her joint commitment account with individualist conceptions that explain shared intention in terms of corresponding personal intentions.",
+        "source": "Multiple sources including reviews of 'Joint Commitment: How We Make the Social World' and scholarly articles discussing her work",
+        "url": "https://ndpr.nd.edu/reviews/joint-commitment-how-we-make-the-social-world/",
+        "note": null,
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Stalnaker's claim in 'Common Ground' (2002) that the phenomena are explained by mutual acceptance of a single conversational state, which licenses assertion and coordination alike.",
+        "where": [
+          "Omerged\u00a72"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 4,
+        "what_they_actually_hold": "Stalnaker (2002) defines common ground as what all members accept for the purpose of conversation, with iterated mutual beliefs about that acceptance. This common ground guides both assertion (proposals to update it) and coordination (speakers formulate utterances based on assumed common beliefs).",
+        "source": "Stalnaker 'Common Ground' Linguistics and Philosophy 25:701-721 (2002), as cited in multiple secondary sources",
+        "url": "https://link.springer.com/article/10.1023/A:1020867916902",
+        "note": "The phrasing 'single conversational state' is reasonable shorthand for Stalnaker's common ground concept",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Stalnaker's unification in 'Context and Content' (1999) and later work, on which apparent functional dissociations are different ways of accessing one context set.",
+        "where": [
+          "Omerged\u00a77"
+        ]
+      },
+      "finding": {
+        "verdict": "CANNOT TELL",
+        "confidence": 4,
+        "what_they_actually_hold": "Stalnaker develops a framework for representing contexts as common ground (context sets of possible worlds compatible with shared presuppositions) and argues for the autonomy of pragmatics and against the priority of linguistic over mental representation.",
+        "source": "Context and Content (1999) and related work on common ground, presupposition, and context",
+        "url": "https://philpapers.org/rec/STACAC-10",
+        "note": "No evidence found that Stalnaker discusses 'functional dissociations' or treats them as different access modes to one context set; this terminology and framing appears absent from his work",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Geurts's inclusive view in 'Common Ground in Pragmatics', on which the competing accounts are complementary aspects of one phenomenon rather than rivals, following Lewis on mutual belief and mutual reasons to believe.",
+        "where": [
+          "Omerged\u00a76"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 5,
+        "what_they_actually_hold": "In the spirit of Lewis, I argue that these various accounts are best viewed as being complementary rather than contrary. Lewis proposed a partial answer by showing how mutual beliefs may track mutual reasons to believe.",
+        "source": "Geurts, Bart. 'Common Ground in Pragmatics', Stanford Encyclopedia of Philosophy, Winter 2024 edition",
+        "url": "https://plato.stanford.edu/archives/win2024/entries/common-ground-pragmatics/",
+        "note": null,
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "Yalcin's account in 'Defining common ground' (2024), on which common ground is common knowledge that p is accepted \u2014 a single publicity condition governing every use of it.",
+        "where": [
+          "Omerged\u00a73"
+        ]
+      },
+      "finding": {
+        "verdict": "HOLDS",
+        "confidence": 5,
+        "what_they_actually_hold": "p is common ground iff it is common knowledge that p is accepted. Thus the attitude that is iterated in the definition of common ground is not acceptance but knowledge.",
+        "source": "Yalcin, 'Defining common ground', Linguistics & Philosophy 47 (2024): 1045-1070",
+        "url": "https://philpapers.org/rec/YALDCG",
+        "note": null,
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "von Fintel's treatment of accommodation as a uniform repair of common-ground failure, on which one process restores the common ground whatever the failure was.",
+        "where": [
+          "Omerged\u00a75"
+        ]
+      },
+      "finding": {
+        "verdict": "DOES NOT HOLD",
+        "confidence": 5,
+        "what_they_actually_hold": "Von Fintel argues that there is no local accommodation, and that the process that explains certain phenomena is different in kind from global presupposition accommodation. He distinguishes between presupposition projection mechanisms and actual (global) accommodation.",
+        "source": "von Fintel 2004a 'Comments on Beaver' and von Fintel 2008 'What is Presupposition Accommodation, Again?'",
+        "url": "http://web.mit.edu/fintel/fintel-2004-comments-on-beaver.pdf",
+        "note": "Von Fintel explicitly argues against uniformity, distinguishing projection from accommodation",
+        "citations": []
+      }
+    },
+    {
+      "address": {
+        "text": "The shared assumption of Stalnaker (2002) and Yalcin (2024) that 'common ground' names a single theoretical kind with a unified functional role.",
+        "where": [
+          "Omerged\u00a78"
+        ]
+      },
+      "finding": {
+        "verdict": "DISTORTED",
+        "confidence": 4,
+        "what_they_actually_hold": "Yalcin (2024) argues against Stalnaker's definition of common ground, proposing instead that it should be defined in terms of common knowledge about acceptance rather than common acceptance, with knowledge rather than belief as the default setting.",
+        "source": "Yalcin, S. 'Defining Common Ground' Linguistics & Philosophy 47: 1045-70 (2024)",
+        "url": "https://link.springer.com/article/10.1007/s10988-024-09415-7",
+        "note": "Yalcin challenges rather than shares Stalnaker's unified account; the paper argues for contrasting theses",
+        "citations": []
+      }
+    }
+  ]
+}

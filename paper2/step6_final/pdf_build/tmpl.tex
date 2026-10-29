@@ -1,0 +1,25 @@
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\usepackage{setspace}\setstretch{1.2}
+\usepackage[margin=1.15in]{geometry}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\itshape}{}{0pt}{}
+\titlespacing*{\section}{0pt}{1.6em}{0.6em}
+\titlespacing*{\subsection}{0pt}{1.1em}{0.4em}
+\setcounter{secnumdepth}{0}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}\urlstyle{same}
+\hypersetup{pdfauthor={},pdfcreator={},pdfproducer={},pdftitle={$title$}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setlength{\parindent}{1.5em}\setlength{\parskip}{0.2em}
+\begin{document}
+\begin{center}{\LARGE\bfseries $title$\par}\end{center}
+\vspace{1em}
+$if(abstract)$
+\begin{quote}\small\noindent\textbf{Abstract.} $abstract$\end{quote}
+\vspace{0.5em}
+$endif$
+$body$
+\end{document}

@@ -1,0 +1,365 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "Chatbot outputs are indexed to a represented speaker (the assistant character), so the make-believe need not sit in users, who can read literally. Whether post-training removes that indexing or only narrows the repertoire is an open empirical question. Calling the base case Searle's pretended illocution is not established.",
+        "headline": "The fiction in chatbot speech sits on the production side, not the consumption side. A model completing an assistant-persona transcript is in the position of an author writing a character's dialogue. Searle's pretended illocutions are therefore the right base case, and users' engagement with chatbots need not be fictional at all.",
+        "used_surviving": true,
+        "target": "Mallory's placement of the pretence in the user, and the shared assumption of Gubelmann, Butlin and Viebahn, and Attah that the issue is whether the model performs serious illocutions.",
+        "sketch": "Mallory locates the make-believe in users, who pretend that the chatbot says things. But a base model trained on text is a continuer of documents, and the 'assistant' is a character in a transcript it is extending. This is the role-play picture (Shanahan) read in speech-act terms. Searle and Austin treat an author's writing of a character's assertion as a non-serious illocution that commits the author to nothing. If so, the realist-versus-denier debate has been looking for the wrong thing. 'Does the model assert?' presupposes a serious frame, whereas the model's default frame is authorial. The real question is whether post-training (RLHF, groundedness tuning) shifts the system from authorial pretence to serious performance, or only makes the pretence more stable. The key premise is that the serious/non-serious distinction applies to the producer's mode of speech act, and that distinction can be asked of a system without asking whether it has intentions. Users can then be perfectly literal consumers of what is, on the producer side, fiction. That is a structurally odd and so far undescribed situation, like reading a very reliable novel as a reference book. It also explains why the intention and sanction conditions seem unsatisfied: they are conditions on serious performance, which was never the model's default mode.",
+        "promise": 4,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "Mallory fictionalism about chatbots users pretend",
+          "Gubelmann large language models speech acts assertion",
+          "Butlin Viebahn AI assertion",
+          "Attah chatbots assertion illocution language models",
+          "Shanahan role play with large language models simulacra",
+          "LLM assertion non-serious speech act author fictional character Searle pretended illocution",
+          "Attah large language models assert serious illocutionary acts",
+          "post-training assistant persona base model simulates character pretraining RLHF narrows persona repertoire"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Named target 1: where the make-believe sits (user vs. producer), and whether users read literally",
+            "source": "Mallory, \"Fictionalism about Chatbots\", Ergo 10, 2023",
+            "url": "https://philpapers.org/rec/MALFAC-3",
+            "what_they_say": "<cite index=\"5-6\">Engagement with chatbots is a form of prop-oriented make-believe; outputs are literally meaningless but fictionally meaningful.</cite> A secondary report says <cite index=\"8-7\">users imagine, of their text exchange with a chatbot, that they are in meaningful conversations with an agent.</cite> A third source summarises the view as <cite index=\"6-2\">treating the chatbot as a fictional character with linguistic capacities, including assertion.</cite>",
+            "damage": 2,
+            "note": "The ascription to Mallory is confirmed: the pretence is in users, and the outputs are literally meaningless. This is a rival to answer, not an anticipation. Nothing seen has Mallory placing the pretence on the producer side or using Searle's pretended-illocution notion. I saw only the abstract and secondary reports, not the full text."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Named target 2 (Gubelmann): the assumption that the issue is whether the model illocutes",
+            "source": "Gubelmann, \"Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now)\", Philosophy & Technology 37, 2024",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00696-1",
+            "what_they_say": "The argument runs: <cite index=\"59-9,59-10,59-11,59-12\">to be a speaker, a being must illocute; to illocute it must have intentions; LLMs have none; so LLMs are not speakers.</cite>",
+            "damage": 1,
+            "note": "This confirms the question is framed as 'does the model illocute?' and that it is settled by intentions. The word 'serious' does not appear in what I saw, so 'serious illocutions' is the thesis's gloss, not Gubelmann's wording. A related paper's abstract (a different work, author not visible in the snippet) says persona adoption is only simulation, which is a different line from the thesis."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Named target 2 (Butlin & Viebahn): the assumption, and the base-model vs post-trained contrast",
+            "source": "Butlin & Viebahn, \"AI Assertion\", Ergo 12, 2025",
+            "url": "https://philpapers.org/rec/BUTAAJ",
+            "what_they_say": "<cite index=\"19-3\">An entity must produce outputs with descriptive functions and be capable of being sanctioned.</cite> <cite index=\"19-5,19-6\">Pre-trained models without fine-tuning fail the first requirement. Models fine-tuned for groundedness or correctness may meet the first requirement but fail the second.</cite>",
+            "damage": 2,
+            "note": "The question is indeed 'can the system assert?'. They already treat pre-training against fine-tuning as the dividing line, which is structurally close to the thesis's open question about post-training. They do so in terms of function and sanction, not authorial pretence, so a referee will raise it. The thesis's sanction-condition remark is its gloss and should be credited to this contrast. I saw only the abstract."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Named target 2 (Attah): the assumption that the issue is intentions/performance",
+            "source": "Attah, \"Do language models lack communicative intentions?\", Synthese 205, 2025",
+            "url": "https://link.springer.com/article/10.1007/s11229-025-05022-6",
+            "what_they_say": "<cite index=\"61-7\">Alternatives to the strong Gricean conception reduce communicative intentions to basic intentions to use language to trigger an illocutionary or perlocutionary effect in a hearer.</cite> <cite index=\"61-4,61-5\">The paper then asks whether LMs actually have such intentions or merely appear to.</cite>",
+            "damage": 1,
+            "note": "The question is framed as whether LMs have communicative intentions. The snippets show no serious/non-serious frame question, so the thesis's characterisation is fair as far as I saw. I did not see the full text."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "FRAMEWORK",
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "The role-play picture: the 'assistant' as a character, and the claim that this removes the need to ascribe human speech-act capacities",
+            "source": "Shanahan, McDonell & Reynolds, \"Role play with large language models\", Nature 623, 2023",
+            "url": "https://arxiv.org/pdf/2305.16367",
+            "what_they_say": "<cite index=\"40-9\">Casting dialogue-agent behaviour as role play allows folk-psychological terms without ascribing human characteristics to the models.</cite> A secondary summary quotes the paper: <cite index=\"43-8\">\"With a dialogue agent, it is role-play all the way down.\"</cite>",
+            "damage": 2,
+            "note": "This is the broader view the thesis applies, and the thesis already credits it. It treats (apparent) deception and self-awareness through role play, which is near speech-act territory. I saw no Searle/Austin non-serious illocution analysis and no producer-side pretence applied to assertion in these snippets. 'All the way down' bears on the thesis's open question and leans towards role-play persisting after post-training; the thesis should engage with that."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "FRAMEWORK",
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Base model as continuer of documents; assistant as a character; post-training as refining one persona",
+            "source": "Marks, Lindsey & Olah et al., \"The Persona Selection Model: Why AI Assistants Might Behave Like Humans\", Anthropic / LessWrong post, 2026",
+            "url": "https://www.lesswrong.com/posts/dfoty34sT7CSKeJNn/the-persona-selection-model",
+            "what_they_say": "<cite index=\"67-3\">Interactions with an AI assistant are well understood as interactions with the Assistant, something roughly like a character in an LLM-generated story.</cite> <cite index=\"67-13\">A pre-trained LLM is somewhat like an author who must psychologically model the characters in a story.</cite>",
+            "damage": 2,
+            "note": "This is the author/character picture the thesis relies on, from ML rather than philosophy. It contains no speech-act or serious/non-serious analysis in what I saw, so it is FRAMEWORK, not ANTICIPATED. A referee will want it cited for the premise that the assistant is a character in a transcript."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "The empirical question: does post-training remove the character-indexing or only narrow the repertoire?",
+            "source": "Tracing Persona Vectors Through LLM Pretraining (arXiv 2605.13329, 2026); LLM Persona Unlearning (arXiv 2609.39882); Shiller's summary of PSM, Eleos AI substack, 2026",
+            "url": "https://arxiv.org/pdf/2605.13329",
+            "what_they_say": "<cite index=\"70-3\">Post-training reshapes persona expression without erasing the pretraining-formed direction.</cite> <cite index=\"73-3\">Post-training makes a helpful Assistant the default but does not erase alternative modes from the weights.</cite> <cite index=\"69-6\">PSM holds that RLHF does not eliminate the persona repertoire but shifts its weight toward the assistant.</cite>",
+            "damage": 1,
+            "note": "This is evidence for the 'narrows the repertoire' horn. It concerns personas, not whether the speech-act frame shifts from authorial to serious, so the thesis's question stays open. Whether the persona-level finding transfers to the frame level is a gap the thesis should name."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Searle's pretended-illocution account of the author's act, which the thesis says is 'not established' for the base case",
+            "source": "\"The force of fictional discourse\", Synthese, 2022 (authors not visible in snippet)",
+            "url": "https://link.springer.com/article/10.1007/s11229-022-03955-w",
+            "what_they_say": "<cite index=\"48-6,48-7\">On the pretense view, fictional discourse is pretend assertion, so the author's statement has no illocutionary force.</cite> The authors criticise this and <cite index=\"48-9\">propose that the statement has the illocutionary force of a declaration.</cite>",
+            "damage": 1,
+            "note": "This supports the thesis's caution: Searle's pretence account of the author's act is contested in the fiction literature. It also marks a rival force-analysis (declaration) for the producer side. A Searle-based secondary source (Halion) confirms <cite index=\"47-4\">fictional discourse consists of pretended illocutions</cite>, and that <cite index=\"47-13\">the utterances are propositions for the readers but not for the author.</cite> That is secondhand support for the thesis's reading of Searle. I did not check Austin's text."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "The 'structurally odd, undescribed' user\u2013output situation",
+            "source": "\"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026 (author not visible in snippet)",
+            "url": "https://link.springer.com/article/10.1007/s13347-026-01136-y",
+            "what_they_say": "<cite index=\"62-5\">Human\u2013LLM interaction is neither full communication nor mere illusion, but a configuration in which assertoric function is realised without assertoric authority.</cite>",
+            "damage": 2,
+            "note": "A referee may cite this against 'so far undescribed'. It describes a structurally novel case where users take outputs as assertions. It locates the oddity in missing accountability, not in the producer's non-serious mode, so it is not the same claim. I saw only snippets."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Whether anything is performed on the producer side at all (rival to a 'pretended illocution' base case)",
+            "source": "\"Artificial Speech Acts\", Analysis, 2026 (author not visible in snippet); Williams & Bayne, \"Chatting with bots\", Inquiry 69, 2024",
+            "url": "https://doi.org/10.1093/analys/anag022",
+            "what_they_say": "<cite index=\"65-3\">A norm-based argument against LLM assertion can be generalised to support a negative answer on whether LLMs perform speech acts.</cite> Williams & Bayne <cite index=\"10-12\">consider proxy-assertion and fictionalism and argue that neither is satisfactory.</cite>",
+            "damage": 2,
+            "note": "If LLMs perform no speech acts, a 'pretended illocution' base case would need a producer to pretend, and that is a rival to answer. Williams & Bayne's objections to fictionalism are not visible in what I saw, so I cannot say whether they bear on the thesis's producer-side move."
+          }
+        ],
+        "what_is_left": "Nothing I found meets the ANTICIPATED standard. The thesis keeps its claim that the pretence relevant to chatbot speech acts can be located on the producer side, in the model's authorial frame, so that users may be literal consumers. It must answer Mallory's user-side placement and his literal-meaninglessness claim, and the no-speech-act view. It must also say why the persona-level evidence on post-training bears on the frame-level question. It should not call this absence of hits originality.",
+        "credit": [
+          "Shanahan, McDonell & Reynolds 2023 \u2014 role-play as the right description of dialogue agents, without ascribing human characteristics",
+          "Marks et al. 2026 (Persona Selection Model) \u2014 pre-trained LLM as author modelling characters; the assistant as one character; post-training refines a persona rather than building one",
+          "Mallory 2023 \u2014 chatbot output as fictionally meaningful and the make-believe move itself, which the thesis relocates",
+          "Butlin & Viebahn 2025 \u2014 the pre-trained vs fine-tuned contrast for assertion, and the sanction condition",
+          "Searle 1975 (via secondary sources) \u2014 pretended illocution as the account of fictional discourse"
+        ],
+        "not_found": "I did not search the empirical literature on users: psychology or HCI work on whether users read chatbot output literally or as pretence, anthropomorphism studies, or user mental models. The one empirical-adjacent result was Mallory's own use of the ELIZA effect, seen secondhand. I did not search linguistics or pragmatics work on frames or fiction, or any experimental test of whether post-trained models stay in a fictional frame. So the 'users can read literally' premise has no empirical check here. The ML persona literature I did reach is not about users. I did not retrieve full texts for Mallory, Gubelmann, Butlin & Viebahn, Attah, Shanahan et al., or Williams & Bayne's critique of fictionalism, and I did not check Austin's own text. Cited-only items I could not examine: Rosen & Dale 2024 ('LLMs don't do things with words'), Kim 2023 (reported as suggesting fictionalism), Sweeney 2021, Butlin 2026 ('The agency in language agents'), and Beckmann & Butlin 2026 ('Where is the mind? Persona vectors and LLM individuation'). Any of these could be closer than what I saw. I found no source that casts the base-model-as-document-continuer in Searle/Austin serious/non-serious terms and applies it to the realist-versus-denier debate, but this silence covers a large, partly paywalled literature and is weak evidence.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "speech-acts",
+      "assertion",
+      "fiction"
+    ],
+    "why": "The theses concern whether chatbot outputs are serious assertions or Searle/Austin-style non-serious illocutions made by an author, which is the territory of the speech-acts entry (serious versus pretended illocution) and the assertion entry (the realist-versus-denier debate), with fiction covering the make-believe and authorial-pretence framing.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Speech acts require speaker meaning, i.e. overtly manifesting a commitment or an intention to be taken as performing the act. A speaker with no such intention (a joker, actor, or storyteller) does not thereby perform the act. This bears on whether chatbot outputs are speech acts of anyone, and on whether the pretence sits with the speaker or the audience.",
+                "who": "Green (the entry's author), following Strawson and Grice",
+                "quote": "We perform a speech act, then, when we overtly commit ourselves in a certain way to a content\u2014where that way is an aspect of how we speaker-mean that content.",
+                "damage": 2,
+                "note": "Supplies the speaker-meaning/commitment framework the thesis must be situated in. The entry never applies it to non-human or represented speakers."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "The entry's own examples of actors and jokers show that an utterance in assertoric form need not be an assertion. This is the entry's only treatment of pretended or simulated illocutions. It supports the thesis's point that pretence can attach to the producer or role rather than the audience.",
+                "who": "Davidson 1979, discussed by Green 1997 and Hare 1989",
+                "quote": "every joker, storyteller, and actor will immediately take advantage of the strengthened mood to simulate assertion.",
+                "damage": 1,
+                "note": "Supports the idea that simulated force is a real category. It is not Searle's pretended-illocution doctrine, which the entry never mentions."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Uptake and audience response can determine whether an illocution succeeds. The make-believe may therefore be located on the audience side or the speaker side. Hearers can fail to grant or deny uptake.",
+                "who": "Austin; Langton; Hornsby and Langton; Bird; Maitra",
+                "quote": "Other attempts at speech acts might misfire because their addressee fails to respond with an appropriate uptake",
+                "damage": 1,
+                "note": "Gives a way to ask whether users reading literally affects what act is performed. The entry says nothing about chatbots."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Dogwhistling: different parts of the audience take different speaker-meanings from the same utterance, and what is manifest to one addressee may not be to another. This is a structural analogue to users reading literally while the output is indexed to a represented speaker.",
+                "who": "Saul 2018; Green",
+                "quote": "What is manifest to one addressee may not be manifest to another, and a speaker may exploit this fact.",
+                "damage": 1,
+                "note": "Analogy for audience-relative speaker meaning."
+              }
+            ],
+            "nearest_positions": [
+              "Speech acts require speaker meaning / overt manifestation of commitment, so who the speaker is matters \u2014 Green, following Grice and Strawson",
+              "Force and the actor/joker case: simulated assertion is not assertion; no force indicator can guarantee force \u2014 Davidson 1979, with replies from Hare 1989 and Green 1997",
+              "Uptake-dependence of illocutions, with audience response partly constituting the act \u2014 Austin, Langton, Hornsby and Langton, Bird, Maitra"
+            ],
+            "entry_silent_on": "Chatbots, language models, AI-generated text and post-training are never discussed. The entry also has no discussion of Searle's pretended illocutions, or of 'represented' or fictional speakers beyond actors and jokers in passing. It says nothing on whether a non-agent output can carry illocutionary force, or on make-believe located in producer versus audience. (The bibliography lists Shoham 1993 on agent-oriented programming, but the body text never discusses it.)"
+          }
+        ],
+        "slug": "speech-acts",
+        "url": "https://plato.stanford.edu/entries/speech-acts/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry's only treatment of performed, non-sincere speech is the actor on stage. The actor represents himself as asserting and as believing, but the audience is not invited to attribute the belief to the actor. This is the nearest analogue to a speaker-indexed, make-believe utterance. It is discussed only to show that 'represent oneself as believing' must be weaker than world-representing and stronger than stage representing.",
+                "who": "The entry's own discussion, in the context of Black and Davidson on self-representation",
+                "quote": "it must also be stronger than the sense of \"represent\" by which an actor can be said to represent himself as believing something on stage... But the audience not invited to believe that the speaker, that is, the actor, has that belief.",
+                "damage": 2,
+                "note": "A passing contrast case about actors. It does not address chatbots, represented characters, or whether users can read literally."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Force is separable from sentence form and from convention. Davidson, and Bach and Harnish, say any conventional force-indicator can be used where the corresponding force is missing, including impersonation and theatrical performance. This supports the thesis that a fluent assertoric-looking output need not carry assertoric force by virtue of its surface features.",
+                "who": "Davidson (1979, 1984); Bach & Harnish (1979)",
+                "quote": "any conventional sign could be used (and would be used) in insincere utterances, where the corresponding force was missing, including cases of deception, jokes, impersonation and other theatrical performances.",
+                "damage": 2,
+                "note": "Gives a base for treating the assistant's outputs as force-detached. It says nothing about who holds the make-believe."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Pagin's cognitive account makes assertion prima facie informative. The hearer's default uptake is tied to surface features such as declarative form. This bears on the claim that users 'can read literally': users take the default hearer stance regardless of what the producer is doing.",
+                "who": "Pagin (2011, 2020)",
+                "quote": "it is the cognitive patterns associated with surface features, on the production and comprehension sides, that characterize assertion.",
+                "damage": 2,
+                "note": "A rival or complementary frame on where the assertion-like stance lives, speaker or hearer. It is not about chatbots."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Stalnaker's model has content entering the common ground by acceptance for the purposes of conversation, without belief. The roles of assertion are shared with assuming and conjecturing. This is a precedent for pretence-like acceptance without sincere assertion.",
+                "who": "Stalnaker (1974, 1978, 2002)",
+                "quote": "What is added to the common ground is only for the purpose of conversation, and need not be actually believed by the participants.",
+                "damage": 1,
+                "note": "A loose neighbour. It does not locate the make-believe in a represented speaker."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Searle's account of assertion rests on constitutive rules, preparatory and sincerity conditions, and reflexive intentions. The entry gives no pretence or 'pretended illocution' account. This is what the thesis says is 'not established', so the entry leaves that point open rather than confirming or denying it.",
+                "who": "Searle (1969, 1975b, 1979); Searle & Vanderveken (1985)",
+                "quote": "The fifth rule is the crucial one, and is held to be constitutive of assertion.",
+                "damage": 1,
+                "note": "The entry presents Searle only as a theorist of sincere or defective assertion, not of pretended illocution. This supports the thesis's caution but supplies nothing on pretence."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Hearer-directed accounts, namely self-representation and commitment, locate assertoric force in what the speaker presents or answers for. A chatbot output with no accountable speaker would fail those conditions, which pressures the claim that outputs are indexed to a represented speaker. Pagin's objection to commitment sufficiency also shows hearer-directed accounts can be separated from assertion.",
+                "who": "Black (1952); Davidson (1984); Brandom (1994); Peirce; Green; Pagin (2004)",
+                "quote": "in asserting that p the speaker represents herself as believing that p.",
+                "damage": 2,
+                "note": "A referee would ask whether the 'represented speaker' is the self-representation of Black and Davidson. The entry does not extend it to non-agents."
+              }
+            ],
+            "nearest_positions": [
+              "Self-representation account: asserting is representing oneself as believing or knowing, with the actor-on-stage contrast as limiting case \u2014 Black (1952), Davidson (1984), Unger (1975), Slote (1979), Green (2007)",
+              "Force is not carried by conventional indicators, since any such sign can be used in impersonation or theatre without force \u2014 Davidson (1979, 1984), Bach & Harnish (1979)",
+              "Commitment and constitutive-rule accounts of assertion, where sincere assertion is distinguished by accountability or rules \u2014 Searle (1969), Brandom (1994), Green, Pagin (2004) on insufficiency"
+            ],
+            "entry_silent_on": "Chatbots, language models and any artificial speaker are never mentioned. The entry also has no account of pretence or make-believe (Walton-style), nor of a Searlean 'pretended illocution', nor of who bears the make-believe, speaker or audience. It does not address post-training or its effect on the repertoire of outputs. It does not say whether a hearer reading literally can be correct when the speaker does not assert."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "PRECEDENT",
+                "grade": "FRAMEWORK",
+                "position": "Outputs are attributed to a represented teller, not just to the real author. Currie's 'fictional author' is a character constructed within our make-believe who tells the story as known fact. Lewis's footnote lets the teller be a raver, a translator and so on, and says to consider worlds where the telling really is whatever it purports to be.",
+                "who": "Currie 1990; Lewis 1978 (fn. 7); Byrne 1993 (idealised Author)",
+                "quote": "that fictional character constructed within our make-believe whom we take to be telling us the story as known fact",
+                "damage": 2,
+                "note": "Gives the idea of indexing to a represented speaker. The entry never applies it to non-literary or interactive outputs, so the thesis is an application."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "Walton places the make-believe in consumers. A work is fiction if it is a prop prescribing imaginings by readers. The entry says authors may also pretend, but that what is crucial is the requirement on consumers.",
+                "who": "Walton 1990",
+                "quote": "what is crucial to a work of fiction is that this is a requirement on consumers of fiction",
+                "damage": 3,
+                "note": "A rival the thesis must answer when it says make-believe need not sit in users. It is not a conclusive closure."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Searle's pretended-illocution account is reported as inadequate: pretense is neither necessary nor sufficient for fiction, since mimicry and irony also involve pretended illocutions. Kripke and Lewis used pretense without defining fiction by it. This backs the claim that calling the base case Searle's pretended illocution is not established.",
+                "who": "Currie 1990: 17; Searle 1975; Lewis; Kripke",
+                "quote": "not only is pretense not necessary for something to be (part of) a work of fiction, it is also not sufficient",
+                "damage": 1,
+                "note": "Supplies the grounds for the caution about Searle."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Readers may engage with texts without adopting the fictive or imaginative mode. Matravers says experience is the same whether or not the reader believes the text is fiction. Friend says readers differ in expectations and reading strategy. Walton says one can read without asking what the author meant. This lends some support to users reading literally, though none of it concerns chatbots.",
+                "who": "Matravers 2014; Friend 2012; Walton 1990",
+                "quote": "The experience of reading de Quincey's \"The Revolt of the Tartars\" is the same whether we believe it is non-fictional, believe it is fictional, or ... we are ignorant",
+                "damage": 1,
+                "note": "Only indirectly relevant: it shows the reader's stance is contested and context-dependent."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Searle locates the pretense in the author's illocutionary intentions, not in the audience. Currie, and Lamarque and Olsen, locate fictionality in the author's intention that readers make-believe. Both are author-side accounts a referee would raise. Genre-based classification (Friend) is another way context fixes the status of an output.",
+                "who": "Searle 1975; Currie 1990; Lamarque & Olsen 1994; Friend 2012",
+                "quote": "the identifying criterion for whether or not a text is a work of fiction must of necessity lie in the illocutionary intentions of the author",
+                "damage": 2,
+                "note": "In the thesis the pretense is not located in an author or a user, so it sits awkwardly with all of these."
+              }
+            ],
+            "nearest_positions": [
+              "Pretended illocution by the author \u2014 Searle 1975 (adopted by Kripke and Lewis without defining fiction by it)",
+              "Fiction as prop in consumers' games of make-believe \u2014 Walton 1990",
+              "Fictive utterance with a fictional author or teller constructed in our make-believe \u2014 Currie 1990, 1998"
+            ],
+            "entry_silent_on": "Chatbots, language models, AI-generated text, post-training or fine-tuning, and any interactive or non-authored speaker persona. The entry also does not discuss whether a persona's repertoire narrows or its indexing is removed, or any empirical question of that kind. Its fictional-author and narrator discussion concerns authored literary works only."
+          }
+        ],
+        "slug": "fiction",
+        "url": "https://plato.stanford.edu/entries/fiction/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "Chatbot outputs are indexed to a represented speaker (the assistant character), so the make-believe need not sit in users, who can read literally. Whether post-training removes that indexing or only narrows the repertoire is an open empirical question. Calling the base case Searle's pretended illocution is not established."
+  ]
+}

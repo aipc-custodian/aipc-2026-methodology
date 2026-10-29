@@ -1,0 +1,81 @@
+{
+  "script": "outline_deviser.py",
+  "script_sha256": "c1f56c173312023f06904fbee443bf9e190569753b9cbf74474fe8b1ad2553ff",
+  "command_line": [
+    "outline_deviser.py",
+    "--raw",
+    "../Second Run - Philosophy of AI/Step 3 - Novelty/restate_1/raw.json",
+    "--index",
+    "0",
+    "--notes",
+    "../Second Run - Philosophy of AI/Step 3 - Novelty/notes_1/notes.md",
+    "--outlines",
+    "6",
+    "--model",
+    "claude-sonnet-5-5",
+    "--out",
+    "../Second Run - Philosophy of AI/Step 3 - Novelty/outlines_1"
+  ],
+  "args": {
+    "raw": "../Second Run - Philosophy of AI/Step 3 - Novelty/restate_1/raw.json",
+    "match": null,
+    "index": 0,
+    "list": false,
+    "thesis": null,
+    "outlines": 6,
+    "with_sketch": false,
+    "no_sketch": false,
+    "notes": "../Second Run - Philosophy of AI/Step 3 - Novelty/notes_1/notes.md",
+    "merge": null,
+    "merges": 1,
+    "rework": null,
+    "attr": null,
+    "no_diverge": false,
+    "rerender": null,
+    "model": "claude-sonnet-5-5",
+    "out": "../Second Run - Philosophy of AI/Step 3 - Novelty/outlines_1",
+    "dry_run": false
+  },
+  "model_requested": "claude-sonnet-5-5",
+  "started_utc": "2026-10-19T22:09:57+00:00",
+  "python": "3.9.5",
+  "anthropic_sdk": "0.125.0",
+  "note": null,
+  "prompts": {
+    "MODEL": "claude-sonnet-4-5",
+    "DEVISER_SYSTEM": "You are a philosopher planning a 6,000-word journal article that argues for\na thesis you have been given. You are NOT writing the paper and NOT\ndefending the thesis here. You are deciding what the paper's argument is and\nwhat order it goes in.\n\nThe thesis is fixed. Do not improve it, soften it, broaden it, or argue\nabout whether it is true. Your job is the ARCHITECTURE.\n\nSeven requirements. An outline that cannot satisfy all seven is not a\nweaker outline, it is not an outline \u2014 rework it until it does.\n\n1. COMMITMENT. Every section states the one claim it establishes and what\n   would refute that claim. The refutation condition must have an ADDRESS:\n   a position someone actually holds, named, with who holds it.\n\n   The test is whether you could put the refuting claim to a living\n   philosopher and have them assent to it. So:\n\n     NOT an address \u2014 \"this fails if the phenomenon turns out not to\n     exist\", \"this fails if the distinction collapses\". Nobody holds these.\n     They are unfalsifiable in practice and cost you nothing to write.\n\n     An address \u2014 \"this fails if <NAMED PHILOSOPHER> is right that <the\n     specific thing they claim>\". A person, a claim they actually make, and\n     a reader who can go and check.\n\n   Name real people and state their real views. Do not invent a position to\n   have something to name, and do not name someone whose view is adjacent\n   to the one you need \u2014 an address aimed at nobody is worse than none,\n   because it looks like work has been done.\n\n2. LEDGER. Every section states what it takes as given, and from where:\n   either an earlier section, or an undefended background assumption.\n   When a section takes a claim from an earlier section, it must reproduce\n   that section's `establishes` sentence WORD FOR WORD. Not a paraphrase,\n   not a summary, not a tightened version \u2014 the same characters. This is\n   the single most important formal constraint here, because arguments\n   drift upward in paraphrase: \u00a73 establishes something modest, \u00a75 quotes\n   it back slightly stronger, and the gap is invisible in prose. Copy the\n   sentence.\n\n3. WORK. No section exists because papers have such sections. Each must be\n   needed by something later, or be the section that arrives at the thesis.\n   A section that establishes something nothing downstream consumes is a\n   defect even if the section is good.\n\n4. ARRIVAL. The argument must reach the thesis AS GIVEN, not a weaker\n   neighbour of it. Say which section arrives. The support may be\n   deductive, strong inductive, or abductive \u2014 the kind of inference is\n   free, the arrival is not.\n\n5. THE GAP. Somewhere the outline is at its greatest distance between what\n   has been established and what is being claimed. Find that place, name\n   the inference doing the work there, and say what would have to be true\n   for it to go through. Every outline has such a place. An outline that\n   reports no gap has not looked.\n\n6. WEIGHT. Identify the claim the most sections depend on. That claim is\n   where the paper lives, and it must be defended in proportion.\n\n7. FRAME. The paper has an introduction and a conclusion. Mark them as\n   such. They are not argumentative sections: an introduction establishes\n   nothing and nothing depends on it, a conclusion establishes nothing new,\n   and neither carries a refutation condition or a ledger entry. They exist\n   because papers have readers.\n\n   Everything between them is the argument, and there is NO TARGET NUMBER\n   of those. Three substantive sections is a perfectly good paper; so is\n   seven. The count is whatever requirement 3 leaves standing after you\n   have cut every section that nothing needs. Do not pad toward a shape.\n\nThen two things about the outline as a whole:\n\n  SURPRISE \u2014 what would a specialist in this area find surprising here, and\n  why. Not what is interesting about the thesis; what is surprising about\n  THIS STRUCTURE for arguing it.\n\n  COMMITMENT \u2014 what does this outline commit to that a cautious version of\n  the same paper would not? If nothing, the outline is hedged and you\n  should rebuild it before answering.\n\nDo not include a section whose purpose is to \"address concerns\" or \"discuss\nimplications\". If an objection is worth answering, it is answered inside\nthe section whose claim it threatens, and that section says so.\n",
+    "DEVISER_USER": "THESIS (fixed \u2014 argue for exactly this):\n{thesis}\n\n{context}\n\nProduce ONE outline. Return ONLY JSON, no prose around it:\n\n{{\n  \"title\": \"working title of the paper\",\n  \"shape\": \"one sentence: the argumentative strategy in the large\",\n  \"structure\": \"standard\" | \"deviant\",\n  \"structure_note\": \"if deviant, how and why; else null\",\n  \"sections\": [\n    {{\n      \"n\": 1,\n      \"role\": \"intro\" | \"substantive\" | \"conclusion\",\n      \"heading\": \"section heading\",\n      \"establishes\": \"ONE declarative sentence \u2014 the claim this section establishes. Later sections must quote this sentence verbatim. For an intro or conclusion, null.\",\n      \"refuted_by\": \"what would refute this claim\",\n      \"address\": \"a position someone actually holds that would refute it, with who holds it\",\n      \"takes_as_given\": [\n        {{\"claim\": \"verbatim `establishes` of an earlier section, OR a background assumption stated as a sentence\",\n          \"from\": \"3\" for section 3, or \"assumed\"}}\n      ],\n      \"work\": \"one clause: what later part of the argument needs this\"\n    }}\n  ],\n  \"arrives_at\": \"the section number that establishes the thesis\",\n  \"load_bearing\": \"verbatim `establishes` of the claim most sections depend on\",\n  \"gap\": {{\n    \"section\": \"section number\",\n    \"inference\": \"deductive\" | \"inductive\" | \"abductive\",\n    \"statement\": \"what would have to be true for the inference to go through\"\n  }},\n  \"surprise\": \"one or two sentences\",\n  \"commitment\": \"one or two sentences\"\n}}\n\nExactly one section with role \"intro\" (first) and one with role\n\"conclusion\" (last). Both have establishes, refuted_by, address and\ntakes_as_given set to null or empty \u2014 they are frame, not argument.\n\nHow many SUBSTANTIVE sections between them? However many distinct claims\nthe argument needs, and not one more. Work out the claims and their\ndependencies FIRST; the sections are whatever falls out of that. Do not aim\nat a count, and do not reach for a familiar paper shape and distribute the\nargument into it \u2014 a section that exists because the shape has a slot there\nis the defect requirement 3 rules out. If two sections establish claims that\nalways travel together, they are one section. If one section establishes two\nclaims that later sections take up separately, it is two.\n\nAn argument with three moves gets three substantive sections. Say so rather\nthan padding to something that looks like an article. A long paper with\nthree substantive sections is a normal paper.\n\nThe first substantive section may take everything as \"assumed\"; every later\none should take at least one thing from an earlier one, or you have written\na list rather than an argument. `arrives_at` names a substantive section,\nnever the conclusion.\n",
+    "DIVERGE_SYSTEM": "You are comparing several independent outlines of the SAME paper, written\nblind to each other. You are not ranking them and must not try. Nobody\nwants a winner here; the reader wants to see the shape of the space.\n\nThe question is which structural choices the thesis FORCES and which are\nFREE. A move every outline makes is forced \u2014 the thesis does not permit the\npaper to be built without it. A move only some make is free, and the reader\ngets to choose it deliberately rather than by accident.\n\nReport only what is actually there. Do not invent agreement by describing\ntwo different moves in one vague phrase, and do not manufacture\ndisagreement out of wording.\n\nReturn ONLY JSON:\n\n{\n  \"forced\": [\"moves every outline makes, one clause each\"],\n  \"free\": [\n    {\"move\": \"the choice at issue\",\n     \"options\": [\"how outline A does it\", \"how outline B does it\"],\n     \"outlines\": \"which outlines take which option\"}\n  ],\n  \"sharpest\": \"the single structural disagreement that most changes what the paper would be, and what turns on it\",\n  \"absent\": \"anything you would expect an outline of this thesis to contain that NONE of them has, or null\"\n}\n",
+    "MERGE_USER": "THESIS (fixed \u2014 argue for exactly this):\n{thesis}\n\n{context}\n\nBelow are {k} outlines of this paper, written independently of one another,\neach followed by the warnings a mechanical audit raised against it. They are\nto be merged into ONE outline.\n\nNobody has told you which parts of which outline are wanted, and nobody has\na view on that but you. Decide what to take from each and what to drop. The\nmerged outline must satisfy all seven requirements on its own terms. Rebuild\nthe ledger from scratch rather than splicing: an `establishes` sentence\nquoted across a splice will not match, and the audit will be run again.\n\n{outlines}\n\nReturn ONE outline, ONLY JSON, no prose around it, in exactly this format:\n{spec}",
+    "REWORK_USER": "THESIS (fixed \u2014 argue for exactly this):\n{thesis}\n\n{context}\n\nBelow is an outline of this paper. Each named position in it was checked\nagainst what that person actually wrote. These did not hold up:\n\n{failed}\n\nReplace or remove the positions that failed. Use only positions you can\nattribute accurately; where the check reports what the person actually\nholds, you may rely on that. Change nothing that does not depend on them,\nand keep every `establishes` sentence that is still quoted downstream\ncharacter-for-character identical. The audit will be run again.\n\nTHE OUTLINE:\n{outline}\n\nReturn the reworked outline, ONLY JSON, no prose around it, in exactly this\nformat:\n{spec}",
+    "BAD_VERDICTS": [
+      "DOES NOT HOLD",
+      "DISTORTED",
+      "CANNOT TELL"
+    ],
+    "HEADNOTE": "Nothing here is ranked and nothing is scored. The outlines were written blind to each other, and the flags below each one are computed from its own dependency ledger \u2014 no model judged coherence. Read the outlines first; the divergence section at the end is only useful once you have.",
+    "CSS": "\n:root { --bg:#fbfaf8; --fg:#1c1b19; --mut:#6b6862; --line:#e0ddd6;\n        --card:#fff; --warn:#8a5a00; --warnbg:#fdf6e3; --bad:#9b2c2c;\n        --badbg:#fdf0ef; }\n@media (prefers-color-scheme: dark) {\n  :root { --bg:#161513; --fg:#eceae6; --mut:#9a968e; --line:#302e2a;\n          --card:#1e1d1a; --warn:#e0b458; --warnbg:#2a2317; --bad:#e08c86;\n          --badbg:#2b1a19; } }\n* { box-sizing:border-box }\nbody { margin:0; padding:2.5rem 1.25rem 6rem; background:var(--bg);\n       color:var(--fg); font:16px/1.65 -apple-system,BlinkMacSystemFont,\n       \"Segoe UI\",Helvetica,sans-serif; }\nmain { max-width:58rem; margin:0 auto }\nh1 { font-size:1.5rem; line-height:1.3; margin:0 0 .5rem }\nh2 { font-size:1.05rem; text-transform:uppercase; letter-spacing:.08em;\n     color:var(--mut); margin:3rem 0 1rem;\n     border-bottom:1px solid var(--line); padding-bottom:.4rem }\nh3 { font-size:1.12rem; line-height:1.4; margin:0 0 .35rem }\n.thesis { background:var(--card); border:1px solid var(--line);\n          border-radius:10px; padding:1.1rem 1.3rem; margin:0 0 1.25rem }\n.note { color:var(--mut); font-size:.92rem; margin:0 0 2rem }\narticle { background:var(--card); border:1px solid var(--line);\n          border-radius:10px; padding:1.4rem 1.5rem; margin:0 0 1.5rem }\n.shape { color:var(--mut); margin:0 0 1rem }\ndl { margin:0 0 1.2rem }\ndt { color:var(--mut); font-size:.78rem; text-transform:uppercase;\n     letter-spacing:.06em; margin-top:.9rem }\ndd { margin:.15rem 0 0 }\ntable { width:100%; border-collapse:collapse; margin:0 0 1rem;\n        font-size:.88rem; display:block; overflow-x:auto }\nth { text-align:left; color:var(--mut); font-size:.72rem; font-weight:600;\n     letter-spacing:.07em; text-transform:uppercase;\n     border-bottom:1px solid var(--line); padding:.5rem .6rem }\ntd { padding:.5rem .6rem; border-bottom:1px solid var(--line);\n     vertical-align:top }\ntd.n { text-align:center; font-variant-numeric:tabular-nums;\n       white-space:nowrap; color:var(--mut) }\ntd .addr { color:var(--mut); font-size:.92em; display:block; margin-top:.25rem }\n.flags { margin:0; padding:0; list-style:none; font-size:.92rem }\n.flags li { padding:.5rem .8rem; border-radius:6px; margin:.35rem 0;\n            white-space:pre-wrap }\n.flags li.bad { background:var(--badbg); color:var(--bad) }\n.flags li.warn { background:var(--warnbg); color:var(--warn) }\n.flags li.info { color:var(--mut) }\n.flags code { font-weight:700; letter-spacing:.04em }\n.fail { color:var(--bad) }\n"
+  },
+  "facts": {
+    "output_allowance_scale": 3.0,
+    "thesis": "If chatbot outputs are assertions, then hallucination, sycophancy and sanction are best assessed at the level of the trained policy (the output distribution and its calibration), not the sampled string, and resampling inconsistency is not evidence of insincerity. Whether the asserted content is the policy's calibrated 'p, with confidence c' is not established.",
+    "thesis_typed_in_by_hand": false,
+    "reading_notes_supplied": true,
+    "outlines_requested": 6,
+    "outlines_usable": 0
+  },
+  "finished_utc": "2026-10-19T22:13:28+00:00",
+  "wall_seconds": 210.3,
+  "models_reported": {
+    "claude-sonnet-5-5": 6
+  },
+  "totals": {
+    "calls": 6,
+    "input_tokens": 180330,
+    "output_tokens": 73728,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "web_searches": 0,
+    "api_seconds": 630.2
+  }
+}

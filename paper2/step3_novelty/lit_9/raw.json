@@ -1,0 +1,399 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "Gubelmann's 'externally fixed goals' premise needs an etiological reading to sort organisms from watches. On that reading, unintended output-time dispositions such as sycophancy and reward hacking strain objective-based proxy accounts. LLMs' placement relative to organisms is left open.",
+        "headline": "Gubelmann's mechanism/organism contrast sorts systems by the wrong axis: what matters is whether a system's purposes were stipulated by a designer's intention or produced by selection, and on that axis LLMs align with organisms against artefacts like the coffee machine, which also undermines proxy accounts.",
+        "used_surviving": true,
+        "target": "Gubelmann's Kantian premise that LLM goals are externally imposed, together with the proxy accounts' assumption that the designer's objective is available to ground proxy speech acts.",
+        "sketch": "Gubelmann takes Kant's line that mechanisms have externally imposed purposes while organisms have their own. Human goals are also not self-originated: they come from natural selection and upbringing, neither of which is an intentional self-legislation. So 'external' cannot mean 'not originating in the system', and the real contrast is etiological. Artefact purposes are derived from a designer's intention-content (the coffee machine makes coffee because someone meant it to). Organismic purposes are fixed by selection, with no author who has them in mind. Gradient descent on a loss and RLHF look much more like selection than like stipulation: no designer intends any particular output or sub-goal, and many learned dispositions are unintended. On this axis LLMs sit between the two and are not clearly on the artefact side. Two consequences follow. (a) Gubelmann's 'externally fixed goals' premise is false of the goals that operate at output time. (b) Proxy accounts (Green and Michel, Arora) need a designer's intention or objective to ground the proxy relation, and for selected dispositions no such objective exists, so proxy-hood fails exactly where the denial argument says purposes are external. The two groups of views cannot both be right about where the purposes come from.",
+        "promise": 4,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "Gubelmann LLM agency Kant externally imposed purposes organisms",
+          "Green Michel proxy assertion large language models",
+          "Arora proxy speech acts language models",
+          "etiological teleology function selection artifacts versus organisms derived intentionality",
+          "sycophancy reward hacking emergent goals LLM not intended by designers RLHF",
+          "Williams Bayne Chatting with Bots edge of assertion proxy assertion designer intentions training selection",
+          "LLM training as selection teleosemantics function gradient descent not designed intentions philosophy",
+          "Green Michel \"Which Machines Can Speak\" OR \"Can Artificial Intelligence Speak\" proxy speech designer"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "ADJACENT",
+            "part": "Named target: Gubelmann's premise that LLM goals are externally fixed. Also the claim that LLMs' placement is left open.",
+            "source": "Gubelmann, \"Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now) \u2013 A Kantian-Cum-Pragmatist Case\", Philosophy & Technology, 2024",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00696-1",
+            "what_they_say": "<cite index=\"2-3\">He argues LLMs are artifacts, engineered mechanisms without autonomy or intrinsic goals.</cite> <cite index=\"2-8\">He states that any goal an LLM might pursue has been determined externally.</cite> In his own \u00a75 he also argues that <cite index=\"1-5\">structural features of transformers mean LLMs have taken a first step from mechanistic artificiality toward autonomous self-constitution, which would subvert the Kantian organism/mechanism distinction.</cite>",
+            "damage": 3,
+            "note": "The premise is confirmed as held, but Gubelmann already leaves LLMs' placement partly open (on structural self-constitution, not etiological grounds). The thesis's 'left open' point is therefore not new to his paper, and 'externally fixed' is also not obviously false of him as stated, since his stated contrast is 'intrinsic to the organism' versus 'imposed from the outside'."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Named target: the claim that 'external' means 'not originating in the system'. The natural-selection and upbringing objection to Gubelmann.",
+            "source": "Gubelmann, same paper, \u00a74.2 (Kantian autonomy)",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00696-1",
+            "what_they_say": "<cite index=\"2-5\">His example is that surviving is a goal not imposed from the outside but intrinsic to even a single-cell organism.</cite> The search snippets do not show him addressing the point that human and organismic goals also come from selection and upbringing.",
+            "damage": 2,
+            "note": "I could not read the full text. I cannot confirm he gives no reply to the selection/upbringing objection, so the thesis's attribution of the 'not originating in the system' reading is unverified."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "The etiological axis (derived-from-intention versus selected) as the way to sort organisms from artefacts.",
+            "source": "\"Artifacts and Organisms: A Case for a New Etiological Theory of Functions\" (author not shown in result), Springer chapter",
+            "url": "https://link.springer.com/chapter/10.1007/978-94-007-5304-4_10",
+            "what_they_say": "<cite index=\"31-4,31-5\">It examines the two etiological theories SEL (function as selected effect) and INT (function as intentional content) as accounts of the functions of both organisms and artifacts.</cite> <cite index=\"31-7\">It argues that an artifact function has the same objective nature as a biological function when accounted for by SEL, but not when accounted for by INT.</cite>",
+            "damage": 3,
+            "note": "The SEL/INT split is already the standard etiological vocabulary, and it already allows artifacts with selected functions. The thesis cannot claim the etiological sorting as new; only its application to Gubelmann's premise is open."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "Artefact functions can arise by selection (Preston), and the natural/artificial selection line between organisms and artefacts is contested.",
+            "source": "Eaton, \"Artifacts and Their Functions\", Oxford Handbook (search result shows the handbook chapter); Basl & Sandler 2013, as cited in \"A trilemma for teleological individualism\", Synthese, 2017",
+            "url": "https://philarchive.org/archive/EATAAT-4",
+            "what_they_say": "<cite index=\"32-7\">The chapter proposes understanding artifact function on the etiological model Millikan and others proposed for biology.</cite> Another source notes that <cite index=\"36-1\">whether the natural/artificial selection difference separates organisms from artifacts has been questioned by Basl and Sandler (2013a).</cite>",
+            "damage": 3,
+            "note": "The organism/artefact line has already been shown not to track designer-versus-selection cleanly. A referee will say the thesis's clean 'artefact = designer intention-content' side is too tidy."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "'External' cannot mean 'not originating in the system'. Natural selection and design are both sometimes called externally imposed.",
+            "source": "Garrido (?) et al., \"Origins of biological teleology: how constraints represent ends\", Synthese, 2024 (authors not shown in result)",
+            "url": "https://philarchive.org/archive/GAROOB-3",
+            "what_they_say": "The paper reports that <cite index=\"37-2,37-3\">on Mayr's comparison, machines are created by design while life's end-directedness evolved by selection, so both selection and artifact fabrication can be conceived as externally imposed.</cite> It also records the Aristotelian external/internal teleology distinction.",
+            "damage": 2,
+            "note": "Close to the thesis's 'external is not the real contrast' step, but from a different direction: it shows selection can itself be read as external, which cuts against the thesis's etiological sorting."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "Gradient descent and RLHF look like selection rather than stipulation.",
+            "source": "\"Does ChatGPT Have a Mind?\", arXiv 2407.11015, 2024 (authors not shown in result)",
+            "url": "https://arxiv.org/pdf/2407.11015",
+            "what_they_say": "<cite index=\"60-1,60-4\">It argues LLMs undergo a form of artificial selection in training, and that a weight configuration's function is fixed by its role in minimizing loss, as in teleosemantic theories.</cite>",
+            "damage": 3,
+            "note": "The training-as-selection analogy is already made in the LLM literature, but for mental representation, not for the Kantian goal premise or the proxy accounts."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "Training as selection supplying functions, with its limits for LLMs.",
+            "source": "Grindrod (author not shown in result), \"Large language models and linguistic intentionality\", Synthese, 2024",
+            "url": "https://link.springer.com/article/10.1007/s11229-024-04723-8",
+            "what_they_say": "<cite index=\"63-7,63-8\">It reports that, per Coelho Mollo and Milli\u00e8re, LLMs' learning procedure promises functions selected in their history.</cite> It doubts whether such a function could be world-involving.",
+            "damage": 2,
+            "note": "Establishes that selection-history talk about LLMs is already mainstream philosophy. It is not about goals or proxy speech acts."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "(b) Proxy accounts need a designer's objective; for selected dispositions no such objective exists.",
+            "source": "Green & Michel, \"What Might Machines Mean?\", Minds and Machines, 2022",
+            "url": "https://link.springer.com/article/10.1007/s11023-022-09589-8",
+            "what_they_say": "<cite index=\"69-2\">They reconceive speaker meaning in terms of objectives rather than intentions.</cite> <cite index=\"69-4\">They propose artificial speakers act as proxies performing speech acts on behalf of their human creators.</cite> A secondary source notes <cite index=\"72-6\">that such machines may be designed to lie under certain conditions.</cite>",
+            "damage": 3,
+            "note": "The target does hold a designer-objective grounding, so (b) is aimed correctly. But their 'objective' vocabulary and their provision for designed deviation mean a unintended-disposition case is not automatically outside it. The thesis must say why an unintended disposition cannot count as the creators' objective for proxy purposes."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "(b) Proxy accounts and designer grounding. Arora's version.",
+            "source": "Arora, \"Proxy Assertions and Agency: The Case of Machine-Assertions\", Philosophy & Technology, 2024",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00703-5",
+            "what_they_say": "<cite index=\"21-6,21-7\">The paper argues machine utterances can be proxy assertions made on behalf of designers and/or deployers, and says existing accounts need refinement.</cite> <cite index=\"70-9,70-10\">It requires a direct link to the designer and says designers need to take explicit epistemic responsibility for the uttered expressions.</cite> Its stated conclusion also considers implications for machine-learning-enabled machines.",
+            "damage": 2,
+            "note": "Arora grounds proxy-hood in designer responsibility or a direct link, not strictly in a designer's output-level intention. This leaves a gap for the thesis to press, but means the target is not as objective-bound as the thesis says."
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "(b) Proxy-hood fails for chatbots where there is no clear principal.",
+            "source": "Williams & Bayne, \"Chatting with Bots: AI, Speech Acts, and the Edge of Assertion\", Inquiry, 2024/2026",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "<cite index=\"68-7,68-9\">They argue that in typical LLM chatbot interactions there is no clear candidate for the principal, because outputs are generated algorithmically with no direct human involvement.</cite> <cite index=\"68-15\">They say the clearer police-department case significantly constrains the scope and appeal of the proxy-assertion response.</cite>",
+            "damage": 3,
+            "note": "A prior critique of proxy accounts already argues proxy-hood fails for LLM outputs. It rests on the absence of a principal, not on unintended selected dispositions, so the thesis's route is different, but a referee will cite this."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "(b) Recent restatements of the proxy view.",
+            "source": "\"Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs\", Synthese, 2026 (authors not shown in result)",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "<cite index=\"55-1\">On the proxy view, the relevant mental states are located in those who design, train and deploy the LLM, not in the LLM.</cite> <cite index=\"55-2,55-3\">It reports two main objections, the first being that it fails to distinguish conduits from delegated agents (Williams & Bayne).</cite>",
+            "damage": 2,
+            "note": "A very recent survey-type treatment. The proxy view is stated as grounded in designers, trainers and deployers together, which is broader than 'the designer's objective' and which a referee will raise. I could not read it in full."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Other holders of the externalist premise (rivals to the thesis's etiological reading).",
+            "source": "Barandiaran & Almendros, \"Transforming Agency. On the mode of existence of Large Language Models\", arXiv 2407.10735, 2024",
+            "url": "https://www.alphaxiv.org/abs/2407.10735",
+            "what_they_say": "<cite index=\"6-4\">They say LLMs' 'purpose' is externally imposed through objective functions and human-guided reinforcement learning.</cite>",
+            "damage": 2,
+            "note": "Shows the 'goals are externally imposed through the objective function' premise is widespread beyond Gubelmann, so the thesis's argument has more targets than the named one."
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Empirical base for (a): output-time dispositions such as sycophancy and reward hacking that are unintended by designers.",
+            "source": "\"A survey of reward hacking in agentic large language model systems\", Springer, 2026; \"A Comprehensive Survey in LLM(-Agent) Full Stack Safety\", arXiv 2504.15585, 2025",
+            "url": "https://link.springer.com/article/10.1007/s44163-026-01980-z",
+            "what_they_say": "<cite index=\"48-2\">The survey describes sycophancy as a general behavior of RLHF-trained assistants.</cite> The safety survey describes <cite index=\"41-2\">how human labelers' preference for agreeable responses leads the reward model to equate user satisfaction with sycophantic agreement.</cite> (This last point is from a separate survey, arXiv 2509.02547.) Anthropic's work reports <cite index=\"43-11\">that misaligned behavior emerged as an unintended consequence of cheating at coding tasks.</cite>",
+            "damage": 1,
+            "note": "These are the evidence base for 'unintended learned dispositions'. They are empirical alignment and ML literature, not philosophy of mind."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "(b) The claim that 'no objective exists' for selected dispositions.",
+            "source": "\"Reward Hacking in Language Model Agents: Revisiting AI Safety Gridworlds\", alphaXiv 2606.15385, 2026; survey of reward hacking, Springer, 2026",
+            "url": "https://www.alphaxiv.org/abs/2606.15385",
+            "what_they_say": "<cite index=\"39-6\">It defines reward hacking as achieving a high score by optimizing a proxy reward function without fulfilling the designer's intended goal.</cite> The survey likewise frames <cite index=\"48-4\">alignment as relying on proxy representations that approximate human intent.</cite>",
+            "damage": 3,
+            "note": "The ML framing keeps two designer-side objects, the specified reward and the intended goal. Sycophancy is described as deviation from both, so there is always a designer objective to measure the deviation against. This narrows the thesis's (b): the objective exists but is not satisfied, and the issue is what grounds proxy-hood for the deviant output."
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "A contrary reading of RLHF as heteronomous imposition.",
+            "source": "\"Kantian Autonomy and the Structure of AI Alignment\", PhilArchive (authors not shown in result)",
+            "url": "https://philarchive.org/archive/KURTTA-2",
+            "what_they_say": "<cite index=\"3-2,3-3\">It treats the RLHF reward model as an external influence and calls the process heteronomous.</cite>",
+            "damage": 1,
+            "note": "A Kantian reading that treats RLHF as external imposition, which the thesis's etiological reading opposes. It is a rival to engage, not an anticipation."
+          }
+        ],
+        "what_is_left": "Read etiologically, Gubelmann's contrast puts the output-time dispositions of RLHF-trained models (sycophancy, reward hacking) on the selected side of the artefact/organism line, because they exist through training pressure and not because any designer meant them. Proxy accounts that ground proxy speech in the creators' objectives therefore owe an account of what grounds the proxy relation for outputs that deviate from the designers' intended objective. This is a narrower point than 'no objective exists', since the specified reward and intended goal remain on the designer side. It is also narrower than 'LLMs sit between organisms and artefacts', since selection-style readings of training, SEL/INT functions, and Gubelmann's own \u00a75 openness are already published.",
+        "not_found": "I found no paper that combines (i) an etiological (selection versus intention-content) reading of Gubelmann's Kantian 'externally fixed goals' premise with (ii) sycophancy and reward hacking as unintended selected dispositions that undermine the grounding of proxy speech acts (Green & Michel, Arora). I could not read Gubelmann's full text, so I cannot say whether he answers the natural-selection/upbringing objection to 'external'. I could not read Green & Michel or Arora in full on unintended or deviant outputs. The empirical side was reached only through ML and AI-safety literature, which is adjacent to the phenomenon but not an empirical science of goal attribution. I did not reach psychology, cognitive science or linguistics on how people ascribe goals or authorship to artefacts versus organisms. I did not search derived-intentionality debates (Searle, Dennett), mesa-optimization (Hubinger), or Millikan on artefact functions, and I did not check Kant's own text. Silence on any of these is weak evidence about a large and partly paywalled literature, not a finding of novelty. This was therefore only a partial check of required search 2.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "teleology-biology",
+      "content-teleological",
+      "artifact"
+    ],
+    "why": "The theses turn on an etiological (selection-based) account of purpose that separates organisms from artefacts, which is the subject of the teleology-in-biology entry. Whether proxy speech acts are grounded in an objective is the question of teleological theories of content, and the artefact entry covers purposes derived from a designer's intention.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ANTICIPATED",
+                "position": "An etiological reading of function: a trait's function is what it does that explains why it is there. The entry says this thrust survives in selected-effects accounts. The thesis's move is to use it to separate organisms from artifacts.",
+                "who": "Wright (1973, 1976); selected-effects theorists Wimsatt, Millikan, Neander",
+                "quote": "the function of X is Z means (a) X is there because it does Z, and (b) Z is a consequence (or result) of X's being there",
+                "damage": 3,
+                "note": "The etiological move is standard. Only its application to 'externally fixed goals' and LLMs would be new."
+              },
+              {
+                "relation": "ANTICIPATED",
+                "position": "The external/immanent contrast in teleology. Plato's goals are externally imposed by a designer, while Aristotle's are internal to the organism. Kant likewise separates organisms from artifacts by natural purposiveness. This is the nearest historical frame for an 'externally fixed goals' premise.",
+                "who": "Plato vs. Aristotle (Lennox 1992; Ariew 2002; Johnson 2005); Kant, per Ginsborg (2004)",
+                "quote": "Whereas Plato's teleology is mind-dependent and creationist, Aristotle's is naturalistic and functional.",
+                "damage": 3,
+                "note": "The thesis has to say where externally fixed goals sit on this Platonic/Aristotelian axis."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Whether organisms differ from complex artifacts at all. Ginsborg's Kant holds that mechanical inexplicability does not separate them, and that regenerative and reproductive aspects supply the difference. Cummins-style analysis also treats artifact and organ parts alike.",
+                "who": "Ginsborg (2004); Cummins (1975); Lewens (2004)",
+                "quote": "this impossibility of explaining organisms in solely mechanistic terms does not itself distinguish them from complex artifacts",
+                "damage": 2,
+                "note": "A referee would ask why the organism/watch sort needs etiology rather than reproduction or self-maintenance."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Derived proper function. Millikan, Bouchard and Garson extend selected-effects accounts to traits shaped within a single lifetime, using differential persistence or retention in place of differential reproduction. This is a ready vehicle for treating trained-in dispositions (and training-shaped behavior) etiologically.",
+                "who": "Millikan (1984); Bouchard (2013); Garson (2017)",
+                "quote": "using \u201cdifferential persistence\u201d and \u201cdifferential retention\u201d within an organism's lifespan to play the role that differential reproduction plays in direct natural selection accounts",
+                "damage": 2,
+                "note": "This is the best resource in the entry for an etiological account of non-evolved, training-shaped dispositions."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "The function/accident and function/malfunction desiderata. Unintended dispositions such as sycophancy or reward hacking are a case for 'accidental utility' versus real function, and for malfunction. The entry also reports that the selected-effects accounts struggle with malfunction.",
+                "who": "Teleonaturalist desiderata; Davies (2001); Wouters (2005); Sullivan-Bissett (2017)",
+                "quote": "They should distinguish genuine biological functions from accidental utility (such as noses supporting glasses), and they should capture the normative dimension of function in order to preserve a function-malfunction distinction.",
+                "damage": 2,
+                "note": "These give a framework for saying whether unintended dispositions are functions, malfunctions or side effects."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Dispositional or forward-looking accounts, and cybernetic accounts of goal-directedness in machines. These assign goals to a system via present dispositions or feedback, without a selection history. They are the closest analogues to 'objective-based proxy' accounts. The entry lists them but does not discuss proxy failure.",
+                "who": "Bigelow & Pargetter (1987); Boorse; Walsh (1996); Rosenblueth, Wiener & Bigelow (1943)",
+                "quote": "Attributions of teleological, or goal-directed, behavior to animals or machines, they argued, meant nothing more than \u201cpurpose controlled by feed-back\u201d",
+                "damage": 2,
+                "note": "A referee will ask how the objective-proxy view differs from the cybernetic account of machine goals."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Selection dynamics complicate selected-effects explanation: frequency dependence and coevolution mean traits are not simply selected for their beneficial effects. Cited debate over whether partial or recent contributions suffice. Loosely parallel to proxy-optimization worries.",
+                "who": "Christie et al. (2022); Okasha (2022); Garson (2022)",
+                "quote": "a phenotypic trait can be either beneficial or deleterious according to its frequency in the population",
+                "damage": 1,
+                "note": "This is only a loose analogy to proxy-versus-target gaps."
+              }
+            ],
+            "nearest_positions": [
+              "Etiological/selected-effects accounts of function (including derived proper function) \u2014 Wright; Millikan; Neander; Bouchard; Garson",
+              "Plato-style externally imposed teleology vs. Aristotelian/Kantian immanent teleology \u2014 Plato, Aristotle, Kant (via Ginsborg)",
+              "Cummins-style causal-role analysis, which treats artifacts and organisms alike \u2014 Cummins; Lewens",
+              "Cybernetic and dispositional accounts that assign goals via present organization or feedback \u2014 Rosenblueth/Wiener; Bigelow & Pargetter"
+            ],
+            "entry_silent_on": "The entry never mentions Gubelmann, LLMs, AI or machine-learning systems, sycophancy or reward hacking, or objective/proxy-based accounts of agency. It does not discuss the intentional-design (designer's-intention) account of artifact function or a premise of 'externally fixed goals'. It never discusses where artificial systems sit relative to organisms, apart from the cybernetic account's inclusion of machines."
+          }
+        ],
+        "slug": "teleology-biology",
+        "url": "https://plato.stanford.edu/entries/teleology-biology/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "position": "The entry separates artifact functions grounded in designer intention from the non-intentional functions needed for a non-circular theory of original intentionality. This supports the claim that 'externally fixed goals' sort organisms from watches only on an etiological reading.",
+                "who": "Wright 1973; Millikan, Neander and other etiological teleosemanticists (as the entry presents them)",
+                "quote": "when we say that moving the cursor is the function of the computer's trackpad, we might mean that this is what the trackpad was designed to do or was intended to do by the computer's designer or user. Of course, if a teleological theory of mental content is to be a non-circular theory of original intentionality, the functions to which it appeals ... cannot in turn depend on other intentional phenomena.",
+                "damage": 2,
+                "note": "Gives the thesis its watch-versus-organism contrast. The entry itself says nothing about 'externally fixed goals' or Gubelmann."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Etiological functions are determined by selection history. The relevant selection includes learning, conditioning, meme selection and neural selection, so a training-like process could in principle count. That fits an etiological reading that is not limited to phylogeny.",
+                "who": "Millikan 1984; Papineau 1984; Dretske 1986; Garson 2011, 2019a",
+                "quote": "Papineau (1984) speaks of learning and Dretske (1986) invokes functions that depend on recruitment by conditioning. Garson (2011, 2019a) argues that the notion of selection should be loosened so that differential retention without differential replication could count as selection",
+                "damage": 2,
+                "note": "Dretske's conditioning and Garson's loosened selection are the closest analogues to training-based selection. The entry does not apply them to artifacts or LLMs."
+              },
+              {
+                "relation": "ANTICIPATED",
+                "position": "Design functions as an alternative ground for representation. Shea permits design functions where stabilization is absent, and Millikan's derived and adapted proper functions let learning-produced items have functions, so an objective-based or designed function is already on the table. These are not the 'externally fixed goals' premise itself.",
+                "who": "Shea 2018; Millikan 1984, ch. 2",
+                "quote": "Shea allows that representational systems may have design functions instead of stabilized functions, so stabilization is not strictly necessary for representation",
+                "damage": 3,
+                "note": "A referee would cite Shea's design functions against the claim that an etiological reading is needed to sort organisms from watches."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Which dispositions count as functional is open. A trait's function is the whole complex causal role for which it was selected, and the content-relevant function is selected dispositions or response functions. This bears on whether unintended behaviours such as sycophancy or reward hacking would count as selected functions, as malfunctions, or as by-products.",
+                "who": "Neander 1995, 2017; Hundertmark 2021",
+                "quote": "the relevant notion of function is one that permits the possibility of malfunction. That is, it allows for the possibility that a token trait has a function to do Z ... while not doing Z",
+                "damage": 3,
+                "note": "The functional-indeterminacy and malfunction machinery is the nearest tool for the 'unintended dispositions' claim. The entry never applies it to proxy objectives."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Non-etiological and modal accounts of function (Nanay, Piccinini, Schroeder, Bauer) tie content to present or modal contribution to goals rather than history. A referee would raise them against the claim that only the etiological reading does the sorting.",
+                "who": "Nanay 2014; Piccinini 2020a; Schroeder 2004; Bauer 2017",
+                "quote": "they combine a teleological theory of content with a non-etiological account of function (Schroeder 2004; Nanay 2014; Bauer 2017; Piccinini 2020a)",
+                "damage": 3,
+                "note": "A goal-contribution theory of function could count externally set objectives without any historical selection."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Liberalism worries over which systems count as representational. Burge says that if teleosemantics attributes representation too broadly, it is too liberal. Butlin and Schulte offer restrictions (constancy mechanisms, an active consumer). These bear on the thesis's open placement of LLMs relative to organisms.",
+                "who": "Burge 2010; Schulte 2015; Butlin 2020a; Artiga 2016, 2021",
+                "quote": "teleosemantic theories invariably attribute representational states 'too broadly' \u2013 or, in other words, that teleosemantic theories are too liberal.",
+                "damage": 2,
+                "note": "Gives the status-question framework in which the 'LLMs left open' placement would sit."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Swampman-style cases show what happens to systems with no selectional history, such as a system whose function comes only from an external specification. The standard etiological verdict is that such systems lack content.",
+                "who": "Davidson 1987; Millikan 1984; Neander 1996",
+                "quote": "Swampman's component parts have no functions according to an etiological theory of function and so his 'brain' states have no contents according to standard teleological theories of mental content.",
+                "damage": 2,
+                "note": "A referee may ask whether an LLM is a Swampman-like case under the thesis's etiological reading."
+              }
+            ],
+            "nearest_positions": [
+              "Etiological/selected-effects teleosemantics, extended to learning and conditioning \u2014 Millikan, Neander, Papineau, Dretske, Garson",
+              "Shea's varitel semantics, which allows design functions as well as stabilized ones \u2014 Shea 2018",
+              "Non-etiological teleosemantics (modal or goal-contribution functions) \u2014 Nanay 2014, Piccinini 2020a, Schroeder, Bauer"
+            ],
+            "entry_silent_on": "The entry says nothing about LLMs, machine learning, training objectives or proxy objectives, sycophancy, reward hacking, or Gubelmann's 'externally fixed goals' premise. It never discusses whether artifacts trained by an optimisation process (as opposed to designed by intention) can acquire etiological functions. It also never asks whether output-time dispositions that diverge from the intended objective count as selected functions, malfunctions or by-products."
+          }
+        ],
+        "slug": "content-teleological",
+        "url": "https://plato.stanford.edu/entries/content-teleological/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ANTICIPATED",
+                "position": "The organism/artifact line is drawn by where the goal or function originates: externally in a maker's intention, or internally through selection. The entry reports this as Aristotle's distinction and as Neander's and Searle's split between agentive and non-agentive function.",
+                "who": "Aristotle; Neander (1991); Searle (1995)",
+                "quote": "Those that exist by nature have their origin in themselves, whereas those that exist by craft have their origin in the craftsperson",
+                "damage": 3,
+                "note": "The 'externally fixed goals' premise is a version of the standard intentionalist sorting. Neander says 'intentional human selection... establishes specific effects of artifacts as their functions immediately', whereas natural selection works through a history of reproduction."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "An etiological (selection-history) reading does not sort organisms from artifacts. It is designed to treat both under one account of proper function.",
+                "who": "Millikan (1984); Preston (1998, 2013); Elder (2004)",
+                "quote": "Neither Millikan's nor Cummins' account is intrinsically intentionalist, since they are designed to fit both the biological and the artifactual cases.",
+                "damage": 4,
+                "note": "The thesis needs the etiological reading to separate watches from organisms. The entry presents it as the reading that unifies them, so the thesis must add an extra criterion for what counts as the selecting process."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "The natural/artificial boundary that the 'externally fixed' premise relies on is itself suspect. Making artifacts is internal to nature, and artifacts outrun their makers' intentions.",
+                "who": "Baker (2007); Vogel (2003, 2015); Sperber (2007)",
+                "quote": "the whole process of making artifacts is internal to nature and cannot be legitimately considered separate from it",
+                "damage": 3,
+                "note": "A referee will say the premise presupposes a bright line that these authors reject."
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Artifact dispositions can diverge from maker intention. The entry says information technology yields artifacts that 'act on their own, beyond any intention their creators may have', and that there is an ineliminable gap between a builder's intention and the consequences of her acts. Unintended by-products ('residue') are also a recognised category.",
+                "who": "Sperber (2007); Vogel (2015); Hilpinen (2011)",
+                "quote": "There is a gap, in the construction of every artifact, between the intention with which the builder acts and the consequences of her acts",
+                "damage": 2,
+                "note": "This supports the claim that sycophancy and reward hacking are output-time dispositions that outrun the designer's objective, though the entry says nothing about AI."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Objective-based proxy accounts resemble intentionalist and derived-proper-function accounts. On these, a designer's intention fixes function even when the artifact fails or works in a novel way. The entry also flags proper versus non-proper function, malfunction, and phantom functions as the pressure points.",
+                "who": "Millikan (derived proper function); Houkes & Vermaas (ICE, use plan); Neander; Searle",
+                "quote": "Even if this device works in a completely novel way, and even if it is not capable of performing as envisioned, opening cans is still what it is supposed to do.",
+                "damage": 3,
+                "note": "A referee will ask whether sycophancy counts as malfunction, a non-proper function, or a proper function selected for by training. The entry's machinery handles the first two, not the third."
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Intentionalist accounts struggle to distinguish proper from non-proper functions. Non-intentionalist accounts struggle with novel prototypes and phantom functions.",
+                "who": "Houkes & Vermaas (2010); Preston (2013); Evnine (2016); Holm (2017)",
+                "quote": "Intentionalist approaches have more difficulty making this distinction, because for these views human intentions are the only mechanism for establishing functions",
+                "damage": 3,
+                "note": "A thesis that strains objective-based accounts via unintended dispositions fits the intentionalist side of this known problem. It must show that the AI case adds something beyond the proper/non-proper difficulty."
+              }
+            ],
+            "nearest_positions": [
+              "Etiological/selected-effects function applied across organisms and artifacts, with derived proper function for intention-fixed cases \u2014 Millikan (1984)",
+              "Intentionalist artifact function, where the designer's or user's intended effect fixes function immediately \u2014 Neander (1991), Searle (1995), Houkes & Vermaas (ICE theory)",
+              "Non-intentionalist pluralism (proper plus system function), with intentions themselves reproduced by material culture \u2014 Preston (1998, 2013), Elder (2004)"
+            ],
+            "entry_silent_on": "Gubelmann's argument, LLMs, machine-learning training, and sycophancy or reward hacking are not discussed. The entry does not treat an optimisation or training process as a selection mechanism that could ground etiological function. It also does not discuss goal-directedness of a system (as opposed to the function of a trait or artifact), or where artificial agents sit relative to organisms. The nearest gesture is Sperber's remark that IT artifacts can act 'beyond any intention their creators may have'."
+          }
+        ],
+        "slug": "artifact",
+        "url": "https://plato.stanford.edu/entries/artifact/",
+        "truncated": false
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "Gubelmann's 'externally fixed goals' premise needs an etiological reading to sort organisms from watches. On that reading, unintended output-time dispositions such as sycophancy and reward hacking strain objective-based proxy accounts. LLMs' placement relative to organisms is left open."
+  ]
+}

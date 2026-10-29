@@ -1,0 +1,754 @@
+{
+  "mode": "novelty",
+  "source": "cg1/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "Common ground is not a single phenomenon but the accidental convergence of two independently operating mechanisms: one tracking mutual public commitment (what can be presupposed in assertion) and another tracking shared mental states (what coordinates collaborative planning).",
+        "headline": "Common ground is not a single phenomenon but the accidental convergence of two independently operating mechanisms: one tracking mutual public commitment (what can be presupposed in assertion) and another tracking shared mental states (what coordinates collaborative planning).",
+        "used_surviving": true,
+        "target": "The shared assumption of both Stalnaker and Yalcin that 'common ground' picks out a single theoretical kind",
+        "sketch": "The argument begins by observing that the conditions for felicitous presupposition diverge systematically from the conditions for felicitous collaborative proposals. In pretense and bargaining, you can presuppose p without anyone accepting p, but you cannot felicitously propose 'let's act as if p' while presupposing p (that would be redundant). In collaborative planning contexts, you need actual shared acceptance or belief, but presupposition can proceed on mere public commitment. The key premise: if common ground were a unified phenomenon, these two dimensions would covary, but they come apart in systematic patterns across discourse types. This explains why theorists find conflicting intuitions\u2014they're tracking different phenomena that happen to coincide in paradigm cases of information exchange.",
+        "promise": 4,
+        "residual": 0
+      },
+      "finding": {
+        "searched": [
+          "common ground presupposition assertion Stalnaker",
+          "common ground shared mental states coordination",
+          "common ground dual mechanisms commitment belief",
+          "presupposition collaborative planning divergence",
+          "Yalcin common ground unified phenomenon",
+          "pretense presupposition acceptance common ground",
+          "presupposition bargaining negotiation discourse",
+          "Clark psycholinguistics common ground joint action"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "SUPPORTED",
+            "part": "Stalnaker's recognition that common ground can diverge from belief",
+            "source": "Stalnaker, \"Common Ground\", Linguistics and Philosophy, 2002",
+            "url": "https://semanticsarchive.net/Archive/TY3NTBmY/Presupposition%20without%20Common%20Ground_Simons.pdf",
+            "what_they_say": "Stalnaker acknowledges that accommodation can bring about a divergence between the common ground and common belief, and that presupposition can proceed on public commitment rather than actual belief.",
+            "damage": 1,
+            "note": "provides precedent for divergence but doesn't identify two mechanisms"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Pretense cases where presupposition diverges from acceptance",
+            "source": "Stalnaker, \"Common Ground\", Linguistics and Philosophy, 2002",
+            "url": "https://semanticsarchive.net/Archive/TY3NTBmY/Presupposition%20without%20Common%20Ground_Simons.pdf",
+            "what_they_say": "Stalnaker discusses cases where it is mutually recognized that something is not true but both parties accept it as common ground, as in the martini example involving pretense.",
+            "damage": 1,
+            "note": "recognizes the phenomenon but treats it as accommodation within unified framework"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Yalcin's view that common ground is defined by iterated attitudes",
+            "source": "Yalcin, \"Defining common ground\", Linguistics and Philosophy, 2024",
+            "url": "https://philpapers.org/rec/YALDCG",
+            "what_they_say": "Yalcin argues that common ground should be identified with what is common knowledge about what is accepted, defining it in terms of an iterated propositional attitude structure.",
+            "damage": 2,
+            "note": "debates which attitude but assumes unified phenomenon"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Clark's work on common ground for joint action and coordination",
+            "source": "Clark, \"Using Language\", Cambridge University Press, 1996",
+            "url": "https://www.cambridge.org/core/books/abs/using-language/common-ground/7F9689E12F87250DCA81540FCBDE3720",
+            "what_they_say": "Clark describes common ground as sine qua non for joint activities and joint actions, rooted in mutual knowledge, beliefs, and suppositions that enable coordination.",
+            "damage": 1,
+            "note": "establishes coordination role but doesn't distinguish from presupposition mechanism"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Recognition that common ground serves different functions in different contexts",
+            "source": "Macagno & Bigi, \"Presupposition failures and the negotiation of the common ground\", 2023",
+            "url": "https://www.researchgate.net/publication/368710928_Presupposition_failures_and_the_negotiation_of_the_common_ground",
+            "what_they_say": "The analysis shows that presuppositions serve different functions depending on the dialogical activity in which they are used, not solely in terms of knowledge or commitments.",
+            "damage": 2,
+            "note": "notes functional variation but doesn't propose dual mechanisms"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Geurts's commitment-based view of communication",
+            "source": "Geurts, \"Communication as commitment sharing: speech acts, implicatures, common ground\", Theoretical Linguistics, 2019",
+            "url": "https://www.degruyterbrill.com/document/doi/10.1515/tl-2019-0001/html",
+            "what_they_say": "Geurts argues that human communication is first and foremost a matter of negotiating commitments, rather than one of conveying intentions, beliefs, and other mental states.",
+            "damage": 1,
+            "note": "emphasizes commitment dimension but doesn't contrast with coordination"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Harvey's multi-level account attempting to bridge Stalnaker and Clark",
+            "source": "Harvey, \"Making Sense of Common Ground: Presupposition, Joint Action, and Coordination\", MPhil Dissertation, 2015",
+            "url": "https://www.academia.edu/7974415/Making_Sense_of_Common_Ground_Presupposition_Joint_Action_and_Coordination_MPhil_Dissertation_",
+            "what_they_say": "Harvey presents a novel account approaching common ground separately on three levels of explanation, combining Stalnaker's presupposition theory with Clark's joint action framework.",
+            "damage": 3,
+            "note": "attempts integration across levels but doesn't argue for independent mechanisms"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Recognition that common ground in coordination requires shared mental states",
+            "source": "Thomas et al., \"Common knowledge, coordination, and strategic mentalizing in human social life\", PNAS, 2019",
+            "url": "https://www.pnas.org/doi/10.1073/pnas.1905518116",
+            "what_they_say": "People are highly sensitive to the distinction between common knowledge and mere private or shared knowledge, deploying this strategically in coordination games including market cooperation and bystander intervention.",
+            "damage": 1,
+            "note": "empirical work on coordination but doesn't address presupposition divergence"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Debate over whether common ground is belief, knowledge, or acceptance",
+            "source": "Harris & Potts, \"Common Ground: Between Formal Pragmatics and Psycholinguistics\", 2024",
+            "url": "https://pure.mpg.de/rest/items/item_3668064_4/component/file_3695504/content",
+            "what_they_say": "The paper notes that no extant theory of common ground can do it all, with different theories emphasizing belief, knowledge, or acceptance, and psycholinguistic mechanisms remaining underspecified.",
+            "damage": 2,
+            "note": "identifies theoretical fragmentation but doesn't propose dual-mechanism solution"
+          }
+        ],
+        "what_is_left": "Common ground in presupposition contexts (what can be felicitously presupposed in assertion) operates by different principles than common ground in collaborative planning contexts (what enables joint action coordination), and these two dimensions systematically come apart in pretense, bargaining, and other non-paradigmatic discourse types, suggesting they are independently operating mechanisms rather than a single unified phenomenon.",
+        "not_found": "No work explicitly arguing that common ground is two distinct mechanisms rather than one phenomenon. No systematic analysis of the divergence between presupposition felicity conditions and collaborative planning requirements across discourse types (pretense, bargaining, negotiation). No argument that the conflicting intuitions in the literature result from theorists tracking different underlying mechanisms. Searches in empirical literature (psychology, cognitive science) found extensive work on coordination and joint action (Clark, Tomasello, Thomas et al.) but no recognition that this might be mechanistically distinct from presupposition accommodation. No work examining whether 'let's act as if p' proposals are infelicitous when p is already presupposed, which would be the key asymmetry the thesis predicts.",
+        "citations": []
+      }
+    },
+    {
+      "target": {
+        "thesis": "Treating a proposition as common ground commits you to treating testimony about that proposition as redundant rather than informative, which shows that common ground cannot be defined by mental states alone\u2014a position that aligns with commitment-theoretic approaches against mental-state accounts that remain influential in the literature",
+        "headline": "Treating a proposition as common ground commits you to treating testimony about that proposition as redundant rather than informative, which shows that common ground cannot be defined by any mental state (belief, acceptance, knowledge) since testimony can be informative even when conveying mutually known, mutually accepted content.",
+        "used_surviving": true,
+        "target": "The shared assumption that common ground can be adequately understood through mental states like belief, acceptance, or knowledge",
+        "sketch": "Both mental-state accounts of common ground share a prediction: if p is common ground, then testimony that p should be maximally redundant\u2014it cannot shift anyone's mental state since everyone already has the relevant state toward p. But this is false. In institutional settings, a judge may say 'The defendant is presumed innocent' when this is already common ground in every sense\u2014everyone knows it, accepts it, and knows that everyone knows everyone accepts it. Yet the utterance is not redundant; it's performatively constitutive of the legal proceeding. The key premise is that this non-redundancy reveals that common ground does work beyond tracking mental states: it structures what testimonial moves are appropriate and consequential. If common ground were just a mental-state configuration, testimony about common-ground contents would be like telling someone what they already believe on the basis of what they believe\u2014pragmatically bizarre. But such testimony is often precisely what maintains institutional and conversational order.",
+        "promise": 4,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "common ground mental states belief acceptance",
+          "common ground commitment theoretic account",
+          "Stalnaker common ground",
+          "common ground testimony redundancy",
+          "performative utterances common ground institutional",
+          "Abbott assertion not informative common ground felicitous",
+          "institutional speech acts legal performatives common ground",
+          "psychology common ground coordination conversation empirical"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "ANTICIPATED",
+            "part": "The claim that assertions of common-ground contents can be felicitous and non-redundant",
+            "source": "Barbara Abbott, \"Presuppositions and common ground\", Linguistics and Philosophy, 2008",
+            "url": "https://link.springer.com/article/10.1007/s10988-008-9048-8",
+            "what_they_say": "Abbott argues that the common ground theory rests on a faulty theory of assertion\u2014that the essence of assertion is to present new information. Many examples are presented of utterances which are felicitous but not informative in this way.",
+            "damage": 5,
+            "note": "Abbott already argues that felicitous assertions need not be informative, directly anticipating the core empirical claim"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The existence of commitment-theoretic alternatives to mental-state accounts",
+            "source": "Corine Bary, \"Speech acts, common ground and commitments\", Linguistics and Philosophy, 2025",
+            "url": "https://www.mendeley.com/catalogue/ecd2f731-121b-34ab-8e8f-e25ee9b7c4ee/",
+            "what_they_say": "Bary argues that two sets need to be distinguished: the set of common beliefs and that of commitments. We are often committed to things we don't believe and commonly believe things to which we are not committed.",
+            "damage": 1,
+            "note": "Recent work distinguishing commitments from beliefs supports the general direction but doesn't make the testimony-redundancy argument"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The claim that commitment-theoretic approaches exist as alternatives to mental-state accounts",
+            "source": "Gunlogson et al., \"Communication as commitment sharing: speech acts, implicatures, common ground\", Theoretical Linguistics, 2019",
+            "url": "https://www.degruyterbrill.com/document/doi/10.1515/tl-2019-0001/html",
+            "what_they_say": "The main tenet is that human communication is first and foremost a matter of negotiating commitments, rather than one of conveying intentions, beliefs, and other mental states.",
+            "damage": 1,
+            "note": "Establishes commitment-theoretic approach as an existing alternative framework"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "The claim that performative utterances pose problems for common-ground-as-update theories",
+            "source": "Neri Marsili, \"Lies, Common Ground and Performative Utterances\", Erkenntnis, 2021",
+            "url": "https://link.springer.com/article/10.1007/s10670-020-00368-4",
+            "what_they_say": "Marsili shows that Stokke's proposal is unable to draw the right distinctions about insincere performative utterances. The objection poses a novel challenge to any attempt to define assertion as a proposal to update the common ground.",
+            "damage": 3,
+            "note": "Uses performatives to challenge common-ground theories but focuses on lying/insincerity rather than non-redundancy of common-ground testimony"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "The claim that performatives automatically update common ground",
+            "source": "Jary, \"Are explicit performatives assertions?\", Linguistics and Philosophy, 2007",
+            "url": "https://web.stanford.edu/~cleoc/SuB-paper.pdf",
+            "what_they_say": "Jary argues that explicit performatives cannot be assertions because their content gets added to the common ground automatically, rather than being conditioned on the acceptance of the addressee.",
+            "damage": 2,
+            "note": "Discusses automatic common-ground update for performatives but doesn't connect this to the redundancy problem for testimony"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The claim that Stalnaker's account is a mental-state account based on acceptance",
+            "source": "Stanford Encyclopedia of Philosophy, \"Common Ground in Pragmatics\", 2024",
+            "url": "https://plato.stanford.edu/archives/win2024/entries/common-ground-pragmatics/",
+            "what_they_say": "Stalnaker makes a distinction between acceptance and belief, where the former is more general. Other variations use different mental states as building blocks of common ground, for example knowledge or acceptance; formally all define common ground as mutual S for some type of mental state S.",
+            "damage": 1,
+            "note": "Confirms that mental-state accounts dominate the literature"
+          },
+          {
+            "relation": "CONTRADICTED",
+            "part": "The claim that Stalnaker's account predicts testimony about common ground is always redundant",
+            "source": "Robert Stalnaker, \"A response to Abbott on presupposition and common ground\", Linguistics and Philosophy, 2008",
+            "url": "https://www.semanticscholar.org/paper/A-response-to-Abbott-on-presupposition-and-common-Stalnaker/e88eae622d0584c91f885cc523c512002a3ea98a",
+            "what_they_say": "Stalnaker responds that the examples Abbott presents show there are informative presuppositions and appropriate but uninformative assertions, but that was never in question. His account is highly idealized and oversimplified.",
+            "damage": 4,
+            "note": "Stalnaker explicitly acknowledges that his account allows for non-informative but appropriate assertions, undermining the claim that mental-state accounts predict redundancy"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The claim that institutional performatives are constitutive rather than merely informative",
+            "source": "Encyclopedia.com, \"Performative Utterances\"",
+            "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/performative-utterances",
+            "what_they_say": "In institutional contexts there are designated expressions where uttering specific words counts as performing an act of a certain sort, such as a judge's 'Overruled.' These specialized performatives have to be uttered by the appropriate person in appropriate circumstances.",
+            "damage": 1,
+            "note": "Confirms institutional performatives have constitutive rather than merely informative function"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "The claim that common ground cannot be defined by mental states alone",
+            "source": "Mandy Simons, \"Availability without common ground\", Linguistics and Philosophy, 2025",
+            "url": "https://link.springer.com/article/10.1007/s10988-024-09426-4",
+            "what_they_say": "Simons argues that the common ground is not one of the essential components of a theoretical model of communication. Publicity of information provides evidence about interlocutors' beliefs, which each agent must track.",
+            "damage": 2,
+            "note": "Argues against common ground as essential but doesn't use the testimony-redundancy argument; focuses on publicity vs. belief-tracking"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The claim that common ground includes non-doxastic attitudes beyond beliefs",
+            "source": "Garc\u00eda-Carpintero, \"Contexts as Shared Commitments\", Frontiers in Psychology, 2015",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687163/",
+            "what_they_say": "Several phenomena require that the common ground includes non-doxastic attitudes such as appraisals, emotions, etc. Hence the common ground should not be taken to include merely contents but those together with attitudes concerning them: shared commitments.",
+            "damage": 1,
+            "note": "Argues for expanding common ground beyond propositions to include attitudes, supporting move away from pure mental-state accounts"
+          }
+        ],
+        "what_is_left": "Testimony about common-ground contents can be non-redundant in institutional contexts because it performs a constitutive function beyond tracking mental states, but this observation has already been made by Abbott (2008) regarding felicitous non-informative assertions generally, and Stalnaker explicitly acknowledges his account allows for such cases. What remains is to develop the specific connection between (a) the non-redundancy of institutional testimony about common ground and (b) the inadequacy of mental-state tracking as an account of common ground's normative structure\u2014a connection that neither Abbott nor Stalnaker's response fully articulates.",
+        "not_found": "No philosophical work was found that specifically uses the non-redundancy of testimony about common-ground contents as an argument against mental-state accounts of common ground. No work was found connecting institutional performatives (like 'the defendant is presumed innocent') to the debate between mental-state and commitment-theoretic accounts of common ground. The empirical psychology literature on common ground (Clark, Brennan, and extensive recent work) focuses on coordination mechanisms and grounding processes but does not address the philosophical question of whether common ground can be reduced to mental states. No work in linguistics, cognitive science, or psychology was found that examines testimony about already-common-ground contents as a test case for theories of common ground.",
+        "citations": []
+      }
+    },
+    {
+      "target": {
+        "thesis": "Common ground must be distinguished from common resource: pretense and strategic discourse show that propositions can be conversationally operative (available for anaphora, presupposition, inference) without being in common ground, revealing that context tracks what's available for use, not what's mutually accepted.",
+        "headline": "Common ground must be distinguished from common resource: pretense and strategic discourse show that propositions can be conversationally operative (available for anaphora, presupposition, inference) without being in common ground, revealing that context tracks what's available for use, not what's mutually accepted.",
+        "used_surviving": false,
+        "target": "The assumption that a single notion of common ground handles both the role of tracking mutual acceptance and the role of licensing presupposition and anaphora",
+        "sketch": "The literature treats 'common ground' as doing two jobs: specifying what's mutually accepted/believed, and specifying what's available for conversational use (grounding presuppositions, anaphora, etc.). This distinction cleaves these roles. In a pretense, the proposition 'Sherlock Holmes lives on Baker Street' is available for anaphoric reference ('He lives there with Watson'), presuppositional constructions ('Holmes's violin'), and inference within the pretense\u2014but it's not in common ground because nobody accepts or believes it, and everyone knows this. The key premise is that conversational operativity is a matter of what resources participants are jointly tracking and managing, which is orthogonal to what they mutually accept as true. Common ground (properly so-called) is still a mental-state notion, but it's not what does the work in licensing presupposition and anaphora\u2014that's done by common resource, the set of propositions participants are jointly treating as available for conversational work, regardless of attitude.",
+        "promise": 4,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "common ground presupposition anaphora philosophy",
+          "common ground Stalnaker mutual belief",
+          "conversational scoreboard Lewis context",
+          "pretense fiction common ground discourse",
+          "Walton make-believe presupposition anaphora",
+          "Stokke unofficial common ground fiction",
+          "discourse representation theory context update anaphora",
+          "psycholinguistics common ground tracking conversation"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "ANTICIPATED",
+            "part": "The distinction between common ground as mutual acceptance and common ground as conversational resource",
+            "source": "Stalnaker, \"Common Ground\", Linguistics and Philosophy, 2002",
+            "url": "https://semantics.uchicago.edu/kennedy/classes/f07/pragmatics/stalnaker02.pdf",
+            "what_they_say": "Stalnaker explicitly allows for divergence between common ground and common belief, noting cases where 'it is mutually recognized that it is not a martini, but mutually recognized that both parties are accepting that it is a martini' in pretense contexts.",
+            "damage": 5,
+            "note": "Stalnaker already defines common ground as acceptance-for-purposes rather than belief, covering pretense cases"
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "The claim that fictional/pretense discourse involves propositions available for anaphora and presupposition without being mutually believed",
+            "source": "Stokke, \"Fiction and Importation\", and Eckardt (2014) on unofficial common ground",
+            "url": "https://philarchive.org/archive/STOFAI-3",
+            "what_they_say": "Stokke and Eckardt propose 'unofficial common ground accounts where fictional statements update an unofficial common ground that is kept separate from the official common ground used for assertions.'",
+            "damage": 4,
+            "note": "The two-tier structure (official/unofficial) already separates acceptance from belief in fiction"
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "The idea that context tracks what's available for use (anaphora, presupposition) separately from what's accepted",
+            "source": "Lewis, \"Scorekeeping in a Language Game\", Journal of Philosophical Logic, 1979",
+            "url": "https://en.wikipedia.org/wiki/Conversational_scoreboard",
+            "what_they_say": "Lewis's scoreboard framework treats discourse as updating 'a structured collection of contextual parameters \u2013 for example the common ground, the questions currently under discussion and the interlocutors' public commitments' as separate components.",
+            "damage": 3,
+            "note": "Lewis already separates common ground from other scoreboard components like discourse referents available for anaphora"
+          },
+          {
+            "relation": "ANTICIPATED",
+            "part": "That anaphora and presupposition track discourse referents/propositions made available, not just mutual belief",
+            "source": "Kamp and Reyle, Discourse Representation Theory, 1993; van der Sandt 1989, 1992",
+            "url": "https://plato.stanford.edu/entries/discourse-representation-theory/",
+            "what_they_say": "DRT 'updates the initially available context with an antecedent which can be picked up by anaphoric expressions in subsequent discourse' through discourse referents, treating presuppositions as 'anaphoric in that it is required to be matched up with an isomorphic DRS element.'",
+            "damage": 4,
+            "note": "DRT already models anaphora/presupposition via context update and discourse referents, not common ground"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "The parallel between presupposition and anaphora as context-dependent phenomena",
+            "source": "van der Sandt, cited in Stanford Encyclopedia on Presupposition",
+            "url": "https://plato.stanford.edu/entries/presupposition/",
+            "what_they_say": "Van der Sandt 'brought out the connection the most forcefully' showing 'remarkably strong parallels between phenomena involving anaphora and presupposition.'",
+            "damage": 1,
+            "note": "Supports the thesis's grouping of these phenomena together"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "The role of common ground in fiction",
+            "source": "Semeijn, \"Fiction and Common Ground: A Workspace Account\", 2021",
+            "url": "https://philarchive.org/archive/SEMFAC",
+            "what_they_say": "Semeijn critiques Stokke's and Eckardt's unofficial common ground accounts and proposes a 'workspace account' addressing how 'fictional truths are only accepted temporarily' yet 'we do retain information about fictional truth.'",
+            "damage": 2,
+            "note": "Recent work on fiction and common ground that a referee would expect engagement with"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Pretense cases where propositions are conversationally operative without being believed",
+            "source": "Stalnaker, \"Common Ground\", Linguistics and Philosophy, 2002",
+            "url": "https://semantics.uchicago.edu/kennedy/classes/f07/pragmatics/stalnaker02.pdf",
+            "what_they_say": "Stalnaker discusses cases where 'both truly believing that it is Perrier, but both falsely believing that the other believes it is a martini' or where 'it is mutually recognized that it is not a martini, but mutually recognized that both parties are accepting that it is a martini.'",
+            "damage": 1,
+            "note": "Provides empirical support for the phenomenon but already theorized within acceptance framework"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Psycholinguistic mechanisms for tracking common ground",
+            "source": "Harris & Rubio-Fernandez, \"Common Ground: Between Formal Pragmatics and Psycholinguistics\", Annual Review of Linguistics, 2026",
+            "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-linguistics-041824-032410",
+            "what_they_say": "Psycholinguists propose 'a variety of mechanisms for managing background information' including memory-based tracking, with common ground as 'an emergent property of ordinary processes of memory encoding and retrieval.'",
+            "damage": 2,
+            "note": "Recent synthesis showing empirical work on tracking mechanisms, relevant to 'what's jointly tracked'"
+          }
+        ],
+        "what_is_left": "A terminological reform: that the label 'common ground' should be reserved for mutual acceptance/belief, while a distinct term ('common resource' or similar) should designate the set of propositions jointly available for anaphora and presupposition, since existing frameworks either conflate these under 'acceptance' (Stalnaker) or already separate them into official/unofficial common grounds (Stokke, Eckardt) or scoreboard components (Lewis) or discourse representation structures (DRT), but lack a unified vocabulary distinguishing acceptance-as-attitude from availability-as-resource.",
+        "not_found": "A direct argument that common ground (as standardly defined) fails to handle pretense cases. A claim that Stalnaker's 'acceptance' framework is inadequate for fiction. A unified account that explicitly argues the two roles (tracking mutual attitudes vs. licensing anaphora/presupposition) should be terminologically and theoretically separated under distinct labels. Work claiming DRT's discourse referents and common ground are the same thing. Empirical psycholinguistic studies specifically on tracking conversational resources in pretense or strategic discourse (as opposed to general common ground tracking).",
+        "citations": []
+      }
+    },
+    {
+      "target": {
+        "thesis": "The folk concept of 'what we're talking about' tracks a conversational scoreboard independent of participant psychology, which explains why common ground survives revelations about participant attitudes.",
+        "headline": "The folk concept of 'what we're talking about' tracks a conversational scoreboard independent of participant psychology, which explains why common ground survives revelations about participant attitudes.",
+        "used_surviving": false,
+        "target": "Both Stalnaker and Yalcin's assumption that common ground is grounded in mental states",
+        "sketch": "Consider a conversation where it's common ground that the meeting is at 3pm. Mid-conversation, someone reveals 'By the way, I've never believed that\u2014I just didn't want to derail things earlier.' The common ground that the meeting is at 3pm remains intact; other participants can still presuppose it, and the revealer herself cannot simply contradict it without saying 'Wait, let me correct what I said earlier.' The key premise is that common ground exhibits a persistence condition that belief, acceptance, and even knowledge-of-acceptance lack: it survives intact through revelations that the supposed grounding mental states were absent. This shows common ground cannot be constituted by any mental state, since effects typically cannot persist when their constitutive grounds are revealed never to have obtained. Rather, common ground is what has been publicly established on the record, which is why it requires explicit retraction rather than merely changing one's mind.",
+        "promise": 4,
+        "residual": 5
+      },
+      "finding": {
+        "searched": [
+          "common ground conversational scoreboard public record",
+          "Stalnaker common ground mental states belief",
+          "Yalcin common ground mental states",
+          "common ground persistence retraction conversation",
+          "conversational record vs participant beliefs pragmatics",
+          "retraction correction common ground conversation linguistics",
+          "public commitments conversational record pragmatics",
+          "common ground psychology cognitive science empirical"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "ANTICIPATED",
+            "part": "the distinction between common ground and conversational record/public commitments",
+            "source": "Camp, Elisabeth, \"Insinuation, Common Ground, and the Conversational Record\", New Work on Speech Acts (Oxford University Press), 2018",
+            "url": "https://academic.oup.com/book/9256/chapter/155949220",
+            "what_they_say": "Camp argues for three distinct bodies of information including the Stalnakerian Common Ground and the conversational record (construed as a record of each participant's public commitments), and argues insinuation pushes toward a more objective, normatively constrained view of the record showing a substantive difference between commitments speakers have made themselves liable for defending and the pool of assumptions they mutually take to be conversationally available.",
+            "damage": 5,
+            "note": "already distinguishes record from common ground on normative grounds"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "Stalnaker grounds common ground in mental states (acceptance)",
+            "source": "Stalnaker, Robert, \"Common Ground\", Linguistics and Philosophy (2002) / Context (2014)",
+            "url": "https://semantics.uchicago.edu/kennedy/classes/f07/pragmatics/stalnaker02.pdf",
+            "what_they_say": "Stalnaker defines common ground in terms of iterated acceptance: it is common ground that p in a group if all members accept (for the purpose of the conversation) that p, and all believe that all accept that p, and all believe that all believe that all accept that p, etc.",
+            "damage": 1,
+            "note": "confirms the target attribution"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "Yalcin's view on mental state grounding",
+            "source": "Yalcin, Seth, \"Defining Common Ground\", Linguistics & Philosophy 47: 1045-70, 2024",
+            "url": "https://link.springer.com/article/10.1007/s10988-024-09415-7",
+            "what_they_say": "Yalcin argues against Stalnaker that common ground should be identified with what is common knowledge about what is accepted, so that p is common ground iff it is common knowledge that p is accepted, thus the attitude that is iterated in the definition is not acceptance but knowledge.",
+            "damage": 2,
+            "note": "still mental states but knowledge not acceptance; referee will note this complicates the target"
+          },
+          {
+            "relation": "ADJACENT",
+            "part": "the objective vs mental scoreboard debate",
+            "source": "D\u00e4nzer, Rinner & Kulakova, \"Conversational Scorekeeping\", Philosophy Compass, 2025",
+            "url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/phc3.70058",
+            "what_they_say": "Lewis contrasts two answers: the conversational score is either determined by constitutive rules of language/conversation together with actions of conversational parties, or is determined by the mental states of conversational parties; Stalnaker's account of common ground as constituted by acceptance states is an instance of the second view.",
+            "damage": 2,
+            "note": "shows this is a known fork in the literature"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "empirical work treats common ground as mental states",
+            "source": "Clark & Brennan, \"Grounding in Communication\", Perspectives on Socially Shared Cognition, 1991",
+            "url": "https://oecs.mit.edu/pub/i3s7fym4/",
+            "what_they_say": "Clark and Brennan define common ground as a collection of mutual knowledge, beliefs, and assumptions that humans maintain collaboratively through the process of grounding; common ground is the sum of the knowledge, beliefs, perceptions, and assumptions that a set of people believe they share.",
+            "damage": 1,
+            "note": "dominant empirical framework also uses mental states"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "commitment-based approaches to conversational record",
+            "source": "Farkas & Bruce, \"On Reacting to Assertions and Polar Questions\", Journal of Semantics, 2010",
+            "url": "https://en.wikipedia.org/wiki/Conversational_scoreboard",
+            "what_they_say": "Farkas and Bruce developed a context structure for modelling speech acts as updates to a score containing a common ground, individual discourse commitments, and a Table of issues currently under negotiation.",
+            "damage": 1,
+            "note": "distinguishes commitments from common ground in formal models"
+          },
+          {
+            "relation": "SUPPORTED",
+            "part": "commitment approach prevalent in linguistics",
+            "source": "Multiple authors cited in Commitments and Speech Acts literature",
+            "url": "https://www.researchgate.net/publication/241060724_Commitments_and_Speech_Acts",
+            "what_they_say": "The commitment approach is currently prevalent in leading linguistic theories of discourse (Gunlogson 2001, Farkas & Bruce 2010, Krifka 2014, Murray 2014, Portner 2018) because researchers are interested in how linguistic expressions update the conversational record, not directly in participants' mental states.",
+            "damage": 1,
+            "note": "shows commitment-based approaches already exist"
+          }
+        ],
+        "what_is_left": "The specific argument that common ground persists through revelations that grounding mental states were absent (the 'I never believed that' case), showing common ground cannot be constituted by mental states since effects cannot persist when constitutive grounds are revealed absent, may be novel\u2014but Camp's 2018 distinction between conversational record (public commitments) and common ground already occupies much of the theoretical space, so what remains is either: (a) arguing that what Camp calls 'conversational record' is actually what we should call 'common ground' (a terminological revision), or (b) showing that the persistence-through-revelation argument establishes something stronger than Camp's normative distinction between commitments and mutually available assumptions.",
+        "not_found": "I searched for but did not find: (1) the specific persistence-through-revelation argument (the case where someone says 'I never believed that' mid-conversation and common ground remains intact); (2) philosophical discussion of retraction vs. mere change of mind as diagnostic of common ground's nature; (3) empirical psychology or linguistics literature on what happens when participants reveal they lacked the mental states supposedly grounding common ground; (4) discussion of common ground surviving absence of its supposed mental-state grounds. The empirical literature focuses on how common ground is established and used, not on what happens when its supposed psychological basis is revealed to have been absent. This silence is notable but weak evidence\u2014the specific argument may be novel, or may simply use vocabulary ('persistence through revelation of absent grounds') that doesn't appear in search results.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "common-ground-pragmatics",
+      "presupposition"
+    ],
+    "why": "These theses directly challenge unified accounts of common ground in pragmatics and argue for distinguishing common ground from presuppositional licensing conditions.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "CONTRADICTED",
+                "position": "the inclusive view that different accounts of common ground are complementary rather than contrary",
+                "who": "Geurts (2019, 2024) and following Lewis (1969)",
+                "quote": "I argue that these various accounts are best viewed as being complementary rather than contrary... Lewis proposed a partial answer to this question by showing how (bounded) mutual beliefs may track (unbounded) mutual reasons to believe",
+                "damage": 4,
+                "note": "Entry explicitly argues for integration, not accidental convergence"
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "normative pragmatics distinguishes discursive commitments (governing linguistic acts) from non-discursive commitments (governing non-linguistic acts)",
+                "who": "Brandom (1994), Walton & Krabbe (1995), Geurts (2019)",
+                "quote": "One is the distinction between discursive and non-discursive commitments, which govern linguistic and non-linguistic acts, respectively",
+                "damage": 2,
+                "note": "Relevant distinction but doesn't map to thesis's presupposition/planning divide"
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "mentalist and normative views differ fundamentally in what constitutes common ground",
+                "who": "various authors discussed in sections 3-4",
+                "quote": "mentalist and normative conceptions of pragmatics and common ground... mentalist theories focus their attention on the former at the expense of the latter, normative theories do the opposite",
+                "damage": 0,
+                "note": "Confirms distinct mechanisms exist"
+              }
+            ],
+            "nearest_positions": [
+              "The inclusive view \u2014 Geurts (following Lewis): different accounts are complementary and can be integrated",
+              "Mentalist view \u2014 Bach & Harnish, Stalnaker: common ground is mutual belief/acceptance",
+              "Normative view \u2014 Brandom, Geurts: common ground is mutual commitment"
+            ],
+            "entry_silent_on": "the specific claim that common ground is an 'accidental convergence' rather than a unified phenomenon with multiple aspects; the entry argues for principled integration, not accident"
+          },
+          {
+            "i": 1,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "position": "acceptance in normative pragmatics requires active uptake, not mere acknowledgement",
+                "who": "Gilbert (2014), discussed by Geurts",
+                "quote": "if Wilma responds with 'I hear you', then Fred still doesn't have a commitment to her... acceptance doesn't require a verbal response and that mere acknowledgement is not enough",
+                "damage": 3,
+                "note": "Relates to redundancy but focuses on commitment formation, not informativeness"
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "common ground can be defined by mental states alone on mentalist accounts",
+                "who": "Bach & Harnish (1979), Stalnaker (2014)",
+                "quote": "Bach and Harnish (1979: 5) define common ground as mutual belief... Stalnaker (2014) defines common ground as mutual acceptance",
+                "damage": 2,
+                "note": "Entry presents viable mental-state-only definitions, though also discusses alternatives"
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "normative accounts treat common ground differently than mental-state accounts",
+                "who": "commitment-theoretic approaches vs mentalist approaches",
+                "quote": "mentalist and normative views are not necessarily at odds with one another... these various accounts agree that mutuality is key... while disagreeing on how the dots should be filled in",
+                "damage": 0,
+                "note": "Confirms the contrast thesis relies on"
+              }
+            ],
+            "nearest_positions": [
+              "Mentalist view \u2014 Bach & Harnish, Stalnaker: common ground as mutual belief/acceptance",
+              "Normative view \u2014 Brandom, Gilbert, Geurts: common ground as mutual commitment requiring uptake",
+              "Container view \u2014 Stalnaker (1970, 1974): common ground as set of possible worlds"
+            ],
+            "entry_silent_on": "the specific claim about testimony redundancy as a diagnostic for common ground; the entry does not discuss how common ground affects the informativeness of testimony"
+          },
+          {
+            "i": 2,
+            "findings": [
+              {
+                "relation": "ANTICIPATED",
+                "position": "pretense and fiction involve propositions being conversationally operative without being believed or accepted",
+                "who": "Eckardt (2014), Semeijn (2021)",
+                "quote": "common ground is a stock ingredient in theories of... fiction and pretence (Eckardt 2014; Semeijn 2021)",
+                "damage": 5,
+                "note": "Entry already recognizes pretense as involving special common ground status"
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Stalnaker's acceptance is broader than belief and includes supposing, assuming, positing",
+                "who": "Stalnaker (1984, 2014)",
+                "quote": "Acceptance, as I shall use this term, is a broader concept than belief; it is a generic propositional attitude concept with such notions as presupposing, presuming, postulating, positing, assuming and supposing as well as believing falling under it",
+                "damage": 3,
+                "note": "Addresses operative-without-belief but within common ground framework"
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "the container view treats common ground as simply a set of propositions/worlds available for use",
+                "who": "Stalnaker (1970, 1974)",
+                "quote": "the common ground is a set of propositions or possible worlds that represent what the actual world might be like... there is nothing in the content or structure of a set of worlds to suggest, let alone imply, that it is anyone's common ground",
+                "damage": 2,
+                "note": "Container view already separates availability from acceptance, but is criticized as inadequate"
+              }
+            ],
+            "nearest_positions": [
+              "Container view \u2014 Stalnaker: common ground as set of worlds/propositions",
+              "Stalnaker's acceptance view \u2014 propositions can be accepted (operative) without being believed",
+              "Fiction/pretense theories \u2014 Eckardt, Semeijn: special treatment of propositions in fictional contexts"
+            ],
+            "entry_silent_on": "the specific term 'common resource' as distinct from common ground; the entry discusses operative propositions but doesn't use this terminology or make this exact distinction"
+          },
+          {
+            "i": 3,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "position": "the container view treats common ground as an abstract structure independent of mental states",
+                "who": "Stalnaker (1970, 1974)",
+                "quote": "there is nothing in the content or structure of a set of worlds to suggest, let alone imply, that it is anyone's common ground. If we adopt the container view, the distinction between common ground and merely shared information is left unaccounted for",
+                "damage": 3,
+                "note": "Container view is psychology-independent but criticized as inadequate, not endorsed"
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "common ground necessarily depends on participant mental states or commitments",
+                "who": "mentalist and normative theorists generally",
+                "quote": "All viable accounts of common ground reviewed in this entry rely on the same form of mutuality... mutuality is a feature of all modes of common ground",
+                "damage": 4,
+                "note": "Entry argues viable accounts require mutuality tied to participants, not independent scoreboard"
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "there are questions about whether common ground survives changes in participant attitudes",
+                "who": "discussed in context of anonymity and asynchrony",
+                "quote": "what (if anything) is the common ground between myself and Darwin when I'm reading his Origin of species? Since Darwin doesn't exist anymore, there cannot be common ground between two extant individuals",
+                "damage": 0,
+                "note": "Entry raises questions about common ground persistence, supporting thesis's concern"
+              }
+            ],
+            "nearest_positions": [
+              "Container view \u2014 Stalnaker: common ground as abstract set of worlds (but criticized as inadequate)",
+              "Mentalist view \u2014 Bach & Harnish, Stalnaker: common ground as mutual mental states",
+              "Normative view \u2014 Brandom, Geurts: common ground as mutual commitments"
+            ],
+            "entry_silent_on": "the specific claim that common ground survives revelations about participant attitudes; the entry discusses attitude-independence in the container view but rejects it as inadequate, and doesn't address survival under attitude revelation"
+          }
+        ],
+        "slug": "common-ground-pragmatics",
+        "url": "https://plato.stanford.edu/entries/common-ground-pragmatics/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "position": "Stalnaker's pragmatic presupposition: presuppositions are conditions a speaker expects to hold in the common ground",
+                "who": "Stalnaker (1972, 1973, 1974, 1998)",
+                "quote": "A pragmatic presupposition associated with a sentence is a condition that a speaker would normally expect to hold in the common ground between discourse participants when that sentence is uttered.",
+                "damage": 3,
+                "note": "Stalnaker treats common ground as unified; thesis claims it's two mechanisms"
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Dynamic semantics treats context as evolving information state updated by assertions",
+                "who": "Heim (1982, 1983), Groenendijk and Stokhof (1991)",
+                "quote": "In dynamic theories of meaning, the context is allowed to change as a sentence is interpreted... Heim's model utilizes Stalnaker's notion of a context as a set of all possible worlds compatible with what has been established at that point in a conversation",
+                "damage": 3,
+                "note": "Dynamic approaches treat context update as single mechanism; thesis proposes dual mechanisms"
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Presuppositions are what speakers take for granted in context",
+                "who": "General characterization in entry",
+                "quote": "Speakers take a lot for granted. That is, they presuppose information... presupposition, the phenomenon whereby speakers mark linguistically information as being taken for granted",
+                "damage": 1,
+                "note": "Provides foundation for distinguishing types of 'taking for granted'"
+              }
+            ],
+            "nearest_positions": [
+              "Stalnaker's pragmatic presupposition \u2014 common ground as mutual expectations (Stalnaker 1972-1998)",
+              "Dynamic semantic approaches \u2014 context as evolving information state (Heim 1982, Groenendijk & Stokhof 1991)",
+              "Semantic vs. pragmatic presupposition distinction \u2014 conventional triggers vs. speaker presuppositions"
+            ],
+            "entry_silent_on": "The entry does not discuss any distinction between commitment-tracking and mental-state-tracking as separate mechanisms within common ground, nor does it address collaborative planning as a distinct function from assertion"
+          },
+          {
+            "i": 1,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "position": "Accommodation adjusts hearer's knowledge state when presuppositions aren't in common ground",
+                "who": "Karttunen (1974), Stalnaker (1974), Lewis (1979)",
+                "quote": "Accommodation was first discussed by Karttunen (1974) and Stalnaker (1974), though only named as such by Lewis (1979)... accommodation is a process whereby contexts are adjusted so as to make update possible when presuppositions are not satisfied",
+                "damage": 2,
+                "note": "Accommodation treats presupposed content as becoming part of context, relevant to redundancy claim"
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Presuppositions present information as given rather than new",
+                "who": "General observation in entry",
+                "quote": "If a presupposition is to be interpreted by way of accommodation, new information is presented as if it were given",
+                "damage": 1,
+                "note": "Supports connection between common ground and information status"
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Mental-state vs. commitment-theoretic approaches to presupposition",
+                "who": "Implicit in semantic/pragmatic distinction",
+                "quote": "The terminological distinction between semantic and pragmatic presupposition is of theoretical import: as we will see later, some theorists regard it as an open question whether there are any purely conventional presuppositions",
+                "damage": 2,
+                "note": "Entry acknowledges debate but doesn't frame it as commitment vs. mental-state"
+              }
+            ],
+            "nearest_positions": [
+              "Accommodation theory \u2014 adjusting context when presuppositions fail (Karttunen 1974, Stalnaker 1974, Lewis 1979)",
+              "Pragmatic presupposition \u2014 speaker expectations about common ground (Stalnaker 1972-1998)",
+              "Given vs. new information \u2014 presuppositions mark information as taken for granted"
+            ],
+            "entry_silent_on": "The entry does not discuss testimony, redundancy judgments, or how treating something as common ground affects judgments about whether testimony about it is informative or redundant"
+          },
+          {
+            "i": 2,
+            "findings": [
+              {
+                "relation": "ANTICIPATED",
+                "position": "Presuppositions can be operative in local contexts without being globally presupposed",
+                "who": "Karttunen (1974), Heim (1982, 1983)",
+                "quote": "the parts of a sentence are not necessarily evaluated with respect to the same context as that in which the sentence as a whole is evaluated: a local context may contain more information than the global context",
+                "damage": 4,
+                "note": "Local contexts already distinguish operative content from global common ground"
+              },
+              {
+                "relation": "ANTICIPATED",
+                "position": "Accommodation can occur locally without global presupposition",
+                "who": "Heim (1982), following Lewis (1979)",
+                "quote": "Heim's major innovation over Lewis was to allow this process to take place not only in the global context of utterance, but also on local contexts found midway through an update",
+                "damage": 4,
+                "note": "Local accommodation shows content can be operative without being in common ground"
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Anaphora and presupposition both depend on discourse context",
+                "who": "van der Sandt (1989, 1992)",
+                "quote": "van der Sandt (1989; 1992)... brought out the connection the most forcefully. He noted that for every configuration of anaphors and antecedents where a pronoun is interpreted anaphorically but is not interpretable as a bound variable, a similar configuration is possible with presuppositions",
+                "damage": 1,
+                "note": "Supports idea that context tracks what's available for use"
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "DRT treats presuppositions as wanting discourse referents to bind to",
+                "who": "van der Sandt (1992)",
+                "quote": "Presupposed information is information that is presented as given, and in van der Sandt's theory this means that presuppositions want to have discourse referents to bind to",
+                "damage": 3,
+                "note": "Discourse referent availability distinct from mutual acceptance"
+              }
+            ],
+            "nearest_positions": [
+              "Local context theory \u2014 content operative in embedded contexts without global presupposition (Karttunen 1974, Heim 1982-83)",
+              "Local accommodation \u2014 presuppositions resolved in embedded contexts (Heim 1982)",
+              "DRT binding theory \u2014 presuppositions seek discourse referents (van der Sandt 1992)"
+            ],
+            "entry_silent_on": "The entry does not discuss pretense, strategic discourse, or the distinction between 'conversationally operative' and 'mutually accepted' as separate theoretical categories, though local contexts come close"
+          },
+          {
+            "i": 3,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "position": "Common ground as set of propositions compatible with what's been established",
+                "who": "Stalnaker (1972, 1974), Heim (1982)",
+                "quote": "Heim's model utilizes Stalnaker's notion of a context as a set of all possible worlds compatible with what has been established at that point in a conversation",
+                "damage": 2,
+                "note": "Treats common ground as established propositions, not participant psychology"
+              },
+              {
+                "relation": "SUPPORTED",
+                "position": "Context is what's been established in discourse, not mental states",
+                "who": "Dynamic semantics tradition",
+                "quote": "the context is updated locally in the process of computing the meanings of subparts of a complex expression",
+                "damage": 1,
+                "note": "Context as discourse-level entity supports scoreboard metaphor"
+              },
+              {
+                "relation": "CONTRADICTED",
+                "position": "Pragmatic presupposition depends on speaker's assumptions about common ground",
+                "who": "Stalnaker (1972-1998)",
+                "quote": "a pragmatic notion of presupposition is needed, so that the proper object of philosophical study is not what words or sentences presuppose, but what people presuppose when they are speaking",
+                "damage": 3,
+                "note": "Stalnaker ties presupposition to speaker psychology, not independent scoreboard"
+              },
+              {
+                "relation": "ADJACENT",
+                "position": "Presupposition failure can occur when speaker presupposes what's not in common ground",
+                "who": "Stalnaker's framework",
+                "quote": "a speaker can presuppose something that is not in the common ground",
+                "damage": 2,
+                "note": "Distinguishes speaker presupposition from common ground, relevant to independence claim"
+              }
+            ],
+            "nearest_positions": [
+              "Stalnaker's pragmatic presupposition \u2014 what speakers expect in common ground (Stalnaker 1972-1998)",
+              "Dynamic context \u2014 set of worlds compatible with discourse (Heim 1982, Groenendijk & Stokhof 1991)",
+              "Speaker vs. semantic presupposition \u2014 psychological vs. conventional (Karttunen 1973, Soames 1982)"
+            ],
+            "entry_silent_on": "The entry does not discuss revelations about participant attitudes, the folk concept of 'what we're talking about,' or whether common ground survives such revelations as an independent scoreboard"
+          }
+        ],
+        "slug": "presupposition",
+        "url": "https://plato.stanford.edu/entries/presupposition/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1864
+  },
+  "theses": [
+    "Common ground is not a single phenomenon but the accidental convergence of two independently operating mechanisms: one tracking mutual public commitment (what can be presupposed in assertion) and another tracking shared mental states (what coordinates collaborative planning).",
+    "Treating a proposition as common ground commits you to treating testimony about that proposition as redundant rather than informative, which shows that common ground cannot be defined by mental states alone\u2014a position that aligns with commitment-theoretic approaches against mental-state accounts that remain influential in the literature",
+    "Common ground must be distinguished from common resource: pretense and strategic discourse show that propositions can be conversationally operative (available for anaphora, presupposition, inference) without being in common ground, revealing that context tracks what's available for use, not what's mutually accepted.",
+    "The folk concept of 'what we're talking about' tracks a conversational scoreboard independent of participant psychology, which explains why common ground survives revelations about participant attitudes."
+  ]
+}

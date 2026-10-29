@@ -1,0 +1,346 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "Barandiaran and Almendros's autonomy and normativity conditions are not necessary for performing assertives and directives. An act type's point can be fixed by externally imposed, selection-shaped organisation without the performer generating its own goals. The thesis does not show these conditions are sufficient, and the 'run together' charge applies to Gubelmann's use of the argument rather than to B&A's text.",
+        "headline": "Barandiaran and Almendros's middle category, 'purpose-structured but not purposeful', runs together the illocutionary point of an act type and the purpose of a speaker. Speech-act performance requires only the former, so their own characterisation of LLMs is a description of the kind of system that can perform speech acts of its own.",
+        "used_surviving": true,
+        "target": "The enactive no-autonomy argument and, through it, Gubelmann's organismic argument; also Attah's reliance on design-context purposes",
+        "sketch": "They say LLM tasks are purpose-structured and purpose-bounded, shaped by training toward ends the system does not itself hold, and they treat this as short of agency. Speech-act theory separates the point internal to an act type (assertion aims at truth, a request at compliance) from the occurrent aims of whoever performs it. Armstrong-style and constitutive-norm views let the first fix what the act is without the second being autonomous or self-generated. The key premise is that purposes imposed from outside can still be the system's operative organisation, in the same way that a role-bound human speaker's purposes are largely imposed. Gubelmann's mechanism/organism contrast and the enactive normativity condition both address purposes of the second kind. Attah's thin functional intention also stays on that side. The new claim is that the debate has been asking an agent-level question (does the system have goals of its own?) about something that needs only an act-level answer (is the output produced under an act-type's point?). Under that question 'library-that-talks' is unstable: a library carries its authors' acts, whereas a purpose-structured generator is a different case.",
+        "promise": 4,
+        "residual": 4
+      },
+      "finding": {
+        "searched": [
+          "Barandiaran Almendros enactive LLM agency autonomy normativity large language models",
+          "Gubelmann large language models speech acts organism mechanism assertion",
+          "Attah LLM speech acts functional intention design purposes",
+          "do large language models perform speech acts assertion without intentions constitutive norm",
+          "psychology people attribute speech acts assertion to chatbots LLM outputs empirical study",
+          "Attah \"Do language models lack communicative intentions?\" Synthese",
+          "Rosen Dale LLMs Don't \"Do Things with Words\" lack of illocution",
+          "Armstrong illocutionary point constitutive norm speech act without speaker intention LLM selection teleofunction"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "The 'run together' charge, and the claim that B&A's conditions concern autonomous agency and not the performance of speech acts.",
+            "source": "Barandiaran & Almendros, \"Transforming agency: On the mode of existence of large language models\", Phenomenology and the Cognitive Sciences, 2025 (arXiv 2407.10735; talk abstract at ias-research.net)",
+            "url": "https://www.ias-research.net/blog/2024/05/14/ias-research-talk-by-xabier-e-barandiaran-and-lola-s-almendros/",
+            "what_they_say": "<cite index=\"6-6\">ChatGPT is said to fail individuality, normativity (it does not generate its own norms or goals) and partly interactional asymmetry, all three required for autonomous agency.</cite> <cite index=\"6-8\">The same abstract calls it a library-that-talks that can engage performatively in non-purposeful yet purpose-structured and purpose-bounded tasks.</cite>",
+            "damage": 1,
+            "note": "Only the abstract and the talk blurb were seen, not the full text. In these, the conditions are conditions on autonomous agency, and B&A allow performative engagement. That supports the 'run together' charge, but it also means the thesis's first sentence rebuts a claim B&A may never make about speech acts. The source also gives the thesis its 'purpose-structured' vocabulary."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "The claim that act-level purposes fixed by external, selection-shaped organisation suffice for performing the act. This is Gubelmann's organismic argument.",
+            "source": "Gubelmann, \"Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now) \u2013 A Kantian-Cum-Pragmatist Case\", Philosophy & Technology 37:32, 2024",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00696-1",
+            "what_they_say": "His argument runs: <cite index=\"35-12,35-13,35-14,35-15\">to qualify as a speaker one must illocute, to illocute one must have intentions, LLMs have none, so they are not speakers.</cite> <cite index=\"13-12\">Agents with intentions need to be autonomous organisms while LLMs are heteronomous mechanisms.</cite> <cite index=\"35-7\">He also says the models lack any goals over and above the linguistic functioning for which they are used.</cite>",
+            "damage": 3,
+            "note": "This is a rival to be answered, not an anticipation. It argues for the opposite conclusion, and the thesis has to attack P2 (illocution requires intentions) and the intention-requires-autonomy step. The framing about 'goals over and above' functioning is the very point the thesis disputes. I did not see how Gubelmann uses B&A: the ResearchGate snippet cuts off at 'Barandiaran and Almendros (2024) claim'. The 'run together' charge against Gubelmann is therefore unchecked against his text."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Attah's thin functional intention and the thesis's description of it as relying on design-context purposes.",
+            "source": "Attah, \"Do language models lack communicative intentions?\", Synthese 205:187, 2025",
+            "url": "https://d-nb.info/1370092032/34",
+            "what_they_say": "<cite index=\"53-6,53-7\">Attah argues the communicative-intention objection rests on strong Gricean assumptions he calls empirically untenable, and that there is no good reason to think LLMs lack communicative intentions.</cite> <cite index=\"48-11\">He gives a functional definition of basic intentions.</cite> Williams describes his evidence as <cite index=\"20-11\">general architectural features of simpler language models, which he argues generalise to transformer-based LLMs.</cite>",
+            "damage": 2,
+            "note": "Not checked against the full text. What I saw suggests Attah argues from cognitive-architecture parity and a functional account of intention, not from design-context purposes. The thesis's attribution of 'reliance on design-context purposes' to Attah is unconfirmed and may need rewording. Attah reaches 'LLMs can perform the acts' by attributing intentions, whereas the thesis does so by dropping the intention requirement."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "ENTERTAINED",
+            "basis": "ABSTRACT",
+            "provisional": true,
+            "part": "The act-level versus agent-level split: output functioning as assertion without an autonomous asserter.",
+            "source": "\"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026 (author not visible in the results)",
+            "url": "https://link.springer.com/article/10.1007/s13347-026-01136-y",
+            "what_they_say": "<cite index=\"30-7,30-8\">The paper defends a properties-based view on which LLMs are neither speakers nor moral agents, yet argues their outputs can function as assertions; assertoric function can persist independently of assertoric authority.</cite>",
+            "damage": 2,
+            "note": "PRECEDENT-or-ANTICIPATED is undecided because only the abstract was seen. It is the closest anticipation of the act-level thesis, but it holds that the system does not perform the assertion ('assertion without asserter'). The thesis says the system performs it, and it does not use B&A or purpose-structured organisation. It is provisionally a precedent and must be read in full."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Whether chatbots can assert, and the main objections (sanctionability, mentalizing, propositional attitudes).",
+            "source": "Williams & Bayne, \"Chatting with bots: AI, speech acts, and the edge of assertion\", Inquiry, 2024",
+            "url": "https://arxiv.org/abs/2410.16645",
+            "what_they_say": "They state a <cite index=\"43-3\">Thesis of Chatbot Assertion</cite> and <cite index=\"43-5\">review objections to it, arguing that these objections are weighty.</cite> They then <cite index=\"39-9\">consider two responses to the resulting dilemma, the first appealing to proxy-assertion.</cite>",
+            "damage": 2,
+            "note": "A referee will raise it. It is the standard treatment of the question, and its objections about full-blooded assertion would have to be answered. I did not see the second response or their position on externally fixed point."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Artifactual and design-based accounts that avoid attributing speech acts to LLMs.",
+            "source": "\"Talking with Language Models\", arXiv, October 2026 (authors not visible in the results)",
+            "url": "https://arxiv.org/html/2610.09064v1",
+            "what_they_say": "<cite index=\"44-1,44-2\">The authors say speech acts need not be attributed to LLMs to explain their behaviour, and that design facts and facts about affordances and usage are constitutive of the event.</cite>",
+            "damage": 2,
+            "note": "Recent and close in vocabulary: design facts as constitutive. It draws the opposite conclusion about speech acts, and I saw only a snippet."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "The premise that illocutionary point is fixed by the act type and is independent of the speaker's actual aims.",
+            "source": "\"Towards a Unified Theory of Illocutionary Normativity\" (PhilArchive NERTAU; author not visible), discussing Dummett, Williams and Marsili on assertoric goals",
+            "url": "https://philarchive.org/archive/NERTAU",
+            "what_they_say": "<cite index=\"68-14,68-15\">This literature holds that assertoric speech is governed by an illocutionary goal, truth, and that such goals are speaker-independent.</cite> <cite index=\"68-16\">A speaker purports to aim at truth without necessarily pursuing it.</cite>",
+            "damage": 1,
+            "note": "This is secondhand evidence for the thesis's central premise. It was not checked against Dummett, Williams or Marsili directly."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Armstrong-style objectives, and the speech-act-theory notion of illocutionary point.",
+            "source": "Stanford Encyclopedia of Philosophy, \"Speech Acts\", main entry and Notes",
+            "url": "https://plato.stanford.edu/entries/speech-acts/notes.html",
+            "what_they_say": "The notes report that <cite index=\"67-1\">Armstrong 1971 accounts for speaker meaning in terms of objectives rather than intentions.</cite> The main entry defines <cite index=\"69-9\">illocutionary point as the characteristic aim of each type of speech act.</cite>",
+            "damage": 1,
+            "note": "This secures the vocabulary. It does not show that Armstrong's objectives can be externally imposed. They appear to be the speaker's own, so using Armstrong for the externally-imposed move is not supported by what I saw."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Adjacent empirical literature: cognitive-science treatment of LLMs and illocution.",
+            "source": "Rosen & Dale, \"LLMs Don't 'Do Things with Words' but Their Lack of Illocution Can Inform the Study of Human Discourse\", Proc. Cognitive Science Society, 2024",
+            "url": "https://escholarship.org/uc/item/25k7z0mz",
+            "what_they_say": "They <cite index=\"57-7\">treat LLMs as inherently lacking illocutionary intent, and so as a control for the contribution of illocutionary intent in human comments.</cite>",
+            "damage": 2,
+            "note": "The empirical work found assumes the intent-based picture. It neither supports nor refutes the externally-fixed-point view, and it is not about the human role-bound-speaker analogy."
+          }
+        ],
+        "what_is_left": "Granting that B&A's individuality and normativity conditions are conditions on autonomous agency, the thesis holds that this autonomy requirement does not carry over to performing assertives and directives, because an act type's point can be fixed by externally imposed, selection-shaped organisation. Against Gubelmann's premise that illocuting requires intentions grounded in autonomy, it frames the question as one of act-level, not agent-level, purpose. I found no source that argues this against both B&A and Gubelmann. The closest is a 2026 'assertion without asserter' paper, seen only in abstract, which reaches a related conclusion by a different route. Only the portion of the thesis aimed at B&A's own text is weak, since B&A's own abstract already allows performative engagement.",
+        "credit": [
+          "Barandiaran & Almendros 2025 \u2014 the 'purpose-structured and purpose-bounded' and 'performative' vocabulary, and the library-that-talks image",
+          "Anonymous 'Assertion, Accountability, and LLMs' 2026 \u2014 the dissociation of assertoric function from asserter (abstract only; undecided)",
+          "Williams & Bayne 2024 \u2014 the framing of the chatbot-assertion question and its objections",
+          "Attah 2025 \u2014 a functional, non-Gricean account of intentions as the main alternative route to LLM illocution",
+          "Armstrong 1971 (via SEP notes) \u2014 speaker meaning stated in terms of objectives rather than intentions",
+          "Dummett / Williams / Marsili as reported in PhilArchive NERTAU \u2014 the speaker-independence of illocutionary goals",
+          "'Talking with Language Models' 2026 \u2014 design facts treated as constitutive of the speech event"
+        ],
+        "not_found": "I did not read any full text. All findings rest on abstracts or snippets, and the Gubelmann full text was not checked for how he uses B&A. I could not confirm that Attah relies on design-context purposes, and nothing I saw shows Armstrong allowing externally imposed objectives. I found no work arguing that selection-shaped or training-shaped organisation fixes an act type's point. I also found no empirical or sociolinguistic work on role-bound or institutional speakers whose purposes are largely imposed, which is the premise of the human analogy. The empirical side of the search was thin: Rosen & Dale (a cognitive-science paper that treats LLMs as lacking illocutionary intent) and snippets on attributing mental states to LLMs were the only material I saw, so left_philosophy is true only in a weak sense. I did not search teleosemantic or selected-effects literature (e.g. Millikan) or institutional-role work. Milli\u00e8re's 2026 Philosophy Compass survey, the most recent synthesis, surfaced only as a reference list and abstract and was not read, so an unnoticed anticipation could be there. This is silence in a large, partly paywalled literature, not evidence of originality.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "speech-acts",
+      "artificial-intelligence",
+      "assertion"
+    ],
+    "why": "The thesis is about whether an LLM can perform assertives and directives, which turns on speech-act theory's separation of an act type's internal point from the performer's own aims; the entries on AI and assertion cover the agency debate it addresses and the norm of assertion.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "The entry treats an act type's 'characteristic aim' as a function-like feature of the type. A type can have the aim even when individual performances lack it, so the point is fixed at type level and not by each performer's own goals.",
+                "who": "Entry's own gloss, building on Searle and Vanderveken's 'illocutionary point' and Austin and T. Cohen on perlocutions",
+                "quote": "A type of speech act can have a characteristic aim without each speech act of that type being issued with that aim... the view that a speech act-type has a characteristic aim is akin to the view that a biological trait has a function.",
+                "damage": 2,
+                "note": "Gives the thesis a base: point can be type-fixed and function-like, not generated by the performer."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Millikan's biosemantic 'natural conventions' reproduced by weight of precedent are a selection-shaped, non-voluntary account of how force-bearing linguistic patterns arise. The entry criticises it as obscure and as failing to show the hearer response is conventional.",
+                "who": "Millikan 1998; criticised by the entry's author (Green)",
+                "quote": "Millikan describes the hearer's response as a hidden, inner act that is not under B's voluntary control.",
+                "damage": 2,
+                "note": "Nearest selection-based account of force. The entry's critique of it must be answered when claiming selection-shaped organisation fixes point."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "The entry's favoured account makes performing an assertive or directive depend on speaker meaning and on the intentional, overt undertaking of a commitment. It says it is hard to see how one could perform a speech act with no intention to perform one. This is a rival requirement that the thesis must show can be met by a system lacking its own goals.",
+                "who": "Entry's author (Green), following Strawson 1964 and Grice 1957",
+                "quote": "speech acts involve intentional undertaking of a publicly accessible commitment",
+                "damage": 4,
+                "note": "Intentionalist rival: a non-autonomous system may fail the intention and overtness requirements even if its act-type point is externally fixed."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry reports challenges to the Gricean requirement of audience-directed intentions, which loosen the conditions for speaker meaning and so for speech acts. These include Davis's cases of speaking to pre-linguistic infants, photocopy machines and photos, and Green's overt-manifestation-of-commitment view. Searle's dog requesting to be let out is also mentioned as a speech act without constitutive rules.",
+                "who": "Davis 1992; Green 2019; Searle 1969 (dog case)",
+                "quote": "Instead of intentions to produce psychological effects in an addressee, some authors have advocated a construal of speaker meaning as overtly manifesting an aspect of one's commitments or state of mind",
+                "damage": 2,
+                "note": "Shows the necessary conditions on speech acts are contested. These views still keep the performer's commitments or state of mind, not externally imposed organisation."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry reports the claim that performing an act can be settled by external, social uptake, not only by the speaker's own states. Examples are misfire through lack of uptake and illocutionary silencing. It also reports that speech acts can be performed without the performer's intention, via illocutionary entailment from other acts.",
+                "who": "Austin; Langton, Hornsby; Bird 2002; Maitra 2009; the entry's illocutionary-logic discussion",
+                "quote": "it is difficult to see how one can perform S n while having no intention of performing a speech act at all.",
+                "damage": 2,
+                "note": "Externalist considerations on the thesis's side, but the entry stops short of letting performers lack intentions altogether."
+              }
+            ],
+            "nearest_positions": [
+              "Intentionalist/Gricean account: speech acts require speaker meaning and overt commitment \u2014 Strawson 1964, Grice 1957, Green (entry's author)",
+              "Biosemantic force conventionalism \u2014 Millikan 1998 (selection-based, criticised in the entry)",
+              "Characteristic-aim/function analogy for illocutionary point \u2014 Searle and Vanderveken 1985, T. Cohen 1973, as presented in the entry"
+            ],
+            "entry_silent_on": "Barandiaran and Almendros, autonomy and normativity as conditions on agency, Gubelmann, and artificial or language-model speakers. It also never discusses whether goal-generation by the performer is required for speech acts, or the sufficiency of selection-shaped organisation. It mentions artificial intelligence only as a field influenced by speech act theory."
+          }
+        ],
+        "slug": "speech-acts",
+        "url": "https://plato.stanford.edu/entries/speech-acts/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "AI is measured against the powers of animals and persons. The entry notes that AI textbooks leave out phenomenal consciousness, creativity and reading, and it asks whether the agent progression suffices for a person or only for an animal. This is the nearest the entry comes to asking what an artificial agent must have in order to count as a genuine agent.",
+                "who": "Entry authors (Bringsjord & Govindarajulu), citing Charniak & McDermott and Russell & Norvig",
+                "quote": "Are we given enough, in general, to build an artificial person, or is there enough only to build a mere animal?",
+                "damage": 1,
+                "note": "Background on agency requirements only. It says nothing about speech acts, autonomy or normativity."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Intelligence is defined as rationality, with agents as functions from percepts to actions and goals fixed externally by a designer-supplied performance measure. This is a framework in which an agent need not generate its own goals.",
+                "who": "Russell (1997); Russell & Norvig",
+                "quote": "a performance measure \\(U\\) evaluates this sequence",
+                "damage": 1,
+                "note": "Supports the idea of externally imposed goals in agents, but is not applied to assertives or directives."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The Turing Test and Descartes's language test treat the capacity to use speech appropriately as the criterion of human-like intelligence. The entry mentions Descartes's claim that machines act from the disposition of their organs rather than from knowledge.",
+                "who": "Turing; Descartes; Nilsson",
+                "quote": "they did not act from knowledge, but only for the disposition of their organs",
+                "damage": 2,
+                "note": "A rival picture on which machine language use is merely disposition-driven. It is not argued in terms of normativity or autonomy."
+              }
+            ],
+            "nearest_positions": [
+              "Descartes's speech test: machines act from the disposition of their organs, not from knowledge, so their language use falls short \u2014 Descartes, as quoted in the entry",
+              "Russell's rational agent: goals set by an external performance measure, with no self-generated goals required \u2014 Russell & Norvig",
+              "Turing Test as an operational criterion of linguistic indistinguishability \u2014 Turing; Nilsson"
+            ],
+            "entry_silent_on": "Speech act theory (assertives, directives), Barandiaran and Almendros, enactivist or autonomy-based accounts of agency, normativity as a condition on performing speech acts, selection-shaped or teleosemantic fixing of an act's point, and Gubelmann. The entry does not discuss any of these."
+          }
+        ],
+        "slug": "artificial-intelligence",
+        "url": "https://plato.stanford.edu/entries/artificial-intelligence/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Pagin's descriptive account makes assertion a matter of default speaker-side and hearer-side patterns tied to surface features. The speaker-side pattern is etiological: the utterance is made 'in part because it is true'. Nothing in it requires the speaker to generate its own goals. This is something the thesis can build on, since the point of the act type is fixed by a reason-for-production pattern.",
+                "who": "Pagin (2011, 2020)",
+                "quote": "an assertion is an utterance that is prima facie informative \u2026 it is the cognitive patterns associated with surface features, on the production and comprehension sides, that characterize assertion.",
+                "damage": 1,
+                "note": "Offers a non-autonomy-based characterisation of assertion, but says nothing about selection-shaped organisation or non-human performers."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "The norms that characterise assertion are social or constitutive norms that apply to speakers from outside, in the form of rules, commitments and liabilities. They are not goals the performer generates for itself. This supports the idea that an act type's point can be externally imposed.",
+                "who": "Searle (constitutive rules); Peirce, Alston, Brandom (commitment/accountability); Williamson (norm of assertion)",
+                "quote": "Constitutive rules, according to Searle, are like definitions: they define what it is to engage in a certain activity",
+                "damage": 1,
+                "note": "Supports the claim that normativity need not be self-generated. The entry treats the norms as social, not as products of the performer's autonomy."
+              },
+              {
+                "relation": "PRECEDENT",
+                "grade": "PASSING",
+                "position": "The entry raises, without answering, the question of what intentions or voluntariness a speaker needs for an utterance to count as an assertion. This is the closest it comes to the necessity question the thesis addresses.",
+                "who": "The entry itself, in section 4.2",
+                "quote": "Apart from the communicative intentions accounts of assertion, there are more general questions about what intentions are required of a speaker in order for his utterance to qualify as an assertion. For instance, must he intend it to be an assertion? Must it be made voluntarily?",
+                "damage": 1,
+                "note": "A bare question with no development, and it concerns intention rather than autonomy."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Communicative-intention accounts make asserting depend on rich hearer-directed intentions: Grice's three clauses, Searle's reflexive intention, and Bach and Harnish's R-intention. A referee would raise these as showing that agential capacities of some sort are necessary for assertion. The thesis would have to separate this from the autonomy condition.",
+                "who": "Grice (1957); Searle (1969); Bach & Harnish (1979)",
+                "quote": "For S to express an attitude is for S to R-intend the hearer to take S's utterance as reason to think S has that attitude.",
+                "damage": 3,
+                "note": "A rival on necessary conditions. It concerns intentions, not autonomy or self-generated goals, and the entry reports Sperber and Wilson's criticism of reflexive intentions."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Several views make belief, self-representation or sincerity central to asserting, e.g. that the asserter represents herself as believing or knowing p. A referee would ask whether a performer without its own goals or attitudes can meet these. The entry also notes that the norm literature takes the speaker to be subject to the norm.",
+                "who": "Black (1952); Davidson (1984); Unger; Slote; Williams (2002); Green (2007)",
+                "quote": "in asserting that p the speaker represents herself as believing that p.",
+                "damage": 2,
+                "note": "Attitude-based accounts that could be read as requiring more than externally fixed organisation."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Directives and the other speech-act classes are mentioned only in the taxonomy (Austin, Searle). The entry itself is about assertion. Commitment accounts say assertion generates responsibilities for the speaker, which a referee might press as requiring an accountable agent.",
+                "who": "Peirce; Alston (2000); Brandom (1994)",
+                "quote": "an act of assertion [\u2026] renders [the speaker] liable to the penalties of the social law",
+                "damage": 2,
+                "note": "Accountability accounts put a normative status on the asserter. This is a possible rival to the thesis only if accountability is read as requiring autonomy."
+              }
+            ],
+            "nearest_positions": [
+              "Pagin's cognitive account: assertion as prima facie informative, with the utterance produced partly because it is true",
+              "Searle's constitutive-rules account and the social commitment accounts (Peirce, Alston, Brandom, Green), where norms are social and externally imposed",
+              "Communicative-intention accounts (Grice, Searle, Bach & Harnish), on which asserting requires speaker intentions"
+            ],
+            "entry_silent_on": "Barandiaran and Almendros, Gubelmann, and the autonomy and normativity conditions on agency. Also LLMs and artificial performers, selection-shaped or externally imposed organisation as fixing an act type's point, directives in any depth, and the 'run together' charge. The entry does not discuss whether non-agents can perform speech acts."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "Barandiaran and Almendros's autonomy and normativity conditions are not necessary for performing assertives and directives. An act type's point can be fixed by externally imposed, selection-shaped organisation without the performer generating its own goals. The thesis does not show these conditions are sufficient, and the 'run together' charge applies to Gubelmann's use of the argument rather than to B&A's text."
+  ]
+}

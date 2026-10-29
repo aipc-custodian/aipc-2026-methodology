@@ -1,0 +1,131 @@
+### Overall Verdict: Good, Novel, and Publishable?
+
+**Verdict: Conditional Accept / Minor-to-Moderate Revisions.**
+
+* **Is it good?** Yes. This is a tightly argued, formally lucid, and unusually disciplined piece of philosophy of AI and epistemology. It clearly bears the marks of a productive prior round of refereeing (where overclaims about string-level sanctions, thermometer-style evolutionary selection, likelihood ratios for resampling, and R3 invariance were retracted and replaced with much sharper, defensible theses). The integration of formal machine-learning concepts (semantic entropy pooling, calibration vs. emission mass, greedy vs. temperature decoding, proper scoring rules) with the philosophy of speech acts and epistemology (Williams on Accuracy vs. Sincerity, Goldman on reliabilism, Butlin & Viebahn on sanction) is exemplary.
+
+
+* **Is it novel?** Yes. While machine learning researchers routinely define calibration and sycophancy over distributions, and epistemologists routinely evaluate belief-forming processes rather than isolated tokens, combining these to resolve the *bearer question* for speech-act defects in LLMs—specifically via the "no act/state gap" argument (§2.1), the calibration-corrected force criterion $f \le c^*(p \mid x)$ (§2.2), the two-level synchronic/diachronic division between *policy-in-context* and *policy lineage* (§3.2), and the formal critique of resampling-as-insincerity (§4)—is a genuinely new and valuable contribution to the philosophical literature.
+
+
+* **Is it publishable?** Yes, in a strong generalist philosophy journal (*Philosophical Studies*, *Ergo*, *Inquiry*, *Synthese*) or a top field journal (*Minds and Machines*, *Philosophy & Technology*). However, several substantive philosophical objections—above all regarding the central "no gap between act and state" argument in §2.1 and a residual self-awareness note from the previous revision—need to be addressed before final publication.
+
+---
+
+### Ranked Objections (by Seriousness)
+
+#### 1. The "No Gap Between Act and State" Argument Confuses Dispositions with Token Acts, and Proves Too Much (Section 2.1 — *Most Serious*)
+
+The paper rightly notes in §2.1 that the *same-string/different-policy test* only establishes the grounding claim (that policy-level facts fix the verdict), not the *bearer* claim (that the policy, rather than the sampled string/utterance, is the primary bearer of the defect). After all, in humans, the speaker's evidential state fixes whether an assertion is warranted, yet the token assertion (or the speaker) is the primary bearer of the defect, not the evidential state.
+
+To create an asymmetry between humans and chatbots, §2.1 argues that in humans there is a "gap between act and state" (a human with impeccable evidence can still choose to assert beyond it), whereas for a policy "there is no such gap" because both the credal profile $q(p \mid x)$ and the emission distribution $\pi(\cdot \mid x)$ are components of the policy, and "[e]ach draw's content and force are sampled together from $\pi(\cdot \mid x)$. There is no further choice, separate from the distribution, about whether to put the content forward and with what force."
+
+**Why this fails as stated:**
+
+* **Conflating two different gaps:** There are *two* gaps in the vicinity: (i) the functional gap between an agent's *underlying credal state* and their *speech-dispositions*, and (ii) the metaphysical/modal gap between a *stochastic disposition* ($\pi$) and a *token draw/act* ($s \sim \pi(\cdot \mid x)$). In the chatbot, there **is** a gap of type (i)—that is precisely what post-training (RLHF) and the decoding rule create when $\pi(\cdot \mid x)$ decouples from $c^*(p \mid x)$, and it is the exact structural analogue of a human's disposition to bluff or exaggerate beyond their evidence. And there **is** a gap of type (ii): when temperature $> 0$, $\pi(\cdot \mid x)$ does not necessitate that a low-probability, high-force string $s$ is emitted on this run; stochastic sampling does.
+* **The Deterministic Human Counterexample:** Suppose deterministic compatibilism (or naturalistic cognitive science) is true of human beings: a human speaker’s token utterance on occasion $t$ is a draw from their neuro-computational speech policy conditioned on their evidential state and conversational incentives, with no libertarian "further choice" intervening. By the paper's logic in §2.1, human token assertions would cease to be the primary bearers of warrant defects, and only human cognitive policies would bear them. Conversely, even for a stochastic system, a *token event* (producing string $s$ at time $t$) has causal consequences in a conversational record (misleading a user) that the abstract conditional distribution $\pi(\cdot \mid x)$ does not have on runs where $s$ is *not* sampled (imagine a policy that puts $0.99$ mass on hedging and $0.01$ mass on a flat guess; on the $99\%$ of runs where it hedges, no defective assertion occurs in the conversation, even though the policy has that $0.01$ tail).
+* **How to fix it:** Distinguish between a *disposition to hallucinate* (which belongs primarily to $\pi$) and a *token hallucination* (which belongs to the sampled act $s$ by virtue of manifesting the mismatch between $f(s)$ and $c^*(p \mid x)$). You do not need to deny that token utterances bear token defects in order to refute the "single-output assumption"; you only need to show that token defects are *non-intrinsic* (historically/modally dependent on the policy) and that any *diagnostic or normative evaluation* must target $\pi$.
+
+#### 2. The Definition of the "Credal Profile" $q(p \mid x)$ Ambiguously Straddles Base Weights and Post-Trained Weights (Sections 1 & 2.2 — *Serious*)
+
+In §1, the paper defines a *policy* as "the trained weights together with a decoding rule," fixing an emission distribution $\pi(\cdot \mid x)$, and adds: "The weights also fix a *credal profile*: for each claim $p$, the probability $q(p \mid x)$ that the model's native predictive distribution assigns to $p$, pooled over paraphrases." Then in §2.2, the paper contrasts a well-calibrated policy $P_3$ with "an RLHF-collapsed policy that also gives the date $0.95$, but whose $0.95$-claims are true half the time."
+
+**Why this creates a technical and philosophical tension:**
+
+* During RLHF or DPO, *the weights themselves are modified* (from $\theta_{\text{pre}}$ to $\theta_{\text{post}}$). There is no longer a "native predictive distribution" inside the post-trained weights $\theta_{\text{post}}$ that is distinct from the unit-temperature softmax distribution over tokens induced by $\theta_{\text{post}}$. If $q(p \mid x)$ is just the unit-temperature token distribution of $\theta_{\text{post}}$ pooled over semantic equivalences (as in Farquhar et al. 2024), then for any unit-temperature policy, $q(p \mid x)$ and $\pi(\cdot \mid x)$ are governed by the *exact same weights*—differing only in that $q$ pools over paraphrases of $p$ while $\pi$ ranges over strings $s$ (which also carry illocutionary force $f$).
+* If $q(p \mid x)$ and $\pi(\cdot \mid x)$ both come from $\theta_{\text{post}}$, then in §4 (Sincerity) and §2.3 (Sycophancy), if RLHF makes $\theta_{\text{post}}$ assign $0.99$ probability to paraphrases of "You're right, it's 23" whenever the user suggests 23, then $q(\text{23} \mid x)$ *also* moves to $0.99$! In that case, there is no synchronic decoupling between $\pi(\cdot \mid x)$ and $q(p \mid x)$ inside $x$; rather, $q(p \mid x)$ itself has become sycophantically warped across contexts (or decoupled from $q(p \mid x_{\text{neutral}})$).
+* **How to fix it:** Clarify explicitly in §1 and §2.2 that $q(p \mid x)$ is the semantic-entropy-pooled distribution of the deployed weights $\theta$, whereas $\pi(\cdot \mid x)$ additionally reflects the decoding rule and the specific string-level expression of *force* $f$ (hedged vs. flat). Then explicitly note in §4.1 and §4.5 that "selective decoupling" in post-trained models typically cannot be read off $\pi(\cdot \mid x)$ vs. $q(p \mid x)$ *within the same sycophantic context $x$*, but requires comparing $\pi(\cdot \mid x_{\text{user-opinion}})$ against $q(p \mid x_{\text{neutral}})$ or an internal probe.
+
+#### 3. Residual Meta-Commentary / Revision Artifacts Must Be Removed (Sections 3.1, 3.2, 3.3, 3.4, 4.1, 5.3 — *Moderate, Editorial*)
+
+The manuscript currently contains explicit references to an "earlier draft" and "the referees' point" directly in the body text:
+
+* §3.1: *"The earlier draft of this argument ran these together."*
+
+* §3.2: *"The referees' point, that dispositions are not the party sanctioned, is one the revised view accepts."*
+
+* §3.3: *"The earlier draft offered a thin analogue... I withdraw that reply."*
+
+* §3.4: *"The earlier draft claimed that 'string-level sanction is self-defeating'. That overgeneralises."*
+
+* §4.1: *"The earlier draft claimed a likelihood ratio of about one. That was not derived..."*
+
+* §5.3: *"The earlier draft claimed that no open reading reverses a verdict, and that claim was false."*
+
+
+In a published journal article, these belong in a separate *Response to Referees* memo, not in the manuscript itself. In the article text, those rejected positions should simply be framed impersonally as natural temptations or objections (e.g., *"It is tempting to offer a thin analogue of (iii)..."* or *"One might think that string-level sanction is self-defeating as such, but that overgeneralises..."*).
+
+#### 4. The "Force $f \le c^*(p \mid x)$" Criterion Leaves Illocutionary/Epistemic Force Unscaled (Section 2.2 — *Moderate*)
+
+The Warrant principle states: *"An output that puts $p$ forward with force $f$ is warranted iff $f$ does not exceed $c^*(p \mid x)$."*[cite: 1] While $c^*(p \mid x) \in [0, 1]$ is a well-defined mathematical frequency over a reference class, "force $f$" is a pragmatic/speech-act property of a natural language string.
+
+* In standard speech-act theory, a flat assertion ("V was born on 4 June 1931") does not carry a numerical force of $1.0$ (if it did, no flat assertion would ever be warranted unless $c^* = 1$, which would make Case 1's $P_1$ unwarranted since $c^* = 0.95 < 1$!). Rather, flat assertion requires passing a contextually determined *threshold* $\tau \in (0, 1)$ (e.g., $\tau = 0.90$), while hedged assertions ("probably", "might be") lower the required threshold or shift the asserted content (as discussed under R2 in §5.1).
+
+
+* **How to fix it:** Define $f(s) \in [0, 1]$ explicitly as the *minimum calibrated confidence threshold normatively required by the conversational context to license uttering $s$ with its degree of hedging/flatness* (so that for a flat assertion in a biographical query, $f \approx 0.90$, making $P_1$'s $c^* = 0.95$ warranted and $P_2$'s $c^* = 0.01$ unwarranted).
+
+#### 5. In-Context Learning, RAG, and Agentic Memory Blur the "Frozen Policy" vs. "Lineage" Distinction (Sections 2.4 & 3.2 — *Moderate*)
+
+Section 3.2 argues that a deployed policy $\pi_t$ is "frozen" and "cannot be sensitive to anything over time," so only the weight-updated *policy lineage* ($\pi_1, \pi_2, \dots$) can satisfy the diachronic sensitivity condition (ii) of sanction. Section 3.1 briefly dismisses in-conversation correction, persistent memory, and retrieval (RAG) on the grounds that they "change the context the policy conditions on, not the policy".
+
+* However, mathematically and functionally, a frozen weight matrix $\theta$ coupled to a dynamically updated external memory store $M_t$ (such as persistent cross-session user memory, system-prompt updates by deployers in response to failures, or a dynamically curated RAG index) defines a *new effective policy* $\pi'_t(\cdot \mid u) = \pi(\cdot \mid M_t, u)$ over user turns $u$ without touching the weights $\theta$.
+* If a chatbot makes an error, is rebuked by the user or deployer, writes a rule into its persistent memory bank $M_{t+1}$, and permanently stops making that error across future conversations, why doesn't the composite system $(\theta, M_t)_{t=1,2,\dots}$ count as a sanction-responsive lineage on equal footing with weight updates? Addressing this briefly in §3.2 would make the account much more resilient to how modern compound AI systems actually evolve.
+
+#### 6. A Subtle Slip on R3 and Sycophancy (Section 5.3 — *Minor*)
+
+In §5.3, the paper argues that under reading **R3** (where an output asserts "$p$, with the policy's calibrated confidence $c^*(p \mid x)$"), the hallucination verdicts in Cases 1–2 reverse, *but* the sycophancy verdict in Case 3 survives because "$P_6$'s content moves with the user's stated view while the evidence stays fixed."
+
+* Be careful here: if $P_6$'s output carries its *true reference-class calibrated confidence* $c^*(p \mid x)$ as part of its content (R3), and $P_6$ is a sycophantic model whose agreement with users is only true, say, $50\%$ of the time across the reference class, then $c^*(23 \mid x_{\text{user=23}}) \approx 0.50$. So under R3, $P_6$ would be asserting *"The answer is 23, with calibrated confidence 0.50."* While choosing to foreground $p = 23$ rather than $p = 17$ is still sycophantically sensitive to the user's prompt, the *epistemic import* of the assertion is heavily diluted if $c^*$ drops whenever the model panders. Worth a two-sentence clarification in §5.3.
+
+---
+
+### Prior Work Search and Literature Checked
+
+To verify whether the paper's core claims have been anticipated in the philosophical or technical literature up through October 2026, I conducted targeted searches across recent philosophy of AI, epistemology, and machine learning venues.
+
+#### What Was Checked:
+
+1. **Exact and near-exact conceptual combinations:** Searched for `"unit of assertion failure" chatbot policy`, `"same-string" "different-policy"`, `"policy lineage" sanction assertion LLM`, and `"chatbot" "hallucination" "sycophancy" "policy" assertion philosophy`.
+2. **Recent Philosophy of AI & Speech Act Literature (2023–2026):**
+* *Encyclopedia of the Philosophy of AI* entry on "AI and Assertion" (published October 2026, `ephilofai.org/entries/ai-and-assertion`), which surveys the exact cluster of papers cited in your manuscript (Butlin & Viebahn 2025; Williams & Bayne 2026; Gómez 2026; Chalmers 2026; Mallory 2023; Hicks, Humphries & Slater 2024; Freiman 2023/2024).
+* Butlin, P. & Viebahn, E. (2025), "AI Assertion," *Ergo* 12(37).
+* Williams, I. & Bayne, T. (2026), "Chatting with bots: AI, speech acts, and the edge of assertion," *Inquiry* 69(6).
+* Gómez, G. M. (2026), "Assertion, accountability, and large language models," *Philosophy & Technology* 39.
+* Chalmers, D. J. (2026), "What we talk to when we talk to language models," *Inquiry*.
+* Sambrotta, M. (2025), "LLMs and the logical space of reasons," *Minds and Machines* 35.
+* Mácha, J. (2026), "Language without propositions: Why large language models hallucinate," *Philosophies* 11(2).
+
+
+3. **Epistemology of AI Testimony & Reliabilism:**
+* Freiman, O. (2023), "Analysis of Beliefs Acquired from a Conversational AI: Instruments-based Beliefs, Testimony-based Beliefs, and Technology-based Beliefs," *Episteme* 21; and Freiman & Miller (2020).
+* Recent work on reliabilist justification and Brandomian scorekeeping in LLMs (e.g., *Asymmetric Communication: Large Language Models and the Normative Structure of Discourse*, arXiv:2607.28137; *Accuracy Is Not Honesty in AI Models*, April 2026).
+
+
+4. **Recent Technical & Taxonomic Work on Sycophancy and Hallucination (up to late 2026):**
+* Ye, M., Ibrahim, L., Bo, J. Y., Cheng, M., et al. (May 2026), "What Counts as AI Sycophancy? A Taxonomy and Expert Survey of a Fragmented Construct," arXiv:2605.21778.
+* Batista, R. & Griffiths, T. (2026), "A Rational Analysis of the Effects of Sycophantic AI."
+* Kalai, A. T., Nachum, O., Vempala, S. S. & Zhang, E. (2025 / *Nature* 2026), "Evaluating large language models for accuracy incentivizes hallucinations."
+
+
+
+#### Findings on Anticipation and Novelty:
+
+* **No prior paper anticipates the specific thesis or argument structure of this manuscript.** In fact, the October 2026 *Encyclopedia of the Philosophy of AI* entry on "AI and Assertion" explicitly remarks that philosophical treatments connecting the norms of assertion to *sycophancy* are virtually non-existent in print, making your unified policy-level treatment of hallucination, sycophancy, and sanction timely and distinctive.
+* **Three pieces of related work worth citing or briefly distinguishing:**
+1. **Freiman (2023) / Freiman & Miller (2020) on instrument-based vs. technology-based reliability:** In §2.2 and §3.3, when discussing reliabilist warrant and the "thermometer" objection from Butlin & Viebahn (2025), it would be helpful to briefly note Ori Freiman's work on the epistemology of conversational AI, which examines how reliability assessments of AI outputs relate to instrument-based vs. testimonial justification.
+2. **Ye et al. (2026, arXiv:2605.21778) on the taxonomy of sycophancy:** Since §2.3 relies entirely on Sharma et al. (2024), adding a brief nod to Ye et al. (2026)—who distinguish *Position-Verifiable* sycophancy (flipping on factual questions like Case 3's "17 vs. 23") from *Position-Subjective* and *Person-Praise* sycophancy, and note that sycophantic agreement and sycophantic praise are mechanistically separable in model representations—would strengthen §2.3 and §4.5.
+3. **Brandomian Scorekeeping Critiques (e.g., Brandom 1983, cited by Butlin & Viebahn 2025):** In §3.2, when arguing that the *policy lineage* is the diachronic subject of sanction, a brief sentence noting that Brandomian deontic scorekeeping requires updating commitments *within* a conversational record (which a frozen $\pi_t$ only mimics via context conditioning $h$, whereas the lineage updates dispositions across deployments) would sharpen the contrast with Chalmers (2026) and Sambrotta (2025).
+
+
+
+---
+
+### Summary of Recommended Revisions for Publication
+
+1. **Remove all meta-references to the "earlier draft" and "the referees' point"** in §§3.1–3.4, 4.1, and 5.3, converting them into standard impersonal objections and replies.
+
+
+2. **Revise §2.1's "no gap between act and state" argument** so that it does not rely on denying a modal/causal gap between the distribution $\pi(\cdot \mid x)$ and the sampled token draw $s$, nor on assuming libertarian choices in human speakers. Frame the bearer claim around the fact that overassertion is a structural mismatch internal to the policy's parameters/decoding, which token strings manifest only derivatively.
+
+
+3. **Clarify how $q(p \mid x)$ relates to post-trained weights in §§1, 2.2, and 4**, and specify how linguistic force $f$ is scaled onto $[0, 1]$ so that flat assertions with $c^* = 0.95$ count as warranted.

@@ -1,0 +1,367 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "If assertion is governed by an epistemic-position norm, then deployers of unreviewed generative systems do not assert the outputs. What they do is endorse a process or take on a guarantee. The thesis covers all unreviewed automated output whose content is fixed by a transducer rather than the principal's state, and it implies that much ordinary institutional 'telling' is not assertion.",
+        "headline": "There are two kinds of proxy assertion, relayed and generative. In relayed proxy assertion the principal has a determinate content they could believe or know. In generative proxy assertion they do not. LLM output is almost entirely generative, and for generative proxies the assertoric norms cannot be applied to the principal.",
+        "used_surviving": true,
+        "target": "Arora's and Green and Michel's proxy accounts, and the generalisation from recorded speech to machine speech",
+        "sketch": "Recorded messages, press statements read aloud, and Green and Michel's conditional speech acts ('whatever the system says under C, I say') all pass through a content the principal fixed or could have inspected. The proxy relation transmits a commitment to a proposition already in view. An LLM deployer commits in advance to no proposition; they authorise a policy for producing propositions they will never see. Assertion is individuated by its norms (belief, knowledge, sanction) and by its content. So if every novel output is the deployer's assertion, deployers assert, many times a day, things they neither believe nor could have known. Either the norm is dropped, which empties 'assertion', or the proxy relation is reconstrued as endorsing a reliability level, not asserting a content. The argument turns on the premise that a commitment to a content requires a means of identifying that content before or at the time of the act. Arora's refinement, which concerns whom to hold responsible, does not address this.",
+        "promise": 4,
+        "residual": 3
+      },
+      "finding": {
+        "searched": [
+          "Arora proxy assertion chatbot LLM responsibility who asserts",
+          "Green and Michel \"Assertion\" proxy assertion artificial intelligence conditional speech act",
+          "do large language models assert? knowledge norm of assertion deployer",
+          "psychology study responsibility attribution organization AI-generated statements who is speaker liability chatbot",
+          "survey assertion and large language models philosophy proxy assertion Stanford Encyclopedia",
+          "deployer does not assert LLM output; vouches for reliability, guarantee rather than assertion, content unseen",
+          "Green Michel \"What Might Machines Mean\" conditional speech acts \"whatever\" recorded speech principal inspect content",
+          "Butlin Viebahn AI assertion proxy assertion human agents unreviewed outputs knowledge norm principal"
+        ],
+        "left_philosophy": true,
+        "findings": [
+          {
+            "relation": "PRECEDENT",
+            "grade": "ENTERTAINED",
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "The distinction between cases where the proxy is a conduit for a principal's already-fixed assertion (scripts, recordings) and cases where it is not. This is the first half of the thesis's argument. Also whether proxy assertion for AI is available at all.",
+            "source": "Butlin & Viebahn, \"AI Assertion\", Ergo 12, 2025",
+            "url": "https://journals.publishing.umich.edu/ergo/article/id/7960/print/",
+            "what_they_say": "<cite index=\"13-8\">They argue that if assertion requires sanctionability, proxy assertion does not offer a road to AI assertion.</cite> Williams & Bayne report their view that in script-reading cases <cite index=\"65-11\">the proxy is at best a conduit for the principal's assertion.</cite>",
+            "damage": 2,
+            "note": "I saw only snippets and a secondhand report of pp. 15-18. They draw a conduit/non-conduit contrast and focus on the AI system's capacity to assert, not on whether the deployer asserts. The thesis's 'endorse a process, not assert a content' move is not visible in what I saw. PRECEDENT-or-ANTICIPATED is undecided for the conduit distinction until the full section is read."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "PASSING",
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Green & Michel's proxy account covers only deployed systems where the principal has taken an attitude of blanket endorsement toward the outputs. For general chatbots there is no clear principal.",
+            "source": "Williams & Bayne, \"Chatting with Bots: AI, Speech Acts, and the Edge of Assertion\", Inquiry 69(6), 2025 (arXiv 2410.16645)",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "They note that <cite index=\"10-14\">Green & Michel's account, if successful, only grounds chatbot proxy-assertion where a chatbot is deployed to generate text for a person or organisation</cite>. They describe the principal's attitude as one of blanket endorsement of the outputs. They also say that where the principal is unclear, the proxy might be seen as <cite index=\"1-16\">making assertions about what the principal believes.</cite>",
+            "damage": 1,
+            "note": "The phrase 'blanket endorsement' and the problem of a missing principal are raised in passing. They are not developed into the claim that deployers do not assert. They do not argue that a content-identification condition fails."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Named target: Green & Michel's proxy account and its extension from recorded speech to machine speech. This is the rival claim that deployers do perform speech acts via the system.",
+            "source": "Green & Michel, \"What Might Machines Mean?\", Minds and Machines 32, 2022",
+            "url": "https://philpapers.org/rec/GREWMM-2",
+            "what_they_say": "They <cite index=\"57-9,57-10\">extend their conception of speech acts to recorded, proxy, and conditional speech acts, and propose that a characteristic role for artificial speakers is as proxies for their human creators.</cite> Butlin & Viebahn quote them: <cite index=\"13-10\">RobotCop's utterances are speech acts performed on the department's behalf so long as they enact its illocutionary commitments.</cite>",
+            "damage": 2,
+            "note": "The ascription to Green & Michel is accurate: the abstract confirms recorded, proxy and conditional speech acts, and proxy-hood for creators. Their RobotCop case may be an enacting-commitments case rather than an unseen-novel-content case. I did not see their text on conditional acts and could not confirm the 'whatever the system says under C, I say' wording. This is a rival to answer, not a foreclosure."
+          },
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Named target: Arora's proxy account, which holds that deployers or designers can proxy-assert machine utterances. Her refinement concerns epistemic responsibility.",
+            "source": "Arora, \"Proxy Assertions and Agency: The Case of Machine-Assertions\", Philosophy & Technology 37(1), 2024",
+            "url": "https://philpapers.org/rec/AROPAA",
+            "what_they_say": "<cite index=\"3-4,3-5\">She argues that some machine utterances can be proxy assertions made on behalf of designers and/or deployers, and that existing accounts of this view need refinement.</cite> The proposal is that <cite index=\"4-2\">only those machine utterances for which human agents claim epistemic responsibility be deemed proxy assertions.</cite>",
+            "damage": 2,
+            "note": "The thesis describes Arora accurately. Her responsibility criterion is a point of contact with the thesis's 'take on a guarantee' reading, but I did not see whether she argues that content must be identifiable in advance. The thesis's claim that her refinement does not address that premise is unchecked against the full text."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Recent synthesis of the functionalist and proxy positions on LLM outputs. A referee will expect the thesis to locate itself against it.",
+            "source": "\"Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs\", Synthese, 2026",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "They surveyed the proxy view (Nickel, Green & Michel, Arora) as tracing responsibility to designers, developers or deployers. Their main claim is that <cite index=\"66-2\">even if the proxy view succeeds on responsibility, implementing it undermines internal regulation and civility.</cite>",
+            "damage": 2,
+            "note": "It accepts the proxy view for the sake of argument and targets conversational ideals. It does not question whether the deployer asserts a content."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "The thought that normative commitments attach to humans and institutions around the deployment, not to the machine.",
+            "source": "\"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026",
+            "url": "https://link.springer.com/article/10.1007/s13347-026-01136-y",
+            "what_they_say": "The paper proposes <cite index=\"37-7\">assertoric function can be distinguished from assertoric authority</cite>. It holds that the commitments <cite index=\"37-10\">attach to the human and institutional structures surrounding deployment.</cite>",
+            "damage": 2,
+            "note": "It keeps the outputs as functioning assertions, so it differs from the thesis, which denies that the deployer asserts. It also separates accountability from asserting, which is near the 'guarantee' reading. I saw only the abstract and snippets. Whether it ever says the deployer does not assert is undecided."
+          },
+          {
+            "relation": "SUPPORTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Institutional liability for generative output runs through negligence, product design and the company's control of the system. It does not run through the company's having asserted the specific content.",
+            "source": "Lemley, Henderson & Hashimoto, \"Where's the Liability in Harmful AI Speech?\", 2023",
+            "url": "https://arxiv.org/pdf/2308.04635",
+            "what_they_say": "The authors note that the state-of-mind requirement in defamation law <cite index=\"35-10\">may mean that no one is liable for certain harmful speech by generative AI.</cite> They also discuss negligence-style liability for deploying a system without reasonable precautions.",
+            "damage": 1,
+            "note": "This is usable evidence that the law already separates liability from the deployer's mental state toward a particular content, which fits the guarantee reading. The authors do not discuss assertion in the philosophical sense."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "ABSTRACT",
+            "provisional": false,
+            "part": "Empirical work on how people attribute responsibility for AI output. It is the nearest I found to the 'adjacent empirical literature' the search called for.",
+            "source": "Yu, Yetim & Cocieru, \"Whose Voice Is It Anyway? Understanding AI Customization and Responsibility Attribution in Human-AI Collaboration\", Int. J. Human-Computer Interaction, 2025",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2588652",
+            "what_they_say": "In an experiment with 507 participants, <cite index=\"34-6\">those who customized their AI attributed greater personal responsibility for negative outcomes.</cite>",
+            "damage": 1,
+            "note": "It measures responsibility and ownership, not whether users treat the deployer as having asserted. It could serve as evidence for 'taking on a guarantee', but it does not test the thesis."
+          }
+        ],
+        "what_is_left": "Nothing I found meets the ANTICIPATED standard, so no part of the thesis has to move. The rival views must be answered, though. Green & Michel and Arora hold that deployers or designers can proxy-assert machine output. The thesis's conditional claim therefore survives only if it shows that those accounts transmit commitment to a content the principal has no means of identifying. It must also show why a reliability-level commitment is not already what they mean by 'epistemic responsibility'. It also has to say how it differs from Butlin & Viebahn's conduit/non-conduit distinction. I could not read that distinction in full.",
+        "credit": [
+          "Nickel 2013 \u2014 originated proxy speech for artificial speakers; held that ultimate responsibility lies with persons or companies (seen only via Williams & Bayne's report)",
+          "Butlin & Viebahn 2025 \u2014 conduit versus non-conduit proxy cases, and the sanctionability argument that proxy assertion does not ease AI assertion",
+          "Williams & Bayne 2025 \u2014 noted that Green & Michel's account requires a deploying principal with blanket endorsement of outputs, and that general chatbots lack a clear principal",
+          "Arora 2024 \u2014 tied proxy assertion to human agents claiming epistemic responsibility, which the thesis recasts as a guarantee"
+        ],
+        "not_found": "I found no work that argues the thesis's central claim, that deployers of unreviewed generative systems do not assert and instead endorse a process or take on a guarantee. I searched for 'deployer does not assert', 'vouches for reliability' and 'guarantee rather than assertion' and got only engineering pages. I found nothing that makes the content-identification premise explicit, that is, that commitment to a content requires a means of identifying it at or before the act. I found nothing generalising the point to ordinary institutional 'telling' outside AI. I read no full text. Everything above rests on abstracts, snippets and secondhand reports. I did not see Green & Michel's treatment of conditional speech acts, Arora's body text, or Butlin & Viebahn's section 4 in full. The adjacent-empirical search was weak. It returned HCI and responsibility-attribution studies, not studies of speaker commitment, delegated speech, spokesperson speech or institutional assertion in linguistics, sociology or law. I did not search the philosophy of testimony and institutional or corporate speech, such as group assertion, spokesperson assertion and Lackey on group testimony. I did not search the 'quasi-assertion' literature, Mallory's fictionalism, or Goldberg's work on assertion. The SEP assertion entry results (including the Winter 2023 edition) showed no AI-related section. I did not check the Oxford Handbook chapters by Ludwig on proxy assertion or Freiman & Miller on artificial assertion beyond citation mentions. Silence here is weak evidence about a large and partly paywalled literature.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "assertion",
+      "speech-acts",
+      "computing-responsibility"
+    ],
+    "why": "The thesis concerns the norms of assertion (belief/knowledge) and whether proxy speech by deployers of LLMs counts as assertion; the speech-acts entry covers commitment and conditional speech acts, and computing-responsibility covers the neighbouring question of whom to hold responsible for machine outputs.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Norm-of-assertion literature supplies the premise: assertion is governed by an epistemic norm (knowledge, justification, belief, truth) relating the speaker's epistemic position to the content. The thesis's conditional can build on this.",
+                "who": "Williamson (KNA); Lackey, Douven, Kvanvig (JNA); Bach, Hindriks (BNA)",
+                "quote": "Williamson (1996, 2000) initiated this debate by proposing that assertion is governed by a single norm... One must: assert p only if one knows p.",
+                "damage": 1,
+                "note": "Supplies the antecedent; the entry is silent on automated or machine output."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Commitment accounts treat assertion as taking on accountability or guarantee for the content. The thesis's contrast between 'endorse a process / take on a guarantee' and asserting echoes this, but the entry treats guaranteeing as constitutive of assertion, not as an alternative to it.",
+                "who": "Peirce; Alston; Brandom; Watson; Moran; Hinchman; Carson",
+                "quote": "some authors write that assertions guarantee (Peirce; Watson 2004: 66), assure (Moran 2005, Hinchman 2013) or warrant (Carson 2006) that their content is true.",
+                "damage": 3,
+                "note": "A commitment theorist would say the deployer asserts precisely by taking on the guarantee; this rival undercuts the claim that a guarantee is not assertion."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "Rescorla denies any norm governs the making of assertions; Greenberg denies a sui generis norm; Cappelen calls assertion a defective theoretical category. These deny the thesis's antecedent or block the inference from norm to non-assertion.",
+                "who": "Rescorla 2009a; Greenberg 2020; Cappelen 2020",
+                "quote": "Rescorla (2009a), who defends a commitment account of assertion... argues there is no norm at all for proper making of assertions.",
+                "damage": 3,
+                "note": "The thesis is conditional, so these rivals limit its scope but do not refute it."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The norm literature separates being subject to a norm from conforming to it: an assertion that violates the norm is still an assertion. A referee will press this against a thesis saying a deployer who lacks the epistemic position does not assert, rather than asserts improperly.",
+                "who": "Williamson; Goldberg; Montminy (Individuation assumption)",
+                "quote": "it is being subject to the norm that characterizes assertion, not conforming to the norm. An assertion that violates the norm is still an assertion.",
+                "damage": 4,
+                "note": "Lacking the epistemic position yields a norm-violating assertion, not a non-assertion, unless the thesis adds an agency or authorship condition."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Selfless assertions, where a speaker states content she does not believe, for example a teacher reporting consensus. These cases show that a gap between the speaker's own state and the content can be compatible with proper assertion.",
+                "who": "Lackey 2007; Montminy; Turri; Mili\u0107",
+                "quote": "Intuitively, it would be appropriate for Stella, as a teacher, to assert (31). However, (KNA) predicts that (31) is incorrect",
+                "damage": 3,
+                "note": "Suggests institutional or representative telling can still be assertion; it threatens the thesis's claim that ordinary institutional telling is not assertion."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Testimonial and transmission-focused norms: assertion is tied to the hearer's entitlement to believe and to the speaker authorizing the hearer to defer challenges back to the speaker. Relevant to whether an institution can be the speaker.",
+                "who": "Goldberg 2015; Garc\u00eda-Carpintero 2004 (KNA-T)",
+                "quote": "the speaker authorizes the hearer to defer back to the speaker the responsibility of meeting challenges to the assertion.",
+                "damage": 2,
+                "note": "A deployer who accepts responsibility for challenges could meet this condition; it bears on the 'guarantee' alternative."
+              },
+              {
+                "relation": "PRECEDENT",
+                "grade": "PASSING",
+                "position": "Indirect and non-explicit assertion, and the question whether an utterance whose content is not what the speaker says counts as assertion proper. This is only loosely related to the thesis, which concerns who the speaker is, not how the content is expressed.",
+                "who": "Fricker 2012; Garc\u00eda-Carpintero 2016",
+                "quote": "One question is whether an utterance is an assertion proper that p if that content is not exactly what is expressed",
+                "damage": 1,
+                "note": "Weak neighbour; it concerns content determinacy, not authorship."
+              }
+            ],
+            "nearest_positions": [
+              "Knowledge/justification/belief norm of assertion (Williamson; Lackey; Douven; Bach), which supplies the 'epistemic-position' antecedent",
+              "Commitment accounts on which asserting is taking on accountability or a guarantee (Peirce, Alston, Brandom, Watson), which absorb the thesis's 'guarantee' alternative into assertion",
+              "Selfless-assertion cases and the subject-to versus conform-to distinction (Lackey; Williamson/Goldberg), which block the move from lacking the epistemic position to not asserting"
+            ],
+            "entry_silent_on": "Automated, machine-generated, or transducer-produced output and non-human speakers. The entry also does not discuss institutional or corporate speakers, deployers or principals, or the question whether someone who relays or endorses another process's output asserts it. It does not discuss a distinction between asserting and endorsing a process."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Assertion is distinguished from conjecture by an epistemic norm: assertion purports to manifest knowledge and exposes the speaker to the challenge 'How do you know?', with an obligation to retract if it cannot be met. This is the epistemic-position norm the thesis takes as its antecedent.",
+                "who": "Williamson 1996; Green 2017; Green's own account in \u00a75.3",
+                "quote": "One who asserts P lays herself open to the challenge, \u201cHow do you know that?\u201d, and she is obliged to retract P if she is unable to respond to that challenge adequately.",
+                "damage": 1,
+                "note": "Supplies the norm the conditional builds on; the entry does not apply it to automated output."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Speech acts require overt, intentional undertaking of a publicly accessible commitment, and speaker meaning is a necessary condition for non-conventional speech acts. This gives a route to denying that a deployer asserts content they did not mean or commit to.",
+                "who": "Green (\u00a7\u00a74.3, 5.3); Grice; Bertolet 2017",
+                "quote": "speech acts involve intentional undertaking of a publicly accessible commitment; further, that commitment is not undertaken simply by virtue of my intending to undertake it",
+                "damage": 1,
+                "note": "Gives a principled basis for 'not asserting' when the content is fixed by something other than the principal's state."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Utterances of sentences without speech act performance: the entry says an utterance of a sentence is not sufficient for a speech act (the somniloquist), and that Davidson's joker, storyteller or actor can produce an utterance without asserting. This is a near neighbour for the claim that producing words does not amount to asserting them.",
+                "who": "Green; Davidson 1979",
+                "quote": "while talking in my sleep I might say, \u201cI hereby promise to climb the Eiffel Tower,\u201d without thereby making any promise.",
+                "damage": 2,
+                "note": "Shows that words alone do not suffice for assertion, but nothing about delegation or transducers."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Conventionalist accounts on which some speech acts (appointing, excommunicating) are performed by invoking institutional conventions. A referee could say institutional 'telling' is performed by convention and so is not governed by the epistemic norm, or is assertion by convention.",
+                "who": "Austin; Searle 1969; Strawson 1964 (allows special-case conventions)",
+                "quote": "This position is compatible with holding that in special cases linguistic communities have instituted conventions for particular speech acts such as appointing and excommunicating.",
+                "damage": 2,
+                "note": "Rival route for institutional speech; also the Reimer-style 'illocutionary conventions' for performatives."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Performatives and assertion: some accounts hold that performative utterances are assertions, others that they are declarations or illocutionary-convention based, which is a neighbouring case of taking on a commitment ('guarantee') by saying.",
+                "who": "Ginet 1979; Bach and Harnish; Reimer 1995; Searle and Vanderveken 1985",
+                "quote": "Searle and Vanderveken (1985) characterize performatives as speech acts having the force of declarations.",
+                "damage": 2,
+                "note": "Neighbours the 'take on a guarantee' reclassification."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Commitment can attach to a content without the content having been asserted, so a deployer may be committed (by guarantee) without having asserted.",
+                "who": "Green on illocutionary validity",
+                "quote": "That is not to say that I have also asserted R : if assertion were closed under deductive consequence I would assert infinitely many things just by virtue of asserting one.",
+                "damage": 1,
+                "note": "Supports separating commitment from assertion, as the thesis does."
+              }
+            ],
+            "nearest_positions": [
+              "Knowledge/'How do you know?' norm distinguishing assertion from conjecture \u2014 Williamson 1996, Green 2017",
+              "Speech acts as overt, intentional undertakings of commitment grounded in speaker meaning \u2014 Green, Grice, Strawson 1964",
+              "Convention-based speech acts and performatives as declarations or illocutionary conventions \u2014 Austin, Searle, Searle and Vanderveken, Reimer"
+            ],
+            "entry_silent_on": "Automated, machine-generated, or delegated output: who is the speaker when content is fixed by a transducer, agent-based or institutional speaking on behalf of a principal, and whether corporate or institutional 'telling' counts as assertion. The entry does not apply the epistemic norm to deployers, nor discuss the epistemic-position norm as applied to non-human producers (the nearest it comes is Davis 1992's mention of speaking to photocopy machines, which concerns audiences, not producers)."
+          }
+        ],
+        "slug": "speech-acts",
+        "url": "https://plato.stanford.edu/entries/speech-acts/",
+        "truncated": false
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "The entry's nearest topic is responsibility for automated outputs: developers and deployers are responsible for the ethical implications of what their systems do in context, because they know the design decisions and choose to deploy. This is an accountability-for-systems view, not a speech-act or assertion view.",
+                "who": "Martin 2019; Gotterbarn 2001 (positive responsibility)",
+                "quote": "developers and the companies that decide to sell a computer technology into a particular context are responsible for the ethical implication of the use of these technologies in that context",
+                "damage": 2,
+                "note": "Offers a responsibility-for-process framing that parallels 'taking on a guarantee', but says nothing about assertion."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Artifacts inscribe their designers' and users' intentions, so output content is shaped by the system and not simply by the principal's current state. Content is fixed partly by the mediating artifact.",
+                "who": "Verbeek; Johnson; Johnson and Powers",
+                "quote": "The software has inscribed in its design the various intentions of the developers, managers and clients; it is poised to behave, given a particular input, according to their ideas",
+                "damage": 1,
+                "note": "The thesis can build on this mediation point to argue that output content is fixed by a transducer."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Opacity and automation bias mean that users and deployers do not understand or check the outputs they rely on. This supports the 'unreviewed' and 'no epistemic position' premise.",
+                "who": "Angwin et al. 2016 (judges and the risk-assessment tool); Parasuraman & Riley; Cummings",
+                "quote": "The judges were basing their sentencing on the suggestion of an algorithm that they did not fully understand.",
+                "damage": 1,
+                "note": "Empirical grounding for the claim that deployers lack epistemic access to outputs."
+              },
+              {
+                "relation": "PRECEDENT",
+                "grade": "FRAMEWORK",
+                "position": "Responsibility is distributed among humans and technologies, and accountability is a practice that is tied to organizational context and not to individual mental states. This is a broader view into which 'endorsing a process or guaranteeing' could fit as an application, but the entry does not draw that application.",
+                "who": "Nissenbaum 1994/1997; Johnson and Powers 2005; Floridi 2016",
+                "quote": "Moral responsibility from this perspective is not located in an individual or an interpersonal relationship, but is distributed among humans and technologies.",
+                "damage": 2,
+                "note": "Accountability without individual authorship is related, but it concerns responsibility and not assertion."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Floridi and Sanders separate accountability from responsibility, so an agent can be answerable for an action without being responsible in the full sense. Structurally this resembles taking a guarantee without making an assertion.",
+                "who": "Floridi and Sanders 2004",
+                "quote": "artificial agents should be acknowledged as moral agents that can be held accountable, but not responsible",
+                "damage": 2,
+                "note": "A near neighbour in the decoupling move, but it targets moral agency and not speech acts."
+              }
+            ],
+            "nearest_positions": [
+              "Developers and deployers bear responsibility for the ethical implications of a system's outputs in context \u2014 Martin 2019; Gotterbarn 2001",
+              "Responsibility is distributed across human and technological components and organizations, with accountability as a practice \u2014 Nissenbaum; Johnson and Powers; Floridi 2016",
+              "Accountability can be decoupled from responsibility for artificial agents \u2014 Floridi and Sanders 2004"
+            ],
+            "entry_silent_on": "Assertion, speech acts, epistemic-position or knowledge norms of assertion, and whether deployers 'tell' or 'say' anything through generative output. The entry covers only moral responsibility, and its few mentions of 'information' concern content moderation and platform liability (the Google/YouTube case), not testimony or assertion. Generative language systems and the claim that institutional 'telling' is not assertion go unaddressed."
+          }
+        ],
+        "slug": "computing-responsibility",
+        "url": "https://plato.stanford.edu/entries/computing-responsibility/",
+        "truncated": false
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "If assertion is governed by an epistemic-position norm, then deployers of unreviewed generative systems do not assert the outputs. What they do is endorse a process or take on a guarantee. The thesis covers all unreviewed automated output whose content is fixed by a transducer rather than the principal's state, and it implies that much ordinary institutional 'telling' is not assertion."
+  ]
+}

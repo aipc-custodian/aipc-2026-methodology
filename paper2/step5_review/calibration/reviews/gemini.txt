@@ -1,0 +1,194 @@
+# Referee Report: *Freedom, Omniscience and the Contingent A Priori*
+
+## 1. Executive Verdict: Quality, Novelty, and Publishability
+
+* **Quality:** **High.** The manuscript is exceptionally clear, formally rigorous, and tightly argued. The derivations in modal logic with the actuality operator ($\text{@}$) are sound, and the progression from divine belief (§3) to human knowledge (§4) to reference-fixing stipulations (§4.1) is Dialectically smart and well-structured.
+
+
+* **Novelty:** **Moderate-to-High (Incremental within a specialized research program).** Applying contingent *a priori* truths ($\text{@}p \supset p$) and factivity ($\square(Kp \supset p)$) to show that the Transfer/Closure principle ($Np, \square(p \supset q) \vdash Nq$) generates fatalism via *trivial human past knowledge*—entirely bypassing substantive divine foreknowledge—is a genuine and clever contribution to the theological fatalism literature. However, the exact technical engine driving the paper (using $\text{@}p$, rigidified descriptions, truth-value baptisms like ‘George’/‘Plato’, and set-membership rigidity to break Closure/Rule $\alpha$) is heavily anticipated by the author’s own prior publications (espec. Lampert & Merlussi 2021a, 2021b, 2022; Lampert & Waldrop 2023) as well as Stephen Kearns (2011) and Jack Spencer (2017).
+
+
+* **Publishability:** **Publishable with Minor-to-Moderate Revisions** in a leading generalist or philosophy of religion/metaphysics journal *(Note: This manuscript was published by Fabio Lampert in **Mind**, Vol. 134, Issue 533, Jan 2025, pp. 1–32)*. Evaluated as a blind submission, it warrants conditional acceptance provided the author addresses the dialectical loopholes regarding Ockhamist soft-fact criteria and reduces the overlap in §4.1 with their earlier work.
+
+---
+
+## 2. Summary of the Argument
+
+The paper targets the "Master Argument" for theological fatalism, which infers from the accidental necessity of God’s past belief $Bp$ ($Np$) and the factivity of divine belief $\square(Bp \supset p)$ via **Closure** ($Np, \square(p \supset q) \vdash Nq$) that no agent has a choice about $p$ ($Np$).
+
+The author constructs two parallel reductio-style arguments:
+
+1. **The A Priori Belief Argument (§3):** By standard logic for ‘actually’ ($\text{@}p \supset \square\text{@}p$), if $p$ is actually true ($\text{@}p$), then $\square((\text{@}p \supset p) \supset p)$ (**Act Lemma**). Combined with divine infallibility $\square(Bp \supset p)$, this yields **Belief Lemma**: $\text{@}p \supset \square(B(\text{@}p \supset p) \supset p)$. Thus, if God merely believed a billion years ago the trivial contingent *a priori* conditional $\text{@}p \supset p$, Closure entails $Np$. Crucially, this requires no substantive divine foreknowledge of the future—thereby defeating "restricted omniscience" responses to theological fatalism.
+
+
+2. **The A Priori Knowledge Argument (§4):** Because human knowledge is also factive ($\square(Kp \supset p)$), the same derivation yields **Knowledge Lemma**: $\text{@}p \supset \square(K(\text{@}p \supset p) \supset p)$. If *any human agent* $S$ knew yesterday the trivial armchair truth $\text{@}p \supset p$, Closure entails you have no choice about $p$ tomorrow. To show this does not depend on quirks of the $\text{@}$ operator, §4.1 develops "Naming Arguments" using Kripkean descriptive baptisms of truth-values (‘George’ = 1 iff $p$) and the rigidity of set/plural membership ($p \in \text{George}$). The author concludes (§5) that since past armchair knowledge cannot strip away free will, **Closure** is the culprit and should be rejected.
+
+
+
+---
+
+## 3. Objections Ranked by Seriousness
+
+### Objection 1 (Most Serious): The Epistemic / Referential Circularity of the "Naming Arguments" (§4.1) and Unacknowledged Propositional Opacity
+
+In §4.1, the author tries to show that the A Priori Knowledge Argument does not rely on the $\text{@}$ operator by introducing ‘George’ via stipulation: *"Let ‘George’ be a proper name for the number 1 if you actually raise your hand at $t$... otherwise 0"*. The author then claims that agent $S$ knows at $t_{-1}$ the proposition:
+
+> (16) $\text{George} = 1 \supset p$
+> 
+
+And derives **KL***: $\text{George} = 1 \supset \square(K(\text{George} = 1 \supset p) \supset p)$.
+
+**Why this is a serious problem:**
+
+1. **The Rigidification Dilemma:** If the stipulation fixing the reference of ‘George’ explicitly uses the word *"actually"* ("if you *actually* raise your hand at $t$"), then it has not dispensed with the actuality operator at all—it has merely buried $\text{@}$ inside a metalinguistic reference-fixing rule. If, instead, the stipulation is merely descriptive ("George = the truth value of $p$"), why is ‘George’ a *rigid designator* rather than an abbreviated non-rigid definite description?
+
+
+2. **Kripkean *De Re* Epistemic Opacity:** Even granting that ‘George’ rigidly designates $1$ (given that $p$ is true), what proposition does the sentence $\text{‘George} = 1 \supset p\text{’}$ express?
+* Under a **Millian/Direct Reference** view, the singular proposition expressed by $\text{‘George} = 1\text{’}$ is identical to the proposition $\langle 1 = 1 \rangle$. While $1 = 1$ is necessary, $S$ at $t_{-1}$ does *not* know which number ‘George’ refers to (since $S$ doesn't know whether $p$ is true). As Robin Jeshion (2002)—whom the author briefly cites in fn. 23—and standard epistemic two-dimensionalists argue, $S$ knows the *metalinguistic* or *primary intension* truth ("The object named by ‘George’ is 1 only if $p$"), which is **not** rigid, while failing to grasp or know the *singular/secondary intension* proposition ($1 = 1 \supset p$, which is equivalent to $p$ itself!).
+
+
+* Put simply: inside the scope of the epistemic operator $K$, substituting the rigid designator’s metaphysical modal profile ($\text{George} = 1 \supset \square(\text{George} = 1)$) equivocates between the *a priori* primary intension (which $S$ knows at $t_{-1}$, but whose antecedent is not necessary) and the *a posteriori* secondary intension (whose antecedent $1=1$ is necessary, but which $S$ cannot know at $t_{-1}$ without already knowing $p$). The author needs to explicitly address how $K(\text{George} = 1 \supset p)$ avoids standard two-dimensionalist/Millian blocks on *de re* contingent *a priori* knowledge.
+
+
+
+---
+
+### Objection 2 (Serious): The Dismissal of the Ockhamist "Soft Fact" Response in §4 is Dialectically Too Quick
+
+On pp. 16–18, the author argues that $K_{t_{-1}}(\text{@}p \supset p)$ is a "hard fact" about $t_{-1}$, unlike $K_{t_{-1}}(p)$. The author’s argument is:
+
+> *"Note that $\text{@}p \supset p$ is true in the actual world regardless of whether $p$ is. Thus, irrespective of how the actual world turns out, $\text{@}p \supset p$ is and has always been a fact. Whether $K(\text{@}p \supset p)$ is a fact about $t$ is, a fortiori, not determined by what happens after $t$..."* (p. 17)
+> 
+> 
+
+**Why this is a serious problem:**
+This argument relies on an subtle **scope / proposition-individuating equivocation** regarding what proposition the sentence $\text{‘}\text{@}p \supset p\text{’}$ expresses at different worlds when considered as a candidate for counterfactual dependence.
+
+* Suppose at $t$ you have the ability to refrain from raising your hand ($\sim p$). What would have been the case if you had refrained ($\sim p$)?
+* There are two ways to evaluate the counterfactual *"If you were to refrain from raising your hand at $t$ ($\sim p$), would $S$ still have known at $t_{-1}$ the proposition $C$ (where $C$ is the specific proposition actually expressed by $\text{‘}\text{@}p \supset p\text{’}$)?"*
+1. **Standard Counterfactual Evaluation (Fixed Actual World $w_0$):** In standard modal semantics (and standard Ockhamism), the actuality operator $\text{@}$ stays rigidly anchored to $w_0$ (where $p$ is true) when we evaluate a counterfactual at a closest $\sim p$-world $w_1$. At $w_1$, $\text{@}p$ is **true** (since $p$ is true at $w_0$), while $p$ is **false** (at $w_1$). Therefore, at $w_1$, the proposition $\text{@}p \supset p$ is **FALSE**! And because $K$ is factive, at $w_1$, $S$ did **not** know $\text{@}p \supset p$ at $t_{-1}$!
+2. Notice what this means for the Ockhamist: Holding fixed the actual proposition $\text{@}p \supset p$, whether that proposition is true at a world $w$ *does* depend on whether $p$ is true at $w$! At any world $w$ where you do not raise your hand ($\sim p$), $\text{@}p \supset p$ is **false**, and so $K_{t_{-1}}(\text{@}p \supset p)$ is **false** at $w$.
+3. The author claims on p. 17 that *"irrespective of how the actual world turns out, $\text{@}p \supset p$ is and has always been a fact"*. That is only true if we evaluate $\text{‘}\text{@}p \supset p\text{’}$ *diagonally* (shifting the reference of $\text{@}$ to whichever world $w$ is taken as actual, i.e., **counteractually**). Put differently:
+
+
+* If we evaluate **counterfactually** (holding $\text{@}$ fixed to $w_0$), then $\text{@}p \supset p$ is **false** at $\sim p$-worlds, which means $K_{t_{-1}}(\text{@}p \supset p)$ counterfactually depends on your future action $p$ in the exact same way $B_{t_{-1}}(p)$ does! The Ockhamist can immediately classify $K_{t_{-1}}(\text{@}p \supset p)$ as a **soft fact** because had you done otherwise (at $w_1$), $\text{@}p \supset p$ would have been false (at $w_1$) and $S$ wouldn't have known it.
+* Conversely, if we evaluate **diagonally/counteractually** (shifting $\text{@}$ to $w_1$), then $\text{@}p \supset p$ remains true at $w_1$, so $K_{t_{-1}}(\text{@}p \supset p)$ is a hard fact—**but under diagonal evaluation, $\text{Act}$ ($\text{@}p \supset \square\text{@}p$) and $\text{Knowledge Lemma}$ fail!**
+
+
+
+
+* **The Takeaway:** The author gets **Knowledge Lemma** by holding $\text{@}$ rigid across modal space (subscribing to horizontal/metaphysical evaluation where $\text{@}p \supset p$ is *false* at $\sim p$-worlds), but then argues in §4 that $K(\text{@}p \supset p)$ is a "hard fact" by appealing to our intuition about its *diagonal* profile (that whichever world turns out to be actual, the sentence $\text{‘}\text{@}p \supset p\text{’}$ is true at that world considered as actual). The Ockhamist (or a defender of Patrick Todd’s 2013 ontological dependence account) has a devastating reply here: the metaphysical proposition $\langle \text{If } p \text{ at } w_0, \text{ then } p \rangle$ is only true at worlds where $p$ occurs; hence its truth (and $S$'s factive knowledge of it) depends on $p$ occurring in the future! The author must confront this two-dimensional equivocation head-on in §4.
+
+
+
+---
+
+### Objection 3 (Moderate): Footnote 20 Makes the Epistemic/Theological Framing Potentially Redundant
+
+In Footnote 20 (pp. 17–18), the author notes that one can dispense with God ($B$) and human knowledge ($K$) altogether:
+
+> (13*) You have no choice about: $\text{@}p \supset p$.
+> (14*) $\square((\text{@}p \supset p) \supset p)$ [from $\text{@}p$ and Act Lemma].
+> (15*) Therefore, you have no choice about: $p$.
+> 
+> 
+
+And in FACT, as the author knows from Kearns (2011) and Lampert & Merlussi (2021a), one doesn't even need the conditional $\text{@}p \supset p$ if one assumes Rule $\alpha$ ($\square q \vdash Nq$, which follows from Closure assuming $\exists r Nr$, as noted in fn. 15):
+
+1. $\text{@}p \supset \square\text{@}p$ (Act)
+
+
+2. $\square\text{@}p$ (from $\text{@}p$)
+3. $N\text{@}p$ (by Rule $\alpha$ / Closure)
+4.Wait—since $\text{@}p$ does *not* strictly imply $p$ ($\neg\square(\text{@}p \supset p)$), you can't get from $N\text{@}p$ to $Np$ via Closure directly!
+**Credit where due:** The author should highlight this point *much more prominently* in the main text! The reason you cannot get from $N\text{@}p$ to $Np$ via Closure is that $\square(\text{@}p \supset p)$ is **false** when $p$ is contingent. That is the exact formal reason why the author introduces $\text{@}p \supset p$ and factive $B$/$K$: because while $\text{@}p$ is necessary (and doesn't entail $p$), the conditional $\text{@}p \supset p$ is *contingent*, and when $\text{@}p$ is true, $\text{@}p \supset p$ **does** strictly entail $p$ ($\square((\text{@}p \supset p) \supset p)$)!
+Right now, burying (13*)–(15*) in Footnote 20 obscures both:
+
+
+4. Why the paper needs $B(\text{@}p \supset p)$ and $K(\text{@}p \supset p)$ at all (namely, to anchor Premise 1 in the *fixity of the past* rather than the contested assumption that we have no choice about contingent logical truths like $\text{@}p \supset p$).
+
+
+5. Why $\text{@}p \supset p$ is a major formal advance over the simpler $\text{@}p$ argument in Kearns (2011) (which only refuted Rule $\alpha$: $\square p \vdash Np$, whereas Lampert’s $\text{@}p \supset p + \text{past } K$ refutes **Rule $\beta$ / Closure** using only a past fact!). Bringing this comparison out of footnotes 15 and 20 into the main text will significantly sharpen the paper's contribution.
+
+
+
+---
+
+### Objection 4 (Minor): Substantial Self-Overlap in Section 4.1
+
+As documented in the Prior Work section below, the "Naming Arguments" in §4.1 (baptizing truth-values $1$ and $0$ as ‘George’ and baptizing the set of truths as ‘George’) are near-verbatim adaptations of the arguments in Merlussi & Lampert (2022), *"Naming and Free Will"* (where Socrates baptizes the truth-value of $p$ as ‘Plato’ and Xanthippe baptizes the set of truths about her actions as ‘ACT’), and Lampert & Merlussi (2021b). While the author adds the epistemic operator $K_{t_{-1}}(\text{George} = 1 \supset p)$ here to turn them into past-knowledge Closure arguments rather than Rule $\alpha$ arguments, the overlap in setup and machinery is substantial and should be more transparently signposted at the start of §4.1 (currently Merlussi & Lampert 2022 is only cited in fn. 31 on the final page).
+
+---
+
+### Objection 5 (Minor): The Positive Replacement Principle (`Bec`) in Footnote 31 is Underspecified
+
+In Footnote 31 (p. 26), to reassure incompatibilists about causal determinism that rejecting Closure does not doom the Consequence Argument, the author proposes:
+
+> **Bec.** From $Np$ and $q \text{ because } p$, infer $Nq$.
+> 
+> 
+
+While attractive (and aligned with Swenson 2016 and Lampert & Waldrop 2023), the author should briefly note in the main text of §5 how **Bec** handles the A Priori Knowledge Argument: it succeeds because $p$ does not obtain *because* $S$ knew $\text{@}p \supset p$; rather, $\text{@}p \supset p$ is trivially true and $p$ obtains because of your free choice. Moving this insight from fn. 31 into §5 would make the conclusion much more constructive.
+
+---
+
+## 4. Search for Prior Work & What Was Checked
+
+To evaluate the originality of the manuscript and check whether its arguments have been anticipated, I searched the philosophical literature across modal logic, the Consequence Argument, theological fatalism, and contingent *a priori* truths.
+
+### List of Searches and Works Checked
+
+1. **Exact Title & Author Check:** Checked `"Freedom, Omniscience and the Contingent A Priori" Lampert` and `"Lampert" "contingent a priori" "free will"`.
+* *Result:* Confirmed that this exact paper is by **Fabio Lampert**, published in ***Mind***, Vol. 134, Issue 533 (January 2025), pp. 1–32 (online October 2024).
+
+
+2. **Prior Work on Actuality ($\text{@}$), World-Indexed Truths, and Free Will / Responsibility:** Checked literature citing Stephen Kearns (2011), Jack Spencer (2017), Turner & Capes (2018), and Martin Glazier (2025).
+3. **Author’s Own Prior Publications on Naming, Logical Truths, and Closure:** Checked Merlussi & Lampert (2022), Lampert & Merlussi (2021a, 2021b), Lampert (2022), Lampert & Waldrop (2023), and Lampert & Waldrop (2026, *Canadian Journal of Philosophy*).
+4. **Theological Fatalism, Soft Facts, and Explanatory Closure:** Checked Zagzebski (1991, 2004), Finch & Warfield (1999), Fischer & Todd (2011, 2013, 2015), Todd (2013, 2023), and Swenson (2016).
+
+### Prior Work That Anticipates Key Moves in This Paper
+
+1. **Lampert, Fabio & John William Waldrop (2023), "A Puzzle About Moral Responsibility," *Philosophical Studies* 180(8): 2291–2307.**
+
+* *How it anticipates the paper:* Uses the exact same logical truth $\text{@}p \supset p$ and **Act Lemma** ($\text{@}p \supset \square((\text{@}p \supset p) \supset p)$) combined with a closure principle for moral responsibility to argue that if no one is responsible for logical truths ($\text{@}p \supset p$), then no one is responsible for $p$. Footnote 20 of the present paper is a direct transpose of Lampert & Waldrop (2023) from "not responsible for" to "no choice about". The present paper’s main innovation over the 2023 paper is wrapping $\text{@}p \supset p$ inside $B_{t_{-1}}(\cdot)$ and $K_{t_{-1}}(\cdot)$ so that Premise 1 rests on the *fixity of the past* rather than non-responsibility for logical truths.
+
+
+
+
+2. **Merlussi, Pedro & Fabio Lampert (2022), "Naming and Free Will," *Grazer Philosophische Studien* 99(4): 475–484.**
+
+* *How it anticipates the paper:* Directly anticipates Section 4.1. In that paper, Socrates stipulates that ‘Plato’ names $1$ if $p$ is true and $0$ otherwise, and Xanthippe stipulates that ‘ACT’ names the set of all truths about her actions, using the necessity of identity ($\text{Plato} = 1 \supset \square(\text{Plato} = 1)$) and rigidity of set membership ($p \in \text{ACT} \supset \square(p \in \text{ACT})$) to challenge Rule $\alpha$ ($\square p \vdash Np$). Section 4.1 of the present manuscript adapts those exact two examples (‘George’ = 1/0 and ‘George’ = the set of all truths) by embedding them in $K_{t_{-1}}(\text{George} = 1 \supset p)$.
+
+
+
+
+3. **Kearns, Stephen (2011), "Responsibility for Necessities," *Philosophical Studies* 155(2): 307–324, and Spencer, Jack (2017), "Able to Do the Impossible," *Mind* 126(502): 466–497.**
+
+* *How they anticipate the paper:* Kearns and Spencer pioneered the use of the rigidifying actuality operator ($\text{@}p \supset \square\text{@}p$) and world-indexed truths in the free will debate to argue that if $p$ is up to an agent, then the necessary truth $\text{@}p$ is also up to the agent—thereby refuting Rule $\alpha$ ($\square p \vdash Np$) and Closure under strict implication.
+
+
+4. **Lampert, Fabio & Pedro Merlussi (2021a), "Counterfactuals, Counteractuals, and Free Choice," *Philosophical Studies* 178(2): 445–469; and (2021b), "How (Not) to Construct Worlds With Responsibility," *Synthese* 199: 10389–10413.**
+
+* *How they anticipate the paper:* Develop the two-dimensional / counteractual semantics for $\text{@}p$ and reply to Turner & Capes (2018) on whether agents have a choice about world-indexed and rigidified truths.
+
+
+5. **Swenson, Philip (2016), "Ability, Foreknowledge, and Explanatory Dependence," *Australasian Journal of Philosophy* 94(4): 658–671.**
+
+* *How it anticipates the paper:* Anticipates the diagnosis in Footnote 31 that transfer principles for "no choice about" fail in theological fatalism because they track mere modal entailment ($\square(p \supset q)$) rather than explanatory/grounding dependence ($q \text{ because } p$).
+
+
+
+
+
+---
+
+## 5. Concrete Recommendations for Revision
+
+1. **Address the Two-Dimensional Ockhamist Reply in §4 (Response to Objection 2):** Explain why $K_{t_{-1}}(\text{@}p \supset p)$ does not count as a "soft fact" despite the fact that at any possible world $w$ where $\sim p$ holds, the proposition $\text{@}p \supset p$ (with $\text{@}$ rigidly anchored to the actual world $w_0$) is **false** at $w$, meaning $K_{t_{-1}}(\text{@}p \supset p)$ is also false at $w$. Distinguish clearly between holding $\text{@}$ fixed (horizontal modal evaluation) and shifting $\text{@}$ (diagonal evaluation).
+2. **Defend `KL*` Against *De Re* / Two-Dimensionalist Objections in §4.1 (Response to Objection 1):** Clarify whether ‘George’ in §4.1 is defined using $\text{@}$ (making it reliant on the actuality operator after all) and explain how $S$ at $t_{-1}$ can know the *singular/rigid* proposition expressed by $\text{‘George} = 1 \supset p\text{’}$ without knowing whether $\text{George} = 1$.
+
+
+3. **Elevate the Comparison with Kearns (2011) and Lampert & Waldrop (2023):** Briefly explain in the main text of §3/§4 why embedding $\text{@}p \supset p$ inside past belief/knowledge ($B_{t_{-1}}, K_{t_{-1}}$) provides a Dialectically stronger case against Closure than direct arguments from $\square\text{@}p$ (Kearns 2011) or logical truth $N(\text{@}p \supset p)$ (fn. 20 / Lampert & Waldrop 2023)—namely, because it relies solely on the uncontroversial *fixity of the past* and *factivity*.
+
+
+4. **Explicitly Acknowledge Merlussi & Lampert (2022) in §4.1:** Cite *"Naming and Free Will"* in the main text of §4.1 when introducing the ‘George’ truth-value and set-theoretic naming arguments, rather than holding the citation until Footnote 31.

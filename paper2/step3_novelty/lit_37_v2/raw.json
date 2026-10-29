@@ -1,0 +1,380 @@
+{
+  "mode": "novelty",
+  "source": "../Second Run - Philosophy of AI/Step 2 - Forge/run1_final/raw.json",
+  "results": [
+    {
+      "target": {
+        "thesis": "For unreviewed, open-range LLM output, the deployer's commitment is to the policy's reliability, not to each content p. Proxy accounts owe an explanation of how a standing policy yields content-level commitment without uptake, and what governs the unseen output looks like a reliability norm rather than the knowledge norm.",
+        "headline": "The proxy account conflates two relations, endorsing a content and endorsing a generating policy, and only the second is available for LLM output, so proxy 'assertion' is a different act from assertion and is governed by a reliability norm.",
+        "used_surviving": true,
+        "target": "Proxy accounts (Green and Michel, Arora, and the proxy fallback in Butlin and Viebahn).",
+        "sketch": "A human proxy such as a spokesperson or a translator delivers content the principal has authorised, or content whose range the principal can foresee. A deployer of an LLM authorises a policy that outputs an open-ended range of contents it has never seen and could not have vetted. The key premise is that assertion commits the speaker to the particular content p, so that she can be asked to defend it and incurs retraction obligations if p is false. Under policy-endorsement the deployer is committed to the policy's reliability and not to each output, and she may even hold that some outputs will be false. The act the deployer performs is then more like publishing a reference work or certifying an instrument than asserting. Its norm is a statistical or reliability norm, not the knowledge norm. Butlin and Viebahn's remark that AI can produce 'proxy assertions' therefore smuggles in content-endorsement, and Green\u2013Michel and Arora inherit the same problem. The view reclassifies proxy accounts as a fourth category, neither assertion by the model nor assertion by the human.",
+        "promise": 4,
+        "residual": 2
+      },
+      "finding": {
+        "searched": [
+          "Butlin Viebahn AI assertion proxy assertion large language models",
+          "Green Michel \"What is assertion\" artificial intelligence proxy assertion",
+          "Arora assertion chatbots proxy assertion LLM output deployer",
+          "LLM outputs assertion deployer commitment policy reliability not content",
+          "automated speech accountability publisher responsibility generative AI output speech act authorship psychology",
+          "Arora 2024 proxy assertion chatbots principal responsibility \"Arora\" assertion machine",
+          "Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs",
+          "Green Michel 2022 \"Which machines can perform speech acts\" RobotCop proxy assertion unforeseen content"
+        ],
+        "left_philosophy": false,
+        "findings": [
+          {
+            "relation": "CONTRADICTED",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": true,
+            "part": "Named target Butlin & Viebahn, and the premise that a deployer is not committed to each output content",
+            "source": "Butlin & Viebahn, \"AI Assertion\", Ergo 12, 2025 (\u00a74 'Can AI Systems Assert as Proxies?')",
+            "url": "https://journals.publishing.umich.edu/ergo/article/id/7960/print/",
+            "what_they_say": "<cite index=\"13-10,13-11\">They note that human agents can assert a content without knowing what they are asserting, and that organisations often remain sanctionable for the content they indirectly put forward.</cite> <cite index=\"13-8\">They argue that if assertion requires sanctionability, proxy assertion offers no road to AI assertion.</cite>",
+            "damage": 3,
+            "note": "This is a rival on the content-level commitment premise, and the snippet does not show them closing the question; they also do not themselves defend 'AI proxy assertion', so the thesis's ascription to them needs care (their stated conclusion is that AI cannot assert even as a proxy)."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "ENTERTAINED",
+            "basis": "SNIPPET",
+            "provisional": true,
+            "part": "Named target Green & Michel: what the deployer's endorsement covers. Also the negative half of the thesis, that proxy accounts cannot cover open-range output.",
+            "source": "Williams & Bayne, \"Chatting with Bots: AI, Speech Acts, and the Edge of Assertion\", Inquiry 69(6), 2024/25",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "<cite index=\"68-8\">They say Green & Michel's account only grounds chatbot proxy-assertion where a chatbot is deployed on behalf of a person or organisation that has adopted blanket endorsement of its outputs.</cite> <cite index=\"20-13\">They add that typical LLM chatbot interactions have no clear candidate for the principal.</cite>",
+            "damage": 2,
+            "note": "They name 'blanket endorsement' (policy-level) as the deployer's attitude and press scope problems, but the snippet shows no reliability norm, no policy/content split and no fourth category; I could not see their 'second problem', so PRECEDENT-or-ANTICIPATED is undecided for the negative half."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "ENTERTAINED",
+            "basis": "SNIPPET",
+            "provisional": true,
+            "part": "Negative half: no human is answerable for the content of most chatbot output",
+            "source": "Abstract appearing on a ResearchGate page, apparently Freiman (2024), cited by Williams & Bayne as Freiman 2024 (title not confirmed in my results)",
+            "url": "https://www.researchgate.net/publication/387230966_Chatting_with_bots_AI_speech_acts_and_the_edge_of_assertion",
+            "what_they_say": "<cite index=\"73-7,73-8,73-9\">The abstract says the proxy account is the most popular answer, but that it neglects the relational nature of speech: no human can be held responsible for most of what a chatbot says, so the account covers only a few utterances.</cite>",
+            "damage": 2,
+            "note": "This is close to the thesis's negative premise and was seen only in a snippet whose attribution is unconfirmed; the thesis's positive proposal (policy-reliability commitment, reliability norm, reference-work analogy) does not appear, and the conclusion drawn is different."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "ENTERTAINED",
+            "basis": "ABSTRACT",
+            "provisional": true,
+            "part": "Named target Arora: whether the principal's responsibility reaches each utterance; instrument analogy",
+            "source": "Arora, \"Proxy Assertions and Agency: The Case of Machine-Assertions\", Philosophy & Technology 37, 2024",
+            "url": "https://link.springer.com/article/10.1007/s13347-024-00703-5",
+            "what_they_say": "<cite index=\"53-4\">Arora holds that machine utterances count as proxy assertions only where the designers' epistemic responsibility or requisite epistemic states can reasonably be tied back to the produced utterances.</cite> <cite index=\"71-4,71-5\">He applies the view to talking clocks and thermometers, and ties it to user expectations of accuracy under normal conditions of use.</cite>",
+            "damage": 2,
+            "note": "Arora already restricts proxy assertion by traceability to the utterance and uses an instrument-reliability analogy, but he still calls these proxy assertions rather than a fourth category with a reliability norm; I saw only the abstract and snippets."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Named target Green & Michel: their actual condition for proxy speech acts",
+            "source": "Green & Michel, \"What Might Machines Mean?\", Minds and Machines 32, 2022",
+            "url": "https://link.springer.com/article/10.1007/s11023-022-09589-8",
+            "what_they_say": "<cite index=\"66-10\">As quoted by Butlin & Viebahn, RobotCop's utterances are speech acts on the department's behalf so long as they enact the department's illocutionary commitments.</cite> <cite index=\"69-5,69-7\">Green & Michel reply to a worry that RobotCops illocute only through authorization, and they say a proxy need meet no minimal cognitive conditions.</cite>",
+            "damage": 2,
+            "note": "The text I saw does not say whether 'enacting the commitments' means content-level or policy-level endorsement, and RobotCop's output range (fines, warnings) is narrow, so the thesis's 'inherits the same problem' claim is not confirmed or refuted here."
+          },
+          {
+            "relation": "PRECEDENT",
+            "grade": "PASSING",
+            "basis": "SECONDHAND",
+            "provisional": false,
+            "part": "Responsibility for machine speech may attach to no one",
+            "source": "Nickel, \"Artificial Speech and Its Authors\", Minds and Machines, 2013, as reported by Williams & Bayne 2024",
+            "url": "https://arxiv.org/pdf/2410.16645",
+            "what_they_say": "<cite index=\"20-2\">Nickel is reported as holding that ultimate responsibility for artificial speech lies with persons or companies, or with nobody at all.</cite>",
+            "damage": 1,
+            "note": "Seen only through another author, who reports this as a passing option and not a developed reliability account."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Most recent synthesis on proxy accounts; I checked it for a policy/content distinction and found none",
+            "source": "Massaguer G\u00f3mez & Gait\u00e1n Torres, \"Who asserts when no one asserts? Functionalism, proxy responsibility, and conversational ideals in the age of LLMs\", Synthese 208, 2026",
+            "url": "https://link.springer.com/article/10.1007/s11229-026-05807-3",
+            "what_they_say": "<cite index=\"57-4,57-5\">They pair functionalist accounts of assertion with proxy views that trace accountability to the humans or organisations behind the system, and argue the pairing is in tension for knowledge-oriented exchanges.</cite> <cite index=\"51-1\">They describe the proxy view as one on which the proxy's utterance counts as committing the principal much as a first-person assertion would.</cite>",
+            "damage": 2,
+            "note": "It treats the proxy view as content-committing and critiques it from conversational ideals, not from open-range output or a reliability norm; the abstract shows no policy/content split."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": true,
+            "part": "The reclassification: neither assertion by the model nor by a proxy-principal",
+            "source": "\"Assertion, Accountability, and Large Language Models\", Philosophy & Technology, 2026 (authors not captured)",
+            "url": "https://link.springer.com/article/10.1007/s13347-026-01136-y",
+            "what_they_say": "<cite index=\"59-1,59-2\">The paper declines to treat LLM outputs as proxy assertions and instead explains normative pressure through a dissociation between assertoric function and assertoric authority, with no proxy asserter presupposed.</cite>",
+            "damage": 3,
+            "note": "This is a non-proxy third option that a referee will raise; I saw only a snippet and could not tell whether it separates policy from content commitment or invokes a reliability norm, so PRECEDENT-or-ANTICIPATED is undecided."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SECONDHAND",
+            "provisional": false,
+            "part": "The 'instrument or reference work, not assertion' reclassification, from legal scholarship",
+            "source": "Kaminski & Jones on AI as speaker versus product, as summarised in \"The Mutations of Machine Speech\" (arXiv), 2026",
+            "url": "https://arxiv.org/pdf/2609.09496",
+            "what_they_say": "<cite index=\"45-5,45-6\">The summary says consumer-protection law treats generative systems not as autonomous speakers but as instruments.</cite>",
+            "damage": 1,
+            "note": "A legal-doctrinal classification of AI as a product, seen only secondhand; it is not about deployer commitment or the norm of assertion."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SNIPPET",
+            "provisional": false,
+            "part": "Practice norms: content-level responsibility attaches to the human who uses LLM text",
+            "source": "Publisher and journal policies (COPE, Nature Portfolio) as summarised in \"A University Framework for the Responsible use of Generative AI in Research\", arXiv, 2024",
+            "url": "https://arxiv.org/pdf/2404.19244",
+            "what_they_say": "<cite index=\"40-5,40-6\">Responsibility for content must always fall on the person claiming authorship, and LLM services cannot be held accountable for authorship.</cite>",
+            "damage": 2,
+            "note": "These are institutional norms for authors who review and adopt text, so they cover reviewed use; they are evidence about practice for the thesis to address, not about unreviewed open-range output."
+          },
+          {
+            "relation": "ADJACENT",
+            "grade": null,
+            "basis": "SECONDHAND",
+            "provisional": false,
+            "part": "Lay attributions of speech acts to AI (empirical)",
+            "source": "Kneer, on lay acceptance that advanced AI systems can lie, 2021, as cited in Butlin & Viebahn 2025",
+            "url": "https://journals.publishing.umich.edu/ergo/article/id/7960/print/",
+            "what_they_say": "<cite index=\"13-5\">Butlin & Viebahn report that Kneer (2021) showed laypeople accept that advanced AI systems can lie.</cite>",
+            "damage": 1,
+            "note": "Empirical work on attributing speech acts to AI systems, not on what deployers are held committed to; I did not read Kneer directly."
+          }
+        ],
+        "what_is_left": "No finding I could confirm meets the ANTICIPATED standard. The one CONTRADICTED finding (Butlin & Viebahn on organisational sanctionability for indirectly put-forward content) means the thesis must argue that sanctionability or liability for content differs from assertoric commitment to it. What remains is the claim that, for unreviewed open-range LLM output, the deployer's commitment is to the policy's reliability and not to each content; that existing proxy accounts do not say how a standing policy yields content-level commitment without uptake; and that the governing norm for unseen output looks like a reliability norm, not the knowledge norm. The thesis must be stated against Butlin & Viebahn's own conclusion that AI cannot assert even as a proxy, and must settle whether the Freiman and 2026 Phil & Tech items already cover its negative half.",
+        "credit": [
+          "Nickel 2013 \u2014 the idea that responsibility for machine speech traces to persons or companies, or to no one (secondhand)",
+          "Green & Michel 2022 \u2014 the proxy-by-deployment model and the 'enact the department's illocutionary commitments' condition",
+          "Arora 2024 \u2014 limiting proxy assertion to utterances whose responsibility can be tied back to the deployer, and the thermometer or talking-clock analogy with accuracy expectations under normal conditions",
+          "Williams & Bayne 2024 \u2014 the point that deployer-based proxy assertion rests on blanket endorsement of outputs and has narrow scope",
+          "Freiman 2024 (apparently; attribution unconfirmed) \u2014 the point that no human can be held responsible for most of what a chatbot says",
+          "Butlin & Viebahn 2025 \u2014 the sanctionability framing, and the point that organisations may remain sanctionable for contents they put forward without knowing them"
+        ],
+        "not_found": "I found no source that frames the deployer's commitment as commitment to a policy's reliability as opposed to each content, none that proposes a reliability or statistical norm for unreviewed LLM output in place of the knowledge norm, and none that treats the deployer's act as publishing a reference work or certifying an instrument. I did not search the existing philosophical literature on reliability or non-knowledge norms of assertion (e.g. selfless or group assertion, corporate assertion, testimony from instruments), so that part of the silence is uninformative. I read no full texts. Butlin & Viebahn, Arora, Green & Michel and the 2026 papers were seen only as abstracts or snippets; the Arora and Green & Michel details come largely from other authors' reports. The Freiman attribution is unconfirmed. I did not reach any empirical research on commitment, accountability or epistemic vigilance toward AI deployers (psychology, linguistics, sociology). My one search outside philosophy returned engineering, publishing-ethics and legal material, not empirical studies of the phenomenon, so the empirical side of the search failed and the silence there says little.",
+        "citations": []
+      }
+    }
+  ],
+  "sep": {
+    "picked": [
+      "assertion",
+      "ethics-ai",
+      "testimony-episprob"
+    ],
+    "why": "The theses dispute whether LLM output deployed under a reliability policy counts as assertion, so the assertion entry (commitment, knowledge norm) is central, with ethics of AI and the epistemology of testimony as the neighbouring debates on machine-generated content and the reliability-based norms that govern it.",
+    "entries": [
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Commitment accounts treat assertion as accountability or liability for the content's truth, and take it to include a duty to respond to challenges. This gives the thesis a framework in which commitment can be located at a policy or standing level rather than at the content level.",
+                "who": "Peirce, Alston, Brandom, MacFarlane, Green, Watson",
+                "quote": "a speaker accepts responsibility for a content p being true iff the speaker knowingly [takes] on the liability to ([lay] herself open to) blame",
+                "damage": 2,
+                "note": "Provides the commitment-as-accountability apparatus the thesis relocates from content to policy."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Austin's uptake requirement, which the entry says is less plausible for speaker-content verbs such as assert. This bears on the thesis's 'without uptake' demand, since the entry reports that assertion may not require hearer uptake.",
+                "who": "Austin; the entry's own gloss",
+                "quote": "it is less plausible when the structure is speaker-content (\u201cBill asserted that p\u201d)",
+                "damage": 2,
+                "note": "Suggests uptake is not required for assertion, which weakens the force of the 'without uptake' challenge."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "The Pagin objection argues that commitment is not sufficient for asserting, which pressures any hearer-directed or commitment proxy account. A deployer's commitment to a policy would face the same sufficiency problem.",
+                "who": "Pagin (2004); responses by Pegan, MacFarlane, Garc\u00eda-Carpintero, Marsili & Green",
+                "quote": "incurring a commitment is not sufficient for asserting.",
+                "damage": 3,
+                "note": "A rival to be answered: proxy commitment accounts may not yield assertion even if they yield commitment."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Alternative norms to the knowledge norm: justification, evidence-responsiveness, and rational-belief norms. A reliability norm sits near these as a non-factive or process-level candidate. The entry also reports Rescorla's view that there is no norm on making assertions, only norms governing later reactions.",
+                "who": "Lackey, Douven, Kvanvig, Maitra & Weatherson, Smithies; Rescorla (2009a)",
+                "quote": "Rescorla (2009a), who defends a commitment account of assertion (see section 6.1), argues there is no norm at all for proper making of assertions.",
+                "damage": 2,
+                "note": "No reliability norm is named, but the justification and evidence-responsiveness norms are the nearest neighbours."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Goldberg's norm-of-assertion hypothesis explains testimonial entitlement via a norm that must be common knowledge between speaker and hearer, plus the speaker's authorizing the hearer to defer challenges back to them. This is relevant to what a deployer-level policy would need to supply.",
+                "who": "Goldberg (2015)",
+                "quote": "it must be common knowledge between speaker and hearer that the speaker\u2019s assertion is subject to this norm.",
+                "damage": 2,
+                "note": "Marks conditions that unreviewed LLM output would struggle to meet."
+              }
+            ],
+            "nearest_positions": [
+              "Commitment as accountability or liability for the content's truth \u2014 Peirce, Alston",
+              "Commitment as a responsibility to respond to challenges or retract \u2014 Brandom, MacFarlane, Green",
+              "Knowledge norm versus justification norm for assertion \u2014 Williamson versus Lackey, Kneer, Reuter & Br\u00f6ssel",
+              "Pagin's insufficiency objection to commitment accounts"
+            ],
+            "entry_silent_on": "Non-human, automated or policy-generated utterances, delegated or proxy assertion, speaker-less output, and unreviewed generation. The entry names no reliability norm, no process-level norm, and no standing-policy commitment. It also does not discuss how commitment could attach to a policy rather than to individual contents."
+          }
+        ],
+        "slug": "assertion",
+        "url": "https://plato.stanford.edu/entries/assertion/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Entry flags 'testimony gap' and hallucination-as-bullshit: LLM output lacks the testimonial/assertoric standing of human speech, bearing on whether content-level commitments attach to unseen output.",
+                "who": "Robert Sparrow and Flenady 2025; Hicks, Humphries, and Slater 2024",
+                "quote": "Others have argued that the \u201challucinations\u201d that plague LLMs are a form of this \u201cbullshit\u201d (Hicks, Humphries, and Slater 2024) or create a \u201ctestimony gap\u201d (Robert Sparrow and Flenady 2025).",
+                "damage": 2,
+                "note": "Related to assertion/testimony norms for LLM output but not about deployer commitment or reliability vs knowledge norm."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Right to a 'well-calibrated machine decision' rather than a human justification: an institutional standard of policy-level reliability in place of case-by-case justification.",
+                "who": "Huq 2020",
+                "quote": "some authors have argued that instead we have a right to right to a \u201cwell-calibrated machine decision\u201d (Huq 2020) or that we need to avoid a \u201ctestimony gap\u201d",
+                "damage": 2,
+                "note": "Structurally close to a reliability norm for machine output, but concerns decisions and rights, not deployer assertion."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Responsibility for AI outputs is distributed; many societal systems need allocation to a person; responsibility-gap literature and the shift to risk distribution framing give a base for tying deployer accountability to a policy rather than each output.",
+                "who": "Taddeo and Floridi 2018; Sparrow 2007; Simpson and M\u00fcller 2016; Milano and Nyholm 2024",
+                "quote": "the real issue may well be the distribution of risk (Simpson and M\u00fcller 2016).",
+                "damage": 1,
+                "note": "Supports a policy-level/risk-based view of deployer responsibility; not about commitment to content."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Opacity discussion: the output is opaque even to programmers; epistemic conditions affect normative issues; the entry doubts traditional epistemology's fit for AI.",
+                "who": "Dur\u00e1n and Jongsma 2021; Alvarado 2023",
+                "quote": "it remains to be seen whether notions and questions from traditional epistemology (about the conditions for true justified belief) are suitable for the many ways in which human perception and knowledge are impacted by AI technologies.",
+                "damage": 2,
+                "note": "Entry flags the question of whether knowledge-style norms apply, without taking up the assertion-norm issue."
+              }
+            ],
+            "nearest_positions": [
+              "Testimony gap / LLM hallucination as bullshit \u2014 Sparrow and Flenady 2025; Hicks, Humphries, Slater 2024",
+              "Right to a well-calibrated machine decision \u2014 Huq 2020",
+              "Responsibility gaps and distributed responsibility / risk distribution \u2014 Sparrow 2007; Taddeo and Floridi 2018; Simpson and M\u00fcller 2016"
+            ],
+            "entry_silent_on": "Speech-act theory of LLM output: assertion, commitment, uptake, proxy accounts of deployer assertion, and the knowledge norm vs a reliability norm of assertion are not discussed anywhere in the entry."
+          }
+        ],
+        "slug": "ethics-ai",
+        "url": "https://plato.stanford.edu/entries/ethics-ai/",
+        "truncated": true
+      },
+      {
+        "per_thesis": [
+          {
+            "i": 0,
+            "findings": [
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Group testimony without member belief. The Population Commission 'testifies' that p although no member believed p or had justification for it. Non-Summativists say a group can testify that p even if none of its members do. This is the nearest case in the entry of content-level testimony with no individual's content-level uptake or commitment.",
+                "who": "Tollefsen 2007; Lackey 2014 (non-summativism); Hardwig 1985",
+                "quote": "At the time the report was released, no single member of the UN Population committee believed p ... Third, and finally, the UN Commission did seem to testify that p",
+                "damage": 2,
+                "note": "Structural analogue for unseen output, but the entry's concern is the group's testimony and the hearer's justification, not an agent's commitment to a standing policy."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Deflationism about group testimony. A group's testimony reduces to some individual's testimony, whether a member or a mere spokesman. A proxy-style account of whose commitment attaches to the output has a counterpart here, though it is only mentioned.",
+                "who": "Lackey 2014 (deflationary epistemology of group testimony); Tollefsen 2007 (inflationist); Lackey 2018 (inflationary account of group assertion)",
+                "quote": "Deflationists maintain to a group's testimony that p can be reduced to some individual's testimony that p (regardless of whether those individuals are members of the group, or just mere spokesmen)",
+                "damage": 2,
+                "note": "A proxy or spokesperson account is listed, not developed. Nothing is said about how a standing policy yields content-level commitment."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Testimonial Reliabilism. Testimonial justification consists in the reliability of the processes producing the belief, including the speaker's production processes. The thesis's 'reliability norm' can build on this, with the policy's reliability as the relevant process.",
+                "who": "Graham 2000a, 2000b, 2006a; Goldberg 2010a; Sosa 2010",
+                "quote": "A hearer's testimonial justification consists in the reliability of the processes involved in the production of the hearer's testimonially-based belief.",
+                "damage": 1,
+                "note": "The entry supplies a reliabilist framework about hearer justification, not a norm of speaker commitment or assertion."
+              },
+              {
+                "relation": "SUPPORTED",
+                "grade": null,
+                "position": "Testimony without speaker knowledge or belief. Lackey's Creationist Teacher and Persistent Believer cases, and her hearer-testimony account, treat testimony as a source of knowledge regardless of what the speaker believes or intends. This loosens the link between the speaker's commitment to p and the content's epistemic standing.",
+                "who": "Lackey 2008; Graham 2006b; Carter & Nickel 2014",
+                "quote": "testimony is a source of knowledge and justified belief regardless of what the speaker intended to say.",
+                "damage": 1,
+                "note": "Supports the idea that content-level epistemic standing need not come from content-level speaker commitment."
+              },
+              {
+                "relation": "CONTRADICTED",
+                "grade": null,
+                "position": "Rival knowledge-based views. Williamson and others are cited as supporting the Transmission View (TV-N). Testimony is tied to assertion, and the reader is sent to the Assertion entry. A defender of the knowledge norm would resist the claim that the governing norm is only reliability.",
+                "who": "Williamson 1996, 2000; Audi; Burge; Owens (TV-N proponents); Fricker 1987, Sosa 1994 (testimony = assertion)",
+                "quote": "TV-N: For every speaker, A, and hearer, B, B knows that p on the basis of A's testimony only if A knows that p too.",
+                "damage": 2,
+                "note": "A rival to answer. The entry does not discuss the knowledge norm of assertion, or its application to unreviewed output, in any detail."
+              },
+              {
+                "relation": "ADJACENT",
+                "grade": null,
+                "position": "Assurance and telling accounts. Testimony requires an intentional act of telling, with a speaker who intends to assure a hearer of p. A commitment-to-the-policy view must say why this uptake-style requirement is absent for unreviewed output. Hearer testimony (Lackey) is an alternative that does not require speaker intention.",
+                "who": "Hinchman 2005, 2014; Moran 2005, 2018; Faulkner 2007, 2011; McMyler 2011; Zagzebski 2012; Lackey 2008",
+                "quote": "when a speaker tells their audience that p is true, she is doing much more than merely uttering p. Rather, she is inviting her audience to trust her",
+                "damage": 2,
+                "note": "Source of the 'uptake' idea. The entry treats uptake as hearer-side justification, not as a precondition on speaker commitment."
+              }
+            ],
+            "nearest_positions": [
+              "Non-summative and inflationary group testimony, where testimony attaches to the content though no member believes it \u2014 Tollefsen 2007, Lackey 2014/2018",
+              "Deflationary and spokesperson accounts, which reduce group testimony to an individual's testimony \u2014 Lackey 2014",
+              "Testimonial Reliabilism, with justification a matter of process reliability, including the speaker's production processes \u2014 Graham, Goldberg 2010a, Sosa 2010",
+              "Knowledge-norm and Transmission views, in which testimony requires speaker knowledge \u2014 Williamson, Audi, Burge"
+            ],
+            "entry_silent_on": "LLMs and AI-generated text, deployers, standing policies as objects of commitment, proxy accounts of assertion, and whether the governing norm of unreviewed output is knowledge or reliability. The entry mentions the knowledge norm only by citation (Williamson 1996) and defers assertion to a separate entry. It does not discuss commitment to a policy versus commitment to each content, or uptake as a condition on content-level commitment. Its nearest discussion of mere 'spokesmen' is a one-line mention within group testimony."
+          }
+        ],
+        "slug": "testimony-episprob",
+        "url": "https://plato.stanford.edu/entries/testimony-episprob/",
+        "truncated": false
+      }
+    ],
+    "indexed": 1870
+  },
+  "theses": [
+    "For unreviewed, open-range LLM output, the deployer's commitment is to the policy's reliability, not to each content p. Proxy accounts owe an explanation of how a standing policy yields content-level commitment without uptake, and what governs the unseen output looks like a reliability norm rather than the knowledge norm."
+  ]
+}

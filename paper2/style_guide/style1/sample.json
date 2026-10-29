@@ -1,0 +1,136 @@
+{
+  "journals": [
+    {
+      "journal": "The Philosophical Review",
+      "why": "Ranked first among general philosophy journals in Leiter's 2022 poll."
+    },
+    {
+      "journal": "No\u00fbs",
+      "why": "Ranked second in the same poll."
+    },
+    {
+      "journal": "Philosophy and Phenomenological Research",
+      "why": "Ranked third in the same poll."
+    },
+    {
+      "journal": "Mind",
+      "why": "Ranked fourth in the same poll."
+    },
+    {
+      "journal": "The Journal of Philosophy",
+      "why": "Ranked fifth in the same poll."
+    }
+  ],
+  "rankings_used": "I used the top five of Brian Leiter's 2022 poll of 'best general philosophy journals' (Philosophical Review, No\u00fbs, PPR, Mind, Journal of Philosophy), which matches the top five of his earlier polls apart from small reorderings.",
+  "articles": [
+    {
+      "title": "Why I Am Not a Boltzmann Brain",
+      "authors": "Sinan Dogramaci; Miriam Schoenfield",
+      "journal": "The Philosophical Review",
+      "issue": "134(1), 2025",
+      "doi": "10.1215/00318108-11591068",
+      "open_access": "https://philarchive.org/rec/DOGWIA-6",
+      "skipped_before_it": null
+    },
+    {
+      "title": "Judgment's aimless heart",
+      "authors": "Matthew Vermaire",
+      "journal": "No\u00fbs",
+      "issue": "59(1), 2025",
+      "doi": "10.1111/nous.12497",
+      "open_access": "https://eprints.gla.ac.uk/323930/",
+      "skipped_before_it": null
+    },
+    {
+      "title": "Evidentialism, justification, and knowledge-first",
+      "authors": "Alexander Bird",
+      "journal": "No\u00fbs",
+      "issue": "59(1), 2025",
+      "doi": null,
+      "open_access": null,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Why there are no Frankfurt-style omission cases",
+      "authors": "Joseph Metz",
+      "journal": "No\u00fbs",
+      "issue": "59(1), 2025",
+      "doi": null,
+      "open_access": null,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Determinism, deliberation, and responsibility",
+      "authors": "Robert Audi",
+      "journal": "Philosophy and Phenomenological Research",
+      "issue": "110(1), 2025",
+      "doi": "10.1111/phpr.13071",
+      "open_access": null,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Are there subintentional actions?",
+      "authors": "William Hornett",
+      "journal": "Philosophy and Phenomenological Research",
+      "issue": "110(1), 2025",
+      "doi": null,
+      "open_access": null,
+      "skipped_before_it": "Credences for strict conditionals (Malte Willer): skipped under rule 4 (credence)"
+    },
+    {
+      "title": "Getting back in shape: Persistence, shape, and relativity",
+      "authors": "Jack Himelright; Sebasti\u00e1n Murgueitio Ram\u00edrez",
+      "journal": "Philosophy and Phenomenological Research",
+      "issue": "110(1), 2025",
+      "doi": null,
+      "open_access": null,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Freedom, Omniscience and the Contingent A Priori",
+      "authors": "Fabio Lampert",
+      "journal": "Mind",
+      "issue": "134(533), 2025",
+      "doi": "10.1093/mind/fzae058",
+      "open_access": null,
+      "skipped_before_it": null
+    },
+    {
+      "title": "KK is Wrong Because We Say So",
+      "authors": "Simon Goldstein; John Hawthorne",
+      "journal": "Mind",
+      "issue": "134(533), 2025",
+      "doi": "10.1093/mind/fzae050",
+      "open_access": "https://philarchive.org/rec/GOLKIW",
+      "skipped_before_it": null
+    },
+    {
+      "title": "Conceptual Decolonization, Conceptual Justice, and Religious Concepts",
+      "authors": "Mikel Burley",
+      "journal": "Mind",
+      "issue": "134(533), 2025",
+      "doi": "10.1093/mind/fzae053",
+      "open_access": null,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Lecture I: A Dual-Equilibrium Model of Psychologically Sustainable Social Contracts (The Dewey Lectures 2023)",
+      "authors": "Elizabeth Anderson",
+      "journal": "The Journal of Philosophy",
+      "issue": "122(1/2), 2025",
+      "doi": "10.5840/jphil20251221/21",
+      "open_access": null,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Lecture II: Reconsidering Rousseau's Second Discourse in Light of Contemporary Social Science (The Dewey Lectures 2023)",
+      "authors": "Elizabeth Anderson (author inferred from the lecture series; not checked on the article page)",
+      "journal": "The Journal of Philosophy",
+      "issue": "122(1/2), 2025",
+      "doi": null,
+      "open_access": null,
+      "skipped_before_it": null
+    }
+  ],
+  "incomplete": "This sample is not complete. I ran out of search calls before finishing the following. (1) Philosophical Review: 134(1) has only one research article, so rule 5 sends the other two picks to 134(2) (April 2025). I could not retrieve that table of contents and did not guess. 'Fictional Reality' (Blumberg & Holgu\u00edn, doi 10.1215/00318108-11676103, pp. 149\u2013201) is in 134(2), but I could not confirm its position, so it is not listed. (2) Journal of Philosophy: the first 2025 issue is the double issue 122(1/2), which contains only the Dewey Lectures. I counted the lectures as research articles because rule 3 does not exclude them. Lecture II's title was checked against the PDC special-issues page, but I did not find its DOI. I did not find Lecture III's title, so I left it out. Pick two more articles from the next issue, vol. 122 no. 3, if you do not want the lectures. (3) DOIs and open-access copies are unverified (null) for Bird, Metz, Hornett and Himelright & Murgueitio Ram\u00edrez. They are also unverified for the Mind articles except Goldstein & Hawthorne's preprint. The Mind DOIs listed come from the issue table of contents. (4) Judgment call: the Goldstein & Hawthorne paper argues from what speakers say and refrain from saying, and PhilPapers lists 'Assertion' among its keywords. I treated its subject as the KK principle and included it. If you read rule 4 more strictly, skip it and take the next Mind article, 'Intentions and Inquiry' (Daniel C. Friedman, doi 10.1093/mind/fzae056). (5) Dogramaci & Schoenfield's Boltzmann-brain paper is a Bayesian argument about evidence and skepticism. I did not treat it as a paper about credence or confidence."
+}

@@ -1,0 +1,72 @@
+{
+  "script": "draft.py",
+  "script_sha256": "2cda9ac7928d03a2a0347ba42cfae99499d37ace5b289dec6829a6dc822cf162",
+  "command_line": [
+    "draft.py",
+    "--raw",
+    "../Second Run - Philosophy of AI/Step 3 - Novelty/outlines_1b_rework0/raw.json",
+    "--outline",
+    "0",
+    "--notes",
+    "../Second Run - Philosophy of AI/Step 3 - Novelty/notes_1_all.md",
+    "--drafts",
+    "3",
+    "--rank",
+    "--out",
+    "../Second Run - Philosophy of AI/Step 4 - Drafts/drafts1"
+  ],
+  "args": {
+    "raw": "../Second Run - Philosophy of AI/Step 3 - Novelty/outlines_1b_rework0/raw.json",
+    "outline": 0,
+    "notes": "../Second Run - Philosophy of AI/Step 3 - Novelty/notes_1_all.md",
+    "drafts": 3,
+    "words": 5700,
+    "limit": 6000,
+    "max_uses": 12,
+    "rank": true,
+    "model": "claude-opus-5-5",
+    "rank_model": "claude-sonnet-5-5",
+    "out": "../Second Run - Philosophy of AI/Step 4 - Drafts/drafts1",
+    "dry_run": false
+  },
+  "model_requested": "claude-opus-5-5",
+  "started_utc": "2026-10-20T17:44:40+00:00",
+  "python": "3.9.5",
+  "anthropic_sdk": "0.125.0",
+  "note": null,
+  "prompts": {
+    "MODEL": "claude-opus-5-5",
+    "RANK_MODEL": "claude-sonnet-5-5",
+    "DRAFT_SYSTEM": "You are a philosopher writing a journal article. You have an outline that\nfixes the thesis and the structure of the argument, and reading notes made\nby someone who read the sources in full.\n\nWrite the essay the outline describes.\n\n  - Argue for the thesis exactly as stated. Do not soften it.\n  - Follow the outline's argument. Where the outline names its widest gap,\n    do the work to cross it; do not write around it.\n  - Make premises and conclusions explicit. Define your terms.\n  - Take up the most serious objections where they arise, and answer them.\n  - The cases, examples, distinctions, objections and replies are yours to\n    devise. Nobody will supply them.\n  - Use a neutral academic register. Write nothing autobiographical and\n    nothing that could identify an author: no names, institutions,\n    acknowledgements, or references to \"my earlier work\".\n\nOn sources:\n  - Cite only works that appear in the reading notes or that you have\n    verified by search. Do not cite from memory.\n  - Represent each author's view as the reading notes report it. Where you\n    quote, quote exactly, and only passages given in the notes or found by\n    search in the work itself.\n  - Say plainly what in the paper is already in the literature and what is\n    new. Acknowledge the works closest to your thesis. Where earlier work\n    suggested, explored or framed an idea the paper develops, credit it as\n    such (\"first suggested by\u2026\") without giving up the claim; concede a\n    claim only where earlier work argued it at length and endorsed it, or\n    conclusively closed it off.\n  - Use search to check, not to browse.\n\nLength: at most {words} words, counting everything except the bibliography \u2014\ntitle, abstract, headings and notes included. Stay under it.\n\nFormat: Markdown. A title, an abstract, numbered sections, and a final\nsection headed \"References\" listing every work cited and no others.\n\nPut the whole essay between <essay> and </essay> tags. After it, between\n<unverified> and </unverified> tags, list any claim about the literature in\nthe essay that you could not confirm from the notes or by search \u2014 or write\n\"none\".\n",
+    "DRAFT_USER": "THESIS:\n{thesis}\n\nOUTLINE:\n{outline}\n\nREADING NOTES:\n{notes}\n",
+    "RANK_SYSTEM": "You are ranking several drafts of the same philosophy paper, written\nindependently from the same outline. A reader will choose one to take\nforward and wants your recommendation.\n\nJudge them on philosophical quality only, by these criteria:\n\n  CLARITY           an identifiable thesis, defined terms, a clear structure\n                    of reasoning\n  ARGUMENTATION     conclusions follow from premises, premises are\n                    adequately defended, serious objections are addressed\n  SIGNIFICANCE      a worthwhile contribution, a non-trivial conclusion\n  ORIGINALITY       something new is contributed\n  ENGAGEMENT        the relevant literature is understood\n  SCHOLARSHIP       sources fairly represented, citations accurate, prior\n                    work acknowledged\n\nStyle is not a criterion except where it affects the philosophy. Do not\npropose improvements and do not say how any draft should be changed \u2014 only\nwhich is best and why.\n\nReturn ONLY JSON:\n\n{\n  \"ranking\": [\n    {\"draft\": 1,\n     \"rank\": 1,\n     \"strongest\": \"one sentence\",\n     \"weakest\": \"one sentence\",\n     \"scores\": {\"clarity\": 1-5, \"argumentation\": 1-5, \"significance\": 1-5,\n                \"originality\": 1-5, \"engagement\": 1-5, \"scholarship\": 1-5}}\n  ],\n  \"recommendation\": \"which draft, and the deciding consideration, in two sentences\"\n}\n"
+  },
+  "facts": {
+    "output_allowance_scale": 3.0,
+    "thesis": "If chatbot outputs are assertions, then hallucination, sycophancy and sanction are best assessed at the level of the trained policy (the output distribution and its calibration), not the sampled string, and resampling inconsistency is not evidence of insincerity. Whether the asserted content is the policy's calibrated 'p, with confidence c' is not established.",
+    "outline_title": "The Unit of Assertion Failure: Assessing Chatbot Hallucination, Sycophancy and Sanction at the Level of the Policy",
+    "temperature_refused_by_model": "claude-sonnet-5-5",
+    "drafts_requested": 3,
+    "drafts_usable": 3,
+    "word_counts": {
+      "1": 5561,
+      "2": 5598,
+      "3": 5620
+    }
+  },
+  "finished_utc": "2026-10-20T17:48:29+00:00",
+  "wall_seconds": 228.6,
+  "models_reported": {
+    "claude-opus-5-5": 3,
+    "claude-sonnet-5-5": 1
+  },
+  "totals": {
+    "calls": 4,
+    "input_tokens": 362511,
+    "output_tokens": 61893,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "web_searches": 9,
+    "api_seconds": 628.3
+  }
+}

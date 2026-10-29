@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Can Artificial Entities Assert?",
+    "author": "Ori Freiman and Boaz Miller",
+    "year": 2018,
+    "abstract": "A chapter in The Oxford Handbook of Assertion on whether technological instruments can assert or testify. The conventional epistemological view is that only humans can. The authors propose the notion of quasi-testimony, on which devices can assert under certain circumstances while differing fundamentally from humans: machine assertions lack the imaginative and playful qualities of human ones, are pre-programmed and context-limited, go wrong in different ways from human assertions, and do not come from beings with moral status. Quasi-testimony is offered as common ground for discussing instruments and testimony as sources of knowledge."
+  },
+  {
+    "title": "What Might Machines Mean?",
+    "author": "Mitchell Green and Jan G. Michel",
+    "year": 2022,
+    "abstract": "The essay asks whether artificial speakers can perform speech acts in the technical sense used in philosophy of language and answers yes, under specified conditions. It separates verbal signaling, an uncontroversial way in which machines communicate, from the performance of speech acts. It develops Austin's theory, Strawson's synthesis of Austin with Grice's speaker meaning, and a refinement that uses Armstrong's account of speaker meaning in terms of objectives rather than intentions, and extends the analysis to recorded, proxy and conditional speech acts. The proposal is that artificial speakers characteristically act as proxies performing speech acts on behalf of their human creators. The authors reply to objections, compare the view with alternatives such as quasi-assertion, which they say it sharpens without attributing intentions to machines, and end sceptical that the strategy covers every type of speech act."
+  },
+  {
+    "title": "Fictionalism about Chatbots",
+    "author": "Fintan Mallory",
+    "year": 2023,
+    "abstract": "Published in Ergo 10, article 38. The paper proposes a fictionalist treatment of chatbot output, on which users' engagement with a chatbot's apparent speech is understood through fiction rather than by taking the chatbot to perform genuine speech acts. (Description based on the title and on how later papers characterise the view; the published abstract could not be retrieved.)"
+  },
+  {
+    "title": "Large Language Models, Agency, and Why Speech Acts are Beyond Them (For Now) – A Kantian-Cum-Pragmatist Case",
+    "author": "Reto Gubelmann",
+    "year": 2024,
+    "abstract": "Gubelmann asks whether current or foreseeable transformer-based LLMs could be language users in a way comparable to humans and answers no. Following Austin and Searle, he takes the speech act to be the basic unit of linguistic communication, and following Davidson and mainstream philosophy of action he holds that action requires intention; his argument is that to be a speaker a being must be able to illocute, that illocuting requires intentions, and that LLMs have none. His test for intention is whether one can sensibly distinguish a system's malfunctioning from its deliberately doing the wrong thing; for ChatGPT, for an imagined AI assistant that cleans up and translates a customer's order, and for Green and Michel's RoboCop, he argues no such distinction can be drawn. He grounds the lack of intention in Kant's distinction between mechanisms, whose purposes are imposed from outside, and organisms, which organise and maintain themselves and so have goals of their own; he separates material, cognitive and moral autonomy and argues that intentional action requires autonomous goal-setting, which LLMs lack because they do not strive to maintain themselves and their goals are externally fixed. He nonetheless argues that LLMs have cognitive autonomy, since they organise their own internal functional differentiation during training and adapt to new tasks, which makes them mechanisms with organismic traits that strain Kant's dichotomy. He concludes that LLMs are a first step toward non-biological agents that would no longer be artificial, that this development may be long, and, tentatively, that cognitive autonomy without material autonomy lends some support to dualism. A footnote leaves open that LLMs might understand language, since understanding lacks the tie to agency that speaking has."
+  },
+  {
+    "title": "The agency in language agents",
+    "author": "Patrick Butlin",
+    "year": 2024,
+    "abstract": "Language agents are AI systems that combine a large language model with other elements so as to interact with an environment without being reset; they range from basic LLM chatbots to systems with memory, reflection and structured planning. Goldstein and Kirk-Giannini argue that some have beliefs and desires, but Butlin first asks whether they are agents at all, given that they select outputs by sampling from a language model. He applies a criterion developed in earlier work: an entity is an agent if and only if it can produce outputs explained by its own sensitivity to instrumental value, meaning that it has systematically modified itself, through learning or reasoning, in response to information about what conduces to a goal over multi-step interaction; outputs owed solely to design or evolution do not count. On this criterion some language agents are agents and others are borderline. Basic chatbots built on pre-trained models with memory could qualify through in-context learning from feedback, but whether they do is an empirical matter. Chatbots built on models fine-tuned by reinforcement learning from human feedback are agents, with the caveats that rewards attach to single responses rather than whole conversations and that only limited fine-tuning is used. Park and colleagues' generative agents appear to be agents because they store observations and reflect on them, though they do little evaluation. Reflexion, which evaluates its own performance and feeds the lessons into later action selection, is an unambiguous case. In several cases the answer depends on hard empirical questions about what functions an LLM has acquired in training. On desire, Butlin argues that the requirements are significantly more stringent than those for agency: language agents represent their goals, but he proposes two further necessary conditions, that the state be used in practical reasoning answerable to standards of conduciveness to the objective, and that it be acquired and modified through learning and reasoning that tend to produce a coherent, integrated set. Generative agents, whose goals are fixed by their designers, do not meet the second, and it is uncertain whether they meet the first. He concludes that many language agents are genuine agents, that it is doubtful whether existing ones have desires, and that the conditions he proposes are nonetheless compatible with desire in AI."
+  },
+  {
+    "title": "Proxy Assertions and Agency: The Case of Machine-Assertions",
+    "author": "Chirag Arora",
+    "year": 2024,
+    "abstract": "Speech-enabled devices increasingly serve as sources of information. Some philosophers argue that machine utterances should be conceptualised as assertions because they resemble human speech phenomenologically and serve the same communicative functions. Arora rejects this, identifying theoretical and practical difficulties with treating machine utterances as assertions on functionalist grounds, and argues that they are better understood as proxy assertions made by or on behalf of the designers and deployers of the machines. Existing accounts of proxy assertion need refinement, which the paper supplies, and the refined view has implications for the design of such devices, particularly those using machine learning."
+  },
+  {
+    "title": "Chatting with Bots: AI, Speech Acts, and the Edge of Assertion",
+    "author": "Iwan Williams and Tim Bayne",
+    "year": 2024,
+    "abstract": "The paper examines the Thesis of Chatbot Assertion, the claim that LLM-powered chatbots can assert and that some of their current outputs are assertions. The authors give reasons in favour of the thesis and argue it deserves to be taken seriously, while holding that recent objections to it are substantial. They consider two proposed ways of resolving the tension, proxy-assertion and fictionalism, and find both inadequate. Drawing on how assertion emerges, they introduce a new category, proto-assertion, and argue that treating chatbots as proto-assertors resolves the dilemma."
+  },
+  {
+    "title": "Do language models lack communicative intentions?",
+    "author": "Nuhu Osman Attah",
+    "year": 2025,
+    "abstract": "Attah examines the communicative intention argument advanced by Bender and Koller, Bender and colleagues, Shanahan and Montemayor: genuine linguistic competence requires communicative intention, language models have no mechanism for entertaining such intentions, so they are only stochastic parrots. Using Mahowald and colleagues' distinction between formal and functional linguistic competence, he locates the dispute in functional competence. Against the first premise read in a strong Gricean way, which requires high-order representation of other minds, he argues that it is empirically untenable, citing young children, non-human animals and work on early hominin communication, so the argument must fall back on a basic intention to produce an illocutionary or perlocutionary effect in a hearer. He then sets three desiderata for a definition of intention (functional rather than phenomenological, consistent with the causal theory of action and representationalism, and not presupposing full agency) and proposes a control conception: intentions are internal states that control a system's dynamics so as to bring about an action in a situation that calls for one, where control means solving Wu's Many-Many Problem through attention-like selection. Taking Levelt's Blueprint of the Speaker (Conceptualizer, Formulator, Articulator) as the functional template, he argues that classical dialogue systems built on partially observable Markov decision processes fit it, with belief-state tracking estimating the user's intention, and that transformer models plausibly recapitulate the same pipeline. To the objection that the extra-linguistic purpose behind speech is missing, he replies that the design context supplies language models with purposes, thinner than human ones and mediated by human designers. Intention on this account is graded: a coffee machine has almost none, ELIZA a little, and how much ChatGPT has is still open. He concludes that communicative intention is not the right ground for distinguishing humans from language models, and states that he takes the real difference to be the absence of mental and metalinguistic agency."
+  },
+  {
+    "title": "Transforming agency: On the mode of existence of large language models",
+    "author": "Xabier E. Barandiaran and Lola S. Almendros",
+    "year": 2025,
+    "abstract": "The paper asks how LLMs such as ChatGPT should be characterised ontologically, between inflationary and deflationary accounts, with a focus on their status as agents. After explaining their architecture, processing, training and the extensions that turn them into agent-like systems, it argues that LLMs fail necessary conditions for autonomous agency on embodied theories of mind: individuality, normativity and interactional asymmetry. It characterises them instead as an interlocutor or linguistic automaton, a library-that-talks, able to perform tasks that are not purposeful but are purpose-structured and purpose-bounded. Interaction with them can still be experienced as genuine conversation, and the coupling of humans with LLMs produces 'midtended' forms of agency that differ from earlier technological extensions of human agency."
+  },
+  {
+    "title": "The Material Agency of a Large Language Model",
+    "author": "Anna Puzio",
+    "year": 2025,
+    "abstract": "Puzio observes that agency is highly contested in the ethics of LLMs and that the debate relies on traditional, property-based, individualistic and anthropocentric conceptions of it. Drawing on Actor-Network Theory and New Materialism, she proposes a relational, network-based view that admits non-human agency and several forms of agency. She argues that the materiality of LLMs has been overlooked, including their conditions of production, their realisation in devices and their effects on human bodies, and that attending to it shows how LLMs are bound up with culture, material practices and social values. The focus then shifts from the individual user as sole agent to networks of actors, including workers, companies, environmental factors and technologies, which changes the ethical questions that should be asked about LLMs."
+  },
+  {
+    "title": "AI Assertion",
+    "author": "Patrick Butlin and Emanuel Viebahn",
+    "year": 2025,
+    "abstract": "The fluency of generative AI has prompted debate about whether these systems understand language; less discussed is whether they can perform speech acts, in particular assertion. The authors hold that to assert, an entity must produce outputs with descriptive functions and must be capable of being sanctioned by the agents it interacts with, the second condition reflecting the fact that assertion is a norm-governed social practice. Pre-trained language models that have not been fine-tuned fail the first condition. Models fine-tuned for groundedness or correctness may meet the first condition but fail the second. AI systems can nonetheless be used to produce proxy assertions on behalf of human agents."
+  },
+  {
+    "title": "Chatbot apologies: Beyond bullshit",
+    "author": "P. D. Magnus, Alessandra Buccella and Jason D'Cruz",
+    "year": 2025,
+    "abstract": "Apologies do important work for moral agents: expressing remorse, taking responsibility and repairing trust. LLM-based chatbots produce outputs with the linguistic form of an apology, generated by pattern matching. The authors argue that chatbots lack the linguistic and moral agency needed to apologise, and develop the claim that chatbot apologies are bullshit by examining what a morally serious apology involves, what agency is required to perform one linguistically, and what agency is required for it to matter morally. They draw out implications for chatbot design and for how people should understand these systems."
+  },
+  {
+    "title": "Artificial Speech Acts",
+    "author": "Lukas Skiba",
+    "year": 2026,
+    "abstract": "The article asks whether large language models can perform speech acts. It presents a norm-based argument against LLM assertion and extends it to reach a negative conclusion about LLM speech acts generally. The resulting no-speech-act view is related to other ways of conceptualising LLM output: it conflicts with the common view that LLMs bullshit, and it helps to tell apart two competing externalist theories of reference for artificially generated expressions. A challenge to the view is discussed together with a strategy for answering it. The author suggests that understanding LLM output requires combining existing meta-semantic theories with pragmatic theories of human–LLM interaction."
+  }
+]

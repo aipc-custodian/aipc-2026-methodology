@@ -1,0 +1,118 @@
+{
+  "journals": [
+    {
+      "journal": "The Philosophical Review",
+      "why": "Ranked first in Leiter's 2022 poll of general philosophy journals."
+    },
+    {
+      "journal": "No\u00fbs",
+      "why": "Ranked second in Leiter's 2022 poll of general philosophy journals."
+    },
+    {
+      "journal": "Philosophy and Phenomenological Research",
+      "why": "Ranked third in Leiter's 2022 poll of general philosophy journals."
+    },
+    {
+      "journal": "Mind",
+      "why": "Ranked fourth in Leiter's 2022 poll of general philosophy journals."
+    },
+    {
+      "journal": "The Journal of Philosophy",
+      "why": "Ranked fifth in Leiter's 2022 poll of general philosophy journals."
+    }
+  ],
+  "rankings_used": "Brian Leiter's 2022 \"best general philosophy journals\" survey, whose top five were Philosophical Review, No\u00fbs, PPR, Mind and Journal of Philosophy, which fits the earlier Leiter 2018 general ranking and the 2023 meta-ranking, whose top ten contain the same five journals.",
+  "articles": [
+    {
+      "title": "Judgment's aimless heart",
+      "authors": "Matthew Vermaire",
+      "journal": "No\u00fbs",
+      "issue": "59(1), 2025",
+      "doi": "10.1111/nous.12497",
+      "open_access": "https://eprints.gla.ac.uk/323930/",
+      "verified": true,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Evidentialism, justification, and knowledge-first",
+      "authors": "Alexander Bird",
+      "journal": "No\u00fbs",
+      "issue": "59(1), 2025",
+      "doi": "10.1111/nous.12495",
+      "open_access": "https://www.repository.cam.ac.uk/items/839a0e21-ac77-4641-9dfb-c35f28213752",
+      "verified": true,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Why there are no Frankfurt-style omission cases",
+      "authors": "Joseph Metz",
+      "journal": "No\u00fbs",
+      "issue": "59(1), 2025",
+      "doi": "10.1111/nous.12500",
+      "open_access": null,
+      "verified": true,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Determinism, deliberation, and responsibility",
+      "authors": "Robert Audi",
+      "journal": "Philosophy and Phenomenological Research",
+      "issue": "110(1), 2025",
+      "doi": "10.1111/phpr.13071",
+      "open_access": null,
+      "verified": true,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Are there subintentional actions?",
+      "authors": "William Hornett",
+      "journal": "Philosophy and Phenomenological Research",
+      "issue": "110(1), 2025",
+      "doi": "10.1111/phpr.13088",
+      "open_access": "https://www.repository.cam.ac.uk/items/da514241-e197-4b6f-807c-9c3f9c84127e",
+      "verified": true,
+      "skipped_before_it": "Credences for strict conditionals (Malte Willer): skipped under rule 4 (credence)"
+    },
+    {
+      "title": "Getting back in shape: Persistence, shape, and relativity",
+      "authors": "Jack Himelright; Sebasti\u00e1n Murgueitio Ram\u00edrez",
+      "journal": "Philosophy and Phenomenological Research",
+      "issue": "110(1), 2025",
+      "doi": "10.1111/phpr.13092",
+      "open_access": "https://philarchive.org/rec/HIMGBI",
+      "verified": true,
+      "skipped_before_it": "Credences for strict conditionals (Malte Willer): skipped under rule 4 (credence)"
+    },
+    {
+      "title": "Freedom, Omniscience and the Contingent A Priori",
+      "authors": "Fabio Lampert",
+      "journal": "Mind",
+      "issue": "134(533), 2025",
+      "doi": "10.1093/mind/fzae058",
+      "open_access": null,
+      "verified": false,
+      "skipped_before_it": null
+    },
+    {
+      "title": "Conceptual Decolonization, Conceptual Justice, and Religious Concepts",
+      "authors": "Mikel Burley",
+      "journal": "Mind",
+      "issue": "134(533), 2025",
+      "doi": "10.1093/mind/fzae053",
+      "open_access": "https://academic.oup.com/mind/article/134/533/60/7815930",
+      "verified": true,
+      "skipped_before_it": "KK is Wrong Because We Say So (Simon Goldstein & John Hawthorne): skipped under rule 4 (assertion). This is a judgment call. The paper is about the KK thesis, but its argument rests on what speakers assert and deny, and PhilPapers lists 'Assertion' as a keyword."
+    },
+    {
+      "title": "Intentions and Inquiry",
+      "authors": "Daniel C Friedman",
+      "journal": "Mind",
+      "issue": "134(533), 2025",
+      "doi": "10.1093/mind/fzae056",
+      "open_access": null,
+      "verified": true,
+      "skipped_before_it": "KK is Wrong Because We Say So (Simon Goldstein & John Hawthorne): skipped under rule 4 (assertion), same judgment call as above"
+    }
+  ],
+  "shortfall": "Two journals have no entries. (1) The Philosophical Review: I could not retrieve the research-article list for 134(1), January 2025. The issue page I reached showed only book reviews and front and back matter. Book reviews sit at pp. 69\u201381, so any articles would be on earlier pages, but I could not verify any. I did not guess. Issue 134(2) has Sam Berstler's 'The Structure of Open Secrets' and Blumberg & Holgu\u00edn's 'Fictional Reality' (doi 10.1215/00318108-11676103). I did not list them, because rule 5 only lets me use issue 2 once issue 1 is exhausted, and I could not confirm that. (2) The Journal of Philosophy: the first 2025 issue is the double issue 122(1/2), Jan/Feb 2025, which is the Dewey Lectures 2023 special issue. All of it is excluded under rule 3. Rule 5 sends me to the next issue, 122(3), but I could not retrieve its table of contents before my search budget ran out. For Mind, Lampert's entry is verified=false because I confirmed its author, title and DOI only from the issue table of contents, not from its own article page."
+}

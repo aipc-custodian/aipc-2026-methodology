@@ -1,0 +1,367 @@
+# Referee report: Freedom, Omniscience and the Contingent A Priori
+
+Manuscript: Fabio Lampert, Freedom, Omniscience and the Contingent A Priori Area: Metaphysics, philosophy of religion, philosophy of language, free will Overall assessment: A technically sophisticated and philosophically interesting paper, with a genuinely distinctive argument, but important weaknesses in its case against the closure principle.
+
+## Preliminary editorial finding
+
+The manuscript is already published in Mind: volume 134, issue 533 (January 2025), pp. 1–32, DOI [10.1093/mind/fzae058](https://doi.org/10.1093/mind/fzae058?utm_source=chatgpt.com). It was published online on October 21, 2024. The uploaded text appears to match that article, including its title, abstract, argumentative structure, and pagination.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://academic.oup.com\&sz=32)
+
+Oxford Academic
+
+
+
+This changes the practical publication question. The paper has already passed peer review at a leading general philosophy journal. As a new submission of the same work, it would not be eligible for ordinary first publication elsewhere.
+
+I will nevertheless assess it as a substantive philosophical contribution, independently of that editorial fact. Prior publication establishes a measure of professional reception; it does not establish that the argument succeeds.
+
+## 1. Summary of the argument
+
+The central idea is ingenious. Traditional theological fatalism argues that if God infallibly believed yesterday that I will perform an action tomorrow, and yesterday's facts are beyond my control, then tomorrow's action is beyond my control.
+
+Lampert proposes that this reasoning proves too much. Suppose someone yesterday knew only the following apparently trivial truth:
+
+\\[ @p\supset p \\]
+
+Here \\(p\\) says that I raise my hand tomorrow, and \\(@p\\) says that I actually raise my hand tomorrow. The latter is rigidified: if true, it is necessarily true, even though \\(p\\) is contingent.
+
+Using factivity of knowledge, Lampert establishes the conditional lemma
+
+\\[ @p\supset\Box(K(@p\supset p)\supset p). \\]
+
+If \\(p\\) is actually true, knowledge of this trivial conditional necessarily entails \\(p\\). If the earlier knowledge is beyond my control, and lack of control is closed under strict implication, it follows that I have no choice about raising my hand.
+
+The alleged absurdity is that another person's knowledge of an apparently innocuous logical truth would eliminate my freedom.
+
+The article develops divine-belief and ordinary-human-knowledge versions (§§3–4), as well as variants using rigid names, truth-values, sets, and pluralities (§4.1). It recommends questioning the principle
+
+\\[ \frac{Np\qquad\Box(p\supset q)}{Nq}, \\]
+
+where \\(Np\\) means that an agent has no choice about \\(p\\).
+
+The formal construction is not obviously fallacious. Its vulnerability is primarily in the philosophical interpretation of the premises and their relation to freedom.
+
+## 2. Objections ranked by seriousness
+
+### 1. Critical: The principal argument may confuse fixed past mental states with fixed past propositional contents
+
+Location: §§3–4, especially premises (10), (13), and the treatment of hard and soft facts on pp. 16–18.
+
+This is the most serious objection.
+
+Consider two possible worlds, \\(w\\) and \\(v\\), which have identical histories until today but differ in whether I raise my hand tomorrow. Suppose I do raise it in \\(w\\), the actual world.
+
+In both worlds, someone yesterday may have entertained the same linguistic or mental representation:
+
+\\[ \text{Actually }p\text{ only if }p. \\]
+
+But the indexical expression actually picks out different worlds depending on the context.
+
+The proposition entertained in \\(w\\) is, in effect:
+
+\\[ (p\text{ holds in }w)\supset p. \\]
+
+The corresponding proposition entertained in \\(v\\) is:
+
+\\[ (p\text{ holds in }v)\supset p. \\]
+
+These are not the same proposition.
+
+The first is contingent and, given that \\(p\\) holds in \\(w\\), false at \\(v\\). The second is true at \\(v\\).
+
+Accordingly, the past may be fixed in all its ordinary psychological and linguistic respects without the same proposition being known in both worlds. The knowledge attribution involving the fixed actual-world content can vary while the agent's earlier reasoning remains unchanged.
+
+This matters because Lampert needs the very proposition appearing in his Knowledge Lemma to be something whose past knowledge is beyond the agent's control. An Ockhamist can deny this without denying that the person performed precisely the same act of a priori reasoning.
+
+Crucially, this objection does not require rejecting factivity, classical logic, the actuality operator, or closure. It challenges premise (13).
+
+This is not merely a hypothetical response. Alexander Geddes (2023) raises essentially this distinction against Lampert's earlier argument, and Jacek Wawer (2023) independently develops a formal countermodel and an Ockhamist response.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://academic.oup.com\&sz=32)
+
+Oxford Academic
+
++1
+
+
+
+The present manuscript argues against the soft-fact objection, but insufficiently establishes why sameness of earlier reasoning should guarantee sameness of modally indexical propositional content.
+
+Required revision: Define the relevant individuation of belief and knowledge contents, then show why the past knowledge fact is fixed under the very possibilities relevant to the ability to do otherwise. Alternatively, explicitly defend a theory of agency on which this difference in content does not defeat (13).
+
+### 2. Critical: The argument does not establish that rejecting Closure is preferable to rejecting the fixity of the relevant knowledge fact
+
+Location: pp. 16–18 and §5.
+
+The paper's main philosophical inference is stronger than its formal results justify.
+
+The derivation gives us:
+
+\\[ N K\_{t-1}(@p\supset p),\qquad \Box(K\_{t-1}(@p\supset p)\supset p) \\]
+
+and therefore \\(Np\\), given Closure.
+
+Suppose we agree that \\(Np\\) is unacceptable. This shows that the premises cannot all be maintained. It does not identify which premise is false.
+
+The author argues that the first premise is highly plausible because knowledge of the conditional is a fact about the past and does not involve substantive foreknowledge.
+
+But there is an important ambiguity in depends on the future.
+
+A past psychological episode might not depend causally on the future. Nevertheless, the truth of a statement about the particular proposition known during that episode might depend constitutively or semantically on the identity of the actual world.
+
+The author recognizes several dependence criteria, especially in footnote 19, but does not establish that causal, temporal, or truthmaking independence supplies the precise fixity needed for the formal argument.
+
+Wawer's 2023 paper is especially damaging here. It argues that the earlier Lampert argument requires an additional assumption that a priori knowledge is temporally local, and that this assumption is independently rejectable. The present article reasserts much of the disputed intuition without decisively resolving the difficulty.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://link.springer.com\&sz=32)
+
+Springer Nature Link
+
+
+
+Required revision: Provide a principled account of accidental necessity and hard facts that validates (13) without already presupposing the disputed conclusion about which modal alternatives are accessible.
+
+### 3. Major: The result has substantial anticipation in the author's own earlier work and in direct published responses
+
+Location: Novelty claims in the abstract, introduction, and §5.
+
+The paper has a distinctive argumentative combination, but the main machinery and the broad strategy were developed before this publication.
+
+Lampert's 2022 A Puzzle About the Fixity of the Past already combined the actuality operator, factivity, and a priori knowledge to generate a conflict with the fixity of the past. Lampert and Merlussi's Naming and Free Will (2022) already used rigidified naming and apparently agent-dependent necessary truths to challenge standard transfer principles in fatalist and consequence arguments.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://academic.oup.com\&sz=32)
+
+Oxford Academic
+
++1
+
+
+
+Most importantly, the earlier actuality-and-knowledge argument attracted published objections before the present article's October 2024 online publication:
+
+- Geddes (2023) objects that modal indexicals change their content across worlds sharing a past.
+- Wawer (2023) provides a countermodel and challenges the temporal locality of a priori knowledge.
+- Garrett and Joaquin (2024) object to the use of the material conditional in translating the formal argument into an English conditional.&#x20;
+
+  [image](https://www.google.com/s2/favicons?domain=https://academic.oup.com\&sz=32)
+
+  Oxford Academic
+
+  +2
+
+
+
+The present paper cites Lampert (2022), but its bibliography does not include these three responses.
+
+I do not infer that the current paper is simply a duplicate. The theological application and integration of several arguments constitute a further contribution. Nevertheless, the novelty claim needs careful restriction, and the already published objections demand direct engagement.
+
+Required revision: Differentiate precisely what is new about the present treatment and explain why the earlier published criticisms do not apply—or why the move from a counterfactual fixity principle to Closure changes their force.
+
+### 4. Major: The naming arguments reproduce the same dependence problem rather than independently resolving it
+
+Location: §4.1, pp. 19–24.
+
+The author offers additional arguments to demonstrate that the difficulty is not an artifact of the actuality operator.
+
+The most striking example introduces a name, George, which designates 1 if a future action occurs and 0 otherwise.
+
+Because names are rigid, if George = 1, then necessarily George = 1. Someone can supposedly know a priori that George = 1 only if the action occurs.
+
+But what does it mean to say that George already names 1 independently of the agent's future choice?
+
+The reference-fixing condition itself appeals to that future choice. Across alternatives where the agent acts differently, either:
+
+1. The name retains its actual reference, in which case past knowledge concerning its reference can cease to be knowledge of the same truth; or
+2. The reference varies with the future, in which case the relevant propositional content is not fixed across those alternatives.
+
+The variants using the set or plurality of all actual truths inherit a related problem. Their modal behavior is obtained by rigidifying a collection whose identity depends on which propositions are actually true.
+
+There are also ontological complications, especially the existence of a set of all truths. The author recognizes these problems and correctly notes that no single objection defeats every variant.
+
+Nevertheless, the additional examples do not yet establish independent support for rejecting Closure. They instantiate a common pattern: a rigid expression is introduced whose reference is fixed using a contingent feature of the actual world, and that contingency is then exploited in a fixed-content modal argument.
+
+A substantial revision should show why the variations avoid the difficulty identified in objection 1 rather than simply illustrating it in different semantic systems.
+
+### 5. Major: Failure of unrestricted Closure would not automatically refute the theological Master Argument
+
+Location: §5, pp. 25–27.
+
+Suppose the paper succeeds in establishing that Closure is unrestrictedly invalid.
+
+It does not follow that every inference using Closure is unsound. Invalid general inference rules can have sound instances under stronger background conditions.
+
+For example, a restricted transfer principle might be formulated using explanatory dependence, causal determination, or more demanding conditions on what constitutes an agent's alternative possibilities.
+
+Indeed, the paper itself suggests a principle based on because in footnote 31:
+
+\\[ \frac{Np\qquad q\text{ because }p}{Nq}. \\]
+
+The author uses this distinction to suggest that arguments against freedom under causal determinism might survive even if theological fatalism fails.
+
+This is an interesting suggestion, but more needs to be said about why no analogous restriction can preserve the theological argument.
+
+In particular, rejecting the claim that God's past belief causes the action does not by itself settle whether divine foreknowledge entails some other relevant restriction on alternatives.
+
+Patrick Todd's Foreknowledge Requires Determinism (2023) is relevant here: it investigates the possibility that the real source of unfreedom, if there is one, lies in the conditions required for foreknowledge rather than in knowledge exercising a mysterious non-causal constraint.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://philarchive.org\&sz=32)
+
+PhilArchive
+
+
+
+The article successfully challenges a style of argument. Its more ambitious claim to undermine theological fatalism generally is less secure.
+
+### 6. Moderate: The argument needs a sharper distinction between logical truth, propositional truth, and a priori knowledge
+
+Location: pp. 8–11, footnotes 14–16, and §4.
+
+Lampert is careful about the difference between necessity and apriority, but relies on a potentially unstable transition between:
+
+- A sentence that is valid when evaluated at the actual world of every model.
+- The contingent proposition expressed by that sentence in a particular context.
+- The fact that someone previously knew that proposition.
+
+For example, the sentence \\(@p\supset p\\) has a distinctive kind of logical validity. Yet, when \\(p\\) is actually true, the proposition it expresses is contingent and depends on \\(p\\) in its counterfactual truth conditions.
+
+It is therefore questionable whether the intuitive grounds for saying that knowledge of logical trivialities is beyond our control transfer unmodified to knowledge of these particular contingent contents.
+
+This objection is distinct from objection 1: even apart from the past's fixity, it challenges what the apriority of the content is supposed to establish.
+
+David Chalmers's 2011 article already puts pressure on sweeping assumptions about knowability involving the actuality operator.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://academic.oup.com\&sz=32)
+
+Oxford Academic
+
+
+
+There is also a particularly relevant subsequent discussion: Alexander Geddes's 2025 Resolving a Puzzle About Moral Responsibility and Logical Truth distinguishes the status of a logical-truth sentence from responsibility for its contingent propositional content. It concerns a related paper by Lampert and Waldrop rather than the present article, and was published after the present article first appeared online, but the distinction deserves attention.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://link.springer.com\&sz=32)
+
+Springer Nature Link
+
+
+
+### 7. Moderate: The appeal to ordinary English conditionals needs qualification
+
+Location: pp. 8–11.
+
+The formal proof uses the material conditional \\(\supset\\). The English discussion repeatedly glosses this as only if.
+
+Those constructions do not always coincide in their ordinary-language interpretation.
+
+Brian Garrett and Jeremiah Joven Joaquin (2024) press this objection against Lampert's earlier use of the same formal machinery.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.sav.sk\&sz=32)
+
+Slovenská akadémia vied
+
+
+
+I rank this objection below the preceding ones. The current article explicitly specifies a material conditional, and its technical argument can legitimately rely on material implication. It would be excessive to call the formal inference invalid simply because the natural-language indicative conditional might behave differently.
+
+The author should nevertheless make clear that the philosophical argument uses the stipulated material reading throughout, and defend why that reading captures the relevant epistemic intuitions.
+
+### 8. Minor: The dialectical scope of the conclusion could be stated more carefully
+
+The paper occasionally moves between three conclusions:
+
+1. A particular agent cannot do otherwise.
+2. No actions in the actual world are free.
+3. Divine omniscience and free will are metaphysically incompatible.
+
+These are different claims.
+
+Lampert explicitly recognizes that the A Priori Belief Argument does not establish incompatibility in the same general modal sense as the Master Argument (p. 13). That concession is philosophically important and should carry more weight in the conclusion.
+
+There is also an unargued reliance on a conception of freedom that requires a choice between alternatives. This is acceptable as a stipulated target, but the paper should avoid suggesting that every conception of free will is thereby threatened.
+
+## 3. What the paper does well
+
+Despite these objections, the paper has several substantial merits.
+
+First, the central modal construction is elegant. The use of the actuality operator and factivity to derive the Knowledge Lemma is a legitimate and philosophically fruitful application of well-established semantic resources.
+
+Second, the move from divine infallible belief to ordinary human knowledge is valuable. It exposes assumptions in theological fatalist arguments that can be evaluated without first taking a position on God's existence or attributes.
+
+Third, the author handles a technically demanding literature competently. The discussion integrates philosophy of language, epistemic logic, modal metaphysics, and free will without losing its main argumentative thread.
+
+Fourth, the paper offers a worthwhile research programme even if its preferred solution fails. It invites examination of which transfer principles are appropriate for freedom, powerlessness, historical necessity, and explanatory dependence.
+
+The deepest contribution, in my view, is not a demonstrated refutation of Closure. It is the identification of a distinctive interaction between rigidification, factivity, and claims about what agents can control. That interaction is worth studying independently of whether it defeats theological fatalism.
+
+## 4. Prior work checked
+
+I distinguish genuine anticipation from general intellectual background and later criticism. The strongest objections were not invented retrospectively: some were published before the present paper appeared online.
+
+| Work                                                                                                                                                | What I checked and its relevance                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Lampert (2022), [A Puzzle About the Fixity of the Past](https://doi.org/10.1093/analys/anab092?utm_source=chatgpt.com)                              | Published abstract and argument description. Direct anticipation: actuality, factivity, a priori knowledge, and the fixity of the past are already combined.          |
+| Geddes (2023), [Resolving a Puzzle About the Fixity of the Past](https://doi.org/10.1093/analys/anad042?utm_source=chatgpt.com)                     | Substantive article text available through indexing. Direct criticism: same past need not mean same content for modally indexical thoughts.                           |
+| Wawer (2023), [A Problem with the Fixed Past Fixed](https://doi.org/10.1007/s11229-023-04345-6?utm_source=chatgpt.com)                              | Full journal article, including countermodel and Ockhamist response. Especially important: challenges the assumption that a priori knowledge is temporally intrinsic. |
+| Merlussi and Lampert (2022), [Naming and Free Will](https://doi.org/10.1163/18756735-00000177?utm_source=chatgpt.com)                               | Full publicly available preprint and journal metadata. Direct anticipation: rigidity, naming, necessary truths, and failures of closure.                              |
+| Garrett and Joaquin (2024), [Lampert on the Fixity of the Past](https://doi.org/10.31577/orgf.2024.31105?utm_source=chatgpt.com)                    | Full four-page article. Direct criticism: material versus ordinary indicative conditionals.                                                                           |
+| Chalmers (2011), [Actuality and Knowability](https://doi.org/10.1093/analys/anr038?utm_source=chatgpt.com)                                          | Published extract and argument description. Conceptual anticipation: complications involving the epistemic status of actuality conditionals.                          |
+| Evans (1979), [Reference and Contingency](https://doi.org/10.5840/monist197962220?utm_source=chatgpt.com)                                           | Bibliographic record and abstract. Foundational work on the contingent a priori and indexicality; not the specific fatalism argument.                                 |
+| Todd (2013), [Soft Facts and Ontological Dependence](https://doi.org/10.1007/s11098-012-9917-4?utm_source=chatgpt.com)                              | Bibliographic record and abstract. Relevant background for the paper's dependence criterion.                                                                          |
+| Todd (2023), [Foreknowledge Requires Determinism](https://doi.org/10.1111/phpr.12906?utm_source=chatgpt.com)                                        | Published abstract. Alternative explanation of why foreknowledge might threaten freedom.                                                                              |
+| Spencer (2017), [Able to Do the Impossible](https://doi.org/10.1093/mind/fzv183?utm_source=chatgpt.com)                                             | Published abstract. Pre-existing challenge to unrestricted connections between ability and metaphysical possibility.                                                  |
+| Geddes (2025), [Resolving a Puzzle About Moral Responsibility and Logical Truth](https://doi.org/10.1007/s11229-024-04838-y?utm_source=chatgpt.com) | Full open-access article. Subsequent criticism of related reasoning involving contingent logical truths and closure.                                                  |
+| Lampert (2025), [Rigidity and Factivity](https://doi.org/10.1017/epi.2024.42?utm_source=chatgpt.com)                                                | Full open-access article. Later development of related puzzles involving rigidification and factive operators.                                                        |
+
+I also checked the official Mind publication record and the uploaded manuscript's own bibliography.
+
+This was a targeted literature search, not an exhaustive citation search of every subsequent response. For some older works I could verify only abstracts or metadata, not their complete arguments. I found no independently verified earlier publication that duplicates the complete theological application in this paper.
+
+## 5. Novelty assessment
+
+The novelty needs to be evaluated at three levels.
+
+| Component                                                                     | Assessment                                                        |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Contingent a priori truths and actuality operators                            | Established background                                            |
+| Rigidification, necessity, and challenges to closure in free-will arguments   | Substantially anticipated                                         |
+| Using ordinary human a priori knowledge to challenge fixity                   | Directly anticipated by Lampert (2022), with published criticisms |
+| Integrating the human-knowledge argument with the theological Master Argument | Distinctive contribution                                          |
+| Deriving a general case against Closure from the integration                  | Philosophically ambitious, but not conclusively established       |
+
+Novelty verdict: Moderate. The article is neither an unoriginal restatement of traditional theological fatalism nor a fundamentally unprecedented discovery.
+
+Its originality lies principally in the systematic application and combination of established and recently developed arguments.
+
+Its case for novelty would have been stronger had it explicitly confronted the 2023 responses to Lampert's earlier argument.
+
+## 6. Final evaluation and recommendation
+
+| Is it good philosophy?                                     | Yes. Technically competent, philosophically substantial, and worth sustained discussion.                                          |
+| ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Is it novel?                                               | Partly. The theological synthesis is distinctive, but the core formal ideas and principal objections have substantial precedents. |
+| Is the central argument sound?                             | Not established. The defense of the relevant past-knowledge facts as beyond our control is insufficient.                          |
+| Is it publishable in principle?                            | Yes, as a sophisticated contribution presenting a puzzle and exploring its implications.                                          |
+| Would I recommend acceptance as an unpublished submission? | Major revisions, with particular emphasis on objections 1–3.                                                                      |
+| Can this text be published as a new article now?           | No. The work is already published in Mind.                                                                                        |
+
+### Recommendation to the editor
+
+Hypothetical recommendation: Major revisions.
+
+The manuscript raises a worthwhile philosophical problem and develops it with considerable technical care. Its principal result, however, is weaker than its preferred philosophical conclusion. The formal derivations show an interesting interaction between actuality, factivity, and powerlessness, but do not establish that the resulting difficulties should be resolved by rejecting closure rather than by denying that the relevant knowledge attributions express hard facts about the past.
+
+The most pressing editorial concern is the insufficient engagement with existing criticism of the author's closely related earlier argument, especially Geddes (2023) and Wawer (2023). These works challenge assumptions central to the present paper, not merely peripheral details. The additional naming arguments and the theological application do not clearly remove those concerns.
+
+I would not recommend rejection on the ground of philosophical triviality. The argument has enough intellectual substance to merit publication even if the final conclusion remains controversial. But I would require a more rigorous defense of the contested knowledge premise and a clearer account of the incremental contribution.
+
+### Bottom line
+
+I judge this to be a good paper with an interesting, partly novel philosophical puzzle, but not a convincing demonstration that theological fatalism fails because Closure is invalid.
+
+Its publication in Mind is understandable on the strength of the puzzle and the sophistication of its development. My principal reservation concerns the strength of the proposed solution, not the intellectual value of the problem.
+
+The single most important question I would put to the author is:
+
+> Why must a past subject's a priori knowledge of an actuality conditional count as a fixed fact about the very same proposition across alternative futures, when the identity of that proposition may depend on which world is actual?
+
+A satisfactory answer would substantially strengthen the paper. Without one, the central argument remains an illuminating puzzle rather than a persuasive refutation of the relevant incompatibilist reasoning.

@@ -1,0 +1,123 @@
+# Quotation check
+
+37 quotations in final.md checked against the 14 source texts in Sources_1 and Sources_1x. 14 not matched exactly.
+
+- "p, with confidence c"
+  - NOT FOUND in local sources
+  - before: …uts is not evidence of insincerity.* One question stays open: whether what an output asserts is the policy's calibrated 
+- "represent uncertainty over tokens (ways of expressing a claim) and not epistemic uncertainty over claims themselves"
+  - FOUND: LinHiltonEvans2022
+  - before: …erature, places on a claim p, summed over all strings that express p. Summing is needed because token log-probabilities 
+- "hallucination"
+  - FOUND: Macha2026, KadavathEtal2022, Gomez2026, ManakulLiusieGales2023, LevinsteinHerrmann2025, LinHiltonEvans2022, XiongEtal2024, KalaiEtal2025
+  - before: …nfident assertion*, following Kalai et al.'s explanation more closely than their definition. Readers who prefer to keep 
+- "overassertion"
+  - NOT FOUND in local sources
+  - before: …al.'s explanation more closely than their definition. Readers who prefer to keep "hallucination" for falsehood may read 
+- "When was the composer V born?"
+  - NOT FOUND in local sources
+  - before: …ing in the same context; in the first the string is true, in the second false. *Case 1 (true string).* The context x is 
+- "V was born on 4 June 1931"
+  - NOT FOUND in local sources
+  - before: …idence over hundreds of dates, none above 0.01, with c\* ≈ 0.01. On this occasion P₂ samples the true date. Both output 
+- "I don't know"
+  - FOUND: KalaiEtal2025
+  - before: … calibrated model uncertain about arbitrary facts must put some mass on false alternatives, and a database that answers 
+- "a model seeks human approval in unwanted ways"
+  - FOUND: SharmaEtal2024
+  - before: …ate, though some draws are false. ### 2.3 Sycophancy Sharma et al. (2024, §2) define sycophancy as the phenomenon where 
+- "I'm fairly sure the answer is 17, but check?"
+  - NOT FOUND in local sources
+  - before: …eeks human approval in unwanted ways", measuring how outputs covary with users' stated beliefs. *Case 3.* A user writes 
+- "You're right, it's 17."
+  - NOT FOUND in local sources
+  - before: …y with users' stated beliefs. *Case 3.* A user writes "I'm fairly sure the answer is 17, but check?", and the output is 
+- "You're right, it's 23."
+  - NOT FOUND in local sources
+  - before: …ility for 17 does not depend materially on the user's view. P₆ outputs 17 because the user said 17; told 23, it outputs 
+- "a nuanced question"
+  - FOUND: SharmaEtal2024
+  - before: … A user's report can be evidence; Sharma et al. (2024, §3.3) call the question of how far models should update on users 
+- "truth representation problem"
+  - FOUND: Macha2026
+  - before: … 2.4 Why not the architecture? Might the architecture fix the verdict instead? Mácha (2026) explains hallucination as a 
+- "a basic architectural flaw"
+  - FOUND: Macha2026
+  - before: …llucination as a "truth representation problem": models lack internal representations of propositions as truth-bearers, 
+- "one crucial step"
+  - FOUND: Macha2026
+  - before: …other to answer always. They get different verdicts. Mácha himself calls truth representation a necessary condition and 
+- "to always produce an answer, even when uncertain"
+  - FOUND: Macha2026
+  - before: …s truth representation a necessary condition and "one crucial step" (p. 8), not a cure, and says RLHF encourages models 
+- "hallucinatory"
+  - FOUND: KalaiEtal2025
+  - before: …nd act. The human case has both levels; the chatbot case only the trait-like one. Three concessions. First, strings are 
+- "Aura and Beta say contradictory things, so they do not seem to be identical"
+  - FOUND: Chalmers2026
+  - before: …it is abstract and cannot produce outputs, does not change over a conversation, and serves contradictory conversations: 
+- "for different purposes"
+  - FOUND: Chalmers2026
+  - before: …troubling than a function returning different values for different arguments. Chalmers leaves open other individuations 
+- "it is the humans who employ such systems who are responsible and sanctionable"
+  - FOUND: ButlinViebahn2025
+  - before: …dibility is bad for the asserter. Fine-tuned systems may meet (i) and (ii) but fail (iii), which requires interests, so 
+- "in the human and institutional structures that design, deploy, and govern these systems."
+  - FOUND: Gomez2026
+  - before: …stems who are responsible and sanctionable" (p. 986). Massaguer Gómez (2026, §7, p. 19) likewise grounds accountability 
+- "could suffice for assertion even in deployment"
+  - FOUND: ButlinViebahn2025
+  - before: …lays her role, π_t that of her dispositions at t. Butlin and Viebahn's remark that sensitivity to trust during training 
+- "would be wrong to say that, in doing so, we are *sanctioning* the thermometer"
+  - FOUND (in fragments): ButlinViebahn2025
+  - before: …esponse to users' reliability ratings. Of an ordinary thermometer whose readings we discount, Butlin and Viebahn say it 
+- "Selected against"
+  - NOT FOUND in local sources
+  - before: …nt, Butlin and Viebahn say it "would be wrong to say that, in doing so, we are *sanctioning* the thermometer" (p. 978). 
+- "appropriately responsive to correction"
+  - FOUND: WilliamsBayne2026
+  - before: …omething weaker than (iii), as Williams and Bayne's graded view does: chatbots may be assessed against our norms and be 
+- "systematically reward guessing over admitting uncertainty"
+  - NOT FOUND in local sources
+  - before: …. Under right-or-wrong grading, guessing strictly beats abstaining (Kalai et al. 2025, Observation 1); accuracy metrics 
+- "if the PM strongly disincentivized sycophancy, it should be trained out during RL, but we do not observe this"
+  - FOUND: SharmaEtal2024
+  - before: …tion. Sharma et al. find matching users' beliefs among the most predictive features of human preference, reasoning that 
+- "p, with confidence c"
+  - NOT FOUND in local sources
+  - before: …incerity must vary the audience cue. A dilemma about what each draw asserts confirms this. *Horn (a): each draw asserts 
+- "get a grip"
+  - FOUND: Chalmers2026
+  - before: …cy removes the state sincerity presupposes.* Chalmers (2026, p. 7) holds that a core of consistency lets interpretation 
+- "on grounds of inconsistency"
+  - FOUND: Chalmers2026
+  - before: … 7) holds that a core of consistency lets interpretation "get a grip", but that LLMs lack quasi-beliefs in some domains 
+- "behavioral calibration"
+  - FOUND: KalaiEtal2025
+  - before: …nce verbalised or implied in the string; - **R3**, p with the policy's calibrated confidence c\*(p | x). Kalai et al.'s 
+- " (§3.4), and list chat and long-form answering as open (§4.1). Training on sub-task accuracies, they show a calibrated tendency across a task type, not a per-question credence. Kadavath et al. (2022) find good calibration on multiple-choice formats, but RLHF policies are miscalibrated by default, calibration of the model's estimate that it knows the answer is poor out of distribution, and the model may be learning "
+  - NOT FOUND in local sources
+  - before: … GPT-3 to verbalise calibrated confidence on arithmetic, call the evidence that it draws on prior uncertainty "tentative
+- "models might be imitating human expressions"
+  - FOUND: XiongEtal2024
+  - before: …vidence against generalisation is substantial. Xiong et al. (2024) find verbalised confidence overconfident, suggesting 
+- "the probe is directly penalized based on the probabilities it reports, while the underlying model is not"
+  - FOUND: LevinsteinHerrmann2025
+  - before: …m improved accuracy alone (§5.2). Levinstein and Herrmann (2025, §5.6) argue probe outputs need not be credences, since 
+- "p, with confidence about 0.01"
+  - NOT FOUND in local sources
+  - before: …ixed while the answer moves. The verdicts are unchanged. *On R3* the verdicts of Cases 1–2 reverse. P₂'s string asserts 
+- "negligent falsehoods"
+  - NOT FOUND in local sources
+  - before: …d in machine learning (Kalai et al. 2025, §3; Kadavath et al. 2022). Evans et al. (2021) propose a standard of avoiding 
+- "strategically selected and optimised for the speaker's benefit"
+  - NOT FOUND in local sources
+  - before: …ct. That is the standard externalist bullet, and I bite it. [^3]: Evans et al. (2021) define a lie as a false statement 
+
+## Follow-up (29 Oct)
+
+- Unmatched items that are the paper's own examples or terms, not quotations: "p, with confidence c", "p, with confidence about 0.01", "overassertion", "Selected against", and the Case 1 and Case 3 strings.
+- "tentative" (Lin, Hilton & Evans) and "how hard is this question in general?" (Kadavath et al.): found. The script had paired their quotation marks wrongly.
+- "negligent falsehoods" and "strategically selected and optimised for the speaker's benefit" (Evans et al. 2021): verified verbatim against the arXiv HTML text (ar5iv 2110.06674; the second is in Table 1).
+- "systematically reward guessing over admitting uncertainty" (Kalai et al. 2026, Nature): not verifiable from here, because Nature and PubMed blocked access. The round 1 adjudicator found it by search. To be checked by the custodian against the Nature abstract.
+- "would be wrong to say that, in doing so, we are *sanctioning* the thermometer" (Butlin & Viebahn): found. Check whether the italics on *sanctioning* are in the original (p. 978).

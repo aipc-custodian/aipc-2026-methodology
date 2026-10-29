@@ -1,0 +1,110 @@
+[
+  {
+    "thesis": "Proponents of friendship's final value are committed to denying that a friend's replacement by a qualitatively identical duplicate would preserve what matters, but this commitment contradicts their own explanation of why favoritism toward friends is permissible.",
+    "move_type": "commitment",
+    "sketch": "Those who say a friend's good matters non-instrumentally typically argue this explains why we may favor our friends over strangers\u2014it's this particular person who matters, not just anyone satisfying certain valuable properties. This seems to entail that if your friend were secretly replaced by a duplicate with identical properties, something of final value would be lost (this relationship, this person's good). But the very same philosophers, when explaining why friendship doesn't collapse into arbitrary favoritism, appeal to the friend's valuable qualities\u2014their loyalty, shared history with you, virtue, etc. If these properties justify the relationship, then they should transfer to the duplicate. The final-value theorist must either admit the duplicate case preserves what matters (undermining the non-instrumental claim) or admit that favoritism isn't justified by the friend's properties (making it look arbitrary after all).",
+    "target": "Final value theorists who think both that (a) particular persons non-instrumentally matter in friendship and (b) friendship is non-arbitrary because friends possess valuable properties",
+    "risk": "Might be resolved by distinguishing historical/relational properties (which don't transfer to duplicates) from qualitative properties, though this may just push the problem back to whether historical properties can ground non-arbitrary favoritism",
+    "generator": 0,
+    "merged_from": 1,
+    "ruling": {
+      "verdict": "dead",
+      "met_or_absorbed": "n/a",
+      "surviving_thesis": null,
+      "fatal_flaw": "The defender conceded the equivocation: properties justify formation (blocking arbitrariness) while historical particularity grounds non-replaceability, so no contradiction exists between the two commitments.",
+      "promise": 2,
+      "promise_reason": "Even if salvageable, the core move\u2014finding contradiction in final value theory\u2014dissolved too easily when properties and history were distinguished into formation-justification versus continuation-grounds."
+    },
+    "transcript": [
+      {
+        "speaker": "KILLER",
+        "text": "**EQUIVOCATION**\n\nThe weak premise: \"If these properties justify the relationship, then they should transfer to the duplicate.\"\n\nThe thesis equivocates on \"justify.\" Final value theorists claim valuable properties justify *initiating or sustaining* a friendship (making it non-arbitrary), but the *particular historical relationship* grounds why *this* friend matters non-instrumentally. The duplicate lacks the shared history\u2014the actual experiences, promises, and time together that constitute *this* friendship. Properties explain why friendship with someone *like this* is reasonable; the historical particular explains why *replacement* fails. A duplicate shares the friend's current properties but not the relationship's history. No contradiction: properties rule out arbitrariness at selection, history grounds non-transferability afterward."
+      },
+      {
+        "speaker": "DEFENDER",
+        "text": "I **concede** this objection lands.\n\nThe objector is right that I equivocated on what \"justify\" means. Final value theorists can consistently say:\n\n- Valuable properties justify *forming* friendships (blocking arbitrariness)\n- The particular historical relationship grounds *non-replaceability*\n\nThe duplicate case fails because the duplicate doesn't share *the actual history*\u2014the experiences we lived through together, the promises we actually made, the time we actually spent. These historical facts constitute the relationship itself.\n\nThis blocks my argument. I claimed the theorist faces a dilemma, but the objector shows there's a coherent middle position: properties make friendship non-arbitrary at the start; the accumulated historical relationship makes the friend irreplaceable later. The duplicate has the properties but lacks the history, so there's no transfer and no contradiction.\n\nThe thesis **fails**. The commitment I attributed to final value theorists doesn't actually contradict their explanation of permissible favoritism\u2014the two claims operate at different levels (property-based justification for formation vs. history-based grounds for non-replaceability) and don't conflict."
+      }
+    ]
+  },
+  {
+    "thesis": "The final-derivative dichotomy misframes the dispute because both sides implicitly share a 'grounding' picture of value-explanation that cannot accommodate how friendship actually changes what is valuable: when genuine friendship forms, new value-facts obtain that are neither grounded in the friend's antecedent properties nor independent of them, but constitutively dependent on the relationship itself.",
+    "move_type": "reframing",
+    "sketch": "Both final and derivative theorists assume value-explanations follow a grounding structure: either the friend's good is a ground-floor fact (final view) or it's grounded in further facts about persons-in-general (derivative view). But consider: before friendship, your friend's career success has value X; after deep friendship forms, that same success has value X+Y, where Y cannot be explained by changes in the friend's intrinsic properties or by appeal to general humanity-value. The friendship itself alters the evaluative landscape. This is neither final (the value depends on something\u2014the relationship) nor derivative in the standard sense (the relationship doesn't instantiate a prior value-kind; it generates new value-structure). The argument turns on cases where relationship-formation changes value-facts without changing the intrinsic properties of the individuals, showing that the grounding framework both sides use cannot capture constitutive value-generation.",
+    "target": "The shared assumption that values must follow a grounding architecture where explanatory chains terminate either in intrinsic individual properties or in bare normative facts",
+    "risk": "This might collapse into a version of the shared-project derivative view, or critics might argue that 'constitutive dependence' is just disguised grounding, making this a distinction without a difference.",
+    "generator": 1,
+    "merged_from": 1,
+    "ruling": {
+      "verdict": "dead",
+      "met_or_absorbed": "n/a",
+      "surviving_thesis": null,
+      "fatal_flaw": "The defender concedes the thesis equivocates between a metaphysical reading (needed to escape the dichotomy) and a reasons reading (all the case establishes), and admits having no argument for the metaphysical reading that would make the reframing work.",
+      "promise": 2,
+      "promise_reason": "Even if rescued, the constitutive-dependence move likely just redescribes derivative value in fancier metaphysics without genuine explanatory gain."
+    },
+    "transcript": [
+      {
+        "speaker": "KILLER",
+        "text": "**EQUIVOCATION**\n\nThe weak point is the claim that friendship \"generates new value-structure\" that is \"neither final nor derivative.\"\n\nOn one reading, this just means friendship creates *new reasons* for me to care about outcomes\u2014which is trivially compatible with the derivative view (the relationship instantiates a general value-kind: \"things my friends care about matter to me\"). \n\nOn another reading, it means friendship creates *metaphysically new value-facts* in the world\u2014which is the interesting claim but wholly unsupported. Why think my friend's career success literally becomes *more valuable* rather than that I now have *relationship-specific reasons* to care about it? The argument needs the metaphysical reading to escape the final/derivative dichotomy, but only the trivial reading is plausible from the case described.\n\n**Premise:** \"The friendship itself alters the evaluative landscape\" (ambiguous between altering my reasons vs. altering objective value-facts)."
+      },
+      {
+        "speaker": "DEFENDER",
+        "text": "I concede the objection lands decisively.\n\nThe thesis equivocates fatally between two readings of \"new value-facts obtain\":\n\n**Metaphysical reading**: The friend's career success literally becomes more valuable in the world\u2014some objective evaluative fact changes.\n\n**Reasons reading**: I acquire new, relationship-specific reasons to care about the friend's career success.\n\nThe objector is right that I need the metaphysical reading to escape the final/derivative dichotomy, but the case I described (\"value X+Y\") only establishes the reasons reading. And the reasons reading is straightforwardly accommodated by the derivative view: the relationship instantiates a general normative principle like \"respond specially to what matters to those you're intimately connected with.\"\n\nI have no argument that friendship makes outcomes *objectively more valuable* rather than giving *me* special reasons to value them. Without that argument, the \"constitutive value-generation\" claim is empty\u2014it's just relabeling \"I have new reasons\" as \"new value-facts obtain.\"\n\nThe thesis fails. The reframing collapses back into the derivative view once the equivocation is exposed."
+      }
+    ]
+  },
+  {
+    "thesis": "The derivative view commits its proponents to rejecting temporal priority claims about value that they elsewhere endorse: if a friend's good matters because it instantiates a further value V, then V must be explanatorily prior, yet derivative theorists standardly treat the friend's good as tracking value in real-time rather than waiting on V's instantiation.",
+    "move_type": "commitment",
+    "sketch": "Derivative theorists say a friend's good matters because it instantiates something further\u2014humanity, virtue-responsiveness, rational nature, or shared projects. But consider timing: when your friend suffers a minor setback, the derivative view says this matters because it's an instance of (say) humanity being setback. Yet proponents treat the friend's setback as immediately mattering, not as mattering only once we've verified that humanity-in-general has been diminished. This reveals a commitment problem: derivative views require explanatory priority (V grounds friend's-good), but their phenomenology and deontic claims require simultaneity or even reverse priority (friend's-good is how we access V). The argument turns on the premise that explanatory priority relations must respect some minimal temporal or epistemic ordering\u2014you can't both ground X in Y and treat X as the primary way Y shows up.",
+    "target": "Derivative theorists who appeal to universal values like humanity or rationality while maintaining that friends' particular goods have immediate normative force",
+    "risk": "Derivative theorists might successfully argue that explanatory priority is compatible with experiential simultaneity, or that 'tracking in real-time' is precisely what instantiation means, dissolving the tension.",
+    "generator": 1,
+    "merged_from": 1,
+    "ruling": {
+      "verdict": "dead",
+      "met_or_absorbed": "n/a",
+      "surviving_thesis": null,
+      "fatal_flaw": "The thesis equivocates on 'priority'\u2014derivative theorists commit only to metaphysical grounding (humanity explains why friend's good matters), not to temporal or epistemic priority, and grounding relations don't entail temporal or epistemic ordering.",
+      "promise": 2,
+      "promise_reason": "Even if the equivocation were fixed, the underlying tension between grounding structure and phenomenological immediacy in derivative views might not generate enough resistance to sustain a full paper."
+    },
+    "transcript": [
+      {
+        "speaker": "KILLER",
+        "text": "**EQUIVOCATION**\n\nThe argument equivocates on \"priority.\" \n\nThe weak premise is: \"explanatory priority relations must respect some minimal temporal or epistemic ordering.\"\n\nExplanatory priority is a metaphysical grounding relation\u2014it concerns *what makes what the case*. Temporal priority concerns when things occur. Epistemic priority concerns how we know things. These are entirely different relations.\n\nThe derivative theorist can coherently say: (1) My friend's suffering matters *because* it instantiates a setback to humanity (metaphysical grounding), and (2) I recognize this mattering immediately when my friend suffers (epistemic access), and (3) both events occur simultaneously (temporal coincidence).\n\nThere's no commitment problem. When a window breaks because it was struck, the striking grounds the breaking, yet both occur simultaneously and we perceive the breaking directly. Similarly, the friend's good can be grounded in universal value V while being instantiated simultaneously and known directly. \n\nThe thesis trades on making \"priority\" sound like it must mean temporal-first or known-first, when derivative theorists only commit to metaphysical-grounding-first. That's three different relations, and the argument needs them to collapse into one."
+      },
+      {
+        "speaker": "DEFENDER",
+        "text": "I concede the objection lands.\n\nThe thesis fails because it conflates metaphysical explanatory priority with temporal or epistemic priority. The derivative theorist is committed only to the claim that universal value V *grounds* or *explains* why the friend's good matters\u2014a metaphysical relation. They are not committed to any claim that V must be temporally prior (instantiated first) or epistemically prior (known first).\n\nThe window analogy is decisive. The striking grounds the breaking metaphysically, yet they occur simultaneously and we perceive the breaking directly. Nothing in \"X grounds Y\" entails \"X comes before Y temporally\" or \"we must know X before Y.\"\n\nMy premise that \"explanatory priority relations must respect some minimal temporal or epistemic ordering\" is false. Grounding relations simply don't work that way. Derivative theorists can consistently maintain:\n- The friend's suffering matters *because* it instantiates a setback to humanity (grounding)\n- This mattering occurs immediately when the friend suffers (temporal simultaneity)  \n- We recognize it through the particular case, not by first consulting universal principles (epistemic order)\n\nThere is no commitment problem here\u2014just my confusion about what \"priority\" means in metaphysical contexts.\n\nThe thesis is dead."
+      }
+    ]
+  },
+  {
+    "thesis": "The final-derivative distinction collapses in the friendship case because what makes something finally valuable for an agent just is that it grounds non-instrumental concern for particular others, making the supposed grounding relation circular.",
+    "move_type": "instability",
+    "sketch": "Both sides assume we can distinguish final from derivative value by asking whether X matters for its own sake or for Y's sake. But when we ask why someone finally values, say, pleasure or virtue, the answer that makes these genuinely valuable (rather than mere preferences) is that they ground appropriate non-instrumental concern\u2014including concern for particular others who possess them. If final value's normativity depends on generating non-derivative concern for particulars, then treating a friend's good as finally valuable because it grounds concern for them, versus treating concern for them as grounded in their final value, becomes a distinction without a difference. The derivative view collapses into the final view because the alleged ground (final value) gets its normative grip precisely by generating what it supposedly grounds (non-instrumental concern for this person).",
+    "target": "Both sides, but especially those who think there's a stable 'grounding' story to tell in either direction",
+    "risk": "Conflates two senses of 'ground': the metaphysical grounding of concern versus the justificatory structure of reasons, and these might genuinely come apart even if related",
+    "generator": 0,
+    "merged_from": 1,
+    "ruling": {
+      "verdict": "dead",
+      "met_or_absorbed": "n/a",
+      "surviving_thesis": null,
+      "fatal_flaw": "The defender conceded the equivocation was fatal and that the derivative view has a clean answer via instantiation, abandoning the thesis entirely rather than defending it.",
+      "promise": 2,
+      "promise_reason": "The type/token distinction the objection revealed is philosophically sound but standard; the supposed circularity was just confusion, not a deep instability worth extended treatment."
+    },
+    "transcript": [
+      {
+        "speaker": "KILLER",
+        "text": "**EQUIVOCATION**\n\nThe weak premise: \"final value's normativity depends on generating non-derivative concern for particulars.\"\n\nFinal value's *normativity* (its reason-giving force in general) is distinct from *what makes concern non-instrumental* (its directedness at a particular). The thesis trades on \"generates concern\" meaning both:\n\n(a) \"explains why X matters at all\" (normativity)\n(b) \"explains why *this instance* matters non-derivatively\" (particularity)\n\nPleasure's final value explains why pleasure-in-general matters (a), but my friend's pleasure being an *instance* of something finally valuable explains why I care about *her* pleasure specifically without further justification (b). No circularity: the general normative property grounds concern for particular bearers. The argument needs the slide between these to make \"grounds concern\" do double duty.\n\n**Counterexample**: I finally value knowledge. This grounds my non-instrumental concern for *this* discovery. But knowledge's final value doesn't \"depend on\" generating concern for particular discoveries\u2014it's finally valuable whether or not anyone cares about particular instances."
+      },
+      {
+        "speaker": "DEFENDER",
+        "text": "I **concede the objection lands**.\n\nThe thesis equivocates between:\n- Final value's general normative force (why pleasure/knowledge/etc. matter at all)\n- What makes concern for *this bearer* non-instrumental (why *her* pleasure matters non-derivatively)\n\nThe counterexample is decisive: knowledge can be finally valuable even if no one cares about particular instances. This shows final value's normativity is independent of generating particular-directed concern.\n\nThe corrected picture: final value provides general normative force; that something is an *instance* of final value explains why concern for it needn't be instrumental. No circularity\u2014just instantiation.\n\n**The thesis fails.** \n\nWhat I mistook for circularity was actually: \"X's final value grounds non-instrumental concern for X-bearers\" working perfectly well as a one-way street. The \"generates concern\" language masked that final value does its normative work at the type-level, while the friendship debate is about what grounds token-level non-instrumental concern. These are different questions, and the derivative view has a clean answer: this friend instantiates final value.\n\nThe supposed instability was an artifact of running together \"what makes Fs valuable\" with \"what makes caring about *this F* non-instrumental.\""
+      }
+    ]
+  }
+]

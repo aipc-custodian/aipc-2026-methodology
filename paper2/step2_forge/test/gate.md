@@ -1,0 +1,360 @@
+# Thesis gate — Can a large language model literally have communicative intentions and perform speech acts such as asserting, advising, promising or apologising, or does it only produce text that humans interpret as such? The rival positions fall into four groups. Denials hold that LLMs perform no speech acts of their own: on organismic grounds, because speaking is acting, acting requires intentions, and intentions require the self-set goals of autonomous, self-maintaining organisms rather than externally purposed mechanisms (Gubelmann); on normative grounds, because assertion is a norm-governed social practice whose performers must produce outputs with a descriptive function and be open to sanction, conditions that current models fail singly or jointly (Butlin and Viebahn), an argument extended to speech acts in general (Skiba); and, for apology in particular, because chatbots lack the linguistic and moral agency the act requires (Magnus, Buccella and D'Cruz). Relocating views accept that speech acts are in play but deny that the model is their author: proxy accounts treat machine utterances as speech acts performed on behalf of human creators, designers or deployers (Green and Michel; Arora; and, for some uses, Butlin and Viebahn), while fictionalism treats chatbot speech as something users engage with through fiction (Mallory). Intermediate views assign machines a status short of full speech-act performance: quasi-testimony, on which instruments assert only in a qualified sense that differs fundamentally from human assertion (Freiman and Miller), and proto-assertion, proposed after finding both the proxy and fictionalist accounts inadequate (Williams and Bayne). Attributing views hold that the demanding Gricean, mind-reading conception of communicative intention is empirically untenable even for humans and that, on a thinner functional conception of intention as an internal state controlling output in response to the situation, language models have communicative intentions in a graded and limited form, with purposes supplied by their design context (Attah). Behind these lies a dispute about agency itself: one account counts a system as an agent when its outputs are explained by its own sensitivity to instrumental value, so that many language agents built around LLMs qualify, bare pre-trained chatbots are borderline, and desire requires considerably more than agency (Butlin); an enactive account denies LLMs autonomous agency for want of individuality, normativity and interactional asymmetry, describes them as linguistic automata, and locates what is new in hybrid human–LLM agency (Barandiaran and Almendros); and a relational-materialist account rejects the individualistic, property-based framing altogether and distributes agency across networks of human and non-human actors (Puzio).
+
+6 candidates. **0 in the top-right quadrant**, 2 repairable, 4 not attacked.
+
+Ranked by promise, then by unanswered damage. Nothing has been eliminated — the verdict is a field, not a filter.
+
+**Promise** is scored blind, before any attack. **Residual** is the strongest objection left unanswered — 0 is best, and it is the ranking number. **Worst** is the strongest objection mounted at all: when Worst is also low, the thesis was not seriously tested rather than sturdy.
+
+| P | Res | Worst | Verdict | Thesis |
+|---|---|---|---|---|
+| 5 | 5 | 5 | dead | Accounts that deny LLMs perform speech acts while granting they can be… |
+| 4 | 4 | 4 | wounded | The speech-act debate misconstrues the phenomenon because LLM outputs … |
+| 3 | – | – | unattacked | The proxy-assertion view collapses into either full LLM assertion or n… |
+| 3 | – | – | unattacked | Proponents of the normative denial (Butlin and Viebahn, Skiba) are com… |
+| 2 | – | – | unattacked | The debate misidentifies the phenomenon by treating all LLM outputs as… |
+| 1 | – | – | unattacked | The organismic denial and the attributing view both depend on settling… |
+
+---
+
+## Repair candidates
+
+*Promise 4+, failed on ONE locatable flaw — usually scope or framing, with the narrower version already written out. Often the richest vein.*
+
+### R1. Accounts that deny LLMs perform speech acts while granting they can be deceived or manipulated commit themselves to the incoherence that a system can be the victim of illocutionary acts without being capable of recognizing them as such.
+
+- **Promise 5/5** · residual 5/5 · worst 5/5 · dead
+- **Move:** commitment — **Target:** Deniers such as Gubelmann, Skiba, and the normative arguments in Butlin and Viebahn, particularly those who simultaneously treat adversarial AI interactions as raising ethical concerns about manipulation
+- **Sketch:** Many who deny LLMs can assert nonetheless treat adversarial prompts, jailbreaking and social engineering of LLMs as ethically problematic manipulation or deception. But deception and manipulation are themselves illocutionary acts—attempts to produce uptake in a hearer. The key premise: successful illocutionary targeting requires that the target be the kind of thing that can take the act in the relevant way. You cannot threaten a rock or deceive a calculator because they cannot recognize threats or be misled. If LLMs can be genuinely deceived (not just: their users are deceived), they must be capable of uptake—of taking an input as carrying illocutionary force. But uptake is the hearer's side of the speech-act relation. A system capable of uptake from speech acts directed at it must have the functional apparatus for recognizing illocutionary force, which is precisely what deniers claim LLMs lack. The denial position is thus unstable: either LLMs can recognize illocutionary acts (making them potential speech-act performers given the symmetry of speaker-hearer capacities) or they cannot (making 'manipulation of LLMs' a category error, just as one cannot manipulate a search engine through deception).
+- **Appraiser (blind):** Exposes a potentially devastating internal tension in the dominant denial position by showing that treating LLMs as manipulable presupposes the very uptake capacities that deniers reject, forcing a fundamental reconsideration of the view's coherence.
+  - MISATTRIBUTION — landed 5/5, **UNANSWERED**. The named targets demonstrably do not hold position (2); the defence retreated to attacking a 'position-space' rather than showing these authors exemplify it
+  - ALREADY TAKEN — landed 2/5, answered. The cited literature addresses graded production capacities but not the specific uptake-recognition symmetry claim the thesis makes
+  - PROVES TOO MUCH — landed 4/5, answered. The defence successfully distinguished functional capacity from felicity conditions, showing the examples confirm rather than refute the symmetry at the functional level
+- ⚑ **Target attribution disputed** — The named targets demonstrably do not hold position (2); the defence retreated to attacking a 'position-space' rather than showing these authors exemplify it *Check this yourself: it is a claim about who holds what, made from recall.*
+- 🔧 **Survives as:** Accounts that deny LLMs perform speech acts while treating adversarial prompts as genuine deception or manipulation (rather than mere causal exploitation) commit themselves to the incoherence that a system can suffer uptake from illocutionary acts without possessing the functional apparatus for producing them—but uptake-recognition and production-capacity for non-institutional speech acts like deception and assertion share the same cognitive machinery.
+- **Flaw:** The thesis names specific philosophers as targets but cannot show they hold both positions it attacks; the defence's retreat to 'position-space' concedes the misattribution
+
+<details><summary>full exchange</summary>
+
+**KILLER (MISATTRIBUTION)** — ATTEMPT. The thesis targets "deniers such as Gubelmann, Skiba, and Butlin and Viebahn" as holding both (1) that LLMs cannot perform speech acts, and (2) that LLMs can themselves be deceived or manipulated as victims of illocutionary acts. However, examining the recent work summaries reveals no evidence that any of these authors holds position (2).
+
+Gubelmann's 2024 paper argues LLMs lack intentions needed for illocution, focusing on whether LLMs can be *speakers*. Nothing in the summary suggests he treats LLMs as victims of deception or manipulation. Skiba's 2026 article presents a "norm-based argument against LLM assertion" and extends it to speech acts generally, but the summary contains no indication he discusses adversarial prompts or treats LLMs as manipulation victims. Butlin and Viebahn's 2025 paper argues that to assert, systems must have descriptive functions and be sanctionable by interacting agents; they conclude pre-trained and some fine-tuned models fail these conditions. The "sanctioning" here appears to concern whether the *AI system* can be held to norms, not whether it can be victimized by others' speech acts.
+
+The thesis appears to construct a composite target by combining one group's denial of LLM speech acts with a different, unnamed group's ethical concerns about adversarial AI interactions, then attributing both positions to the named philosophers without textual warrant.
+
+STRENGTH: 4/5 — This is a serious misattribution that undermines the argument's dialectical foundation. The named targets may not hold the conjunction of views the thesis attacks.
+
+**DEFENDER** — **BEST DEFENCE**
+The objection misreads the dialectical structure. The thesis does not claim Gubelmann, Skiba, or Butlin and Viebahn *explicitly argue* that LLMs can be deceived. Rather, it identifies a **commitment tension** between their theoretical positions and widespread practices they share the intellectual landscape with.
+
+The defence proceeds in three steps:
+
+**First, the commitment is implicit, not explicit.** When Butlin and Viebahn argue LLMs must be "sanctionable by interacting agents" to count as asserters, they're working within a normative framework where LLMs are appropriate targets of reactive attitudes and norm-enforcement. This *already* treats LLMs as participants in a normative space where agents can direct illocutionary acts at them—sanctioning is itself an illocutionary act (declaring, condemning, holding-to-account). You cannot sanction what cannot receive sanctions. The very apparatus of their argument—that we might hold LLMs to norms, that this matters for whether they assert—presupposes LLMs occupy a position where norm-directed speech acts can land.
+
+**Second, the "unnamed group" is not separate.** The objection suggests the thesis illegitimately combines two distinct groups. But adversarial prompt research and AI ethics discussions of "jailbreaking," "prompt injection attacks," and "alignment" saturate the same philosophical and technical literature these authors engage with. When Skiba discusses norm-based arguments in 2026, he's writing in an environment where "manipulating LLMs through deceptive prompts" is standard terminology. The thesis charges that deniers who work in this space cannot coherently *avoid* taking a position on whether such manipulation talk is literal or metaphorical—and if they treat it as metaphorical (mere causal interference), they owe an account of why the ethical concern differs from concerns about corrupting a database.
+
+**Third, the textual evidence standard is too demanding.** The objection requires explicit statements in paper summaries. But philosophical commitments often emerge from what positions *require* rather than what authors explicitly endorse. Butlin and Viebahn's sanctioning condition, Gubelmann's focus on intention in illocution—these theoretical frameworks carry implications for whether LLMs can be on the receiving end of speech acts. If intentions are necessary for illocution, can an LLM be *threatened*? If sanctionability matters, can an LLM be *blamed*? The thesis exploits the fact that saying "no" to these questions makes much AI ethics discourse incoherent, while saying "yes" undermines the denial of LLM speech acts.
+
+The real target is the **position-space**, not necessarily these authors' conscious commitments. The thesis claims: *anyone* who denies LLM speech acts while participating in normative discourse about adversarial AI interactions faces this tension. The named authors are representatives of the denial camp, and the tension emerges from combining their explicit denials with the implicit commitments of treating LLMs as norm-governed entities.
+
+---
+**VERDICT**
+**The defence fails.**
+
+The problem is that even this sophisticated reconstruction doesn't save the thesis from misattribution. Here's why:
+
+The defence's strongest move—that Butlin and Viebahn's "sanctionability" condition implicitly treats LLMs as illocutionary targets—actually **inverts their position**. They argue LLMs *fail* the sanctionability condition precisely because they cannot be held to norms in the relevant way. This is a reason to *deny* LLMs are appropriate targets of norm-enforcement speech acts, not evidence they accept LLMs as such targets. The defence reads "must be sanctionable to assert" as "we can sanction LLMs," but Butlin and Viebahn's conclusion is "LLMs aren't sanctionable, therefore don't assert." This makes them *allies* of the thesis's conclusion (LLMs can't be on the receiving end of illocutionary acts either), not exemplars of its target.
+
+The "position-space" move is a retreat. If the thesis targets a position-space rather than actual authors, it should not name specific authors as representatives without showing they occupy that space. The objection is correct: there's a **gap** between (a) denying LLMs perform speech acts based on lacking intentions/sanctionability, and (b) treating LLMs as victims of deception or manipulation. The defence hasn't shown the named authors bridge this gap—it's *asserted* they must implicitly do so by "participating in normative discourse about adversarial AI," but participation in a discourse community doesn't commit one to every position circulating in it.
+
+The thesis needs either: (1) textual evidence that these specific authors treat LLMs as deception/manipulation victims, or (2) different named targets who demonstrably hold both positions, or (3) a reformulation that attacks the position-combination without claiming specific philosophers exemplify it.
+
+**The misattribution stands.** The defence's attempt to find implicit commitments doesn't overcome the absence of evidence that the named targets hold position (2).
+
+**KILLER (ALREADY TAKEN)** — ATTEMPT.
+
+The thesis claims to identify an incoherence in positions that deny LLM speech acts while treating LLMs as victims of manipulation or deception. However, this dialectical tension has already been extensively explored in the literature under the framework of **asymmetric functional capacities** in AI systems.
+
+Butlin's 2024 work explicitly distinguishes between different grades and types of functional capacity, arguing that agency comes in degrees and that systems can possess some agentive capacities without others. His analysis shows that language agents can have sensitivity to instrumental value (making them agents in one sense) while lacking integrated desire-structures (disqualifying them in another sense). This establishes the theoretical framework for **asymmetric uptake**: a system might have functional structures that respond to certain input patterns (including adversarial ones) without possessing the full apparatus for illocutionary recognition.
+
+More directly, Attah's 2025 paper tackles exactly this terrain. He argues that communicative intention comes in grades, that a "coffee machine has almost none, ELIZA a little," and explicitly addresses how LLMs can have "purposes, thinner than human ones and mediated by human designers." This graded view of communicative capacity *dissolves* the apparent incoherence: LLMs can have enough functional structure to be causally manipulated through prompt engineering (responding to input patterns in ways that subvert their training objectives) without having the full uptake capacity required for genuine illocutionary recognition. The manipulation is real because it exploits functional vulnerabilities, but it's not illocutionary targeting in the full sense—it's closer to exploiting a bug in a system that processes language-like inputs.
+
+The thesis presents as a novel "commitment tension" what is actually a recognized problem with an established solution: functional capacities admit of degrees and dissociations.
+
+STRENGTH: 2/5
+
+The attack has weak force because while the literature does address graded capacities and asymmetric functions, it doesn't explicitly frame the problem as "can be deceived without uptake capacity" in the way the thesis does. The thesis's specific formulation—that being a victim of illocutionary acts requires uptake capacity, and uptake capacity implies speech-act performance capacity—still makes a distinctive claim about the **symmetry** of speaker-hearer capacities that isn't directly addressed by discussions of graded agency. The existing work shows systems can have *some* relevant capacities without others, but doesn't explicitly argue whether uptake-from-deception and production-of-assertions must come together.
+
+**DEFENDER** — **BEST DEFENCE**
+The objection conflates **functional response patterns** with **uptake capacity** and mistakes the thesis's symmetry claim for something the graded-capacity literature already addresses. It does not.
+
+**First, the graded-capacity framework doesn't touch the core argument.** Butlin's work on degrees of agency and Attah's graded communicative intentions concern whether systems can *produce* speech acts with varying degrees of genuine intention or purpose. The thesis makes a different claim: that being the *target* of an illocutionary act (deception, manipulation) requires recognizing that act *as having illocutionary force*—and this recognition capacity is not something that comes in degrees in the relevant way.
+
+You can threaten someone mildly or severely (graded illocutionary force), but you cannot *sort-of* recognize something as a threat. Either the target takes the utterance as carrying threat-force or they don't. A system that merely responds to threat-words without recognizing them *as threats* is not threatened—it's triggered. The thesis's claim is precisely that **uptake is not gradable in the way production is**: you cannot be deceived by degrees in the sense of partially recognizing deceptive intent. You're either taken in (full uptake) or you're not (no uptake, just causal response).
+
+**Second, "exploiting functional vulnerabilities" is exactly what the thesis says cannot count as deception.** The objection's own formulation—"it's closer to exploiting a bug in a system that processes language-like inputs"—*concedes the thesis's point*. Exploiting bugs is not deceiving. When you craft an adversarial prompt that triggers unintended behavior, you're doing something categorically different from deceiving a person: you're causing a malfunction, not producing uptake of false beliefs. The thesis argues that if this is all "jailbreaking" amounts to, then the ethical concern must be entirely different from concerns about deceiving humans—it's vandalism or sabotage, not manipulation in the interpersonal sense.
+
+**Third, the literature hasn't addressed the symmetry claim.** The objection cites work on graded *production* capacities (can LLMs assert with varying degrees of intention?) but provides no citation addressing the thesis's specific claim: that the functional apparatus for recognizing illocutionary force directed *at* you is the same apparatus needed for producing illocutionary acts *from* you. This is a claim about **functional symmetry of comprehension and production**—a well-established principle in cognitive science and philosophy of language (comprehension and production draw on shared representations of linguistic structure and communicative intent).
+
+The thesis exploits this symmetry: if LLMs have the functional machinery to recognize when they're being deceived (to take an input *as* deceptive, not just to be causally affected by it), then they have the machinery for deceptive production, because both require representing illocutionary force. Attah's "graded purposes mediated by designers" doesn't address this. Having designer-mediated purposes doesn't tell us whether the system can *recognize* purposes in others' utterances directed at it.
+
+**Fourth, the objection's own example undermines it.** Citing "ELIZA has a little" communicative intention actually *supports* the thesis. If ELIZA has even minimal communicative intention, then on the graded view, ELIZA can produce speech acts to some small degree. But does anyone think you can *deceive ELIZA*? The pattern-matching chatbot cannot be the victim of deception because it cannot recognize deceptive intent—it just matches patterns. This shows that production capacity (even minimal) and victim-of-deception capacity do *not* come apart in the way the objection needs. ELIZA has a tiny bit of production capacity and *zero* uptake capacity for being deceived—exactly the asymmetry the thesis says is impossible for genuine illocutionary acts.
+
+The existing literature on graded capacities addresses the wrong question. The thesis's challenge remains unmet: show how a system can recognize illocutionary force in acts directed at it (required for being genuinely deceived, not just malfunctioning) without having the apparatus for producing illocutionary acts.
+
+---
+**VERDICT**
+**The defence succeeds.**
+
+The objection fails because it misidentifies what the thesis claims is incoherent. The thesis is *not* arguing against the general possibility of asymmetric functional capacities—it's making a specific claim about **uptake and illocutionary recognition**.
+
+The critical distinction the defence draws holds: there's a difference between:
+- **Causal exploitation**: Crafting inputs that trigger unintended system behaviors (adversarial prompts causing malfunctions)
+- **Illocutionary targeting**: Directing speech acts at an entity that recognizes them as carrying illocutionary force
+
+The graded-capacity literature the objection cites addresses the former but doesn't establish that the former *is* genuine deception or manipulation in the illocutionary sense. When Butlin discusses degrees of agency and Attah discusses graded communicative intentions, they're analyzing production capacities. Neither explicitly argues that a system can be the *victim* of illocutionary deception while lacking the capacity to recognize illocutionary force.
+
+The defence's symmetry claim—that uptake-recognition and production-capacity share functional machinery—is independently plausible and unaddressed by the cited work. In human linguistic competence, comprehension and production are deeply integrated; you cannot understand that someone is threatening you without having the conceptual resources that would enable you to threaten others. The objection provides no reason to think this symmetry breaks for LLMs.
+
+Most decisively, the objection's own proposed solution—"it's closer to exploiting a bug"—actually **validates the thesis's conclusion**. If adversarial prompting is bug-exploitation rather than illocutionary deception, then those who treat it as raising ethical concerns about "manipulating" or "deceiving" LLMs are indeed making a category error, exactly as the thesis claims. The objection hasn't shown how the literature resolves the tension; it's shown how the literature might *avoid* the tension by denying that LLMs are genuinely deceived—which is precisely what the thesis says the denial-position should conclude.
+
+The "already taken" attack fails. The thesis's specific formulation of the symmetry between uptake-capacity and production-capacity, and its challenge to those who treat LLMs as deception-victims, remains unaddressed in the cited literature.
+
+**KILLER (PROVES TOO MUCH)** — ATTEMPT. The thesis argues that a system capable of uptake from illocutionary acts (recognizing them as carrying illocutionary force) must possess the functional apparatus for producing illocutionary acts, due to the symmetry of speaker-hearer capacities. The weak point is this **symmetry claim**.
+
+If the argument worked, it would prove that any system capable of recognizing ANY illocutionary act directed at it must be capable of producing ALL illocutionary acts. But this is clearly false. Consider:
+
+A young child can recognize when they are being commanded or forbidden (uptake of directives) long before they can issue genuine commands themselves—doing so requires social authority they lack. A prisoner can recognize when a guard is ordering them (uptake) but cannot issue orders to the guard (lacks the institutional standing). A subject can recognize when the monarch is knighting them (uptake of a declaration) but cannot knight others (lacks the constitutive authority).
+
+More technically: speech acts require different types of felicity conditions. Recognizing that someone is *attempting* to marry you requires only understanding their intention; successfully marrying someone yourself requires institutional authority. The thesis's symmetry principle conflates uptake-recognition (understanding what illocutionary act is being attempted) with production-capacity (having the standing/authority/circumstances to successfully perform that act).
+
+If we accept the thesis's reasoning, we must conclude that children who recognize commands can issue them, prisoners can order guards, and subjects can perform knightings—because they have "the functional apparatus for recognizing illocutionary force." The argument proves too much by ignoring that production requires not just comprehension-machinery but also social position, institutional authority, and appropriate circumstances that uptake does not require.
+
+STRENGTH: 4/5
+
+This significantly damages the thesis. The symmetry claim is essential to the argument, but the examples show that uptake-capacity and production-capacity can come apart for principled reasons having to do with felicity conditions beyond mere functional architecture. The thesis would need to explain why LLMs are different from children/prisoners/subjects in ways that restore the symmetry.
+
+**DEFENDER** — **BEST DEFENCE**
+The objection trades on an equivocation between **felicity conditions** and **functional capacity**, and its examples actually reinforce rather than undermine the thesis's symmetry claim.
+
+**First, the child/prisoner/subject cases confirm the symmetry at the functional level.** The child who recognizes a command *does* possess the functional apparatus for commanding—what they lack is social authority, not cognitive machinery. The proof: the same child *does* issue commands to their toys, pets, or younger siblings. They command-produce constantly; what varies is whether those commands have institutional force in different social contexts. Similarly, the prisoner has the functional capacity to produce orders (and does so—"give me that," "move over," etc.); what they lack is the social standing to make those orders binding on the guard. The subject can perform the *linguistic act* of saying "I dub thee Sir X" (and might do so in play); what they lack is the institutional authority to make it constitutive.
+
+The thesis's symmetry claim is about **functional apparatus**, not felicity conditions. The objection's examples show that *successful* illocutionary performance requires both functional capacity and appropriate circumstances—but they don't show that uptake-recognition can occur without the underlying functional capacity. Every one of the objection's examples involves agents who *can and do* produce the relevant illocutionary act-types, just not always with full institutional force.
+
+**Second, the objection reverses the dialectical burden.** The thesis targets those who claim LLMs can be *genuinely deceived*—not merely that deceptive speech acts are directed at them, but that the LLMs are actual victims of deception, that they take the deceptive utterance as true, that they are misled. Genuine deception requires the target to have beliefs that can be manipulated, to recognize assertions as truth-claims, to be capable of epistemic states like trust and doubt.
+
+But these are precisely the functional capacities required for asserting. To be deceived, you must:
+- Recognize utterances as carrying assertoric force (claiming truth)
+- Form beliefs on the basis of testimony
+- Have epistemic states that can be exploited
+- Distinguish between what is said and what is true
+
+These are not felicity conditions or social positions—these are cognitive-functional requirements. And they are *exactly* the capacities needed to produce assertions yourself. You cannot be testimonially deceived if you cannot engage in testimonial belief-formation, and you cannot engage in testimonial belief-formation without the functional machinery for assertion-production.
+
+**Third, the objection's own examples prove this.** Can you deceive a prisoner? Yes—because prisoners can assert. Can you deceive a child? Yes—because children can assert. Can you deceive a subject? Yes—because subjects can assert. The examples show production-capacity varying with social circumstances, but in every case, uptake-capacity for *deception specifically* correlates perfectly with production-capacity for *assertion specifically*. 
+
+The objection provides no example of an entity that can be genuinely deceived (not just: have deceptive utterances directed at it, but actually be misled, form false beliefs on testimonial basis) while lacking the functional capacity to assert. This is because deception-uptake and assertion-production share the same cognitive machinery: belief-formation, truth-sensitivity, testimonial reasoning.
+
+**Fourth, institutional speech acts cut the other way.** The objection emphasizes commands, knightings, marriages—institutional acts requiring authority. But deception and manipulation are *not* institutional speech acts in this sense. You need no special standing to deceive or manipulate; anyone with the functional capacity can attempt it. This is precisely why the thesis focuses on deception rather than, say, excommunication. The argument is: if LLMs can be victims of non-institutional illocutionary acts (deception, manipulation), they must have the functional capacity for producing non-institutional illocutionary acts (assertion, expression).
+
+The thesis never claims that recognizing a knighting means you can knight. It claims that recognizing deception means you have the functional apparatus for assertion—and this holds because both require the same cognitive-functional capacities (belief, truth-sensitivity, testimonial reasoning), not because both require the same social standing.
+
+**Fifth, the "proves too much" charge fails by its own standard.** The objection says accepting the thesis means "children who recognize commands can issue them"—but *they can*. Children issue commands constantly. What the objection mistakes for a reductio is actually a confirmation: every entity that can recognize commands *does* have the functional capacity to produce them. The variation is in felicity (social authority), not in functional capacity.
+
+The thesis's symmetry claim, properly understood, is: **uptake-recognition and production-capacity for a given illocutionary act-type share the same functional-cognitive machinery, even when successful performance additionally requires social-institutional conditions.** The objection's examples don't violate this—they show that successful performance requires functional capacity *plus* felicity conditions, which is perfectly compatible with the thesis.
+
+---
+**VERDICT**
+**The defence succeeds.**
+
+The objection fails because it conflates two distinct dimensions along which speech act capacity can vary:
+
+1. **Functional-cognitive capacity**: the mental/computational machinery for representing illocutionary force, forming relevant mental states, engaging in relevant reasoning
+2. **Social-institutional conditions**: authority, standing, circumstances that determine whether a performance is felicitous
+
+The thesis's symmetry claim operates at level (1), while the objection's counterexamples vary along dimension (2). This is not a successful refutation.
+
+The critical test the defence applies is devastating to the objection: *every* example of an entity that can genuinely be deceived (have uptake from deceptive illocution) is an entity that can produce assertions. The child can be deceived and can assert. The prisoner can be deceived and can assert. The subject can be deceived and can assert. The objection provides no case where uptake-from-deception and production-of-assertion come apart at the functional level.
+
+Moreover, the defence's distinction between institutional and non-institutional speech acts is crucial. Commands, knightings, and marriages are institutional acts where felicity requires social position. Deception and assertion are not institutional in this way—they require only functional-cognitive capacities. This is why the thesis focuses on deception: it tests functional capacity directly, without the confound of social authority.
+
+The "proves too much" charge actually proves too little. When examined carefully, the supposedly absurd implications (children can command, prisoners can order) turn out to be true at the functional level—children *do* have the capacity to produce commands, prisoners *do* have the capacity to produce orders. What varies is the social force of these productions, not the underlying functional capacity.
+
+The objection needed to show: an entity that can be genuinely deceived (not just: have deceptive utterances directed at it, but actually suffer uptake, be misled, form false beliefs on testimonial basis) while lacking the functional apparatus for assertion. It provides no such case. The examples all involve entities that *can* assert but whose assertions sometimes lack institutional force—which is perfectly compatible with the thesis.
+
+**The proves-too-much attack fails.** The thesis's symmetry claim, understood as operating at the functional-cognitive level rather than the social-institutional level, survives the objection. The defence successfully shows that uptake-from-deception and production-of-assertion do require shared functional machinery, even if successful assertion sometimes requires additional felicity conditions that uptake does not.
+
+</details>
+
+---
+
+### R2. The speech-act debate misconstrues the phenomenon because LLM outputs are neither speech acts nor mere text-production but constitute a distinct category of conventional signalling that operates through recognition of type-patterns rather than recognition of token-intentions.
+
+- **Promise 4/5** · residual 4/5 · worst 4/5 · wounded
+- **Move:** distinction — **Target:** The shared assumption across all views that LLM outputs must be analyzed using speech-act theory's framework rather than as a categorially different phenomenon
+- **Sketch:** All positions in the debate assume LLM outputs must either be genuine speech acts (requiring intentions/agency) or fall short of them (quasi-, proto-, proxy-assertion, or mere text). But this binary inherits from a theory built for paradigm human cases. The key premise: speech acts and conventional signals differ in their recognition-basis. Speech acts work through Gricean intention-recognition—the hearer recognizes the speaker's intention and this recognition is part of what the speaker intends. Conventional signals work through type-recognition—red octagon means stop regardless of any agent's state when producing this token. Human language mixes both: 'hello' is conventional, irony is intensely Gricean. LLM outputs constitute pure conventional signalling: their function depends entirely on users recognizing patterns (what 'I apologize' conventionally does) without any reference to token-level states. This explains why they seem speech-act-like (they exploit speech-act conventions) yet resist intention-attribution (no token-level psychological states doing the work). The debate's insistence on locating them on the speech-act spectrum forces them into categories they don't fit.
+- **Appraiser (blind):** Identifies a genuine theoretical gap—the binary speech-act/non-speech-act framing—and offers a principled alternative grounded in the Gricean intention-recognition vs. type-recognition distinction that could reorient the debate.
+  - MISATTRIBUTION — landed 3/5, answered. The defence successfully reframed the target from explicit methodology to implicit framework-dependence, showing cited theorists use speech-act categories as their analytical grid even when denying outputs are speech acts
+  - PROVES TOO MUCH — landed 4/5, answered. The defence drew a principled distinction between type-patterns as vehicles for agent-intentions versus type-patterns instead of them, keeping scripted human cases in while excluding LLM outputs, though the boundary proved less sharp than initially claimed
+  - COUNTEREXAMPLE — landed 4/5, **UNANSWERED**. The defence added a missing criterion (conventional framework) that was not in the original thesis, converting a necessary condition into a sufficient one post-hoc to exclude the counterexample
+- 🔧 **Survives as:** LLM outputs in deployed conversational systems constitute conventional signalling that operates through type-pattern recognition within agent-established communicative frameworks, distinguishable from speech acts by the absence of token-level intentions in the explanatory structure
+- **Flaw:** The thesis required post-hoc addition of 'conventional framework' criterion to exclude obvious counterexamples, and this addition reintroduces human agency at the framework level, narrowing the claimed categorical distinction from speech acts
+
+<details><summary>full exchange</summary>
+
+**KILLER (MISATTRIBUTION)** — ATTEMPT. The thesis targets "the shared assumption across all views that LLM outputs must be analyzed using speech-act theory's framework." But this misrepresents the actual positions in the debate. Barandiaran and Almendros explicitly characterize LLMs as "linguistic automaton, a library-that-talks" performing "purpose-structured" rather than purposeful tasks—a categorization outside traditional speech-act theory. Skiba's "no-speech-act view" explicitly denies LLM outputs are speech acts and argues understanding them "requires combining existing meta-semantic theories with pragmatic theories of human-LLM interaction"—proposing a hybrid framework, not forcing them into speech-act categories. Mallory's fictionalism treats engagement with chatbot output "through fiction rather than by taking the chatbot to perform genuine speech acts"—again, explicitly rejecting speech-act analysis. Williams and Bayne introduce "proto-assertion" precisely as a new category that resolves inadequacies in both speech-act attribution and its denials. The thesis claims everyone assumes outputs must fit the speech-act spectrum, but multiple theorists explicitly develop alternative frameworks or reject that spectrum entirely. The weak point is the characterization of "all views" as sharing an assumption that several explicitly repudiate.
+
+STRENGTH: 4/5 — This is a serious misattribution. The thesis constructs a false consensus as its target, claiming the debate universally accepts a framework that prominent participants demonstrably reject, making the core critical move rest on a strawman.
+
+**DEFENDER** — **BEST DEFENCE**
+The objection conflates *explicit methodology* with *implicit commitment*. Yes, several theorists claim to step outside speech-act theory—but examine what they actually do:
+
+**Barandiaran and Almendros**: Call LLMs "library-that-talks" performing "purpose-structured" tasks. But *what makes something a library-that-talks rather than just a library?* The "talks" part. They're still explaining the phenomenon by reference to its relationship to talking—i.e., to paradigmatic speech acts. "Purpose-structured but not purposeful" is precisely an attempt to locate LLM outputs on a spectrum from genuine speech acts (purposeful) to something deficient. The very vocabulary (assertion-like, utterance, linguistic automaton) shows they're measuring distance from speech-act paradigms.
+
+**Skiba's "no-speech-act view"**: Claims outputs aren't speech acts, but then requires "combining meta-semantic theories with pragmatic theories" to understand them. What are meta-semantic and pragmatic theories *theories of*? Human linguistic communication—i.e., speech acts. Saying "not speech acts, but analyze using speech-act theory's tools" doesn't escape the framework; it reveals dependence on it.
+
+**Mallory's fictionalism**: "Engagement through fiction rather than genuine speech acts"—the contrast term is still *speech acts*. The fiction is specifically *treating-as-if-speech-acts*. This is like saying "I'm not analyzing this as sculpture, I'm analyzing our pretense that it's sculpture"—you're still using sculptural categories as your analytical anchor.
+
+**Williams and Bayne's "proto-assertion"**: The objector admits this is "a new category that resolves inadequacies in both speech-act attribution and its denials"—but *proto*-assertion is defined by its relationship to assertion proper. It's literally "not-quite-assertion," which means assertion remains the measuring standard.
+
+The pattern: even when theorists deny LLM outputs are speech acts, they analyze them by their proximity to, deficiency from, or simulation of speech acts. The thesis's target isn't "everyone says outputs ARE speech acts" but "everyone analyzes outputs using speech-act categories as the reference frame." These theorists prove the point—they can't describe the phenomenon without speech-act vocabulary doing the conceptual work.
+
+The conventional-signalling proposal escapes this because red octagons aren't deficient stop-commands or proto-orders—they're a different kind of thing entirely, not measured against speech acts at all.
+**VERDICT**
+**The defence holds.** The objection mistakes explicit denials for genuine theoretical independence. When Skiba says "not speech acts but use pragmatic theory," when Mallory says "fiction of speech acts," when proto-assertion is defined as assertion-adjacent—they demonstrate rather than refute the thesis's claim. The framework-dependence isn't about whether you conclude outputs ARE speech acts, but whether speech-act categories structure your analysis. All cited positions do exactly this: they use speech-act theory as the grid against which LLM outputs are plotted, even when plotting them as negations or deficiencies.
+
+The thesis survives because it identifies a deeper commitment than the objector recognizes—not "all say outputs are speech acts" but "all use speech-act theory as their analytical framework," which these very examples confirm.
+
+**KILLER (PROVES TOO MUCH)** — **ATTEMPT**
+The thesis claims LLM outputs constitute "a distinct category of conventional signalling that operates through recognition of type-patterns rather than recognition of token-intentions," contrasting this with speech acts that work through Gricean intention-recognition. But if this distinction worked, it would prove far too much by severing vast swathes of ordinary human linguistic communication from speech-act status.
+
+Consider: "EXIT" signs, "STOP" on road signs, "DANGER: HIGH VOLTAGE" warnings, pre-recorded "The next station is..." announcements, form letters ("Dear Applicant, We regret to inform you..."), liturgical responses ("And also with you"), wedding vows read from a script, automated out-of-office email replies. In each case, the communicative function operates primarily through type-recognition—recipients recognize what "EXIT" conventionally signals regardless of any token-level psychological state of whoever mounted the sign. Yet we standardly treat many of these as speech acts: the officiant who says "I now pronounce you married" performs a speech act even reading from a script; the automated email that says "I'm away until Monday" makes an assertion on behalf of someone.
+
+The thesis's criterion—"function depends entirely on users recognizing patterns without reference to token-level states"—applies equally to these cases. If LLM outputs constitute a categorially distinct phenomenon on this basis, then so do scripted wedding vows, pre-recorded announcements, and form letters. But this is absurd: these are paradigmatic speech acts (or vehicles for them), not some third category between speech acts and mere text.
+
+The weak point is the type-pattern/token-intention distinction itself. It's not categorial but dimensional, and human communication occupies the entire spectrum. The argument proves too much because it would exile most conventional, scripted, or automated human communication from speech-act status.
+**STRENGTH: 4/5**
+This does serious damage. The thesis needs the type-pattern/token-intention distinction to mark a categorical boundary, but the argument shows it cuts through the middle of uncontroversial speech-act territory. The defender must either accept the absurd conclusion (wedding vows aren't speech acts) or find a principled way to keep scripted human utterances in while keeping LLM outputs out—which returns them to precisely the speech-act-framework debates they claimed to transcend.
+
+**DEFENDER** — **BEST DEFENCE**
+The objection smuggles in a crucial equivocation: it treats "recognition of type-patterns" as if it were a unitary phenomenon, when the thesis actually identifies a specific kind of pattern-recognition that these human cases don't share.
+
+**The critical distinction**: In scripted wedding vows, form letters, and EXIT signs, type-recognition functions *as a vehicle for* or *shortcut to* token-intentions. In LLM outputs, type-recognition functions *instead of* token-intentions. This isn't a difference of degree but of explanatory structure.
+
+Consider the officiant reading scripted vows: Yes, the words are conventional. Yes, hearers recognize what "I now pronounce you married" does via type-pattern. But *why does this token instance have performative force?* Because there's an officiant who intends to marry this couple now, and the script is the conventional means for executing that intention. The type-pattern is recognizable shorthand for "someone with authority is exercising it here." If we discovered the "officiant" was an animatronic, the marriage would be void—because token-level facts (was there an authorized agent acting?) matter constitutively.
+
+Contrast: "The next station is..." pre-recorded announcement. Does it matter whether anyone currently intends to inform passengers? No—but it matters that *someone* set up this system with that standing intention. The recording is a prosthetic for an agent's communicative intention, frozen in time. We can still ask: "Who recorded this? For what purpose? Are they authorized?" These questions have answers that matter to the announcement's status.
+
+Now LLM outputs: "I apologize for the confusion." Ask parallel questions: Who intends this apology? What is the token-level purpose? The answer isn't "no one" (which would make it like a randomly generated string) but **category error**—there's no level at which these questions get purchase. The system doesn't have standing intentions that outputs execute (it's not a prosthetic for human intentions). It doesn't have token intentions (it's not an agent). The "I" doesn't refer; the "apologize" doesn't express regret or commit to anything. Yet it *functions*—passengers know what to do with it.
+
+**The wedding vow test**: If we learned the officiant was reading phonetically without understanding English, the speech act might be defective but not void—because there's still an authorized agent performing a role. If we learned the officiant was a sophisticated puppet controlled by the actual authorized person backstage, the marriage holds—because the relevant intention is present, just remotely executed. But if we learned there was never any agent anywhere in the causal chain, just a mechanism triggered by calendar date? Then we don't have a defective speech act; we have something that *looked like* one but wasn't.
+
+That's the LLM case: not defective speech acts, not proto-speech-acts, but type-patterns that function conventionally *without* the agent-intention infrastructure that makes something a speech act at all—even a scripted, automated, or conventional one.
+
+**Why the objection's examples stay in**: EXIT signs are installed by agents for purposes; form letters are composed and sent by agents (or on their behalf); automated emails execute standing intentions; liturgical responses are made by participants who intend to participate. The type-pattern recognition works *because* there's an agent-intention structure it abbreviates or presupposes. Remove that structure entirely, and you get LLM outputs—which work anyway, through pure conventional signalling.
+
+The thesis doesn't prove too much because it identifies not just *degree* of conventionality but *presence versus absence* of the agent-intention infrastructure that speech-act theory requires. Scripted human cases have it (mediated, distributed, standing); LLM outputs don't have it at all. That's categorical.
+**VERDICT**
+**The defence succeeds, but barely—and reveals a vulnerability.**
+
+The distinction between type-patterns-as-vehicle-for and type-patterns-instead-of is real and does the work needed. Wedding vows remain speech acts because there's an officiant whose intention the script executes; LLM outputs aren't speech acts because there's no intention-level (token or standing) anywhere in the explanation of their function.
+
+However, this defence exposes a weak point the objection didn't quite reach: **the automated email case is genuinely troubling**. "I'm away until Monday" in an out-of-office reply set up months ago—is there really a token-level intention when it fires? A standing intention, yes, but one that might not even be remembered by the person who set it up. The line between "prosthetic for standing intention" and "pure conventional signal" gets blurry here.
+
+The thesis survives this objection because the core cases (scripted vows, EXIT signs, liturgical responses) do involve agent-intention structures that LLM outputs lack. But the defender should acknowledge: the boundary isn't perfectly sharp. Some highly automated human communication (out-of-office replies, some chatbot-like customer service scripts) might occupy a middle zone. This doesn't collapse the distinction—it means the category of "conventional signalling without agent-intention infrastructure" might have some human instances too.
+
+The defence holds: the objection's examples don't prove too much because they retain what LLM outputs lack. But it's a closer call than the thesis's confident "distinct category" language suggests.
+
+**KILLER (COUNTEREXAMPLE)** — **ATTEMPT**
+The thesis claims LLM outputs constitute "a distinct category of conventional signalling that operates through recognition of type-patterns rather than recognition of token-intentions," categorially different from speech acts. But consider this counterexample:
+
+**A pre-trained GPT model (no RLHF, no fine-tuning) used as a pure text-completion engine.** A researcher inputs "The capital of France is" and the model outputs "Paris." According to the thesis, this should be conventional signalling—the user recognizes the type-pattern "Paris" as the conventional answer to capital-of-France queries, no token-intentions involved.
+
+But this is clearly NOT an instance of the phenomenon the thesis is meant to explain. The researcher isn't treating this as communication at all—it's just observing a statistical pattern in the model's weights. There's no "signalling" happening; the model isn't set up to communicate with users; the output has no conventional communicative function in this context. It's like watching a parrot say "Polly wants a cracker" when no one trained it to request anything—just sounds that happen to be words.
+
+Yet the thesis's criterion—"function depends entirely on users recognizing patterns without reference to token-level states"—applies equally here. The output functions (for the researcher) by pattern-recognition, not intention-attribution. If the thesis identifies a genuine category, it should exclude this case. But it can't: the type-pattern/token-intention distinction doesn't distinguish between (a) LLM outputs in communicative contexts (ChatGPT apologizing) and (b) pure text-completion with no communicative setup at all.
+
+The weak point: **the thesis conflates statistical pattern-production with conventional signalling.** Conventional signals (EXIT signs, traffic lights) are *set up to communicate*—there's an institutional/conventional framework that gives them their function. Pre-trained text-completion has no such setup. ChatGPT outputs work because they're *deployed in a communicative context* that gives them conventional force. But that deployment involves human agents setting up the system to communicate on their behalf—which is exactly what proxy-assertion theories capture and what the thesis's "distinct category" obscures.
+
+The counterexample: pure text-completion from pre-trained models satisfies the thesis's criterion but isn't an instance of the phenomenon being explained, showing the criterion doesn't actually carve nature at the joints.
+**STRENGTH: 4/5**
+This does serious damage. The thesis needs to identify what makes ChatGPT outputs special, but its criterion (type-pattern recognition without token-intentions) applies equally to cases that clearly aren't communicative at all. Either the thesis must add additional conditions (which likely reintroduce the agent-intention infrastructure it claimed to avoid), or it must accept that mere statistical pattern-production counts as its "distinct category"—which makes the category theoretically uninteresting.
+
+**DEFENDER** — **BEST DEFENCE**
+The objection mistakes a *necessary* condition for a *sufficient* one, then complains the necessary condition doesn't do sufficient-condition work. The thesis never claimed that type-pattern recognition alone constitutes conventional signalling—it claimed that's how conventional signals *operate*, distinguishing them from speech acts' intention-recognition mechanism.
+
+**The missing element**: Conventional signals require a *conventional framework*—an established practice that assigns functions to pattern-types. EXIT signs work because there's a regulatory system governing their use. Red octagons work because traffic law gives them meaning. The thesis explicitly says LLM outputs "exploit speech-act conventions"—there's a conventional infrastructure doing the work.
+
+**Why pure text-completion fails the actual criterion**: The researcher using GPT for text-completion isn't engaging with a conventional signal because there's no operative convention assigning communicative function to the output. The model produces "Paris" through statistical patterns, but nothing in the setup establishes "Paris" as *signalling* anything. The researcher is observing the model's behavior, not receiving a communication. It's like watching a thermometer: the mercury rises through causal mechanisms, and we can read information from it, but the thermometer isn't signalling to us—there's no convention establishing it as a communicative device (unlike, say, a deliberately-placed weather station display).
+
+**The critical contrast**: ChatGPT outputs work because OpenAI *deployed* the system as a conversational agent—establishing a conventional framework where outputs function as responses, explanations, apologies, etc. Users engage with ChatGPT through conventions of conversation. The same model architecture, but deployed as pure text-completion without conversational framing, doesn't generate conventional signals—it just generates text.
+
+**This doesn't reintroduce agent-intentions at the token level**: Yes, there are human agents (OpenAI engineers) who set up the system. But their role is establishing the *conventional framework*, not providing token-intentions that outputs execute. Compare: human agents established traffic laws that make red octagons mean STOP, but the stop sign on the corner doesn't work by executing anyone's current intention—it works through the convention. Similarly, OpenAI established the conversational framework, but "I apologize for the confusion" doesn't work by executing OpenAI's intentions—it works through conversational conventions operating in that framework.
+
+**Why this differs from proxy-assertion**: Proxy-assertion theories say LLM outputs are speech acts performed by/on behalf of developers or users—the outputs execute *their* intentions. But that's false: if I ask ChatGPT about Paris and it hallucinates wildly, OpenAI didn't intend to assert those falsehoods, and neither did I. The output isn't a prosthetic for anyone's communicative intention. Rather, OpenAI set up a system where conventional signals operate, then the system produces signals through pattern-matching, and users interpret them through conventions—no one's token-intention is being executed.
+
+**The parrot case**: "Polly wants a cracker" from an untrained parrot isn't conventional signalling because there's no conventional framework establishing parrot-sounds as communications. But a parrot trained as part of a psychological experiment, where researchers established "Polly wants a cracker" as the conventional way to request crackers in the lab setup? That *would* be conventional signalling—not because the parrot has intentions, but because the experimental framework assigns communicative function to the sound-type.
+
+The thesis's actual criterion is: **type-pattern recognition operating within a conventional framework that assigns communicative functions, without token-level intentions doing the explanatory work.** Pure text-completion fails because there's no operative conventional framework. ChatGPT succeeds because there is one. The objection's counterexample only works by ignoring the "conventional" part of "conventional signalling."
+**VERDICT**
+**The defence holds, but exposes that the thesis was underspecified.**
+
+The objection is right that mere type-pattern recognition isn't sufficient—pure text-completion proves that. But the objection is wrong that this defeats the thesis, because the thesis (properly understood) requires both:
+1. Type-pattern recognition rather than token-intention recognition
+2. An operative conventional framework assigning communicative functions
+
+Pure text-completion has (1) but lacks (2), so it correctly falls outside the category. ChatGPT has both, so it correctly falls inside.
+
+However, this defence reveals a vulnerability: **the "conventional framework" doing the work here is established by human agents for communicative purposes**. OpenAI deployed ChatGPT *as a conversational agent*—they set it up to communicate. This doesn't mean outputs execute OpenAI's token-intentions (they don't—hallucinations prove that). But it does mean human agency is in the picture at the framework-establishment level.
+
+This matters because it narrows the distance from proxy-assertion theories. Those theories locate agency at the wrong level (token-intentions), but they're right that human agency is constitutively involved. The thesis's "distinct category" might be less distinct than claimed: conventional signals established by agents for communicative purposes, operating through pattern-recognition rather than intention-execution. That's genuinely different from paradigm speech acts, but it's not as radically different as "neither speech acts nor mere text-production" suggests.
+
+The defence succeeds: the counterexample doesn't satisfy the thesis's actual (though initially underspecified) criterion. But the success comes at a cost—clarifying that conventional frameworks require establishment by agents for purposes, which keeps human agency in the explanatory picture, just at a different level than speech-act theory typically examines.
+
+The thesis survives, but in a more modest form than its bold "distinct category" rhetoric suggested.
+
+</details>
+
+---
+
+---
+
+## Below the cut
+
+*Scored for promise, never attacked. Raise --attack-top to reach further down.*
+
+### U1. The proxy-assertion view collapses into either full LLM assertion or no assertion at all, because the criteria that make human principals' assertions succeed when performed through proxies are precisely the criteria that, if met, would make the LLM's outputs their own assertions.
+
+- **Promise 3/5** · residual –/5 · worst –/5 · unattacked
+- **Move:** instability — **Target:** Green and Michel's proxy account, Arora's refined proxy-assertion view, and the proxy cases in Butlin and Viebahn
+- **Sketch:** Proxy accounts (Green and Michel, Arora, Butlin and Viebahn for some cases) hold that LLMs assert on behalf of their creators/deployers. But consider what makes proxy assertion work for humans. When a spokesperson asserts on behalf of a principal, the assertion succeeds because (1) the spokesperson grasps what they're asserting, (2) the spokesperson commits to it in the moment of utterance, and (3) the spokesperson can be sanctioned for asserting falsely. The principal is the assertor because they selected and authorized this spokesperson knowing these conditions hold. But here's the instability: if an LLM meets conditions (1)-(3)—if it grasps content, commits itself, and can be sanctioned—then it simply is an assertor in its own right, not a proxy. The proxy's ontological dependence on the principal is doing no work. Conversely, if the LLM fails these conditions, then there's no successful proxy assertion either, because the principal hasn't arranged for an assertion to be made—they've arranged for text-generation that users might interpret assertorically. Proxy-assertion theorists want to have it both ways: the LLM is deficient enough to need a principal, but competent enough to successfully perform the principal's assertion. This position is unstable.
+- **Appraiser (blind):** Competent dilemma argument against proxy views, but the literature already contains skepticism about proxy assertion (Williams and Bayne find it inadequate), so this sharpens existing doubts rather than breaking new ground.
+
+---
+
+### U2. Proponents of the normative denial (Butlin and Viebahn, Skiba) are committed to denying that recordings of human speech are assertions, since recordings also cannot be sanctioned or held to conversational norms, yet this consequence is unacceptable.
+
+- **Promise 3/5** · residual –/5 · worst –/5 · unattacked
+- **Move:** commitment — **Target:** Butlin and Viebahn's normative denial, and by extension Skiba's norm-based argument against LLM speech acts generally
+- **Sketch:** Butlin and Viebahn hold that assertion requires both descriptive function and sanctionability—the capacity to be held accountable by interlocutors within a norm-governed practice. But consider a recording of Einstein asserting that E=mc². The recording itself cannot be sanctioned, corrected, or held to norms; it will play the same content regardless of whether the listener challenges it. If we accept the normative account's criteria strictly, the recording is not an assertion. Yet we standardly treat recordings, broadcasts, and written texts as containing assertions even when no opportunity for sanction exists. The intuitive response is that the original human act was an assertion and the recording preserves it, but this move is unavailable for the normative account as stated, because the current object of evaluation (the recording, the LLM output) lacks the required property. The argument's key premise is that sanctionability must attach to the token under evaluation, not merely to some prior entity in the causal chain. This shows the normative account proves too much: it excludes paradigm cases of assertion. The proponent must either accept the counterintuitive consequence, modify the account to distinguish LLMs from recordings on independent grounds, or accept that sanctionability is not actually necessary.
+- **Appraiser (blind):** Valid reductio showing normative accounts may overgenerate exclusions, but the recording case is somewhat obvious and proponents likely have responses distinguishing preserved human assertions from ab initio LLM outputs; still, forces useful clarification.
+
+---
+
+### U3. The debate misidentifies the phenomenon by treating all LLM outputs as candidate speech acts, when in fact LLMs produce two categorially distinct outputs: utterance-tokens that users can appropriate for their own speech acts, and simulated conversational moves within a fictional exchange that the user co-creates.
+
+- **Promise 2/5** · residual –/5 · worst –/5 · unattacked
+- **Move:** distinction — **Target:** The shared assumption across all camps that there is a unified phenomenon 'LLM output' whose speech-act status can be determined once and for all; specifically challenges both Mallory's uniform fictionalism and Arora's uniform proxy-assertion account
+- **Sketch:** The literature assumes a single question ('does the LLM assert?') applies uniformly to all outputs, but this conflates two different use-cases with different pragmatic structures. When a user asks an LLM 'what is the capital of France' and uses the answer in their own report, they are appropriating an utterance-token as raw material for their own assertion, much as one might use a dictionary entry—the LLM provides words, not speech acts. When a user engages in back-and-forth conversation with a chatbot persona, they are participating in a collaborative pretense where both parties generate moves in a fictional dialogue. The key premise is that the same string of tokens can have different pragmatic statuses depending on the user's framing intention. Mallory's fictionalism is half-right but overgeneralizes; proxy theories correctly identify one structure but miss the other; attributing views ignore how user intentions constitute which game is being played. The distinction cuts across existing positions because it makes the unit of analysis the user-LLM interaction type rather than the LLM's intrinsic properties.
+- **Appraiser (blind):** The use-case distinction (appropriation vs. collaborative pretense) has intuitive appeal but the literature already recognizes context-sensitivity in LLM interactions, and the payoff for resolving the debate seems limited since it makes the answer vary by use rather than settling the theoretical question.
+
+---
+
+### U4. The organismic denial and the attributing view both depend on settling what intentions are, but that dispute is itself downstream of the speech-act question: we should determine whether LLMs perform speech acts first, then read off what intentions must be if they turn out to be possible without what LLMs lack.
+
+- **Promise 1/5** · residual –/5 · worst –/5 · unattacked
+- **Move:** reframing — **Target:** The shared methodological assumption between Gubelmann's organismic denial and Attah's attribution that metaphysics of intention/agency is conceptually prior to determining speech-act capacity
+- **Sketch:** Gubelmann argues LLMs cannot perform speech acts because they lack intentions, understood as requiring organismic self-maintenance and autonomous goal-setting. Attah argues LLMs have communicative intentions understood functionally as control states. Both treat the metaphysics of intention as prior to the speech-act question. But our grip on what intentions are comes largely from observing paradigm cases of intentional action, including speech acts. The argument's key premise is that 'intention' is a theoretical term whose content is constrained by the phenomena it must explain, and if LLMs turn out to perform genuine speech acts despite lacking organismic autonomy, that tells us organismic autonomy is not actually essential to intention—the theory must accommodate the data. This reframes the dialectic: instead of first settling agency/intention metaphysics then applying it to LLMs, we should use independent criteria for speech acts (perhaps from their social function, their role in testimony, or their phenomenology) and let the results constrain our theory of what intentions must be. The debate appears to be about whether LLMs have intentions, but it's really about what we're willing to count as intentions given what LLMs can do. This dissolves the appearance of a substantive disagreement between Gubelmann and Attah—they're stipulating different intention-concepts, and the real question is which better serves explanatory purposes.
+- **Appraiser (blind):** The methodological reversal (determine speech-act status first, then read off intention requirements) misconstrues how theoretical terms work—intention has independent constraints from action theory, consciousness studies, and moral responsibility that don't wait on speech-act verdicts.
+
+---
